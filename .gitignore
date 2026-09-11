@@ -15,6 +15,12 @@ dist-ssr
 # icônes générées par `npm run build-data` (régénérées au build)
 public/coc
 
+# build Tauri (installeur Windows, régénéré par `npm run tauri:build`)
+src-tauri/target
+
+# cache local du CLI Firebase
+.firebase
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json

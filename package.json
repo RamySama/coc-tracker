@@ -13,7 +13,10 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "build-data": "node scripts/build-game-data.mjs",
-    "update-data": "npm i clash-of-clans-data@latest && node scripts/build-game-data.mjs"
+    "update-data": "npm i clash-of-clans-data@latest && node scripts/build-game-data.mjs",
+    "tauri": "tauri",
+    "tauri:dev": "tauri dev",
+    "tauri:build": "tauri build"
   },
   "dependencies": {
     "firebase": "^12.18.0",
@@ -27,11 +30,14 @@
   },
   "devDependencies": {
     "@tailwindcss/vite": "^4.3.3",
+    "@tauri-apps/api": "^2.11.1",
+    "@tauri-apps/cli": "^2.11.4",
     "@types/node": "^24.13.3",
     "@types/react": "^19.2.18",
     "@types/react-dom": "^19.2.4",
     "@vitejs/plugin-react": "^6.1.0",
     "clash-of-clans-data": "^0.16.0",
+    "firebase-tools": "^15.30.0",
     "oxlint": "^1.79.0",
     "tailwindcss": "^4.3.3",
     "typescript": "~6.0.2",
