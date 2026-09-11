@@ -42,6 +42,11 @@ export default defineConfig({
       },
     }),
   ],
+  // en dev via `tauri dev`, ignorer src-tauri : Cargo y écrit pendant la
+  // compilation et le watcher de Vite plante sinon (EBUSY sous Windows).
+  server: {
+    watch: { ignored: ['**/src-tauri/**'] },
+  },
   test: {
     environment: 'node',
     include: ['src/**/*.test.{ts,tsx}'],
