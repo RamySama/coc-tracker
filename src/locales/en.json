@@ -1,0 +1,210 @@
+{
+  "app": {
+    "name": "CoC Upgrade Tracker",
+    "tagline": "Track your upgrades, plan your next Town Hall"
+  },
+  "nav": {
+    "dashboard": "Home",
+    "village": "Village",
+    "buildings": "Buildings",
+    "research": "Research",
+    "upgrades": "Upgrades",
+    "planner": "Planner",
+    "settings": "Settings"
+  },
+  "search": {
+    "open": "Search",
+    "placeholder": "Search a building, troop, spell…",
+    "noResults": "No results"
+  },
+  "toast": {
+    "saved": "{{name}} · updated"
+  },
+  "common": {
+    "loading": "Loading…",
+    "save": "Save",
+    "cancel": "Cancel",
+    "undo": "Undo",
+    "next": "Next",
+    "back": "Back",
+    "hideMaxed": "Hide maxed",
+    "delete": "Delete",
+    "create": "Create",
+    "rename": "Rename",
+    "level": "Level",
+    "levelShort": "Lvl",
+    "max": "Max",
+    "maxed": "Maxed",
+    "locked": "Locked",
+    "total": "Total",
+    "all": "All",
+    "none": "None",
+    "time": "Time",
+    "xp": "XP",
+    "builders": "Builders",
+    "of": "of"
+  },
+  "base": {
+    "home": "Home Village",
+    "builder": "Builder Base",
+    "hallHome": "Town Hall",
+    "hallBuilder": "Builder Hall",
+    "hallHomeShort": "TH",
+    "hallBuilderShort": "BH"
+  },
+  "resource": {
+    "gold": "Gold",
+    "elixir": "Elixir",
+    "darkElixir": "Dark Elixir",
+    "builderGold": "Gold (BB)",
+    "builderElixir": "Elixir (BB)",
+    "goldOrElixir": "Gold / Elixir"
+  },
+  "category": {
+    "defense": "Defenses",
+    "crafted-defense": "Merged defenses",
+    "guardian": "Guardians",
+    "trap": "Traps",
+    "wall": "Walls",
+    "hero": "Heroes",
+    "pet": "Pets",
+    "troop": "Barracks",
+    "dark-troop": "Dark Barracks",
+    "siege": "Siege machines",
+    "spell": "Spells",
+    "dark-spell": "Dark Spells",
+    "army": "Army",
+    "resource": "Resources",
+    "research": "Laboratory",
+    "other": "Other",
+    "townhall": "Town Hall"
+  },
+  "research": {
+    "title": "Research",
+    "subtitle": "Tap an item to set its level",
+    "search": "Search (troop, spell, hero…)",
+    "recap": "Research remaining",
+    "bulkMaxPrev": "All to {{hall}} max",
+    "bulkConfirm": "Set every un-entered item to the {{hall}} max?",
+    "labRequired": "Lab lvl {{n}}",
+    "empty": "Nothing to research — all maxed for your {{hall}}!"
+  },
+  "login": {
+    "title": "Sign in",
+    "google": "Continue with Google",
+    "anon": "Continue without an account",
+    "localOnly": "Firebase is not configured: data stays on this device.",
+    "continueLocal": "Use locally"
+  },
+  "onboarding": {
+    "title": "New village",
+    "name": "Village name",
+    "namePlaceholder": "My village",
+    "chooseBase": "Base type",
+    "hallLevel": "Level {{hall}}",
+    "buildersHelp": "Number of available builders (2 to 6)",
+    "start": "Start tracking",
+    "presetQuestion": "Where's your village at?",
+    "presetAdvanced": "Already advanced — all maxed for {{hall}}",
+    "presetAdvancedHelp": "Prefills every building to the previous TH max. Adjust afterwards.",
+    "presetManual": "I'll enter my levels",
+    "presetManualHelp": "Go straight to the Buildings screen to fill everything in.",
+    "presetFresh": "Brand-new village",
+    "presetFreshHelp": "Everything at zero.",
+    "createFirst": "Create my village"
+  },
+  "dashboard": {
+    "noVillage": "No village yet.",
+    "addVillage": "Add a village",
+    "progress": "Progress to {{hall}} max",
+    "remaining": "Resources remaining",
+    "nextUp": "Do next",
+    "wallClock": "Estimated time ({{n}} builders)",
+    "everythingMaxed": "Everything is maxed for this level! Move to the next tier.",
+    "openPlanner": "See what the next {{hall}} unlocks",
+    "myResources": "My current resources",
+    "objective": "Target {{hall}}"
+  },
+  "buildings": {
+    "title": "My buildings",
+    "setLevel": "Tap a building to set its level",
+    "instance": "Copy {{n}}",
+    "notBuilt": "Not built",
+    "search": "Search a building",
+    "wallsAllSame": "assuming all walls at the same level",
+    "bulkMaxPrev": "All to {{hall}} max",
+    "bulkConfirm": "Set every un-entered building to the {{hall}} max?"
+  },
+  "buildingEditor": {
+    "notFound": "Building not found.",
+    "atMaxHall": "at max TH",
+    "allAtLevel": "All copies at level",
+    "mixedLevels": "Your copies are at different levels — set them individually below.",
+    "perCopy": "Show each copy"
+  },
+  "upgrades": {
+    "title": "Remaining upgrades",
+    "empty": "Nothing to upgrade — all maxed for your {{hall}}!",
+    "filters": "Filters",
+    "sortBy": "Sort by",
+    "sort": {
+      "cost": "Cost",
+      "time": "Time",
+      "hall": "{{hall}} required",
+      "category": "Category"
+    },
+    "sortNextCost": "Next upgrade",
+    "sortTotalCost": "Total remaining cost",
+    "showLocked": "Show locked levels",
+    "step": "Lvl {{from}} → {{to}}",
+    "markDone": "Mark as done",
+    "next": "Next",
+    "totalRemaining": "Total remaining",
+    "affordable": "affordable",
+    "unlocksAt": "Unlocks at {{hall}} {{level}}",
+    "count": "{{count}} upgrade",
+    "count_other": "{{count}} upgrades",
+    "groupCount": "{{count}} item",
+    "groupCount_other": "{{count}} items",
+    "filterWished": "Objectives"
+  },
+  "planner": {
+    "title": "Town Hall planner",
+    "titleBuilder": "Builder Hall planner",
+    "from": "From",
+    "to": "To",
+    "hallCost": "{{hall}} upgrade cost",
+    "newBuildings": "New buildings",
+    "extraCopies": "Extra copies",
+    "higherLevels": "New max levels (buildings)",
+    "newResearch": "New army items",
+    "researchLevels": "New max levels (army / lab)",
+    "cNewBuildings": "buildings",
+    "cNewUnits": "units",
+    "cLevels": "max levels",
+    "storage": "Storage capacity",
+    "costToMax": "Cost to max everything this tier adds",
+    "fromMaxed": "Assuming a village already maxed at level {{level}}.",
+    "copies": "{{before}} → {{after}} copies",
+    "levels": "lvl {{before}} → {{after}}",
+    "nothingNew": "No change between those two levels.",
+    "objective": "Target",
+    "addWish": "Add to objectives",
+    "removeWish": "Remove from objectives"
+  },
+  "settings": {
+    "title": "Settings",
+    "language": "Language",
+    "account": "Account",
+    "signedInAs": "Signed in: {{name}}",
+    "anonAccount": "Anonymous account",
+    "signOut": "Sign out",
+    "signIn": "Sign in",
+    "villages": "Villages",
+    "dataSource": "Game data: {{package}} v{{version}}",
+    "deleteConfirm": "Delete this village and all its tracking?"
+  },
+  "footer": {
+    "disclaimer": "Unofficial fan content. Not affiliated with Supercell. Supercell is not responsible for it. See Supercell's Fan Content Policy."
+  }
+}

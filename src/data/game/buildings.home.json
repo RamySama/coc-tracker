@@ -1,0 +1,8411 @@
+[
+  {
+    "key": "army-camp",
+    "name": "Army Camp",
+    "base": "home",
+    "category": "army",
+    "size": "4x4",
+    "maxLevel": 13,
+    "icon": "/coc/home/army-buildings/army-camp/normal/level-13.png",
+    "availablePerHall": [
+      {
+        "hall": 1,
+        "count": 1
+      },
+      {
+        "hall": 2,
+        "count": 1
+      },
+      {
+        "hall": 3,
+        "count": 2
+      },
+      {
+        "hall": 4,
+        "count": 2
+      },
+      {
+        "hall": 5,
+        "count": 3
+      },
+      {
+        "hall": 6,
+        "count": 3
+      },
+      {
+        "hall": 7,
+        "count": 4
+      },
+      {
+        "hall": 8,
+        "count": 4
+      },
+      {
+        "hall": 9,
+        "count": 4
+      },
+      {
+        "hall": 10,
+        "count": 4
+      },
+      {
+        "hall": 11,
+        "count": 4
+      },
+      {
+        "hall": 12,
+        "count": 4
+      },
+      {
+        "hall": 13,
+        "count": 4
+      },
+      {
+        "hall": 14,
+        "count": 4
+      },
+      {
+        "hall": 15,
+        "count": 4
+      },
+      {
+        "hall": 16,
+        "count": 4
+      },
+      {
+        "hall": 17,
+        "count": 4
+      },
+      {
+        "hall": 18,
+        "count": 4
+      }
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": 200,
+        "resource": "elixir",
+        "timeSeconds": 60,
+        "hallRequired": 1,
+        "xp": 7,
+        "icon": "/coc/home/army-buildings/army-camp/normal/level-1.png"
+      },
+      {
+        "level": 2,
+        "cost": 2000,
+        "resource": "elixir",
+        "timeSeconds": 300,
+        "hallRequired": 2,
+        "xp": 17,
+        "icon": "/coc/home/army-buildings/army-camp/normal/level-2.png"
+      },
+      {
+        "level": 3,
+        "cost": 10000,
+        "resource": "elixir",
+        "timeSeconds": 1800,
+        "hallRequired": 3,
+        "xp": 42,
+        "icon": "/coc/home/army-buildings/army-camp/normal/level-3.png"
+      },
+      {
+        "level": 4,
+        "cost": 100000,
+        "resource": "elixir",
+        "timeSeconds": 7200,
+        "hallRequired": 4,
+        "xp": 84,
+        "icon": "/coc/home/army-buildings/army-camp/normal/level-4.png"
+      },
+      {
+        "level": 5,
+        "cost": 250000,
+        "resource": "elixir",
+        "timeSeconds": 21600,
+        "hallRequired": 5,
+        "xp": 146,
+        "icon": "/coc/home/army-buildings/army-camp/normal/level-5.png"
+      },
+      {
+        "level": 6,
+        "cost": 500000,
+        "resource": "elixir",
+        "timeSeconds": 43200,
+        "hallRequired": 6,
+        "xp": 207,
+        "icon": "/coc/home/army-buildings/army-camp/normal/level-6.png"
+      },
+      {
+        "level": 7,
+        "cost": 1500000,
+        "resource": "elixir",
+        "timeSeconds": 172800,
+        "hallRequired": 9,
+        "xp": 415,
+        "icon": "/coc/home/army-buildings/army-camp/normal/level-7.png"
+      },
+      {
+        "level": 8,
+        "cost": 2500000,
+        "resource": "elixir",
+        "timeSeconds": 259200,
+        "hallRequired": 10,
+        "xp": 509,
+        "icon": "/coc/home/army-buildings/army-camp/normal/level-8.png"
+      },
+      {
+        "level": 9,
+        "cost": 4200000,
+        "resource": "elixir",
+        "timeSeconds": 302400,
+        "hallRequired": 11,
+        "xp": 549,
+        "icon": "/coc/home/army-buildings/army-camp/normal/level-9.png"
+      },
+      {
+        "level": 10,
+        "cost": 4500000,
+        "resource": "elixir",
+        "timeSeconds": 345600,
+        "hallRequired": 12,
+        "xp": 587,
+        "icon": "/coc/home/army-buildings/army-camp/normal/level-10.png"
+      },
+      {
+        "level": 11,
+        "cost": 7500000,
+        "resource": "elixir",
+        "timeSeconds": 432000,
+        "hallRequired": 13,
+        "xp": 657,
+        "icon": "/coc/home/army-buildings/army-camp/normal/level-11.png"
+      },
+      {
+        "level": 12,
+        "cost": 10000000,
+        "resource": "elixir",
+        "timeSeconds": 518400,
+        "hallRequired": 15,
+        "xp": 720,
+        "icon": "/coc/home/army-buildings/army-camp/normal/level-12.png"
+      },
+      {
+        "level": 13,
+        "cost": 17000000,
+        "resource": "elixir",
+        "timeSeconds": 864000,
+        "hallRequired": 17,
+        "xp": 929,
+        "icon": "/coc/home/army-buildings/army-camp/normal/level-13.png"
+      }
+    ]
+  },
+  {
+    "key": "barracks",
+    "name": "Barracks",
+    "base": "home",
+    "category": "army",
+    "size": "3x3",
+    "maxLevel": 19,
+    "icon": "/coc/home/army-buildings/barracks/normal/level-19.png",
+    "availablePerHall": [
+      {
+        "hall": 1,
+        "count": 1
+      },
+      {
+        "hall": 2,
+        "count": 1
+      },
+      {
+        "hall": 3,
+        "count": 1
+      },
+      {
+        "hall": 4,
+        "count": 1
+      },
+      {
+        "hall": 5,
+        "count": 1
+      },
+      {
+        "hall": 6,
+        "count": 1
+      },
+      {
+        "hall": 7,
+        "count": 1
+      },
+      {
+        "hall": 8,
+        "count": 1
+      },
+      {
+        "hall": 9,
+        "count": 1
+      },
+      {
+        "hall": 10,
+        "count": 1
+      },
+      {
+        "hall": 11,
+        "count": 1
+      },
+      {
+        "hall": 12,
+        "count": 1
+      },
+      {
+        "hall": 13,
+        "count": 1
+      },
+      {
+        "hall": 14,
+        "count": 1
+      },
+      {
+        "hall": 15,
+        "count": 1
+      },
+      {
+        "hall": 16,
+        "count": 1
+      },
+      {
+        "hall": 17,
+        "count": 1
+      },
+      {
+        "hall": 18,
+        "count": 1
+      }
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": 100,
+        "resource": "elixir",
+        "timeSeconds": 10,
+        "hallRequired": 1,
+        "xp": 3,
+        "icon": "/coc/home/army-buildings/barracks/normal/level-1.png"
+      },
+      {
+        "level": 2,
+        "cost": 500,
+        "resource": "elixir",
+        "timeSeconds": 15,
+        "hallRequired": 1,
+        "xp": 3,
+        "icon": "/coc/home/army-buildings/barracks/normal/level-2.png"
+      },
+      {
+        "level": 3,
+        "cost": 2500,
+        "resource": "elixir",
+        "timeSeconds": 120,
+        "hallRequired": 1,
+        "xp": 10,
+        "icon": "/coc/home/army-buildings/barracks/normal/level-3.png"
+      },
+      {
+        "level": 4,
+        "cost": 5000,
+        "resource": "elixir",
+        "timeSeconds": 1800,
+        "hallRequired": 2,
+        "xp": 42,
+        "icon": "/coc/home/army-buildings/barracks/normal/level-4.png"
+      },
+      {
+        "level": 5,
+        "cost": 20000,
+        "resource": "elixir",
+        "timeSeconds": 7200,
+        "hallRequired": 3,
+        "xp": 84,
+        "icon": "/coc/home/army-buildings/barracks/normal/level-5.png"
+      },
+      {
+        "level": 6,
+        "cost": 120000,
+        "resource": "elixir",
+        "timeSeconds": 14400,
+        "hallRequired": 4,
+        "xp": 120,
+        "icon": "/coc/home/army-buildings/barracks/normal/level-6.png"
+      },
+      {
+        "level": 7,
+        "cost": 270000,
+        "resource": "elixir",
+        "timeSeconds": 21600,
+        "hallRequired": 5,
+        "xp": 146,
+        "icon": "/coc/home/army-buildings/barracks/normal/level-7.png"
+      },
+      {
+        "level": 8,
+        "cost": 600000,
+        "resource": "elixir",
+        "timeSeconds": 43200,
+        "hallRequired": 6,
+        "xp": 207,
+        "icon": "/coc/home/army-buildings/barracks/normal/level-8.png"
+      },
+      {
+        "level": 9,
+        "cost": 1000000,
+        "resource": "elixir",
+        "timeSeconds": 86400,
+        "hallRequired": 7,
+        "xp": 293,
+        "icon": "/coc/home/army-buildings/barracks/normal/level-9.png"
+      },
+      {
+        "level": 10,
+        "cost": 1400000,
+        "resource": "elixir",
+        "timeSeconds": 129600,
+        "hallRequired": 8,
+        "xp": 360,
+        "icon": "/coc/home/army-buildings/barracks/normal/level-10.png"
+      },
+      {
+        "level": 11,
+        "cost": 2600000,
+        "resource": "elixir",
+        "timeSeconds": 172800,
+        "hallRequired": 9,
+        "xp": 415,
+        "icon": "/coc/home/army-buildings/barracks/normal/level-11.png"
+      },
+      {
+        "level": 12,
+        "cost": 3700000,
+        "resource": "elixir",
+        "timeSeconds": 345600,
+        "hallRequired": 10,
+        "xp": 587,
+        "icon": "/coc/home/army-buildings/barracks/normal/level-12.png"
+      },
+      {
+        "level": 13,
+        "cost": 6000000,
+        "resource": "elixir",
+        "timeSeconds": 432000,
+        "hallRequired": 11,
+        "xp": 657,
+        "icon": "/coc/home/army-buildings/barracks/normal/level-13.png"
+      },
+      {
+        "level": 14,
+        "cost": 7000000,
+        "resource": "elixir",
+        "timeSeconds": 518400,
+        "hallRequired": 12,
+        "xp": 720,
+        "icon": "/coc/home/army-buildings/barracks/normal/level-14.png"
+      },
+      {
+        "level": 15,
+        "cost": 9000000,
+        "resource": "elixir",
+        "timeSeconds": 604800,
+        "hallRequired": 13,
+        "xp": 777,
+        "icon": "/coc/home/army-buildings/barracks/normal/level-15.png"
+      },
+      {
+        "level": 16,
+        "cost": 11000000,
+        "resource": "elixir",
+        "timeSeconds": 648000,
+        "hallRequired": 14,
+        "xp": 804,
+        "icon": "/coc/home/army-buildings/barracks/normal/level-16.png"
+      },
+      {
+        "level": 17,
+        "cost": 12600000,
+        "resource": "elixir",
+        "timeSeconds": 691200,
+        "hallRequired": 15,
+        "xp": 831,
+        "icon": "/coc/home/army-buildings/barracks/normal/level-17.png"
+      },
+      {
+        "level": 18,
+        "cost": 15000000,
+        "resource": "elixir",
+        "timeSeconds": 777600,
+        "hallRequired": 16,
+        "xp": 881,
+        "icon": "/coc/home/army-buildings/barracks/normal/level-18.png"
+      },
+      {
+        "level": 19,
+        "cost": 26000000,
+        "resource": "elixir",
+        "timeSeconds": 1209600,
+        "hallRequired": 17,
+        "xp": 1099,
+        "icon": "/coc/home/army-buildings/barracks/normal/level-19.png"
+      }
+    ]
+  },
+  {
+    "key": "blacksmith",
+    "name": "Blacksmith",
+    "base": "home",
+    "category": "army",
+    "size": "3x3",
+    "maxLevel": 9,
+    "icon": "/coc/home/army-buildings/blacksmith/normal/level-9.png",
+    "availablePerHall": [
+      {
+        "hall": 1,
+        "count": 0
+      },
+      {
+        "hall": 2,
+        "count": 0
+      },
+      {
+        "hall": 3,
+        "count": 0
+      },
+      {
+        "hall": 4,
+        "count": 0
+      },
+      {
+        "hall": 5,
+        "count": 0
+      },
+      {
+        "hall": 6,
+        "count": 0
+      },
+      {
+        "hall": 7,
+        "count": 0
+      },
+      {
+        "hall": 8,
+        "count": 1
+      },
+      {
+        "hall": 9,
+        "count": 1
+      },
+      {
+        "hall": 10,
+        "count": 1
+      },
+      {
+        "hall": 11,
+        "count": 1
+      },
+      {
+        "hall": 12,
+        "count": 1
+      },
+      {
+        "hall": 13,
+        "count": 1
+      },
+      {
+        "hall": 14,
+        "count": 1
+      },
+      {
+        "hall": 15,
+        "count": 1
+      },
+      {
+        "hall": 16,
+        "count": 1
+      },
+      {
+        "hall": 17,
+        "count": 1
+      },
+      {
+        "hall": 18,
+        "count": 1
+      }
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": 600000,
+        "resource": "elixir",
+        "timeSeconds": 43200,
+        "hallRequired": 8,
+        "xp": 207,
+        "icon": "/coc/home/army-buildings/blacksmith/normal/level-1.png"
+      },
+      {
+        "level": 2,
+        "cost": 1200000,
+        "resource": "elixir",
+        "timeSeconds": 86400,
+        "hallRequired": 9,
+        "xp": 293,
+        "icon": "/coc/home/army-buildings/blacksmith/normal/level-1.png"
+      },
+      {
+        "level": 3,
+        "cost": 2300000,
+        "resource": "elixir",
+        "timeSeconds": 172800,
+        "hallRequired": 10,
+        "xp": 415,
+        "icon": "/coc/home/army-buildings/blacksmith/normal/level-3.png"
+      },
+      {
+        "level": 4,
+        "cost": 3000000,
+        "resource": "elixir",
+        "timeSeconds": 259200,
+        "hallRequired": 11,
+        "xp": 509,
+        "icon": "/coc/home/army-buildings/blacksmith/normal/level-3.png"
+      },
+      {
+        "level": 5,
+        "cost": 5000000,
+        "resource": "elixir",
+        "timeSeconds": 345600,
+        "hallRequired": 12,
+        "xp": 587,
+        "icon": "/coc/home/army-buildings/blacksmith/normal/level-5.png"
+      },
+      {
+        "level": 6,
+        "cost": 6200000,
+        "resource": "elixir",
+        "timeSeconds": 388800,
+        "hallRequired": 13,
+        "xp": 623,
+        "icon": "/coc/home/army-buildings/blacksmith/normal/level-5.png"
+      },
+      {
+        "level": 7,
+        "cost": 9200000,
+        "resource": "elixir",
+        "timeSeconds": 432000,
+        "hallRequired": 14,
+        "xp": 657,
+        "icon": "/coc/home/army-buildings/blacksmith/normal/level-7.png"
+      },
+      {
+        "level": 8,
+        "cost": 10000000,
+        "resource": "elixir",
+        "timeSeconds": 518400,
+        "hallRequired": 15,
+        "xp": 720,
+        "icon": "/coc/home/army-buildings/blacksmith/normal/level-7.png"
+      },
+      {
+        "level": 9,
+        "cost": 11000000,
+        "resource": "elixir",
+        "timeSeconds": 604800,
+        "hallRequired": 16,
+        "xp": 777,
+        "icon": "/coc/home/army-buildings/blacksmith/normal/level-9.png"
+      }
+    ]
+  },
+  {
+    "key": "dark-barracks",
+    "name": "Dark Barracks",
+    "base": "home",
+    "category": "army",
+    "size": "3x3",
+    "maxLevel": 12,
+    "icon": "/coc/home/army-buildings/dark-barracks/normal/level-12.png",
+    "availablePerHall": [
+      {
+        "hall": 1,
+        "count": 0
+      },
+      {
+        "hall": 2,
+        "count": 0
+      },
+      {
+        "hall": 3,
+        "count": 0
+      },
+      {
+        "hall": 4,
+        "count": 0
+      },
+      {
+        "hall": 5,
+        "count": 0
+      },
+      {
+        "hall": 6,
+        "count": 0
+      },
+      {
+        "hall": 7,
+        "count": 1
+      },
+      {
+        "hall": 8,
+        "count": 1
+      },
+      {
+        "hall": 9,
+        "count": 1
+      },
+      {
+        "hall": 10,
+        "count": 1
+      },
+      {
+        "hall": 11,
+        "count": 1
+      },
+      {
+        "hall": 12,
+        "count": 1
+      },
+      {
+        "hall": 13,
+        "count": 1
+      },
+      {
+        "hall": 14,
+        "count": 1
+      },
+      {
+        "hall": 15,
+        "count": 1
+      },
+      {
+        "hall": 16,
+        "count": 1
+      },
+      {
+        "hall": 17,
+        "count": 1
+      },
+      {
+        "hall": 18,
+        "count": 1
+      }
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": 200000,
+        "resource": "elixir",
+        "timeSeconds": 28800,
+        "hallRequired": 7,
+        "xp": 169,
+        "icon": "/coc/home/army-buildings/dark-barracks/normal/level-1.png"
+      },
+      {
+        "level": 2,
+        "cost": 600000,
+        "resource": "elixir",
+        "timeSeconds": 86400,
+        "hallRequired": 7,
+        "xp": 293,
+        "icon": "/coc/home/army-buildings/dark-barracks/normal/level-2.png"
+      },
+      {
+        "level": 3,
+        "cost": 1000000,
+        "resource": "elixir",
+        "timeSeconds": 129600,
+        "hallRequired": 8,
+        "xp": 360,
+        "icon": "/coc/home/army-buildings/dark-barracks/normal/level-3.png"
+      },
+      {
+        "level": 4,
+        "cost": 1600000,
+        "resource": "elixir",
+        "timeSeconds": 172800,
+        "hallRequired": 8,
+        "xp": 415,
+        "icon": "/coc/home/army-buildings/dark-barracks/normal/level-4.png"
+      },
+      {
+        "level": 5,
+        "cost": 2200000,
+        "resource": "elixir",
+        "timeSeconds": 216000,
+        "hallRequired": 9,
+        "xp": 464,
+        "icon": "/coc/home/army-buildings/dark-barracks/normal/level-5.png"
+      },
+      {
+        "level": 6,
+        "cost": 2900000,
+        "resource": "elixir",
+        "timeSeconds": 259200,
+        "hallRequired": 9,
+        "xp": 509,
+        "icon": "/coc/home/army-buildings/dark-barracks/normal/level-6.png"
+      },
+      {
+        "level": 7,
+        "cost": 4000000,
+        "resource": "elixir",
+        "timeSeconds": 432000,
+        "hallRequired": 10,
+        "xp": 657,
+        "icon": "/coc/home/army-buildings/dark-barracks/normal/level-7.png"
+      },
+      {
+        "level": 8,
+        "cost": 7000000,
+        "resource": "elixir",
+        "timeSeconds": 518400,
+        "hallRequired": 11,
+        "xp": 720,
+        "icon": "/coc/home/army-buildings/dark-barracks/normal/level-8.png"
+      },
+      {
+        "level": 9,
+        "cost": 7200000,
+        "resource": "elixir",
+        "timeSeconds": 604800,
+        "hallRequired": 12,
+        "xp": 777,
+        "icon": "/coc/home/army-buildings/dark-barracks/normal/level-9.png"
+      },
+      {
+        "level": 10,
+        "cost": 10000000,
+        "resource": "elixir",
+        "timeSeconds": 648000,
+        "hallRequired": 13,
+        "xp": 804,
+        "icon": "/coc/home/army-buildings/dark-barracks/normal/level-10.png"
+      },
+      {
+        "level": 11,
+        "cost": 12000000,
+        "resource": "elixir",
+        "timeSeconds": 691200,
+        "hallRequired": 14,
+        "xp": 831,
+        "icon": "/coc/home/army-buildings/dark-barracks/normal/level-11.png"
+      },
+      {
+        "level": 12,
+        "cost": 20000000,
+        "resource": "elixir",
+        "timeSeconds": 1036800,
+        "hallRequired": 15,
+        "xp": 1018,
+        "icon": "/coc/home/army-buildings/dark-barracks/normal/level-12.png"
+      }
+    ]
+  },
+  {
+    "key": "dark-spell-factory",
+    "name": "Dark Spell Factory",
+    "base": "home",
+    "category": "army",
+    "size": "3x3",
+    "maxLevel": 7,
+    "icon": "/coc/home/army-buildings/dark-spell-factory/normal/level-7.png",
+    "availablePerHall": [
+      {
+        "hall": 1,
+        "count": 0
+      },
+      {
+        "hall": 2,
+        "count": 0
+      },
+      {
+        "hall": 3,
+        "count": 0
+      },
+      {
+        "hall": 4,
+        "count": 0
+      },
+      {
+        "hall": 5,
+        "count": 0
+      },
+      {
+        "hall": 6,
+        "count": 0
+      },
+      {
+        "hall": 7,
+        "count": 0
+      },
+      {
+        "hall": 8,
+        "count": 1
+      },
+      {
+        "hall": 9,
+        "count": 1
+      },
+      {
+        "hall": 10,
+        "count": 1
+      },
+      {
+        "hall": 11,
+        "count": 1
+      },
+      {
+        "hall": 12,
+        "count": 1
+      },
+      {
+        "hall": 13,
+        "count": 1
+      },
+      {
+        "hall": 14,
+        "count": 1
+      },
+      {
+        "hall": 15,
+        "count": 1
+      },
+      {
+        "hall": 16,
+        "count": 1
+      },
+      {
+        "hall": 17,
+        "count": 1
+      },
+      {
+        "hall": 18,
+        "count": 1
+      }
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": 130000,
+        "resource": "elixir",
+        "timeSeconds": 21600,
+        "hallRequired": 8,
+        "xp": 146,
+        "icon": "/coc/home/army-buildings/dark-spell-factory/normal/level-1.png"
+      },
+      {
+        "level": 2,
+        "cost": 260000,
+        "resource": "elixir",
+        "timeSeconds": 43200,
+        "hallRequired": 8,
+        "xp": 207,
+        "icon": "/coc/home/army-buildings/dark-spell-factory/normal/level-2.png"
+      },
+      {
+        "level": 3,
+        "cost": 600000,
+        "resource": "elixir",
+        "timeSeconds": 172800,
+        "hallRequired": 9,
+        "xp": 415,
+        "icon": "/coc/home/army-buildings/dark-spell-factory/normal/level-3.png"
+      },
+      {
+        "level": 4,
+        "cost": 1200000,
+        "resource": "elixir",
+        "timeSeconds": 259200,
+        "hallRequired": 9,
+        "xp": 587,
+        "icon": "/coc/home/army-buildings/dark-spell-factory/normal/level-4.png"
+      },
+      {
+        "level": 5,
+        "cost": 2500000,
+        "resource": "elixir",
+        "timeSeconds": 432000,
+        "hallRequired": 10,
+        "xp": 657,
+        "icon": "/coc/home/army-buildings/dark-spell-factory/normal/level-5.png"
+      },
+      {
+        "level": 6,
+        "cost": 4000000,
+        "resource": "elixir",
+        "timeSeconds": 518400,
+        "hallRequired": 12,
+        "xp": 720,
+        "icon": "/coc/home/army-buildings/dark-spell-factory/normal/level-6.png"
+      },
+      {
+        "level": 7,
+        "cost": 11000000,
+        "resource": "elixir",
+        "timeSeconds": 604800,
+        "hallRequired": 14,
+        "xp": 777,
+        "icon": "/coc/home/army-buildings/dark-spell-factory/normal/level-7.png"
+      }
+    ]
+  },
+  {
+    "key": "hero-hall",
+    "name": "Hero Hall",
+    "base": "home",
+    "category": "army",
+    "size": "4x4",
+    "maxLevel": 12,
+    "icon": "/coc/home/army-buildings/hero-hall/normal/level-12.png",
+    "availablePerHall": [
+      {
+        "hall": 1,
+        "count": 0
+      },
+      {
+        "hall": 2,
+        "count": 0
+      },
+      {
+        "hall": 3,
+        "count": 0
+      },
+      {
+        "hall": 4,
+        "count": 0
+      },
+      {
+        "hall": 5,
+        "count": 0
+      },
+      {
+        "hall": 6,
+        "count": 0
+      },
+      {
+        "hall": 7,
+        "count": 1
+      },
+      {
+        "hall": 8,
+        "count": 1
+      },
+      {
+        "hall": 9,
+        "count": 1
+      },
+      {
+        "hall": 10,
+        "count": 1
+      },
+      {
+        "hall": 11,
+        "count": 1
+      },
+      {
+        "hall": 12,
+        "count": 1
+      },
+      {
+        "hall": 13,
+        "count": 1
+      },
+      {
+        "hall": 14,
+        "count": 1
+      },
+      {
+        "hall": 15,
+        "count": 1
+      },
+      {
+        "hall": 16,
+        "count": 1
+      },
+      {
+        "hall": 17,
+        "count": 1
+      },
+      {
+        "hall": 18,
+        "count": 1
+      }
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": 800000,
+        "resource": "elixir",
+        "timeSeconds": 86400,
+        "hallRequired": 7,
+        "xp": 293,
+        "icon": "/coc/home/army-buildings/hero-hall/normal/level-1.png"
+      },
+      {
+        "level": 2,
+        "cost": 1600000,
+        "resource": "elixir",
+        "timeSeconds": 172800,
+        "hallRequired": 8,
+        "xp": 415,
+        "icon": "/coc/home/army-buildings/hero-hall/normal/level-2.png"
+      },
+      {
+        "level": 3,
+        "cost": 2300000,
+        "resource": "elixir",
+        "timeSeconds": 259200,
+        "hallRequired": 9,
+        "xp": 509,
+        "icon": "/coc/home/army-buildings/hero-hall/normal/level-3.png"
+      },
+      {
+        "level": 4,
+        "cost": 2500000,
+        "resource": "elixir",
+        "timeSeconds": 345600,
+        "hallRequired": 10,
+        "xp": 587,
+        "icon": "/coc/home/army-buildings/hero-hall/normal/level-4.png"
+      },
+      {
+        "level": 5,
+        "cost": 4500000,
+        "resource": "elixir",
+        "timeSeconds": 388800,
+        "hallRequired": 11,
+        "xp": 623,
+        "icon": "/coc/home/army-buildings/hero-hall/normal/level-5.png"
+      },
+      {
+        "level": 6,
+        "cost": 5500000,
+        "resource": "elixir",
+        "timeSeconds": 432000,
+        "hallRequired": 12,
+        "xp": 720,
+        "icon": "/coc/home/army-buildings/hero-hall/normal/level-6.png"
+      },
+      {
+        "level": 7,
+        "cost": 8500000,
+        "resource": "elixir",
+        "timeSeconds": 518400,
+        "hallRequired": 13,
+        "xp": 777,
+        "icon": "/coc/home/army-buildings/hero-hall/normal/level-7.png"
+      },
+      {
+        "level": 8,
+        "cost": 9500000,
+        "resource": "elixir",
+        "timeSeconds": 561600,
+        "hallRequired": 14,
+        "xp": 749,
+        "icon": "/coc/home/army-buildings/hero-hall/normal/level-8.png"
+      },
+      {
+        "level": 9,
+        "cost": 11000000,
+        "resource": "elixir",
+        "timeSeconds": 604800,
+        "hallRequired": 15,
+        "xp": 777,
+        "icon": "/coc/home/army-buildings/hero-hall/normal/level-9.png"
+      },
+      {
+        "level": 10,
+        "cost": 13000000,
+        "resource": "elixir",
+        "timeSeconds": 691200,
+        "hallRequired": 16,
+        "xp": 831,
+        "icon": "/coc/home/army-buildings/hero-hall/normal/level-10.png"
+      },
+      {
+        "level": 11,
+        "cost": 17000000,
+        "resource": "elixir",
+        "timeSeconds": 820800,
+        "hallRequired": 17,
+        "xp": 905,
+        "icon": "/coc/home/army-buildings/hero-hall/normal/level-11.png"
+      },
+      {
+        "level": 12,
+        "cost": 26000000,
+        "resource": "elixir",
+        "timeSeconds": 1166400,
+        "hallRequired": 18,
+        "xp": 1080,
+        "icon": "/coc/home/army-buildings/hero-hall/normal/level-12.png"
+      }
+    ]
+  },
+  {
+    "key": "pet-house",
+    "name": "Pet House",
+    "base": "home",
+    "category": "army",
+    "size": "3x3",
+    "maxLevel": 12,
+    "icon": "/coc/home/army-buildings/pet-house/normal/level-12.png",
+    "availablePerHall": [
+      {
+        "hall": 1,
+        "count": 0
+      },
+      {
+        "hall": 2,
+        "count": 0
+      },
+      {
+        "hall": 3,
+        "count": 0
+      },
+      {
+        "hall": 4,
+        "count": 0
+      },
+      {
+        "hall": 5,
+        "count": 0
+      },
+      {
+        "hall": 6,
+        "count": 0
+      },
+      {
+        "hall": 7,
+        "count": 0
+      },
+      {
+        "hall": 8,
+        "count": 0
+      },
+      {
+        "hall": 9,
+        "count": 0
+      },
+      {
+        "hall": 10,
+        "count": 0
+      },
+      {
+        "hall": 11,
+        "count": 0
+      },
+      {
+        "hall": 12,
+        "count": 0
+      },
+      {
+        "hall": 13,
+        "count": 0
+      },
+      {
+        "hall": 14,
+        "count": 1
+      },
+      {
+        "hall": 15,
+        "count": 1
+      },
+      {
+        "hall": 16,
+        "count": 1
+      },
+      {
+        "hall": 17,
+        "count": 1
+      },
+      {
+        "hall": 18,
+        "count": 1
+      }
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": 3000000,
+        "resource": "elixir",
+        "timeSeconds": 86400,
+        "hallRequired": 14,
+        "xp": 293,
+        "icon": "/coc/home/army-buildings/pet-house/normal/level-1.png"
+      },
+      {
+        "level": 2,
+        "cost": 4000000,
+        "resource": "elixir",
+        "timeSeconds": 172800,
+        "hallRequired": 14,
+        "xp": 415,
+        "icon": "/coc/home/army-buildings/pet-house/normal/level-2.png"
+      },
+      {
+        "level": 3,
+        "cost": 5000000,
+        "resource": "elixir",
+        "timeSeconds": 259200,
+        "hallRequired": 14,
+        "xp": 509,
+        "icon": "/coc/home/army-buildings/pet-house/normal/level-3.png"
+      },
+      {
+        "level": 4,
+        "cost": 6000000,
+        "resource": "elixir",
+        "timeSeconds": 302400,
+        "hallRequired": 14,
+        "xp": 549,
+        "icon": "/coc/home/army-buildings/pet-house/normal/level-4.png"
+      },
+      {
+        "level": 5,
+        "cost": 7000000,
+        "resource": "elixir",
+        "timeSeconds": 345600,
+        "hallRequired": 15,
+        "xp": 587,
+        "icon": "/coc/home/army-buildings/pet-house/normal/level-5.png"
+      },
+      {
+        "level": 6,
+        "cost": 8000000,
+        "resource": "elixir",
+        "timeSeconds": 388800,
+        "hallRequired": 15,
+        "xp": 623,
+        "icon": "/coc/home/army-buildings/pet-house/normal/level-6.png"
+      },
+      {
+        "level": 7,
+        "cost": 9000000,
+        "resource": "elixir",
+        "timeSeconds": 432000,
+        "hallRequired": 15,
+        "xp": 657,
+        "icon": "/coc/home/army-buildings/pet-house/normal/level-7.png"
+      },
+      {
+        "level": 8,
+        "cost": 10000000,
+        "resource": "elixir",
+        "timeSeconds": 475200,
+        "hallRequired": 15,
+        "xp": 689,
+        "icon": "/coc/home/army-buildings/pet-house/normal/level-8.png"
+      },
+      {
+        "level": 9,
+        "cost": 11000000,
+        "resource": "elixir",
+        "timeSeconds": 518400,
+        "hallRequired": 16,
+        "xp": 720,
+        "icon": "/coc/home/army-buildings/pet-house/normal/level-9.png"
+      },
+      {
+        "level": 10,
+        "cost": 12000000,
+        "resource": "elixir",
+        "timeSeconds": 604800,
+        "hallRequired": 16,
+        "xp": 777,
+        "icon": "/coc/home/army-buildings/pet-house/normal/level-10.png"
+      },
+      {
+        "level": 11,
+        "cost": 16500000,
+        "resource": "elixir",
+        "timeSeconds": 777600,
+        "hallRequired": 17,
+        "xp": 881,
+        "icon": "/coc/home/army-buildings/pet-house/normal/level-11.png"
+      },
+      {
+        "level": 12,
+        "cost": 25500000,
+        "resource": "elixir",
+        "timeSeconds": 1166400,
+        "hallRequired": 18,
+        "xp": 1080,
+        "icon": "/coc/home/army-buildings/pet-house/normal/level-12.png"
+      }
+    ]
+  },
+  {
+    "key": "spell-factory",
+    "name": "Spell Factory",
+    "base": "home",
+    "category": "army",
+    "size": "3x3",
+    "maxLevel": 9,
+    "icon": "/coc/home/army-buildings/spell-factory/normal/level-9.png",
+    "availablePerHall": [
+      {
+        "hall": 1,
+        "count": 0
+      },
+      {
+        "hall": 2,
+        "count": 0
+      },
+      {
+        "hall": 3,
+        "count": 0
+      },
+      {
+        "hall": 4,
+        "count": 0
+      },
+      {
+        "hall": 5,
+        "count": 1
+      },
+      {
+        "hall": 6,
+        "count": 1
+      },
+      {
+        "hall": 7,
+        "count": 1
+      },
+      {
+        "hall": 8,
+        "count": 1
+      },
+      {
+        "hall": 9,
+        "count": 1
+      },
+      {
+        "hall": 10,
+        "count": 1
+      },
+      {
+        "hall": 11,
+        "count": 1
+      },
+      {
+        "hall": 12,
+        "count": 1
+      },
+      {
+        "hall": 13,
+        "count": 1
+      },
+      {
+        "hall": 14,
+        "count": 1
+      },
+      {
+        "hall": 15,
+        "count": 1
+      },
+      {
+        "hall": 16,
+        "count": 1
+      },
+      {
+        "hall": 17,
+        "count": 1
+      },
+      {
+        "hall": 18,
+        "count": 1
+      }
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": 150000,
+        "resource": "elixir",
+        "timeSeconds": 21600,
+        "hallRequired": 5,
+        "xp": 146,
+        "icon": "/coc/home/army-buildings/spell-factory/normal/level-1.png"
+      },
+      {
+        "level": 2,
+        "cost": 300000,
+        "resource": "elixir",
+        "timeSeconds": 43200,
+        "hallRequired": 6,
+        "xp": 207,
+        "icon": "/coc/home/army-buildings/spell-factory/normal/level-2.png"
+      },
+      {
+        "level": 3,
+        "cost": 600000,
+        "resource": "elixir",
+        "timeSeconds": 86400,
+        "hallRequired": 7,
+        "xp": 293,
+        "icon": "/coc/home/army-buildings/spell-factory/normal/level-3.png"
+      },
+      {
+        "level": 4,
+        "cost": 1200000,
+        "resource": "elixir",
+        "timeSeconds": 172800,
+        "hallRequired": 9,
+        "xp": 415,
+        "icon": "/coc/home/army-buildings/spell-factory/normal/level-4.png"
+      },
+      {
+        "level": 5,
+        "cost": 2000000,
+        "resource": "elixir",
+        "timeSeconds": 259200,
+        "hallRequired": 10,
+        "xp": 509,
+        "icon": "/coc/home/army-buildings/spell-factory/normal/level-5.png"
+      },
+      {
+        "level": 6,
+        "cost": 3500000,
+        "resource": "elixir",
+        "timeSeconds": 432000,
+        "hallRequired": 11,
+        "xp": 657,
+        "icon": "/coc/home/army-buildings/spell-factory/normal/level-6.png"
+      },
+      {
+        "level": 7,
+        "cost": 9000000,
+        "resource": "elixir",
+        "timeSeconds": 604800,
+        "hallRequired": 13,
+        "xp": 777,
+        "icon": "/coc/home/army-buildings/spell-factory/normal/level-7.png"
+      },
+      {
+        "level": 8,
+        "cost": 14000000,
+        "resource": "elixir",
+        "timeSeconds": 691200,
+        "hallRequired": 15,
+        "xp": 831,
+        "icon": "/coc/home/army-buildings/spell-factory/normal/level-8.png"
+      },
+      {
+        "level": 9,
+        "cost": 24000000,
+        "resource": "elixir",
+        "timeSeconds": 1123200,
+        "hallRequired": 16,
+        "xp": 1059,
+        "icon": "/coc/home/army-buildings/spell-factory/normal/level-9.png"
+      }
+    ]
+  },
+  {
+    "key": "workshop",
+    "name": "Workshop",
+    "base": "home",
+    "category": "army",
+    "size": "4x4",
+    "maxLevel": 8,
+    "icon": "/coc/home/army-buildings/workshop/normal/level-8.png",
+    "availablePerHall": [
+      {
+        "hall": 1,
+        "count": 0
+      },
+      {
+        "hall": 2,
+        "count": 0
+      },
+      {
+        "hall": 3,
+        "count": 0
+      },
+      {
+        "hall": 4,
+        "count": 0
+      },
+      {
+        "hall": 5,
+        "count": 0
+      },
+      {
+        "hall": 6,
+        "count": 0
+      },
+      {
+        "hall": 7,
+        "count": 0
+      },
+      {
+        "hall": 8,
+        "count": 0
+      },
+      {
+        "hall": 9,
+        "count": 0
+      },
+      {
+        "hall": 10,
+        "count": 0
+      },
+      {
+        "hall": 11,
+        "count": 0
+      },
+      {
+        "hall": 12,
+        "count": 1
+      },
+      {
+        "hall": 13,
+        "count": 1
+      },
+      {
+        "hall": 14,
+        "count": 1
+      },
+      {
+        "hall": 15,
+        "count": 1
+      },
+      {
+        "hall": 16,
+        "count": 1
+      },
+      {
+        "hall": 17,
+        "count": 1
+      },
+      {
+        "hall": 18,
+        "count": 1
+      }
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": 2400000,
+        "resource": "elixir",
+        "timeSeconds": 172800,
+        "hallRequired": 12,
+        "xp": 415,
+        "icon": "/coc/home/army-buildings/workshop/normal/level-1.png"
+      },
+      {
+        "level": 2,
+        "cost": 3700000,
+        "resource": "elixir",
+        "timeSeconds": 259200,
+        "hallRequired": 12,
+        "xp": 509,
+        "icon": "/coc/home/army-buildings/workshop/normal/level-2.png"
+      },
+      {
+        "level": 3,
+        "cost": 5000000,
+        "resource": "elixir",
+        "timeSeconds": 302400,
+        "hallRequired": 12,
+        "xp": 549,
+        "icon": "/coc/home/army-buildings/workshop/normal/level-3.png"
+      },
+      {
+        "level": 4,
+        "cost": 8700000,
+        "resource": "elixir",
+        "timeSeconds": 345600,
+        "hallRequired": 13,
+        "xp": 587,
+        "icon": "/coc/home/army-buildings/workshop/normal/level-4.png"
+      },
+      {
+        "level": 5,
+        "cost": 9000000,
+        "resource": "elixir",
+        "timeSeconds": 432000,
+        "hallRequired": 13,
+        "xp": 657,
+        "icon": "/coc/home/army-buildings/workshop/normal/level-5.png"
+      },
+      {
+        "level": 6,
+        "cost": 10000000,
+        "resource": "elixir",
+        "timeSeconds": 475200,
+        "hallRequired": 14,
+        "xp": 689,
+        "icon": "/coc/home/army-buildings/workshop/normal/level-6.png"
+      },
+      {
+        "level": 7,
+        "cost": 11000000,
+        "resource": "elixir",
+        "timeSeconds": 518400,
+        "hallRequired": 15,
+        "xp": 720,
+        "icon": "/coc/home/army-buildings/workshop/normal/level-7.png"
+      },
+      {
+        "level": 8,
+        "cost": 13000000,
+        "resource": "elixir",
+        "timeSeconds": 604800,
+        "hallRequired": 16,
+        "xp": 777,
+        "icon": "/coc/home/army-buildings/workshop/normal/level-8.png"
+      }
+    ]
+  },
+  {
+    "key": "air-defense",
+    "name": "Air Defense",
+    "base": "home",
+    "category": "defense",
+    "size": "3x3",
+    "maxLevel": 16,
+    "icon": "/coc/home/defenses/air-defense/normal/level-16.png",
+    "availablePerHall": [
+      {
+        "hall": 4,
+        "count": 1
+      },
+      {
+        "hall": 5,
+        "count": 1
+      },
+      {
+        "hall": 6,
+        "count": 2
+      },
+      {
+        "hall": 7,
+        "count": 3
+      },
+      {
+        "hall": 8,
+        "count": 3
+      },
+      {
+        "hall": 9,
+        "count": 4
+      },
+      {
+        "hall": 10,
+        "count": 4
+      },
+      {
+        "hall": 11,
+        "count": 4
+      },
+      {
+        "hall": 12,
+        "count": 4
+      },
+      {
+        "hall": 13,
+        "count": 4
+      },
+      {
+        "hall": 14,
+        "count": 4
+      },
+      {
+        "hall": 15,
+        "count": 4
+      },
+      {
+        "hall": 16,
+        "count": 4
+      },
+      {
+        "hall": 17,
+        "count": 4
+      },
+      {
+        "hall": 18,
+        "count": 4
+      }
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": 22000,
+        "resource": "gold",
+        "timeSeconds": 3600,
+        "hallRequired": 4,
+        "xp": 60,
+        "icon": "/coc/home/defenses/air-defense/normal/level-1.png"
+      },
+      {
+        "level": 2,
+        "cost": 90000,
+        "resource": "gold",
+        "timeSeconds": 7200,
+        "hallRequired": 4,
+        "xp": 84,
+        "icon": "/coc/home/defenses/air-defense/normal/level-2.png"
+      },
+      {
+        "level": 3,
+        "cost": 210000,
+        "resource": "gold",
+        "timeSeconds": 21600,
+        "hallRequired": 5,
+        "xp": 146,
+        "icon": "/coc/home/defenses/air-defense/normal/level-3.png"
+      },
+      {
+        "level": 4,
+        "cost": 500000,
+        "resource": "gold",
+        "timeSeconds": 43200,
+        "hallRequired": 6,
+        "xp": 207,
+        "icon": "/coc/home/defenses/air-defense/normal/level-4.png"
+      },
+      {
+        "level": 5,
+        "cost": 800000,
+        "resource": "gold",
+        "timeSeconds": 64800,
+        "hallRequired": 7,
+        "xp": 254,
+        "icon": "/coc/home/defenses/air-defense/normal/level-5.png"
+      },
+      {
+        "level": 6,
+        "cost": 1000000,
+        "resource": "gold",
+        "timeSeconds": 86400,
+        "hallRequired": 8,
+        "xp": 293,
+        "icon": "/coc/home/defenses/air-defense/normal/level-6.png"
+      },
+      {
+        "level": 7,
+        "cost": 1750000,
+        "resource": "gold",
+        "timeSeconds": 172800,
+        "hallRequired": 9,
+        "xp": 415,
+        "icon": "/coc/home/defenses/air-defense/normal/level-7.png"
+      },
+      {
+        "level": 8,
+        "cost": 2300000,
+        "resource": "gold",
+        "timeSeconds": 216000,
+        "hallRequired": 10,
+        "xp": 464,
+        "icon": "/coc/home/defenses/air-defense/normal/level-8.png"
+      },
+      {
+        "level": 9,
+        "cost": 3400000,
+        "resource": "gold",
+        "timeSeconds": 259200,
+        "hallRequired": 11,
+        "xp": 509,
+        "icon": "/coc/home/defenses/air-defense/normal/level-9.png"
+      },
+      {
+        "level": 10,
+        "cost": 5000000,
+        "resource": "gold",
+        "timeSeconds": 345600,
+        "hallRequired": 12,
+        "xp": 587,
+        "icon": "/coc/home/defenses/air-defense/normal/level-10.png"
+      },
+      {
+        "level": 11,
+        "cost": 5600000,
+        "resource": "gold",
+        "timeSeconds": 388800,
+        "hallRequired": 13,
+        "xp": 623,
+        "icon": "/coc/home/defenses/air-defense/normal/level-11.png"
+      },
+      {
+        "level": 12,
+        "cost": 6500000,
+        "resource": "gold",
+        "timeSeconds": 432000,
+        "hallRequired": 14,
+        "xp": 657,
+        "icon": "/coc/home/defenses/air-defense/normal/level-12.png"
+      },
+      {
+        "level": 13,
+        "cost": 8000000,
+        "resource": "gold",
+        "timeSeconds": 518400,
+        "hallRequired": 15,
+        "xp": 720,
+        "icon": "/coc/home/defenses/air-defense/normal/level-13.png"
+      },
+      {
+        "level": 14,
+        "cost": 9000000,
+        "resource": "gold",
+        "timeSeconds": 561600,
+        "hallRequired": 16,
+        "xp": 749,
+        "icon": "/coc/home/defenses/air-defense/normal/level-14.png"
+      },
+      {
+        "level": 15,
+        "cost": 15000000,
+        "resource": "gold",
+        "timeSeconds": 820800,
+        "hallRequired": 17,
+        "xp": 905,
+        "icon": "/coc/home/defenses/air-defense/normal/level-15.png"
+      },
+      {
+        "level": 16,
+        "cost": 26000000,
+        "resource": "gold",
+        "timeSeconds": 1144800,
+        "hallRequired": 18,
+        "xp": 1069,
+        "icon": "/coc/home/defenses/air-defense/normal/level-16.png"
+      }
+    ]
+  },
+  {
+    "key": "air-sweeper",
+    "name": "Air Sweeper",
+    "base": "home",
+    "category": "defense",
+    "size": "2x2",
+    "maxLevel": 7,
+    "icon": "/coc/home/defenses/air-sweeper/normal/level-7.png",
+    "availablePerHall": [
+      {
+        "hall": 6,
+        "count": 1
+      },
+      {
+        "hall": 7,
+        "count": 1
+      },
+      {
+        "hall": 8,
+        "count": 1
+      },
+      {
+        "hall": 9,
+        "count": 2
+      },
+      {
+        "hall": 10,
+        "count": 2
+      },
+      {
+        "hall": 11,
+        "count": 2
+      },
+      {
+        "hall": 12,
+        "count": 2
+      },
+      {
+        "hall": 13,
+        "count": 2
+      },
+      {
+        "hall": 14,
+        "count": 2
+      },
+      {
+        "hall": 15,
+        "count": 2
+      },
+      {
+        "hall": 16,
+        "count": 2
+      },
+      {
+        "hall": 17,
+        "count": 2
+      },
+      {
+        "hall": 18,
+        "count": 2
+      }
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": 200000,
+        "resource": "gold",
+        "timeSeconds": 14400,
+        "hallRequired": 6,
+        "xp": 120,
+        "icon": "/coc/home/defenses/air-sweeper/normal/level-1.png"
+      },
+      {
+        "level": 2,
+        "cost": 300000,
+        "resource": "gold",
+        "timeSeconds": 21600,
+        "hallRequired": 6,
+        "xp": 146,
+        "icon": "/coc/home/defenses/air-sweeper/normal/level-2.png"
+      },
+      {
+        "level": 3,
+        "cost": 450000,
+        "resource": "gold",
+        "timeSeconds": 28800,
+        "hallRequired": 7,
+        "xp": 169,
+        "icon": "/coc/home/defenses/air-sweeper/normal/level-3.png"
+      },
+      {
+        "level": 4,
+        "cost": 800000,
+        "resource": "gold",
+        "timeSeconds": 43200,
+        "hallRequired": 8,
+        "xp": 207,
+        "icon": "/coc/home/defenses/air-sweeper/normal/level-4.png"
+      },
+      {
+        "level": 5,
+        "cost": 1200000,
+        "resource": "gold",
+        "timeSeconds": 86400,
+        "hallRequired": 9,
+        "xp": 293,
+        "icon": "/coc/home/defenses/air-sweeper/normal/level-5.png"
+      },
+      {
+        "level": 6,
+        "cost": 1900000,
+        "resource": "gold",
+        "timeSeconds": 172800,
+        "hallRequired": 10,
+        "xp": 415,
+        "icon": "/coc/home/defenses/air-sweeper/normal/level-6.png"
+      },
+      {
+        "level": 7,
+        "cost": 3400000,
+        "resource": "gold",
+        "timeSeconds": 259200,
+        "hallRequired": 11,
+        "xp": 509,
+        "icon": "/coc/home/defenses/air-sweeper/normal/level-7.png"
+      }
+    ]
+  },
+  {
+    "key": "archer-tower",
+    "name": "Archer Tower",
+    "base": "home",
+    "category": "defense",
+    "size": "3x3",
+    "maxLevel": 21,
+    "icon": "/coc/home/defenses/archer-tower/normal/level-21.png",
+    "availablePerHall": [
+      {
+        "hall": 2,
+        "count": 1
+      },
+      {
+        "hall": 3,
+        "count": 1
+      },
+      {
+        "hall": 4,
+        "count": 2
+      },
+      {
+        "hall": 5,
+        "count": 3
+      },
+      {
+        "hall": 6,
+        "count": 3
+      },
+      {
+        "hall": 7,
+        "count": 4
+      },
+      {
+        "hall": 8,
+        "count": 5
+      },
+      {
+        "hall": 9,
+        "count": 6
+      },
+      {
+        "hall": 10,
+        "count": 7
+      },
+      {
+        "hall": 11,
+        "count": 8
+      },
+      {
+        "hall": 12,
+        "count": 8
+      },
+      {
+        "hall": 13,
+        "count": 8
+      },
+      {
+        "hall": 14,
+        "count": 8
+      },
+      {
+        "hall": 15,
+        "count": 8
+      },
+      {
+        "hall": 16,
+        "count": 8,
+        "countAfterMerges": 4
+      },
+      {
+        "hall": 17,
+        "count": 9,
+        "countAfterMerges": 2
+      },
+      {
+        "hall": 18,
+        "count": 9,
+        "countAfterMerges": 2
+      }
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": 1000,
+        "resource": "gold",
+        "timeSeconds": 15,
+        "hallRequired": 2,
+        "xp": 3,
+        "icon": "/coc/home/defenses/archer-tower/normal/level-1.png"
+      },
+      {
+        "level": 2,
+        "cost": 2000,
+        "resource": "gold",
+        "timeSeconds": 120,
+        "hallRequired": 2,
+        "xp": 10,
+        "icon": "/coc/home/defenses/archer-tower/normal/level-2.png"
+      },
+      {
+        "level": 3,
+        "cost": 5000,
+        "resource": "gold",
+        "timeSeconds": 1200,
+        "hallRequired": 3,
+        "xp": 34,
+        "icon": "/coc/home/defenses/archer-tower/normal/level-3.png"
+      },
+      {
+        "level": 4,
+        "cost": 20000,
+        "resource": "gold",
+        "timeSeconds": 3600,
+        "hallRequired": 4,
+        "xp": 60,
+        "icon": "/coc/home/defenses/archer-tower/normal/level-4.png"
+      },
+      {
+        "level": 5,
+        "cost": 70000,
+        "resource": "gold",
+        "timeSeconds": 5400,
+        "hallRequired": 5,
+        "xp": 73,
+        "icon": "/coc/home/defenses/archer-tower/normal/level-5.png"
+      },
+      {
+        "level": 6,
+        "cost": 80000,
+        "resource": "gold",
+        "timeSeconds": 7200,
+        "hallRequired": 5,
+        "xp": 84,
+        "icon": "/coc/home/defenses/archer-tower/normal/level-6.png"
+      },
+      {
+        "level": 7,
+        "cost": 150000,
+        "resource": "gold",
+        "timeSeconds": 10800,
+        "hallRequired": 6,
+        "xp": 103,
+        "icon": "/coc/home/defenses/archer-tower/normal/level-7.png"
+      },
+      {
+        "level": 8,
+        "cost": 200000,
+        "resource": "gold",
+        "timeSeconds": 14400,
+        "hallRequired": 7,
+        "xp": 120,
+        "icon": "/coc/home/defenses/archer-tower/normal/level-8.png"
+      },
+      {
+        "level": 9,
+        "cost": 400000,
+        "resource": "gold",
+        "timeSeconds": 18000,
+        "hallRequired": 8,
+        "xp": 134,
+        "icon": "/coc/home/defenses/archer-tower/normal/level-9.png"
+      },
+      {
+        "level": 10,
+        "cost": 460000,
+        "resource": "gold",
+        "timeSeconds": 21600,
+        "hallRequired": 8,
+        "xp": 146,
+        "icon": "/coc/home/defenses/archer-tower/normal/level-10.png"
+      },
+      {
+        "level": 11,
+        "cost": 600000,
+        "resource": "gold",
+        "timeSeconds": 25200,
+        "hallRequired": 9,
+        "xp": 158,
+        "icon": "/coc/home/defenses/archer-tower/normal/level-11.png"
+      },
+      {
+        "level": 12,
+        "cost": 700000,
+        "resource": "gold",
+        "timeSeconds": 28800,
+        "hallRequired": 10,
+        "xp": 169,
+        "icon": "/coc/home/defenses/archer-tower/normal/level-12.png"
+      },
+      {
+        "level": 13,
+        "cost": 1000000,
+        "resource": "gold",
+        "timeSeconds": 36000,
+        "hallRequired": 10,
+        "xp": 189,
+        "icon": "/coc/home/defenses/archer-tower/normal/level-13.png"
+      },
+      {
+        "level": 14,
+        "cost": 1100000,
+        "resource": "gold",
+        "timeSeconds": 39600,
+        "hallRequired": 11,
+        "xp": 198,
+        "icon": "/coc/home/defenses/archer-tower/normal/level-14.png"
+      },
+      {
+        "level": 15,
+        "cost": 1300000,
+        "resource": "gold",
+        "timeSeconds": 43200,
+        "hallRequired": 11,
+        "xp": 207,
+        "icon": "/coc/home/defenses/archer-tower/normal/level-15.png"
+      },
+      {
+        "level": 16,
+        "cost": 1600000,
+        "resource": "gold",
+        "timeSeconds": 57600,
+        "hallRequired": 12,
+        "xp": 240,
+        "icon": "/coc/home/defenses/archer-tower/normal/level-16.png"
+      },
+      {
+        "level": 17,
+        "cost": 1800000,
+        "resource": "gold",
+        "timeSeconds": 72000,
+        "hallRequired": 12,
+        "xp": 268,
+        "icon": "/coc/home/defenses/archer-tower/normal/level-17.png"
+      },
+      {
+        "level": 18,
+        "cost": 2000000,
+        "resource": "gold",
+        "timeSeconds": 86400,
+        "hallRequired": 13,
+        "xp": 293,
+        "icon": "/coc/home/defenses/archer-tower/normal/level-18.png"
+      },
+      {
+        "level": 19,
+        "cost": 2200000,
+        "resource": "gold",
+        "timeSeconds": 108000,
+        "hallRequired": 13,
+        "xp": 328,
+        "icon": "/coc/home/defenses/archer-tower/normal/level-19.png"
+      },
+      {
+        "level": 20,
+        "cost": 3000000,
+        "resource": "gold",
+        "timeSeconds": 129600,
+        "hallRequired": 14,
+        "xp": 360,
+        "icon": "/coc/home/defenses/archer-tower/normal/level-20.png"
+      },
+      {
+        "level": 21,
+        "cost": 4000000,
+        "resource": "gold",
+        "timeSeconds": 172800,
+        "hallRequired": 15,
+        "xp": 415,
+        "icon": "/coc/home/defenses/archer-tower/normal/level-21.png"
+      }
+    ]
+  },
+  {
+    "key": "bomb-tower",
+    "name": "Bomb Tower",
+    "base": "home",
+    "category": "defense",
+    "size": "3x3",
+    "maxLevel": 13,
+    "icon": "/coc/home/defenses/bomb-tower/normal/level-13.png",
+    "availablePerHall": [
+      {
+        "hall": 8,
+        "count": 1
+      },
+      {
+        "hall": 9,
+        "count": 1
+      },
+      {
+        "hall": 10,
+        "count": 2
+      },
+      {
+        "hall": 11,
+        "count": 2
+      },
+      {
+        "hall": 12,
+        "count": 2
+      },
+      {
+        "hall": 13,
+        "count": 2
+      },
+      {
+        "hall": 14,
+        "count": 2
+      },
+      {
+        "hall": 15,
+        "count": 2
+      },
+      {
+        "hall": 16,
+        "count": 2
+      },
+      {
+        "hall": 17,
+        "count": 2
+      },
+      {
+        "hall": 18,
+        "count": 2
+      }
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": 700000,
+        "resource": "gold",
+        "timeSeconds": 43200,
+        "hallRequired": 8,
+        "xp": 207,
+        "icon": "/coc/home/defenses/bomb-tower/normal/level-1.png"
+      },
+      {
+        "level": 2,
+        "cost": 1000000,
+        "resource": "gold",
+        "timeSeconds": 64800,
+        "hallRequired": 8,
+        "xp": 254,
+        "icon": "/coc/home/defenses/bomb-tower/normal/level-2.png"
+      },
+      {
+        "level": 3,
+        "cost": 1300000,
+        "resource": "gold",
+        "timeSeconds": 86400,
+        "hallRequired": 9,
+        "xp": 293,
+        "icon": "/coc/home/defenses/bomb-tower/normal/level-3.png"
+      },
+      {
+        "level": 4,
+        "cost": 1800000,
+        "resource": "gold",
+        "timeSeconds": 129600,
+        "hallRequired": 10,
+        "xp": 360,
+        "icon": "/coc/home/defenses/bomb-tower/normal/level-4.png"
+      },
+      {
+        "level": 5,
+        "cost": 1900000,
+        "resource": "gold",
+        "timeSeconds": 151200,
+        "hallRequired": 11,
+        "xp": 388,
+        "icon": "/coc/home/defenses/bomb-tower/normal/level-5.png"
+      },
+      {
+        "level": 6,
+        "cost": 2000000,
+        "resource": "gold",
+        "timeSeconds": 172800,
+        "hallRequired": 11,
+        "xp": 415,
+        "icon": "/coc/home/defenses/bomb-tower/normal/level-6.png"
+      },
+      {
+        "level": 7,
+        "cost": 4000000,
+        "resource": "gold",
+        "timeSeconds": 259200,
+        "hallRequired": 12,
+        "xp": 509,
+        "icon": "/coc/home/defenses/bomb-tower/normal/level-7.png"
+      },
+      {
+        "level": 8,
+        "cost": 5000000,
+        "resource": "gold",
+        "timeSeconds": 345600,
+        "hallRequired": 13,
+        "xp": 587,
+        "icon": "/coc/home/defenses/bomb-tower/normal/level-8.png"
+      },
+      {
+        "level": 9,
+        "cost": 6000000,
+        "resource": "gold",
+        "timeSeconds": 388800,
+        "hallRequired": 14,
+        "xp": 623,
+        "icon": "/coc/home/defenses/bomb-tower/normal/level-9.png"
+      },
+      {
+        "level": 10,
+        "cost": 7000000,
+        "resource": "gold",
+        "timeSeconds": 410400,
+        "hallRequired": 15,
+        "xp": 640,
+        "icon": "/coc/home/defenses/bomb-tower/normal/level-10.png"
+      },
+      {
+        "level": 11,
+        "cost": 8500000,
+        "resource": "gold",
+        "timeSeconds": 432000,
+        "hallRequired": 16,
+        "xp": 657,
+        "icon": "/coc/home/defenses/bomb-tower/normal/level-11.png"
+      },
+      {
+        "level": 12,
+        "cost": 14500000,
+        "resource": "gold",
+        "timeSeconds": 777600,
+        "hallRequired": 17,
+        "xp": 881,
+        "icon": "/coc/home/defenses/bomb-tower/normal/level-12.png"
+      },
+      {
+        "level": 13,
+        "cost": 25000000,
+        "resource": "gold",
+        "timeSeconds": 1123200,
+        "hallRequired": 18,
+        "xp": 1059,
+        "icon": "/coc/home/defenses/bomb-tower/normal/level-13.png"
+      }
+    ]
+  },
+  {
+    "key": "builders-hut",
+    "name": "Builder's Hut",
+    "base": "home",
+    "category": "defense",
+    "size": "2x2",
+    "maxLevel": 7,
+    "icon": "/coc/home/defenses/builders-hut/normal/level-7.png",
+    "availablePerHall": [
+      {
+        "hall": 1,
+        "count": 5
+      },
+      {
+        "hall": 2,
+        "count": 5
+      },
+      {
+        "hall": 3,
+        "count": 5
+      },
+      {
+        "hall": 4,
+        "count": 5
+      },
+      {
+        "hall": 5,
+        "count": 5
+      },
+      {
+        "hall": 6,
+        "count": 5
+      },
+      {
+        "hall": 7,
+        "count": 5
+      },
+      {
+        "hall": 8,
+        "count": 5
+      },
+      {
+        "hall": 9,
+        "count": 5
+      },
+      {
+        "hall": 10,
+        "count": 5
+      },
+      {
+        "hall": 11,
+        "count": 5
+      },
+      {
+        "hall": 12,
+        "count": 5
+      },
+      {
+        "hall": 13,
+        "count": 5
+      },
+      {
+        "hall": 14,
+        "count": 5
+      },
+      {
+        "hall": 15,
+        "count": 5
+      },
+      {
+        "hall": 16,
+        "count": 5
+      },
+      {
+        "hall": 17,
+        "count": 5
+      },
+      {
+        "hall": 18,
+        "count": 5
+      }
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": 0,
+        "resource": "gold",
+        "timeSeconds": 0,
+        "hallRequired": 1,
+        "xp": 0,
+        "icon": "/coc/home/defenses/builders-hut/normal/level-1.png"
+      },
+      {
+        "level": 2,
+        "cost": 3000000,
+        "resource": "gold",
+        "timeSeconds": 172800,
+        "hallRequired": 14,
+        "xp": 415,
+        "icon": "/coc/home/defenses/builders-hut/normal/level-2.png"
+      },
+      {
+        "level": 3,
+        "cost": 4000000,
+        "resource": "gold",
+        "timeSeconds": 259200,
+        "hallRequired": 14,
+        "xp": 509,
+        "icon": "/coc/home/defenses/builders-hut/normal/level-3.png"
+      },
+      {
+        "level": 4,
+        "cost": 6000000,
+        "resource": "gold",
+        "timeSeconds": 345600,
+        "hallRequired": 14,
+        "xp": 587,
+        "icon": "/coc/home/defenses/builders-hut/normal/level-4.png"
+      },
+      {
+        "level": 5,
+        "cost": 7000000,
+        "resource": "gold",
+        "timeSeconds": 432000,
+        "hallRequired": 15,
+        "xp": 657,
+        "icon": "/coc/home/defenses/builders-hut/normal/level-5.png"
+      },
+      {
+        "level": 6,
+        "cost": 8000000,
+        "resource": "gold",
+        "timeSeconds": 475200,
+        "hallRequired": 16,
+        "xp": 689,
+        "icon": "/coc/home/defenses/builders-hut/normal/level-6.png"
+      },
+      {
+        "level": 7,
+        "cost": 15500000,
+        "resource": "gold",
+        "timeSeconds": 820800,
+        "hallRequired": 17,
+        "xp": 905,
+        "icon": "/coc/home/defenses/builders-hut/normal/level-7.png"
+      }
+    ]
+  },
+  {
+    "key": "cannon",
+    "name": "Cannon",
+    "base": "home",
+    "category": "defense",
+    "size": "3x3",
+    "maxLevel": 21,
+    "icon": "/coc/home/defenses/cannon/normal/level-21.png",
+    "availablePerHall": [
+      {
+        "hall": 1,
+        "count": 2
+      },
+      {
+        "hall": 2,
+        "count": 2
+      },
+      {
+        "hall": 3,
+        "count": 2
+      },
+      {
+        "hall": 4,
+        "count": 2
+      },
+      {
+        "hall": 5,
+        "count": 3
+      },
+      {
+        "hall": 6,
+        "count": 3
+      },
+      {
+        "hall": 7,
+        "count": 5
+      },
+      {
+        "hall": 8,
+        "count": 5
+      },
+      {
+        "hall": 9,
+        "count": 5
+      },
+      {
+        "hall": 10,
+        "count": 6
+      },
+      {
+        "hall": 11,
+        "count": 7
+      },
+      {
+        "hall": 12,
+        "count": 7
+      },
+      {
+        "hall": 13,
+        "count": 7
+      },
+      {
+        "hall": 14,
+        "count": 7
+      },
+      {
+        "hall": 15,
+        "count": 7
+      },
+      {
+        "hall": 16,
+        "count": 7,
+        "countAfterMerges": 3
+      },
+      {
+        "hall": 17,
+        "count": 7,
+        "countAfterMerges": 0
+      },
+      {
+        "hall": 18,
+        "count": 7,
+        "countAfterMerges": 0
+      }
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": 250,
+        "resource": "gold",
+        "timeSeconds": 5,
+        "hallRequired": 1,
+        "xp": 2,
+        "icon": "/coc/home/defenses/cannon/normal/level-1.png"
+      },
+      {
+        "level": 2,
+        "cost": 1000,
+        "resource": "gold",
+        "timeSeconds": 30,
+        "hallRequired": 1,
+        "xp": 5,
+        "icon": "/coc/home/defenses/cannon/normal/level-2.png"
+      },
+      {
+        "level": 3,
+        "cost": 4000,
+        "resource": "gold",
+        "timeSeconds": 120,
+        "hallRequired": 2,
+        "xp": 10,
+        "icon": "/coc/home/defenses/cannon/normal/level-3.png"
+      },
+      {
+        "level": 4,
+        "cost": 16000,
+        "resource": "gold",
+        "timeSeconds": 1200,
+        "hallRequired": 3,
+        "xp": 34,
+        "icon": "/coc/home/defenses/cannon/normal/level-4.png"
+      },
+      {
+        "level": 5,
+        "cost": 50000,
+        "resource": "gold",
+        "timeSeconds": 1800,
+        "hallRequired": 4,
+        "xp": 42,
+        "icon": "/coc/home/defenses/cannon/normal/level-5.png"
+      },
+      {
+        "level": 6,
+        "cost": 60000,
+        "resource": "gold",
+        "timeSeconds": 3600,
+        "hallRequired": 5,
+        "xp": 60,
+        "icon": "/coc/home/defenses/cannon/normal/level-6.png"
+      },
+      {
+        "level": 7,
+        "cost": 100000,
+        "resource": "gold",
+        "timeSeconds": 7200,
+        "hallRequired": 6,
+        "xp": 84,
+        "icon": "/coc/home/defenses/cannon/normal/level-7.png"
+      },
+      {
+        "level": 8,
+        "cost": 160000,
+        "resource": "gold",
+        "timeSeconds": 10800,
+        "hallRequired": 7,
+        "xp": 103,
+        "icon": "/coc/home/defenses/cannon/normal/level-8.png"
+      },
+      {
+        "level": 9,
+        "cost": 250000,
+        "resource": "gold",
+        "timeSeconds": 12600,
+        "hallRequired": 8,
+        "xp": 112,
+        "icon": "/coc/home/defenses/cannon/normal/level-9.png"
+      },
+      {
+        "level": 10,
+        "cost": 330000,
+        "resource": "gold",
+        "timeSeconds": 14400,
+        "hallRequired": 8,
+        "xp": 120,
+        "icon": "/coc/home/defenses/cannon/normal/level-10.png"
+      },
+      {
+        "level": 11,
+        "cost": 500000,
+        "resource": "gold",
+        "timeSeconds": 16200,
+        "hallRequired": 9,
+        "xp": 127,
+        "icon": "/coc/home/defenses/cannon/normal/level-11.png"
+      },
+      {
+        "level": 12,
+        "cost": 600000,
+        "resource": "gold",
+        "timeSeconds": 18000,
+        "hallRequired": 10,
+        "xp": 134,
+        "icon": "/coc/home/defenses/cannon/normal/level-12.png"
+      },
+      {
+        "level": 13,
+        "cost": 660000,
+        "resource": "gold",
+        "timeSeconds": 21600,
+        "hallRequired": 10,
+        "xp": 146,
+        "icon": "/coc/home/defenses/cannon/normal/level-13.png"
+      },
+      {
+        "level": 14,
+        "cost": 1000000,
+        "resource": "gold",
+        "timeSeconds": 28800,
+        "hallRequired": 11,
+        "xp": 169,
+        "icon": "/coc/home/defenses/cannon/normal/level-14.png"
+      },
+      {
+        "level": 15,
+        "cost": 1200000,
+        "resource": "gold",
+        "timeSeconds": 36000,
+        "hallRequired": 11,
+        "xp": 189,
+        "icon": "/coc/home/defenses/cannon/normal/level-15.png"
+      },
+      {
+        "level": 16,
+        "cost": 1300000,
+        "resource": "gold",
+        "timeSeconds": 39600,
+        "hallRequired": 12,
+        "xp": 198,
+        "icon": "/coc/home/defenses/cannon/normal/level-16.png"
+      },
+      {
+        "level": 17,
+        "cost": 1500000,
+        "resource": "gold",
+        "timeSeconds": 43200,
+        "hallRequired": 12,
+        "xp": 207,
+        "icon": "/coc/home/defenses/cannon/normal/level-17.png"
+      },
+      {
+        "level": 18,
+        "cost": 1800000,
+        "resource": "gold",
+        "timeSeconds": 57600,
+        "hallRequired": 13,
+        "xp": 240,
+        "icon": "/coc/home/defenses/cannon/normal/level-18.png"
+      },
+      {
+        "level": 19,
+        "cost": 2000000,
+        "resource": "gold",
+        "timeSeconds": 72000,
+        "hallRequired": 13,
+        "xp": 268,
+        "icon": "/coc/home/defenses/cannon/normal/level-19.png"
+      },
+      {
+        "level": 20,
+        "cost": 2600000,
+        "resource": "gold",
+        "timeSeconds": 86400,
+        "hallRequired": 14,
+        "xp": 293,
+        "icon": "/coc/home/defenses/cannon/normal/level-20.png"
+      },
+      {
+        "level": 21,
+        "cost": 3000000,
+        "resource": "gold",
+        "timeSeconds": 129600,
+        "hallRequired": 15,
+        "xp": 360,
+        "icon": "/coc/home/defenses/cannon/normal/level-21.png"
+      }
+    ]
+  },
+  {
+    "key": "crafting-station",
+    "name": "Crafting Station",
+    "base": "home",
+    "category": "defense",
+    "size": "3x3",
+    "maxLevel": 1,
+    "icon": "/coc/home/defenses/crafting-station/normal/level-1.png",
+    "availablePerHall": [
+      {
+        "hall": 18,
+        "count": 1
+      }
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": 0,
+        "resource": "elixir",
+        "timeSeconds": 0,
+        "hallRequired": 18,
+        "xp": 0,
+        "icon": "/coc/home/defenses/crafting-station/normal/level-1.png"
+      }
+    ]
+  },
+  {
+    "key": "eagle-artillery",
+    "name": "Eagle Artillery",
+    "base": "home",
+    "category": "defense",
+    "size": "4x4",
+    "maxLevel": 7,
+    "icon": "/coc/home/defenses/eagle-artillery/normal/level-7.png",
+    "availablePerHall": [
+      {
+        "hall": 11,
+        "count": 1
+      },
+      {
+        "hall": 12,
+        "count": 1
+      },
+      {
+        "hall": 13,
+        "count": 1
+      },
+      {
+        "hall": 14,
+        "count": 1
+      },
+      {
+        "hall": 15,
+        "count": 1
+      },
+      {
+        "hall": 16,
+        "count": 1
+      },
+      {
+        "hall": 17,
+        "count": 0
+      },
+      {
+        "hall": 18,
+        "count": 0
+      }
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": 5000000,
+        "resource": "gold",
+        "timeSeconds": 345600,
+        "hallRequired": 11,
+        "xp": 587,
+        "icon": "/coc/home/defenses/eagle-artillery/normal/level-1.png"
+      },
+      {
+        "level": 2,
+        "cost": 6000000,
+        "resource": "gold",
+        "timeSeconds": 432000,
+        "hallRequired": 11,
+        "xp": 657,
+        "icon": "/coc/home/defenses/eagle-artillery/normal/level-2.png"
+      },
+      {
+        "level": 3,
+        "cost": 9000000,
+        "resource": "gold",
+        "timeSeconds": 604800,
+        "hallRequired": 12,
+        "xp": 777,
+        "icon": "/coc/home/defenses/eagle-artillery/normal/level-3.png"
+      },
+      {
+        "level": 4,
+        "cost": 10000000,
+        "resource": "gold",
+        "timeSeconds": 648000,
+        "hallRequired": 13,
+        "xp": 804,
+        "icon": "/coc/home/defenses/eagle-artillery/normal/level-4.png"
+      },
+      {
+        "level": 5,
+        "cost": 12000000,
+        "resource": "gold",
+        "timeSeconds": 691200,
+        "hallRequired": 14,
+        "xp": 831,
+        "icon": "/coc/home/defenses/eagle-artillery/normal/level-5.png"
+      },
+      {
+        "level": 6,
+        "cost": 13000000,
+        "resource": "gold",
+        "timeSeconds": 777600,
+        "hallRequired": 15,
+        "xp": 881,
+        "icon": "/coc/home/defenses/eagle-artillery/normal/level-6.png"
+      },
+      {
+        "level": 7,
+        "cost": 14000000,
+        "resource": "gold",
+        "timeSeconds": 820800,
+        "hallRequired": 16,
+        "xp": 905,
+        "icon": "/coc/home/defenses/eagle-artillery/normal/level-7.png"
+      }
+    ]
+  },
+  {
+    "key": "firespitter",
+    "name": "Firespitter",
+    "base": "home",
+    "category": "defense",
+    "size": "3x3",
+    "maxLevel": 3,
+    "icon": "/coc/home/defenses/firespitter/normal/level-3.png",
+    "availablePerHall": [
+      {
+        "hall": 17,
+        "count": 2
+      },
+      {
+        "hall": 18,
+        "count": 2
+      }
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": 17000000,
+        "resource": "gold",
+        "timeSeconds": 950400,
+        "hallRequired": 17,
+        "xp": 974,
+        "icon": "/coc/home/defenses/firespitter/normal/level-1.png"
+      },
+      {
+        "level": 2,
+        "cost": 18000000,
+        "resource": "gold",
+        "timeSeconds": 993600,
+        "hallRequired": 17,
+        "xp": 996,
+        "icon": "/coc/home/defenses/firespitter/normal/level-2.png"
+      },
+      {
+        "level": 3,
+        "cost": 29000000,
+        "resource": "gold",
+        "timeSeconds": 1296000,
+        "hallRequired": 18,
+        "xp": 1138,
+        "icon": "/coc/home/defenses/firespitter/normal/level-3.png"
+      }
+    ]
+  },
+  {
+    "key": "hidden-tesla",
+    "name": "Hidden Tesla",
+    "base": "home",
+    "category": "defense",
+    "size": "2x2",
+    "maxLevel": 17,
+    "icon": "/coc/home/defenses/hidden-tesla/normal/level-17.png",
+    "availablePerHall": [
+      {
+        "hall": 7,
+        "count": 2
+      },
+      {
+        "hall": 8,
+        "count": 3
+      },
+      {
+        "hall": 9,
+        "count": 4
+      },
+      {
+        "hall": 10,
+        "count": 4
+      },
+      {
+        "hall": 11,
+        "count": 4
+      },
+      {
+        "hall": 12,
+        "count": 5
+      },
+      {
+        "hall": 13,
+        "count": 5
+      },
+      {
+        "hall": 14,
+        "count": 5
+      },
+      {
+        "hall": 15,
+        "count": 5
+      },
+      {
+        "hall": 16,
+        "count": 5
+      },
+      {
+        "hall": 17,
+        "count": 5
+      },
+      {
+        "hall": 18,
+        "count": 5
+      }
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": 250000,
+        "resource": "gold",
+        "timeSeconds": 7200,
+        "hallRequired": 7,
+        "xp": 84,
+        "icon": "/coc/home/defenses/hidden-tesla/normal/level-1.png"
+      },
+      {
+        "level": 2,
+        "cost": 350000,
+        "resource": "gold",
+        "timeSeconds": 10800,
+        "hallRequired": 7,
+        "xp": 103,
+        "icon": "/coc/home/defenses/hidden-tesla/normal/level-2.png"
+      },
+      {
+        "level": 3,
+        "cost": 500000,
+        "resource": "gold",
+        "timeSeconds": 14400,
+        "hallRequired": 7,
+        "xp": 120,
+        "icon": "/coc/home/defenses/hidden-tesla/normal/level-3.png"
+      },
+      {
+        "level": 4,
+        "cost": 600000,
+        "resource": "gold",
+        "timeSeconds": 21600,
+        "hallRequired": 8,
+        "xp": 146,
+        "icon": "/coc/home/defenses/hidden-tesla/normal/level-4.png"
+      },
+      {
+        "level": 5,
+        "cost": 800000,
+        "resource": "gold",
+        "timeSeconds": 43200,
+        "hallRequired": 8,
+        "xp": 207,
+        "icon": "/coc/home/defenses/hidden-tesla/normal/level-5.png"
+      },
+      {
+        "level": 6,
+        "cost": 1200000,
+        "resource": "gold",
+        "timeSeconds": 86400,
+        "hallRequired": 8,
+        "xp": 293,
+        "icon": "/coc/home/defenses/hidden-tesla/normal/level-6.png"
+      },
+      {
+        "level": 7,
+        "cost": 1400000,
+        "resource": "gold",
+        "timeSeconds": 108000,
+        "hallRequired": 9,
+        "xp": 328,
+        "icon": "/coc/home/defenses/hidden-tesla/normal/level-7.png"
+      },
+      {
+        "level": 8,
+        "cost": 1600000,
+        "resource": "gold",
+        "timeSeconds": 129600,
+        "hallRequired": 10,
+        "xp": 360,
+        "icon": "/coc/home/defenses/hidden-tesla/normal/level-8.png"
+      },
+      {
+        "level": 9,
+        "cost": 2100000,
+        "resource": "gold",
+        "timeSeconds": 151200,
+        "hallRequired": 11,
+        "xp": 388,
+        "icon": "/coc/home/defenses/hidden-tesla/normal/level-9.png"
+      },
+      {
+        "level": 10,
+        "cost": 3000000,
+        "resource": "gold",
+        "timeSeconds": 172800,
+        "hallRequired": 12,
+        "xp": 415,
+        "icon": "/coc/home/defenses/hidden-tesla/normal/level-10.png"
+      },
+      {
+        "level": 11,
+        "cost": 3100000,
+        "resource": "gold",
+        "timeSeconds": 216000,
+        "hallRequired": 13,
+        "xp": 464,
+        "icon": "/coc/home/defenses/hidden-tesla/normal/level-11.png"
+      },
+      {
+        "level": 12,
+        "cost": 3700000,
+        "resource": "gold",
+        "timeSeconds": 259200,
+        "hallRequired": 13,
+        "xp": 509,
+        "icon": "/coc/home/defenses/hidden-tesla/normal/level-12.png"
+      },
+      {
+        "level": 13,
+        "cost": 5100000,
+        "resource": "gold",
+        "timeSeconds": 302400,
+        "hallRequired": 14,
+        "xp": 549,
+        "icon": "/coc/home/defenses/hidden-tesla/normal/level-13.png"
+      },
+      {
+        "level": 14,
+        "cost": 6500000,
+        "resource": "gold",
+        "timeSeconds": 345600,
+        "hallRequired": 15,
+        "xp": 587,
+        "icon": "/coc/home/defenses/hidden-tesla/normal/level-14.png"
+      },
+      {
+        "level": 15,
+        "cost": 8200000,
+        "resource": "gold",
+        "timeSeconds": 432000,
+        "hallRequired": 16,
+        "xp": 657,
+        "icon": "/coc/home/defenses/hidden-tesla/normal/level-15.png"
+      },
+      {
+        "level": 16,
+        "cost": 15000000,
+        "resource": "gold",
+        "timeSeconds": 777600,
+        "hallRequired": 17,
+        "xp": 881,
+        "icon": "/coc/home/defenses/hidden-tesla/normal/level-16.png"
+      },
+      {
+        "level": 17,
+        "cost": 25000000,
+        "resource": "gold",
+        "timeSeconds": 1123200,
+        "hallRequired": 18,
+        "xp": 1059,
+        "icon": "/coc/home/defenses/hidden-tesla/normal/level-17.png"
+      }
+    ]
+  },
+  {
+    "key": "inferno-tower",
+    "name": "Inferno Tower",
+    "base": "home",
+    "category": "defense",
+    "size": "2x2",
+    "maxLevel": 12,
+    "icon": "/coc/home/defenses/inferno-tower/normal/level-12.png",
+    "availablePerHall": [
+      {
+        "hall": 10,
+        "count": 2
+      },
+      {
+        "hall": 11,
+        "count": 2
+      },
+      {
+        "hall": 12,
+        "count": 3
+      },
+      {
+        "hall": 13,
+        "count": 3
+      },
+      {
+        "hall": 14,
+        "count": 3
+      },
+      {
+        "hall": 15,
+        "count": 3
+      },
+      {
+        "hall": 16,
+        "count": 3
+      },
+      {
+        "hall": 17,
+        "count": 3
+      },
+      {
+        "hall": 18,
+        "count": 3
+      }
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": 1000000,
+        "resource": "gold",
+        "timeSeconds": 43200,
+        "hallRequired": 10,
+        "xp": 207,
+        "icon": "/coc/home/defenses/inferno-tower/normal/level-1.png"
+      },
+      {
+        "level": 2,
+        "cost": 1200000,
+        "resource": "gold",
+        "timeSeconds": 86400,
+        "hallRequired": 10,
+        "xp": 293,
+        "icon": "/coc/home/defenses/inferno-tower/normal/level-2.png"
+      },
+      {
+        "level": 3,
+        "cost": 2400000,
+        "resource": "gold",
+        "timeSeconds": 172800,
+        "hallRequired": 10,
+        "xp": 415,
+        "icon": "/coc/home/defenses/inferno-tower/normal/level-3.png"
+      },
+      {
+        "level": 4,
+        "cost": 3400000,
+        "resource": "gold",
+        "timeSeconds": 216000,
+        "hallRequired": 11,
+        "xp": 464,
+        "icon": "/coc/home/defenses/inferno-tower/normal/level-4.png"
+      },
+      {
+        "level": 5,
+        "cost": 4200000,
+        "resource": "gold",
+        "timeSeconds": 259200,
+        "hallRequired": 11,
+        "xp": 509,
+        "icon": "/coc/home/defenses/inferno-tower/normal/level-5.png"
+      },
+      {
+        "level": 6,
+        "cost": 6000000,
+        "resource": "gold",
+        "timeSeconds": 345600,
+        "hallRequired": 12,
+        "xp": 587,
+        "icon": "/coc/home/defenses/inferno-tower/normal/level-6.png"
+      },
+      {
+        "level": 7,
+        "cost": 8000000,
+        "resource": "gold",
+        "timeSeconds": 432000,
+        "hallRequired": 13,
+        "xp": 657,
+        "icon": "/coc/home/defenses/inferno-tower/normal/level-7.png"
+      },
+      {
+        "level": 8,
+        "cost": 9500000,
+        "resource": "gold",
+        "timeSeconds": 518400,
+        "hallRequired": 14,
+        "xp": 720,
+        "icon": "/coc/home/defenses/inferno-tower/normal/level-8.png"
+      },
+      {
+        "level": 9,
+        "cost": 10000000,
+        "resource": "gold",
+        "timeSeconds": 561600,
+        "hallRequired": 15,
+        "xp": 749,
+        "icon": "/coc/home/defenses/inferno-tower/normal/level-9.png"
+      },
+      {
+        "level": 10,
+        "cost": 11000000,
+        "resource": "gold",
+        "timeSeconds": 604800,
+        "hallRequired": 16,
+        "xp": 777,
+        "icon": "/coc/home/defenses/inferno-tower/normal/level-10.png"
+      },
+      {
+        "level": 11,
+        "cost": 16000000,
+        "resource": "gold",
+        "timeSeconds": 1036800,
+        "hallRequired": 17,
+        "xp": 1018,
+        "icon": "/coc/home/defenses/inferno-tower/normal/level-11.png"
+      },
+      {
+        "level": 12,
+        "cost": 26500000,
+        "resource": "gold",
+        "timeSeconds": 1166400,
+        "hallRequired": 18,
+        "xp": 1080,
+        "icon": "/coc/home/defenses/inferno-tower/normal/level-12.png"
+      }
+    ]
+  },
+  {
+    "key": "monolith",
+    "name": "Monolith",
+    "base": "home",
+    "category": "defense",
+    "size": "3x3",
+    "maxLevel": 4,
+    "icon": "/coc/home/defenses/monolith/normal/level-4.png",
+    "availablePerHall": [
+      {
+        "hall": 14,
+        "count": 1
+      },
+      {
+        "hall": 15,
+        "count": 1
+      },
+      {
+        "hall": 16,
+        "count": 1
+      },
+      {
+        "hall": 17,
+        "count": 1
+      },
+      {
+        "hall": 18,
+        "count": 1
+      }
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": 200000,
+        "resource": "darkElixir",
+        "timeSeconds": 604800,
+        "hallRequired": 15,
+        "xp": 777,
+        "icon": "/coc/home/defenses/monolith/normal/level-1.png"
+      },
+      {
+        "level": 2,
+        "cost": 250000,
+        "resource": "darkElixir",
+        "timeSeconds": 691200,
+        "hallRequired": 15,
+        "xp": 831,
+        "icon": "/coc/home/defenses/monolith/normal/level-2.png"
+      },
+      {
+        "level": 3,
+        "cost": 260000,
+        "resource": "darkElixir",
+        "timeSeconds": 777600,
+        "hallRequired": 16,
+        "xp": 881,
+        "icon": "/coc/home/defenses/monolith/normal/level-3.png"
+      },
+      {
+        "level": 4,
+        "cost": 300000,
+        "resource": "darkElixir",
+        "timeSeconds": 1036800,
+        "hallRequired": 17,
+        "xp": 1018,
+        "icon": "/coc/home/defenses/monolith/normal/level-4.png"
+      }
+    ]
+  },
+  {
+    "key": "mortar",
+    "name": "Mortar",
+    "base": "home",
+    "category": "defense",
+    "size": "3x3",
+    "maxLevel": 18,
+    "icon": "/coc/home/defenses/mortar/normal/level-18.png",
+    "availablePerHall": [
+      {
+        "hall": 3,
+        "count": 1
+      },
+      {
+        "hall": 4,
+        "count": 1
+      },
+      {
+        "hall": 5,
+        "count": 1
+      },
+      {
+        "hall": 6,
+        "count": 2
+      },
+      {
+        "hall": 7,
+        "count": 3
+      },
+      {
+        "hall": 8,
+        "count": 4
+      },
+      {
+        "hall": 9,
+        "count": 4
+      },
+      {
+        "hall": 10,
+        "count": 4
+      },
+      {
+        "hall": 11,
+        "count": 4
+      },
+      {
+        "hall": 12,
+        "count": 4
+      },
+      {
+        "hall": 13,
+        "count": 4
+      },
+      {
+        "hall": 14,
+        "count": 4
+      },
+      {
+        "hall": 15,
+        "count": 4
+      },
+      {
+        "hall": 16,
+        "count": 4
+      },
+      {
+        "hall": 17,
+        "count": 4
+      },
+      {
+        "hall": 18,
+        "count": 4
+      }
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": 5000,
+        "resource": "gold",
+        "timeSeconds": 1800,
+        "hallRequired": 3,
+        "xp": 42,
+        "icon": "/coc/home/defenses/mortar/normal/level-1.png"
+      },
+      {
+        "level": 2,
+        "cost": 25000,
+        "resource": "gold",
+        "timeSeconds": 3600,
+        "hallRequired": 4,
+        "xp": 60,
+        "icon": "/coc/home/defenses/mortar/normal/level-2.png"
+      },
+      {
+        "level": 3,
+        "cost": 90000,
+        "resource": "gold",
+        "timeSeconds": 7200,
+        "hallRequired": 5,
+        "xp": 84,
+        "icon": "/coc/home/defenses/mortar/normal/level-3.png"
+      },
+      {
+        "level": 4,
+        "cost": 180000,
+        "resource": "gold",
+        "timeSeconds": 10800,
+        "hallRequired": 6,
+        "xp": 103,
+        "icon": "/coc/home/defenses/mortar/normal/level-4.png"
+      },
+      {
+        "level": 5,
+        "cost": 300000,
+        "resource": "gold",
+        "timeSeconds": 21600,
+        "hallRequired": 7,
+        "xp": 146,
+        "icon": "/coc/home/defenses/mortar/normal/level-5.png"
+      },
+      {
+        "level": 6,
+        "cost": 500000,
+        "resource": "gold",
+        "timeSeconds": 28800,
+        "hallRequired": 8,
+        "xp": 169,
+        "icon": "/coc/home/defenses/mortar/normal/level-6.png"
+      },
+      {
+        "level": 7,
+        "cost": 900000,
+        "resource": "gold",
+        "timeSeconds": 43200,
+        "hallRequired": 9,
+        "xp": 207,
+        "icon": "/coc/home/defenses/mortar/normal/level-7.png"
+      },
+      {
+        "level": 8,
+        "cost": 1200000,
+        "resource": "gold",
+        "timeSeconds": 64800,
+        "hallRequired": 10,
+        "xp": 254,
+        "icon": "/coc/home/defenses/mortar/normal/level-8.png"
+      },
+      {
+        "level": 9,
+        "cost": 1600000,
+        "resource": "gold",
+        "timeSeconds": 72000,
+        "hallRequired": 11,
+        "xp": 268,
+        "icon": "/coc/home/defenses/mortar/normal/level-9.png"
+      },
+      {
+        "level": 10,
+        "cost": 1800000,
+        "resource": "gold",
+        "timeSeconds": 86400,
+        "hallRequired": 11,
+        "xp": 293,
+        "icon": "/coc/home/defenses/mortar/normal/level-10.png"
+      },
+      {
+        "level": 11,
+        "cost": 2300000,
+        "resource": "gold",
+        "timeSeconds": 108000,
+        "hallRequired": 12,
+        "xp": 328,
+        "icon": "/coc/home/defenses/mortar/normal/level-11.png"
+      },
+      {
+        "level": 12,
+        "cost": 2400000,
+        "resource": "gold",
+        "timeSeconds": 129600,
+        "hallRequired": 12,
+        "xp": 360,
+        "icon": "/coc/home/defenses/mortar/normal/level-12.png"
+      },
+      {
+        "level": 13,
+        "cost": 2800000,
+        "resource": "gold",
+        "timeSeconds": 172800,
+        "hallRequired": 13,
+        "xp": 415,
+        "icon": "/coc/home/defenses/mortar/normal/level-13.png"
+      },
+      {
+        "level": 14,
+        "cost": 4300000,
+        "resource": "gold",
+        "timeSeconds": 216000,
+        "hallRequired": 14,
+        "xp": 464,
+        "icon": "/coc/home/defenses/mortar/normal/level-14.png"
+      },
+      {
+        "level": 15,
+        "cost": 5000000,
+        "resource": "gold",
+        "timeSeconds": 259200,
+        "hallRequired": 15,
+        "xp": 509,
+        "icon": "/coc/home/defenses/mortar/normal/level-15.png"
+      },
+      {
+        "level": 16,
+        "cost": 7000000,
+        "resource": "gold",
+        "timeSeconds": 345600,
+        "hallRequired": 16,
+        "xp": 587,
+        "icon": "/coc/home/defenses/mortar/normal/level-16.png"
+      },
+      {
+        "level": 17,
+        "cost": 13000000,
+        "resource": "gold",
+        "timeSeconds": 691200,
+        "hallRequired": 17,
+        "xp": 831,
+        "icon": "/coc/home/defenses/mortar/normal/level-17.png"
+      },
+      {
+        "level": 18,
+        "cost": 21000000,
+        "resource": "gold",
+        "timeSeconds": 1080000,
+        "hallRequired": 18,
+        "xp": 1039,
+        "icon": "/coc/home/defenses/mortar/normal/level-18.png"
+      }
+    ]
+  },
+  {
+    "key": "multi-archer-tower",
+    "name": "Multi-Archer Tower",
+    "base": "home",
+    "category": "defense",
+    "size": "3x3",
+    "maxLevel": 4,
+    "icon": "/coc/home/defenses/multi-archer-tower/normal/level-4.png",
+    "availablePerHall": [
+      {
+        "hall": 16,
+        "count": 2
+      },
+      {
+        "hall": 17,
+        "count": 3
+      },
+      {
+        "hall": 18,
+        "count": 3
+      }
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": 12000000,
+        "resource": "gold",
+        "timeSeconds": 604800,
+        "hallRequired": 16,
+        "xp": 777,
+        "icon": "/coc/home/defenses/multi-archer-tower/normal/level-1.png"
+      },
+      {
+        "level": 2,
+        "cost": 13000000,
+        "resource": "gold",
+        "timeSeconds": 691200,
+        "hallRequired": 16,
+        "xp": 831,
+        "icon": "/coc/home/defenses/multi-archer-tower/normal/level-2.png"
+      },
+      {
+        "level": 3,
+        "cost": 17500000,
+        "resource": "gold",
+        "timeSeconds": 928800,
+        "hallRequired": 17,
+        "xp": 963,
+        "icon": "/coc/home/defenses/multi-archer-tower/normal/level-3.png"
+      },
+      {
+        "level": 4,
+        "cost": 27000000,
+        "resource": "gold",
+        "timeSeconds": 1209600,
+        "hallRequired": 18,
+        "xp": 1099,
+        "icon": "/coc/home/defenses/multi-archer-tower/normal/level-4.png"
+      }
+    ]
+  },
+  {
+    "key": "multi-gear-tower",
+    "name": "Multi-Gear Tower",
+    "base": "home",
+    "category": "defense",
+    "size": "3x3",
+    "maxLevel": 3,
+    "icon": "/coc/home/defenses/multi-gear-tower/normal/level-3.png",
+    "availablePerHall": [
+      {
+        "hall": 17,
+        "count": 1
+      },
+      {
+        "hall": 18,
+        "count": 1
+      }
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": 17000000,
+        "resource": "gold",
+        "timeSeconds": 864000,
+        "hallRequired": 17,
+        "xp": 929,
+        "icon": "/coc/home/defenses/multi-gear-tower/normal/level-1.png"
+      },
+      {
+        "level": 2,
+        "cost": 18000000,
+        "resource": "gold",
+        "timeSeconds": 928800,
+        "hallRequired": 17,
+        "xp": 963,
+        "icon": "/coc/home/defenses/multi-gear-tower/normal/level-2.png"
+      },
+      {
+        "level": 3,
+        "cost": 28000000,
+        "resource": "gold",
+        "timeSeconds": 1209600,
+        "hallRequired": 18,
+        "xp": 1099,
+        "icon": "/coc/home/defenses/multi-gear-tower/normal/level-3.png"
+      }
+    ]
+  },
+  {
+    "key": "revenge-tower",
+    "name": "Revenge Tower",
+    "base": "home",
+    "category": "defense",
+    "size": "3x3",
+    "maxLevel": 2,
+    "icon": "/coc/home/defenses/revenge-tower/normal/level-2.png",
+    "availablePerHall": [
+      {
+        "hall": 18,
+        "count": 1
+      }
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": 430000,
+        "resource": "darkElixir",
+        "timeSeconds": 1123205,
+        "hallRequired": 18,
+        "xp": 1059,
+        "icon": "/coc/home/defenses/revenge-tower/normal/level-1.png"
+      },
+      {
+        "level": 2,
+        "cost": 460000,
+        "resource": "darkElixir",
+        "timeSeconds": 1209600,
+        "hallRequired": 18,
+        "xp": 1099,
+        "icon": "/coc/home/defenses/revenge-tower/normal/level-2.png"
+      }
+    ]
+  },
+  {
+    "key": "ricochet-cannon",
+    "name": "Ricochet Cannon",
+    "base": "home",
+    "category": "defense",
+    "size": "3x3",
+    "maxLevel": 4,
+    "icon": "/coc/home/defenses/ricochet-cannon/normal/level-4.png",
+    "availablePerHall": [
+      {
+        "hall": 16,
+        "count": 2
+      },
+      {
+        "hall": 17,
+        "count": 3
+      },
+      {
+        "hall": 18,
+        "count": 3
+      }
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": 12000000,
+        "resource": "gold",
+        "timeSeconds": 604800,
+        "hallRequired": 16,
+        "xp": 777,
+        "icon": "/coc/home/defenses/ricochet-cannon/normal/level-1.png"
+      },
+      {
+        "level": 2,
+        "cost": 13000000,
+        "resource": "gold",
+        "timeSeconds": 691200,
+        "hallRequired": 16,
+        "xp": 831,
+        "icon": "/coc/home/defenses/ricochet-cannon/normal/level-2.png"
+      },
+      {
+        "level": 3,
+        "cost": 17500000,
+        "resource": "gold",
+        "timeSeconds": 928800,
+        "hallRequired": 17,
+        "xp": 963,
+        "icon": "/coc/home/defenses/ricochet-cannon/normal/level-3.png"
+      },
+      {
+        "level": 4,
+        "cost": 26500000,
+        "resource": "gold",
+        "timeSeconds": 1166400,
+        "hallRequired": 18,
+        "xp": 1080,
+        "icon": "/coc/home/defenses/ricochet-cannon/normal/level-4.png"
+      }
+    ]
+  },
+  {
+    "key": "scattershot",
+    "name": "Scattershot",
+    "base": "home",
+    "category": "defense",
+    "size": "3x3",
+    "maxLevel": 6,
+    "icon": "/coc/home/defenses/scattershot/normal/level-6.png",
+    "availablePerHall": [
+      {
+        "hall": 13,
+        "count": 2
+      },
+      {
+        "hall": 14,
+        "count": 2
+      },
+      {
+        "hall": 15,
+        "count": 2
+      },
+      {
+        "hall": 16,
+        "count": 2
+      },
+      {
+        "hall": 17,
+        "count": 2
+      },
+      {
+        "hall": 18,
+        "count": 2
+      }
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": 8000000,
+        "resource": "gold",
+        "timeSeconds": 518400,
+        "hallRequired": 13,
+        "xp": 720,
+        "icon": "/coc/home/defenses/scattershot/normal/level-1.png"
+      },
+      {
+        "level": 2,
+        "cost": 9000000,
+        "resource": "gold",
+        "timeSeconds": 604800,
+        "hallRequired": 13,
+        "xp": 777,
+        "icon": "/coc/home/defenses/scattershot/normal/level-2.png"
+      },
+      {
+        "level": 3,
+        "cost": 11000000,
+        "resource": "gold",
+        "timeSeconds": 648000,
+        "hallRequired": 14,
+        "xp": 804,
+        "icon": "/coc/home/defenses/scattershot/normal/level-3.png"
+      },
+      {
+        "level": 4,
+        "cost": 11500000,
+        "resource": "gold",
+        "timeSeconds": 691200,
+        "hallRequired": 15,
+        "xp": 831,
+        "icon": "/coc/home/defenses/scattershot/normal/level-4.png"
+      },
+      {
+        "level": 5,
+        "cost": 12000000,
+        "resource": "gold",
+        "timeSeconds": 734400,
+        "hallRequired": 16,
+        "xp": 856,
+        "icon": "/coc/home/defenses/scattershot/normal/level-5.png"
+      },
+      {
+        "level": 6,
+        "cost": 16500000,
+        "resource": "gold",
+        "timeSeconds": 907200,
+        "hallRequired": 17,
+        "xp": 952,
+        "icon": "/coc/home/defenses/scattershot/normal/level-6.png"
+      }
+    ]
+  },
+  {
+    "key": "spell-tower",
+    "name": "Spell Tower",
+    "base": "home",
+    "category": "defense",
+    "size": "2x2",
+    "maxLevel": 4,
+    "icon": "/coc/home/defenses/spell-tower/normal/level-4.png",
+    "availablePerHall": [
+      {
+        "hall": 15,
+        "count": 2
+      },
+      {
+        "hall": 16,
+        "count": 2
+      },
+      {
+        "hall": 17,
+        "count": 2
+      },
+      {
+        "hall": 18,
+        "count": 2
+      }
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": 9000000,
+        "resource": "gold",
+        "timeSeconds": 604800,
+        "hallRequired": 15,
+        "xp": 777,
+        "icon": "/coc/home/defenses/spell-tower/normal/level-1.png"
+      },
+      {
+        "level": 2,
+        "cost": 11000000,
+        "resource": "gold",
+        "timeSeconds": 691200,
+        "hallRequired": 15,
+        "xp": 831,
+        "icon": "/coc/home/defenses/spell-tower/normal/level-2.png"
+      },
+      {
+        "level": 3,
+        "cost": 12000000,
+        "resource": "gold",
+        "timeSeconds": 734400,
+        "hallRequired": 15,
+        "xp": 856,
+        "icon": "/coc/home/defenses/spell-tower/normal/level-3.png"
+      },
+      {
+        "level": 4,
+        "cost": 27000000,
+        "resource": "gold",
+        "timeSeconds": 1209600,
+        "hallRequired": 17,
+        "xp": 1099,
+        "icon": "/coc/home/defenses/spell-tower/normal/level-4.png"
+      }
+    ]
+  },
+  {
+    "key": "super-wizard-tower",
+    "name": "Super Wizard Tower",
+    "base": "home",
+    "category": "defense",
+    "size": "3x3",
+    "maxLevel": 2,
+    "icon": "/coc/home/defenses/super-wizard-tower/normal/level-2.png",
+    "availablePerHall": [
+      {
+        "hall": 18,
+        "count": 2
+      }
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": 29000000,
+        "resource": "gold",
+        "timeSeconds": 1123200,
+        "hallRequired": 18,
+        "xp": 1059,
+        "icon": "/coc/home/defenses/super-wizard-tower/normal/level-1.png"
+      },
+      {
+        "level": 2,
+        "cost": 30000000,
+        "resource": "gold",
+        "timeSeconds": 1209600,
+        "hallRequired": 18,
+        "xp": 1099,
+        "icon": "/coc/home/defenses/super-wizard-tower/normal/level-2.png"
+      }
+    ]
+  },
+  {
+    "key": "wizard-tower",
+    "name": "Wizard Tower",
+    "base": "home",
+    "category": "defense",
+    "size": "3x3",
+    "maxLevel": 17,
+    "icon": "/coc/home/defenses/wizard-tower/normal/level-17.png",
+    "availablePerHall": [
+      {
+        "hall": 5,
+        "count": 1
+      },
+      {
+        "hall": 6,
+        "count": 2
+      },
+      {
+        "hall": 7,
+        "count": 2
+      },
+      {
+        "hall": 8,
+        "count": 3
+      },
+      {
+        "hall": 9,
+        "count": 4
+      },
+      {
+        "hall": 10,
+        "count": 4
+      },
+      {
+        "hall": 11,
+        "count": 5
+      },
+      {
+        "hall": 12,
+        "count": 5
+      },
+      {
+        "hall": 13,
+        "count": 5
+      },
+      {
+        "hall": 14,
+        "count": 5
+      },
+      {
+        "hall": 15,
+        "count": 5
+      },
+      {
+        "hall": 16,
+        "count": 5
+      },
+      {
+        "hall": 17,
+        "count": 5
+      },
+      {
+        "hall": 18,
+        "count": 6,
+        "countAfterMerges": 2
+      }
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": 100000,
+        "resource": "gold",
+        "timeSeconds": 3600,
+        "hallRequired": 5,
+        "xp": 60,
+        "icon": "/coc/home/defenses/wizard-tower/normal/level-1.png"
+      },
+      {
+        "level": 2,
+        "cost": 150000,
+        "resource": "gold",
+        "timeSeconds": 5400,
+        "hallRequired": 5,
+        "xp": 73,
+        "icon": "/coc/home/defenses/wizard-tower/normal/level-2.png"
+      },
+      {
+        "level": 3,
+        "cost": 250000,
+        "resource": "gold",
+        "timeSeconds": 14400,
+        "hallRequired": 6,
+        "xp": 120,
+        "icon": "/coc/home/defenses/wizard-tower/normal/level-3.png"
+      },
+      {
+        "level": 4,
+        "cost": 400000,
+        "resource": "gold",
+        "timeSeconds": 28800,
+        "hallRequired": 7,
+        "xp": 169,
+        "icon": "/coc/home/defenses/wizard-tower/normal/level-4.png"
+      },
+      {
+        "level": 5,
+        "cost": 550000,
+        "resource": "gold",
+        "timeSeconds": 36000,
+        "hallRequired": 8,
+        "xp": 189,
+        "icon": "/coc/home/defenses/wizard-tower/normal/level-5.png"
+      },
+      {
+        "level": 6,
+        "cost": 660000,
+        "resource": "gold",
+        "timeSeconds": 43200,
+        "hallRequired": 8,
+        "xp": 207,
+        "icon": "/coc/home/defenses/wizard-tower/normal/level-6.png"
+      },
+      {
+        "level": 7,
+        "cost": 1000000,
+        "resource": "gold",
+        "timeSeconds": 64800,
+        "hallRequired": 9,
+        "xp": 254,
+        "icon": "/coc/home/defenses/wizard-tower/normal/level-7.png"
+      },
+      {
+        "level": 8,
+        "cost": 1100000,
+        "resource": "gold",
+        "timeSeconds": 72000,
+        "hallRequired": 10,
+        "xp": 268,
+        "icon": "/coc/home/defenses/wizard-tower/normal/level-8.png"
+      },
+      {
+        "level": 9,
+        "cost": 1300000,
+        "resource": "gold",
+        "timeSeconds": 86400,
+        "hallRequired": 10,
+        "xp": 293,
+        "icon": "/coc/home/defenses/wizard-tower/normal/level-9.png"
+      },
+      {
+        "level": 10,
+        "cost": 2000000,
+        "resource": "gold",
+        "timeSeconds": 108000,
+        "hallRequired": 11,
+        "xp": 328,
+        "icon": "/coc/home/defenses/wizard-tower/normal/level-10.png"
+      },
+      {
+        "level": 11,
+        "cost": 2500000,
+        "resource": "gold",
+        "timeSeconds": 129600,
+        "hallRequired": 12,
+        "xp": 360,
+        "icon": "/coc/home/defenses/wizard-tower/normal/level-11.png"
+      },
+      {
+        "level": 12,
+        "cost": 2600000,
+        "resource": "gold",
+        "timeSeconds": 151200,
+        "hallRequired": 13,
+        "xp": 388,
+        "icon": "/coc/home/defenses/wizard-tower/normal/level-12.png"
+      },
+      {
+        "level": 13,
+        "cost": 3000000,
+        "resource": "gold",
+        "timeSeconds": 172800,
+        "hallRequired": 13,
+        "xp": 415,
+        "icon": "/coc/home/defenses/wizard-tower/normal/level-13.png"
+      },
+      {
+        "level": 14,
+        "cost": 4500000,
+        "resource": "gold",
+        "timeSeconds": 259200,
+        "hallRequired": 14,
+        "xp": 509,
+        "icon": "/coc/home/defenses/wizard-tower/normal/level-14.png"
+      },
+      {
+        "level": 15,
+        "cost": 5500000,
+        "resource": "gold",
+        "timeSeconds": 345600,
+        "hallRequired": 15,
+        "xp": 587,
+        "icon": "/coc/home/defenses/wizard-tower/normal/level-15.png"
+      },
+      {
+        "level": 16,
+        "cost": 8000000,
+        "resource": "gold",
+        "timeSeconds": 388800,
+        "hallRequired": 16,
+        "xp": 623,
+        "icon": "/coc/home/defenses/wizard-tower/normal/level-16.png"
+      },
+      {
+        "level": 17,
+        "cost": 14000000,
+        "resource": "gold",
+        "timeSeconds": 734400,
+        "hallRequired": 17,
+        "xp": 856,
+        "icon": "/coc/home/defenses/wizard-tower/normal/level-17.png"
+      }
+    ]
+  },
+  {
+    "key": "x-bow",
+    "name": "X-Bow",
+    "base": "home",
+    "category": "defense",
+    "size": "4x4",
+    "maxLevel": 12,
+    "icon": "/coc/home/defenses/x-bow/normal/level-12.png",
+    "availablePerHall": [
+      {
+        "hall": 9,
+        "count": 2
+      },
+      {
+        "hall": 10,
+        "count": 3
+      },
+      {
+        "hall": 11,
+        "count": 4
+      },
+      {
+        "hall": 12,
+        "count": 4
+      },
+      {
+        "hall": 13,
+        "count": 4
+      },
+      {
+        "hall": 14,
+        "count": 4
+      },
+      {
+        "hall": 15,
+        "count": 4
+      },
+      {
+        "hall": 16,
+        "count": 4
+      },
+      {
+        "hall": 17,
+        "count": 4
+      },
+      {
+        "hall": 18,
+        "count": 4
+      }
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": 1000000,
+        "resource": "gold",
+        "timeSeconds": 43200,
+        "hallRequired": 9,
+        "xp": 207,
+        "icon": "/coc/home/defenses/x-bow/normal/level-1.png"
+      },
+      {
+        "level": 2,
+        "cost": 1200000,
+        "resource": "gold",
+        "timeSeconds": 86400,
+        "hallRequired": 9,
+        "xp": 293,
+        "icon": "/coc/home/defenses/x-bow/normal/level-2.png"
+      },
+      {
+        "level": 3,
+        "cost": 2400000,
+        "resource": "gold",
+        "timeSeconds": 172800,
+        "hallRequired": 9,
+        "xp": 415,
+        "icon": "/coc/home/defenses/x-bow/normal/level-3.png"
+      },
+      {
+        "level": 4,
+        "cost": 2500000,
+        "resource": "gold",
+        "timeSeconds": 259200,
+        "hallRequired": 10,
+        "xp": 509,
+        "icon": "/coc/home/defenses/x-bow/normal/level-4.png"
+      },
+      {
+        "level": 5,
+        "cost": 3900000,
+        "resource": "gold",
+        "timeSeconds": 302400,
+        "hallRequired": 11,
+        "xp": 549,
+        "icon": "/coc/home/defenses/x-bow/normal/level-5.png"
+      },
+      {
+        "level": 6,
+        "cost": 5000000,
+        "resource": "gold",
+        "timeSeconds": 345600,
+        "hallRequired": 12,
+        "xp": 587,
+        "icon": "/coc/home/defenses/x-bow/normal/level-6.png"
+      },
+      {
+        "level": 7,
+        "cost": 6000000,
+        "resource": "gold",
+        "timeSeconds": 367200,
+        "hallRequired": 13,
+        "xp": 605,
+        "icon": "/coc/home/defenses/x-bow/normal/level-7.png"
+      },
+      {
+        "level": 8,
+        "cost": 7000000,
+        "resource": "gold",
+        "timeSeconds": 388800,
+        "hallRequired": 13,
+        "xp": 623,
+        "icon": "/coc/home/defenses/x-bow/normal/level-8.png"
+      },
+      {
+        "level": 9,
+        "cost": 9000000,
+        "resource": "gold",
+        "timeSeconds": 432000,
+        "hallRequired": 14,
+        "xp": 657,
+        "icon": "/coc/home/defenses/x-bow/normal/level-9.png"
+      },
+      {
+        "level": 10,
+        "cost": 9500000,
+        "resource": "gold",
+        "timeSeconds": 475200,
+        "hallRequired": 15,
+        "xp": 689,
+        "icon": "/coc/home/defenses/x-bow/normal/level-10.png"
+      },
+      {
+        "level": 11,
+        "cost": 10000000,
+        "resource": "gold",
+        "timeSeconds": 518400,
+        "hallRequired": 16,
+        "xp": 720,
+        "icon": "/coc/home/defenses/x-bow/normal/level-11.png"
+      },
+      {
+        "level": 12,
+        "cost": 16000000,
+        "resource": "gold",
+        "timeSeconds": 907200,
+        "hallRequired": 17,
+        "xp": 952,
+        "icon": "/coc/home/defenses/x-bow/normal/level-12.png"
+      }
+    ]
+  },
+  {
+    "key": "alchemist",
+    "name": "Alchemist",
+    "base": "home",
+    "category": "other",
+    "size": null,
+    "maxLevel": 7,
+    "icon": "/coc/home/other/helpers/alchemist/normal.png",
+    "availablePerHall": [],
+    "levels": [
+      {
+        "level": 1,
+        "cost": 100,
+        "resource": "gold",
+        "timeSeconds": 0,
+        "hallRequired": 11,
+        "xp": 0,
+        "icon": null
+      },
+      {
+        "level": 2,
+        "cost": 250,
+        "resource": "gold",
+        "timeSeconds": 0,
+        "hallRequired": 12,
+        "xp": 0,
+        "icon": null
+      },
+      {
+        "level": 3,
+        "cost": 500,
+        "resource": "gold",
+        "timeSeconds": 0,
+        "hallRequired": 13,
+        "xp": 0,
+        "icon": null
+      },
+      {
+        "level": 4,
+        "cost": 1000,
+        "resource": "gold",
+        "timeSeconds": 0,
+        "hallRequired": 14,
+        "xp": 0,
+        "icon": null
+      },
+      {
+        "level": 5,
+        "cost": 1000,
+        "resource": "gold",
+        "timeSeconds": 0,
+        "hallRequired": 15,
+        "xp": 0,
+        "icon": null
+      },
+      {
+        "level": 6,
+        "cost": 1500,
+        "resource": "gold",
+        "timeSeconds": 0,
+        "hallRequired": 16,
+        "xp": 0,
+        "icon": null
+      },
+      {
+        "level": 7,
+        "cost": 1500,
+        "resource": "gold",
+        "timeSeconds": 0,
+        "hallRequired": 17,
+        "xp": 0,
+        "icon": null
+      }
+    ]
+  },
+  {
+    "key": "bobs-hut",
+    "name": "B.O.B's Hut",
+    "base": "home",
+    "category": "other",
+    "size": "2x2",
+    "maxLevel": 1,
+    "icon": "/coc/home/other/bobs-hut/normal/level-1.png",
+    "availablePerHall": [
+      {
+        "hall": 1,
+        "count": 0
+      },
+      {
+        "hall": 2,
+        "count": 0
+      },
+      {
+        "hall": 3,
+        "count": 0
+      },
+      {
+        "hall": 4,
+        "count": 0
+      },
+      {
+        "hall": 5,
+        "count": 0
+      },
+      {
+        "hall": 6,
+        "count": 0
+      },
+      {
+        "hall": 7,
+        "count": 0
+      },
+      {
+        "hall": 8,
+        "count": 0
+      },
+      {
+        "hall": 9,
+        "count": 0
+      },
+      {
+        "hall": 10,
+        "count": 1
+      },
+      {
+        "hall": 11,
+        "count": 1
+      },
+      {
+        "hall": 12,
+        "count": 1
+      },
+      {
+        "hall": 13,
+        "count": 1
+      },
+      {
+        "hall": 14,
+        "count": 1
+      },
+      {
+        "hall": 15,
+        "count": 1
+      },
+      {
+        "hall": 16,
+        "count": 1
+      },
+      {
+        "hall": 17,
+        "count": 1
+      },
+      {
+        "hall": 18,
+        "count": 1
+      }
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": 0,
+        "resource": "gold",
+        "timeSeconds": 0,
+        "hallRequired": 10,
+        "xp": 0,
+        "icon": "/coc/home/other/bobs-hut/normal/level-1.png"
+      }
+    ]
+  },
+  {
+    "key": "builders-apprentice",
+    "name": "Builder's Apprentice",
+    "base": "home",
+    "category": "other",
+    "size": null,
+    "maxLevel": 8,
+    "icon": "/coc/home/other/helpers/builders-apprentice/normal.png",
+    "availablePerHall": [],
+    "levels": [
+      {
+        "level": 1,
+        "cost": 500,
+        "resource": "gold",
+        "timeSeconds": 0,
+        "hallRequired": 10,
+        "xp": 0,
+        "icon": null
+      },
+      {
+        "level": 2,
+        "cost": 500,
+        "resource": "gold",
+        "timeSeconds": 0,
+        "hallRequired": 10,
+        "xp": 0,
+        "icon": null
+      },
+      {
+        "level": 3,
+        "cost": 750,
+        "resource": "gold",
+        "timeSeconds": 0,
+        "hallRequired": 11,
+        "xp": 0,
+        "icon": null
+      },
+      {
+        "level": 4,
+        "cost": 750,
+        "resource": "gold",
+        "timeSeconds": 0,
+        "hallRequired": 11,
+        "xp": 0,
+        "icon": null
+      },
+      {
+        "level": 5,
+        "cost": 1000,
+        "resource": "gold",
+        "timeSeconds": 0,
+        "hallRequired": 12,
+        "xp": 0,
+        "icon": null
+      },
+      {
+        "level": 6,
+        "cost": 1000,
+        "resource": "gold",
+        "timeSeconds": 0,
+        "hallRequired": 12,
+        "xp": 0,
+        "icon": null
+      },
+      {
+        "level": 7,
+        "cost": 1000,
+        "resource": "gold",
+        "timeSeconds": 0,
+        "hallRequired": 13,
+        "xp": 0,
+        "icon": null
+      },
+      {
+        "level": 8,
+        "cost": 1000,
+        "resource": "gold",
+        "timeSeconds": 0,
+        "hallRequired": 14,
+        "xp": 0,
+        "icon": null
+      }
+    ]
+  },
+  {
+    "key": "helper-hut",
+    "name": "Helper Hut",
+    "base": "home",
+    "category": "other",
+    "size": "3x3",
+    "maxLevel": 1,
+    "icon": "/coc/home/other/helper-hut/normal/level-1.png",
+    "availablePerHall": [
+      {
+        "hall": 1,
+        "count": 0
+      },
+      {
+        "hall": 2,
+        "count": 0
+      },
+      {
+        "hall": 3,
+        "count": 0
+      },
+      {
+        "hall": 4,
+        "count": 0
+      },
+      {
+        "hall": 5,
+        "count": 0
+      },
+      {
+        "hall": 6,
+        "count": 0
+      },
+      {
+        "hall": 7,
+        "count": 0
+      },
+      {
+        "hall": 8,
+        "count": 0
+      },
+      {
+        "hall": 9,
+        "count": 1
+      },
+      {
+        "hall": 10,
+        "count": 1
+      },
+      {
+        "hall": 11,
+        "count": 1
+      },
+      {
+        "hall": 12,
+        "count": 1
+      },
+      {
+        "hall": 13,
+        "count": 1
+      },
+      {
+        "hall": 14,
+        "count": 1
+      },
+      {
+        "hall": 15,
+        "count": 1
+      },
+      {
+        "hall": 16,
+        "count": 1
+      },
+      {
+        "hall": 17,
+        "count": 1
+      },
+      {
+        "hall": 18,
+        "count": 1
+      }
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": 1000000,
+        "resource": "elixir",
+        "timeSeconds": 0,
+        "hallRequired": 9,
+        "xp": 0,
+        "icon": "/coc/home/other/helper-hut/normal/level-1.png"
+      }
+    ]
+  },
+  {
+    "key": "lab-assistant",
+    "name": "Lab Assistant",
+    "base": "home",
+    "category": "other",
+    "size": null,
+    "maxLevel": 12,
+    "icon": "/coc/home/other/helpers/lab-assistant/normal.png",
+    "availablePerHall": [],
+    "levels": [
+      {
+        "level": 1,
+        "cost": 0,
+        "resource": "gold",
+        "timeSeconds": 0,
+        "hallRequired": 9,
+        "xp": 0,
+        "icon": null
+      },
+      {
+        "level": 2,
+        "cost": 500,
+        "resource": "gold",
+        "timeSeconds": 0,
+        "hallRequired": 10,
+        "xp": 0,
+        "icon": null
+      },
+      {
+        "level": 3,
+        "cost": 500,
+        "resource": "gold",
+        "timeSeconds": 0,
+        "hallRequired": 10,
+        "xp": 0,
+        "icon": null
+      },
+      {
+        "level": 4,
+        "cost": 500,
+        "resource": "gold",
+        "timeSeconds": 0,
+        "hallRequired": 11,
+        "xp": 0,
+        "icon": null
+      },
+      {
+        "level": 5,
+        "cost": 750,
+        "resource": "gold",
+        "timeSeconds": 0,
+        "hallRequired": 12,
+        "xp": 0,
+        "icon": null
+      },
+      {
+        "level": 6,
+        "cost": 750,
+        "resource": "gold",
+        "timeSeconds": 0,
+        "hallRequired": 12,
+        "xp": 0,
+        "icon": null
+      },
+      {
+        "level": 7,
+        "cost": 750,
+        "resource": "gold",
+        "timeSeconds": 0,
+        "hallRequired": 13,
+        "xp": 0,
+        "icon": null
+      },
+      {
+        "level": 8,
+        "cost": 750,
+        "resource": "gold",
+        "timeSeconds": 0,
+        "hallRequired": 13,
+        "xp": 0,
+        "icon": null
+      },
+      {
+        "level": 9,
+        "cost": 1000,
+        "resource": "gold",
+        "timeSeconds": 0,
+        "hallRequired": 14,
+        "xp": 0,
+        "icon": null
+      },
+      {
+        "level": 10,
+        "cost": 1000,
+        "resource": "gold",
+        "timeSeconds": 0,
+        "hallRequired": 14,
+        "xp": 0,
+        "icon": null
+      },
+      {
+        "level": 11,
+        "cost": 1000,
+        "resource": "gold",
+        "timeSeconds": 0,
+        "hallRequired": 15,
+        "xp": 0,
+        "icon": null
+      },
+      {
+        "level": 12,
+        "cost": 1000,
+        "resource": "gold",
+        "timeSeconds": 0,
+        "hallRequired": 16,
+        "xp": 0,
+        "icon": null
+      }
+    ]
+  },
+  {
+    "key": "prospector",
+    "name": "Prospector",
+    "base": "home",
+    "category": "other",
+    "size": null,
+    "maxLevel": 1,
+    "icon": "/coc/home/other/helpers/prospector/normal.png",
+    "availablePerHall": [],
+    "levels": [
+      {
+        "level": 1,
+        "cost": 0,
+        "resource": "gold",
+        "timeSeconds": 0,
+        "hallRequired": 10,
+        "xp": 0,
+        "icon": null
+      }
+    ]
+  },
+  {
+    "key": "laboratory",
+    "name": "Laboratory",
+    "base": "home",
+    "category": "research",
+    "size": "3x3",
+    "maxLevel": 16,
+    "icon": "/coc/home/army-buildings/laboratory/normal/level-16.png",
+    "availablePerHall": [
+      {
+        "hall": 1,
+        "count": 0
+      },
+      {
+        "hall": 2,
+        "count": 0
+      },
+      {
+        "hall": 3,
+        "count": 1
+      },
+      {
+        "hall": 4,
+        "count": 1
+      },
+      {
+        "hall": 5,
+        "count": 1
+      },
+      {
+        "hall": 6,
+        "count": 1
+      },
+      {
+        "hall": 7,
+        "count": 1
+      },
+      {
+        "hall": 8,
+        "count": 1
+      },
+      {
+        "hall": 9,
+        "count": 1
+      },
+      {
+        "hall": 10,
+        "count": 1
+      },
+      {
+        "hall": 11,
+        "count": 1
+      },
+      {
+        "hall": 12,
+        "count": 1
+      },
+      {
+        "hall": 13,
+        "count": 1
+      },
+      {
+        "hall": 14,
+        "count": 1
+      },
+      {
+        "hall": 15,
+        "count": 1
+      },
+      {
+        "hall": 16,
+        "count": 1
+      },
+      {
+        "hall": 17,
+        "count": 1
+      },
+      {
+        "hall": 18,
+        "count": 1
+      }
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": 5000,
+        "resource": "elixir",
+        "timeSeconds": 60,
+        "hallRequired": 3,
+        "xp": 7,
+        "icon": "/coc/home/army-buildings/laboratory/normal/level-1.png"
+      },
+      {
+        "level": 2,
+        "cost": 25000,
+        "resource": "elixir",
+        "timeSeconds": 1800,
+        "hallRequired": 4,
+        "xp": 42,
+        "icon": "/coc/home/army-buildings/laboratory/normal/level-2.png"
+      },
+      {
+        "level": 3,
+        "cost": 50000,
+        "resource": "elixir",
+        "timeSeconds": 7200,
+        "hallRequired": 5,
+        "xp": 84,
+        "icon": "/coc/home/army-buildings/laboratory/normal/level-3.png"
+      },
+      {
+        "level": 4,
+        "cost": 100000,
+        "resource": "elixir",
+        "timeSeconds": 14400,
+        "hallRequired": 6,
+        "xp": 120,
+        "icon": "/coc/home/army-buildings/laboratory/normal/level-4.png"
+      },
+      {
+        "level": 5,
+        "cost": 200000,
+        "resource": "elixir",
+        "timeSeconds": 28800,
+        "hallRequired": 7,
+        "xp": 169,
+        "icon": "/coc/home/army-buildings/laboratory/normal/level-5.png"
+      },
+      {
+        "level": 6,
+        "cost": 400000,
+        "resource": "elixir",
+        "timeSeconds": 57600,
+        "hallRequired": 8,
+        "xp": 240,
+        "icon": "/coc/home/army-buildings/laboratory/normal/level-6.png"
+      },
+      {
+        "level": 7,
+        "cost": 800000,
+        "resource": "elixir",
+        "timeSeconds": 86400,
+        "hallRequired": 9,
+        "xp": 293,
+        "icon": "/coc/home/army-buildings/laboratory/normal/level-7.png"
+      },
+      {
+        "level": 8,
+        "cost": 1300000,
+        "resource": "elixir",
+        "timeSeconds": 151200,
+        "hallRequired": 10,
+        "xp": 388,
+        "icon": "/coc/home/army-buildings/laboratory/normal/level-8.png"
+      },
+      {
+        "level": 9,
+        "cost": 2100000,
+        "resource": "elixir",
+        "timeSeconds": 237600,
+        "hallRequired": 11,
+        "xp": 487,
+        "icon": "/coc/home/army-buildings/laboratory/normal/level-9.png"
+      },
+      {
+        "level": 10,
+        "cost": 3800000,
+        "resource": "elixir",
+        "timeSeconds": 345600,
+        "hallRequired": 12,
+        "xp": 587,
+        "icon": "/coc/home/army-buildings/laboratory/normal/level-10.png"
+      },
+      {
+        "level": 11,
+        "cost": 5500000,
+        "resource": "elixir",
+        "timeSeconds": 518400,
+        "hallRequired": 13,
+        "xp": 720,
+        "icon": "/coc/home/army-buildings/laboratory/normal/level-11.png"
+      },
+      {
+        "level": 12,
+        "cost": 8100000,
+        "resource": "elixir",
+        "timeSeconds": 604800,
+        "hallRequired": 14,
+        "xp": 777,
+        "icon": "/coc/home/army-buildings/laboratory/normal/level-12.png"
+      },
+      {
+        "level": 13,
+        "cost": 10800000,
+        "resource": "elixir",
+        "timeSeconds": 691200,
+        "hallRequired": 15,
+        "xp": 831,
+        "icon": "/coc/home/army-buildings/laboratory/normal/level-13.png"
+      },
+      {
+        "level": 14,
+        "cost": 13000000,
+        "resource": "elixir",
+        "timeSeconds": 777600,
+        "hallRequired": 16,
+        "xp": 881,
+        "icon": "/coc/home/army-buildings/laboratory/normal/level-14.png"
+      },
+      {
+        "level": 15,
+        "cost": 18000000,
+        "resource": "elixir",
+        "timeSeconds": 864000,
+        "hallRequired": 17,
+        "xp": 929,
+        "icon": "/coc/home/army-buildings/laboratory/normal/level-15.png"
+      },
+      {
+        "level": 16,
+        "cost": 27000000,
+        "resource": "elixir",
+        "timeSeconds": 1382400,
+        "hallRequired": 18,
+        "xp": 1175,
+        "icon": "/coc/home/army-buildings/laboratory/normal/level-16.png"
+      }
+    ]
+  },
+  {
+    "key": "clan-castle",
+    "name": "Clan Castle",
+    "base": "home",
+    "category": "resource",
+    "size": "3x3",
+    "maxLevel": 14,
+    "icon": "/coc/home/resource-buildings/clan-castle/normal/level-14.png",
+    "availablePerHall": [
+      {
+        "hall": 1,
+        "count": 1
+      },
+      {
+        "hall": 2,
+        "count": 1
+      },
+      {
+        "hall": 3,
+        "count": 1
+      },
+      {
+        "hall": 4,
+        "count": 1
+      },
+      {
+        "hall": 5,
+        "count": 1
+      },
+      {
+        "hall": 6,
+        "count": 1
+      },
+      {
+        "hall": 7,
+        "count": 1
+      },
+      {
+        "hall": 8,
+        "count": 1
+      },
+      {
+        "hall": 9,
+        "count": 1
+      },
+      {
+        "hall": 10,
+        "count": 1
+      },
+      {
+        "hall": 11,
+        "count": 1
+      },
+      {
+        "hall": 12,
+        "count": 1
+      },
+      {
+        "hall": 13,
+        "count": 1
+      },
+      {
+        "hall": 14,
+        "count": 1
+      },
+      {
+        "hall": 15,
+        "count": 1
+      },
+      {
+        "hall": 16,
+        "count": 1
+      },
+      {
+        "hall": 17,
+        "count": 1
+      },
+      {
+        "hall": 18,
+        "count": 1
+      }
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": 10000,
+        "resource": "elixir",
+        "timeSeconds": 0,
+        "hallRequired": 3,
+        "xp": 0,
+        "icon": "/coc/home/resource-buildings/clan-castle/normal/level-1.png"
+      },
+      {
+        "level": 2,
+        "cost": 50000,
+        "resource": "elixir",
+        "timeSeconds": 7200,
+        "hallRequired": 4,
+        "xp": 84,
+        "icon": "/coc/home/resource-buildings/clan-castle/normal/level-2.png"
+      },
+      {
+        "level": 3,
+        "cost": 600000,
+        "resource": "elixir",
+        "timeSeconds": 43200,
+        "hallRequired": 6,
+        "xp": 207,
+        "icon": "/coc/home/resource-buildings/clan-castle/normal/level-3.png"
+      },
+      {
+        "level": 4,
+        "cost": 1200000,
+        "resource": "elixir",
+        "timeSeconds": 86400,
+        "hallRequired": 8,
+        "xp": 293,
+        "icon": "/coc/home/resource-buildings/clan-castle/normal/level-4.png"
+      },
+      {
+        "level": 5,
+        "cost": 2000000,
+        "resource": "elixir",
+        "timeSeconds": 129600,
+        "hallRequired": 9,
+        "xp": 360,
+        "icon": "/coc/home/resource-buildings/clan-castle/normal/level-5.png"
+      },
+      {
+        "level": 6,
+        "cost": 3000000,
+        "resource": "elixir",
+        "timeSeconds": 172800,
+        "hallRequired": 10,
+        "xp": 415,
+        "icon": "/coc/home/resource-buildings/clan-castle/normal/level-6.png"
+      },
+      {
+        "level": 7,
+        "cost": 5000000,
+        "resource": "elixir",
+        "timeSeconds": 259200,
+        "hallRequired": 11,
+        "xp": 509,
+        "icon": "/coc/home/resource-buildings/clan-castle/normal/level-7.png"
+      },
+      {
+        "level": 8,
+        "cost": 5000000,
+        "resource": "elixir",
+        "timeSeconds": 345600,
+        "hallRequired": 12,
+        "xp": 587,
+        "icon": "/coc/home/resource-buildings/clan-castle/normal/level-8.png"
+      },
+      {
+        "level": 9,
+        "cost": 8000000,
+        "resource": "elixir",
+        "timeSeconds": 518400,
+        "hallRequired": 13,
+        "xp": 720,
+        "icon": "/coc/home/resource-buildings/clan-castle/normal/level-9.png"
+      },
+      {
+        "level": 10,
+        "cost": 10000000,
+        "resource": "elixir",
+        "timeSeconds": 604800,
+        "hallRequired": 14,
+        "xp": 777,
+        "icon": "/coc/home/resource-buildings/clan-castle/normal/level-10.png"
+      },
+      {
+        "level": 11,
+        "cost": 12000000,
+        "resource": "elixir",
+        "timeSeconds": 691200,
+        "hallRequired": 15,
+        "xp": 831,
+        "icon": "/coc/home/resource-buildings/clan-castle/normal/level-11.png"
+      },
+      {
+        "level": 12,
+        "cost": 14500000,
+        "resource": "elixir",
+        "timeSeconds": 777600,
+        "hallRequired": 16,
+        "xp": 881,
+        "icon": "/coc/home/resource-buildings/clan-castle/normal/level-12.png"
+      },
+      {
+        "level": 13,
+        "cost": 19000000,
+        "resource": "elixir",
+        "timeSeconds": 950400,
+        "hallRequired": 17,
+        "xp": 974,
+        "icon": "/coc/home/resource-buildings/clan-castle/normal/level-13.png"
+      },
+      {
+        "level": 14,
+        "cost": 28000000,
+        "resource": "elixir",
+        "timeSeconds": 1209600,
+        "hallRequired": 18,
+        "xp": 1099,
+        "icon": "/coc/home/resource-buildings/clan-castle/normal/level-14.png"
+      }
+    ]
+  },
+  {
+    "key": "dark-elixir-drill",
+    "name": "Dark Elixir Drill",
+    "base": "home",
+    "category": "resource",
+    "size": "3x3",
+    "maxLevel": 11,
+    "icon": "/coc/home/resource-buildings/dark-elixir-drill/normal/level-11.png",
+    "availablePerHall": [
+      {
+        "hall": 1,
+        "count": 0
+      },
+      {
+        "hall": 2,
+        "count": 0
+      },
+      {
+        "hall": 3,
+        "count": 0
+      },
+      {
+        "hall": 4,
+        "count": 0
+      },
+      {
+        "hall": 5,
+        "count": 0
+      },
+      {
+        "hall": 6,
+        "count": 0
+      },
+      {
+        "hall": 7,
+        "count": 1
+      },
+      {
+        "hall": 8,
+        "count": 2
+      },
+      {
+        "hall": 9,
+        "count": 3
+      },
+      {
+        "hall": 10,
+        "count": 3
+      },
+      {
+        "hall": 11,
+        "count": 3
+      },
+      {
+        "hall": 12,
+        "count": 3
+      },
+      {
+        "hall": 13,
+        "count": 3
+      },
+      {
+        "hall": 14,
+        "count": 3
+      },
+      {
+        "hall": 15,
+        "count": 3
+      },
+      {
+        "hall": 16,
+        "count": 3
+      },
+      {
+        "hall": 17,
+        "count": 3
+      },
+      {
+        "hall": 18,
+        "count": 3
+      }
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": 180000,
+        "resource": "elixir",
+        "timeSeconds": 14400,
+        "hallRequired": 7,
+        "xp": 120,
+        "icon": "/coc/home/resource-buildings/dark-elixir-drill/normal/level-1.png"
+      },
+      {
+        "level": 2,
+        "cost": 270000,
+        "resource": "elixir",
+        "timeSeconds": 21600,
+        "hallRequired": 7,
+        "xp": 146,
+        "icon": "/coc/home/resource-buildings/dark-elixir-drill/normal/level-2.png"
+      },
+      {
+        "level": 3,
+        "cost": 540000,
+        "resource": "elixir",
+        "timeSeconds": 43200,
+        "hallRequired": 7,
+        "xp": 207,
+        "icon": "/coc/home/resource-buildings/dark-elixir-drill/normal/level-3.png"
+      },
+      {
+        "level": 4,
+        "cost": 900000,
+        "resource": "elixir",
+        "timeSeconds": 64800,
+        "hallRequired": 9,
+        "xp": 254,
+        "icon": "/coc/home/resource-buildings/dark-elixir-drill/normal/level-4.png"
+      },
+      {
+        "level": 5,
+        "cost": 1200000,
+        "resource": "elixir",
+        "timeSeconds": 86400,
+        "hallRequired": 9,
+        "xp": 293,
+        "icon": "/coc/home/resource-buildings/dark-elixir-drill/normal/level-5.png"
+      },
+      {
+        "level": 6,
+        "cost": 1800000,
+        "resource": "elixir",
+        "timeSeconds": 129600,
+        "hallRequired": 9,
+        "xp": 360,
+        "icon": "/coc/home/resource-buildings/dark-elixir-drill/normal/level-6.png"
+      },
+      {
+        "level": 7,
+        "cost": 2100000,
+        "resource": "elixir",
+        "timeSeconds": 151200,
+        "hallRequired": 10,
+        "xp": 388,
+        "icon": "/coc/home/resource-buildings/dark-elixir-drill/normal/level-7.png"
+      },
+      {
+        "level": 8,
+        "cost": 2400000,
+        "resource": "elixir",
+        "timeSeconds": 172800,
+        "hallRequired": 11,
+        "xp": 415,
+        "icon": "/coc/home/resource-buildings/dark-elixir-drill/normal/level-8.png"
+      },
+      {
+        "level": 9,
+        "cost": 3700000,
+        "resource": "elixir",
+        "timeSeconds": 216000,
+        "hallRequired": 12,
+        "xp": 464,
+        "icon": "/coc/home/resource-buildings/dark-elixir-drill/normal/level-9.png"
+      },
+      {
+        "level": 10,
+        "cost": 5300000,
+        "resource": "elixir",
+        "timeSeconds": 259200,
+        "hallRequired": 14,
+        "xp": 509,
+        "icon": "/coc/home/resource-buildings/dark-elixir-drill/normal/level-10.png"
+      },
+      {
+        "level": 11,
+        "cost": 12000000,
+        "resource": "elixir",
+        "timeSeconds": 518400,
+        "hallRequired": 16,
+        "xp": 720,
+        "icon": "/coc/home/resource-buildings/dark-elixir-drill/normal/level-11.png"
+      }
+    ]
+  },
+  {
+    "key": "dark-elixir-storage",
+    "name": "Dark Elixir Storage",
+    "base": "home",
+    "category": "resource",
+    "size": "3x3",
+    "maxLevel": 13,
+    "icon": "/coc/home/resource-buildings/dark-elixir-storage/normal/level-13.png",
+    "availablePerHall": [
+      {
+        "hall": 1,
+        "count": 0
+      },
+      {
+        "hall": 2,
+        "count": 0
+      },
+      {
+        "hall": 3,
+        "count": 0
+      },
+      {
+        "hall": 4,
+        "count": 0
+      },
+      {
+        "hall": 5,
+        "count": 0
+      },
+      {
+        "hall": 6,
+        "count": 0
+      },
+      {
+        "hall": 7,
+        "count": 1
+      },
+      {
+        "hall": 8,
+        "count": 1
+      },
+      {
+        "hall": 9,
+        "count": 1
+      },
+      {
+        "hall": 10,
+        "count": 1
+      },
+      {
+        "hall": 11,
+        "count": 1
+      },
+      {
+        "hall": 12,
+        "count": 1
+      },
+      {
+        "hall": 13,
+        "count": 1
+      },
+      {
+        "hall": 14,
+        "count": 1
+      },
+      {
+        "hall": 15,
+        "count": 1
+      },
+      {
+        "hall": 16,
+        "count": 1
+      },
+      {
+        "hall": 17,
+        "count": 1
+      },
+      {
+        "hall": 18,
+        "count": 1
+      }
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": 250000,
+        "resource": "elixir",
+        "timeSeconds": 28800,
+        "hallRequired": 7,
+        "xp": 169,
+        "icon": "/coc/home/resource-buildings/dark-elixir-storage/normal/level-1.png"
+      },
+      {
+        "level": 2,
+        "cost": 500000,
+        "resource": "elixir",
+        "timeSeconds": 57600,
+        "hallRequired": 7,
+        "xp": 240,
+        "icon": "/coc/home/resource-buildings/dark-elixir-storage/normal/level-2.png"
+      },
+      {
+        "level": 3,
+        "cost": 1000000,
+        "resource": "elixir",
+        "timeSeconds": 86400,
+        "hallRequired": 8,
+        "xp": 293,
+        "icon": "/coc/home/resource-buildings/dark-elixir-storage/normal/level-3.png"
+      },
+      {
+        "level": 4,
+        "cost": 1500000,
+        "resource": "elixir",
+        "timeSeconds": 129600,
+        "hallRequired": 8,
+        "xp": 360,
+        "icon": "/coc/home/resource-buildings/dark-elixir-storage/normal/level-4.png"
+      },
+      {
+        "level": 5,
+        "cost": 2000000,
+        "resource": "elixir",
+        "timeSeconds": 144000,
+        "hallRequired": 9,
+        "xp": 379,
+        "icon": "/coc/home/resource-buildings/dark-elixir-storage/normal/level-5.png"
+      },
+      {
+        "level": 6,
+        "cost": 2400000,
+        "resource": "elixir",
+        "timeSeconds": 172800,
+        "hallRequired": 9,
+        "xp": 415,
+        "icon": "/coc/home/resource-buildings/dark-elixir-storage/normal/level-6.png"
+      },
+      {
+        "level": 7,
+        "cost": 3800000,
+        "resource": "elixir",
+        "timeSeconds": 259200,
+        "hallRequired": 12,
+        "xp": 509,
+        "icon": "/coc/home/resource-buildings/dark-elixir-storage/normal/level-7.png"
+      },
+      {
+        "level": 8,
+        "cost": 5400000,
+        "resource": "elixir",
+        "timeSeconds": 302400,
+        "hallRequired": 13,
+        "xp": 549,
+        "icon": "/coc/home/resource-buildings/dark-elixir-storage/normal/level-8.png"
+      },
+      {
+        "level": 9,
+        "cost": 6600000,
+        "resource": "elixir",
+        "timeSeconds": 345600,
+        "hallRequired": 14,
+        "xp": 587,
+        "icon": "/coc/home/resource-buildings/dark-elixir-storage/normal/level-9.png"
+      },
+      {
+        "level": 10,
+        "cost": 8000000,
+        "resource": "elixir",
+        "timeSeconds": 388800,
+        "hallRequired": 15,
+        "xp": 623,
+        "icon": "/coc/home/resource-buildings/dark-elixir-storage/normal/level-10.png"
+      },
+      {
+        "level": 11,
+        "cost": 10000000,
+        "resource": "elixir",
+        "timeSeconds": 432000,
+        "hallRequired": 16,
+        "xp": 657,
+        "icon": "/coc/home/resource-buildings/dark-elixir-storage/normal/level-11.png"
+      },
+      {
+        "level": 12,
+        "cost": 16000000,
+        "resource": "elixir",
+        "timeSeconds": 777600,
+        "hallRequired": 17,
+        "xp": 881,
+        "icon": "/coc/home/resource-buildings/dark-elixir-storage/normal/level-12.png"
+      },
+      {
+        "level": 13,
+        "cost": 25000000,
+        "resource": "elixir",
+        "timeSeconds": 1123200,
+        "hallRequired": 18,
+        "xp": 1059,
+        "icon": "/coc/home/resource-buildings/dark-elixir-storage/normal/level-13.png"
+      }
+    ]
+  },
+  {
+    "key": "elixir-collector",
+    "name": "Elixir Collector",
+    "base": "home",
+    "category": "resource",
+    "size": "3x3",
+    "maxLevel": 17,
+    "icon": "/coc/home/resource-buildings/elixir-collector/normal/level-17.png",
+    "availablePerHall": [
+      {
+        "hall": 1,
+        "count": 1
+      },
+      {
+        "hall": 2,
+        "count": 2
+      },
+      {
+        "hall": 3,
+        "count": 3
+      },
+      {
+        "hall": 4,
+        "count": 4
+      },
+      {
+        "hall": 5,
+        "count": 5
+      },
+      {
+        "hall": 6,
+        "count": 6
+      },
+      {
+        "hall": 7,
+        "count": 6
+      },
+      {
+        "hall": 8,
+        "count": 6
+      },
+      {
+        "hall": 9,
+        "count": 7
+      },
+      {
+        "hall": 10,
+        "count": 7
+      },
+      {
+        "hall": 11,
+        "count": 7
+      },
+      {
+        "hall": 12,
+        "count": 7
+      },
+      {
+        "hall": 13,
+        "count": 7
+      },
+      {
+        "hall": 14,
+        "count": 7
+      },
+      {
+        "hall": 15,
+        "count": 7
+      },
+      {
+        "hall": 16,
+        "count": 7
+      },
+      {
+        "hall": 17,
+        "count": 7
+      },
+      {
+        "hall": 18,
+        "count": 7
+      }
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": 150,
+        "resource": "gold",
+        "timeSeconds": 5,
+        "hallRequired": 1,
+        "xp": 2,
+        "icon": "/coc/home/resource-buildings/elixir-collector/normal/level-1.png"
+      },
+      {
+        "level": 2,
+        "cost": 300,
+        "resource": "gold",
+        "timeSeconds": 15,
+        "hallRequired": 1,
+        "xp": 3,
+        "icon": "/coc/home/resource-buildings/elixir-collector/normal/level-2.png"
+      },
+      {
+        "level": 3,
+        "cost": 700,
+        "resource": "gold",
+        "timeSeconds": 60,
+        "hallRequired": 2,
+        "xp": 7,
+        "icon": "/coc/home/resource-buildings/elixir-collector/normal/level-3.png"
+      },
+      {
+        "level": 4,
+        "cost": 1400,
+        "resource": "gold",
+        "timeSeconds": 120,
+        "hallRequired": 2,
+        "xp": 10,
+        "icon": "/coc/home/resource-buildings/elixir-collector/normal/level-4.png"
+      },
+      {
+        "level": 5,
+        "cost": 3000,
+        "resource": "gold",
+        "timeSeconds": 300,
+        "hallRequired": 3,
+        "xp": 17,
+        "icon": "/coc/home/resource-buildings/elixir-collector/normal/level-5.png"
+      },
+      {
+        "level": 6,
+        "cost": 7000,
+        "resource": "gold",
+        "timeSeconds": 900,
+        "hallRequired": 3,
+        "xp": 30,
+        "icon": "/coc/home/resource-buildings/elixir-collector/normal/level-6.png"
+      },
+      {
+        "level": 7,
+        "cost": 14000,
+        "resource": "gold",
+        "timeSeconds": 1800,
+        "hallRequired": 4,
+        "xp": 42,
+        "icon": "/coc/home/resource-buildings/elixir-collector/normal/level-7.png"
+      },
+      {
+        "level": 8,
+        "cost": 28000,
+        "resource": "gold",
+        "timeSeconds": 3600,
+        "hallRequired": 4,
+        "xp": 60,
+        "icon": "/coc/home/resource-buildings/elixir-collector/normal/level-8.png"
+      },
+      {
+        "level": 9,
+        "cost": 56000,
+        "resource": "gold",
+        "timeSeconds": 7200,
+        "hallRequired": 5,
+        "xp": 84,
+        "icon": "/coc/home/resource-buildings/elixir-collector/normal/level-9.png"
+      },
+      {
+        "level": 10,
+        "cost": 75000,
+        "resource": "gold",
+        "timeSeconds": 10800,
+        "hallRequired": 5,
+        "xp": 103,
+        "icon": "/coc/home/resource-buildings/elixir-collector/normal/level-10.png"
+      },
+      {
+        "level": 11,
+        "cost": 85000,
+        "resource": "gold",
+        "timeSeconds": 14400,
+        "hallRequired": 7,
+        "xp": 120,
+        "icon": "/coc/home/resource-buildings/elixir-collector/normal/level-11.png"
+      },
+      {
+        "level": 12,
+        "cost": 170000,
+        "resource": "gold",
+        "timeSeconds": 21600,
+        "hallRequired": 8,
+        "xp": 146,
+        "icon": "/coc/home/resource-buildings/elixir-collector/normal/level-12.png"
+      },
+      {
+        "level": 13,
+        "cost": 400000,
+        "resource": "gold",
+        "timeSeconds": 28800,
+        "hallRequired": 10,
+        "xp": 169,
+        "icon": "/coc/home/resource-buildings/elixir-collector/normal/level-13.png"
+      },
+      {
+        "level": 14,
+        "cost": 800000,
+        "resource": "gold",
+        "timeSeconds": 36000,
+        "hallRequired": 11,
+        "xp": 189,
+        "icon": "/coc/home/resource-buildings/elixir-collector/normal/level-14.png"
+      },
+      {
+        "level": 15,
+        "cost": 1200000,
+        "resource": "gold",
+        "timeSeconds": 64800,
+        "hallRequired": 12,
+        "xp": 254,
+        "icon": "/coc/home/resource-buildings/elixir-collector/normal/level-15.png"
+      },
+      {
+        "level": 16,
+        "cost": 2000000,
+        "resource": "gold",
+        "timeSeconds": 172800,
+        "hallRequired": 14,
+        "xp": 415,
+        "icon": "/coc/home/resource-buildings/elixir-collector/normal/level-16.png"
+      },
+      {
+        "level": 17,
+        "cost": 8000000,
+        "resource": "gold",
+        "timeSeconds": 345600,
+        "hallRequired": 16,
+        "xp": 587,
+        "icon": "/coc/home/resource-buildings/elixir-collector/normal/level-17.png"
+      }
+    ]
+  },
+  {
+    "key": "elixir-storage",
+    "name": "Elixir Storage",
+    "base": "home",
+    "category": "resource",
+    "size": "3x3",
+    "maxLevel": 19,
+    "icon": "/coc/home/resource-buildings/elixir-storage/normal/level-19.png",
+    "availablePerHall": [
+      {
+        "hall": 1,
+        "count": 1
+      },
+      {
+        "hall": 2,
+        "count": 1
+      },
+      {
+        "hall": 3,
+        "count": 2
+      },
+      {
+        "hall": 4,
+        "count": 2
+      },
+      {
+        "hall": 5,
+        "count": 2
+      },
+      {
+        "hall": 6,
+        "count": 2
+      },
+      {
+        "hall": 7,
+        "count": 2
+      },
+      {
+        "hall": 8,
+        "count": 3
+      },
+      {
+        "hall": 9,
+        "count": 4
+      },
+      {
+        "hall": 10,
+        "count": 4
+      },
+      {
+        "hall": 11,
+        "count": 4
+      },
+      {
+        "hall": 12,
+        "count": 4
+      },
+      {
+        "hall": 13,
+        "count": 4
+      },
+      {
+        "hall": 14,
+        "count": 4
+      },
+      {
+        "hall": 15,
+        "count": 4
+      },
+      {
+        "hall": 16,
+        "count": 4
+      },
+      {
+        "hall": 17,
+        "count": 4
+      },
+      {
+        "hall": 18,
+        "count": 4
+      }
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": 300,
+        "resource": "gold",
+        "timeSeconds": 10,
+        "hallRequired": 1,
+        "xp": 3,
+        "icon": "/coc/home/resource-buildings/elixir-storage/normal/level-1.png"
+      },
+      {
+        "level": 2,
+        "cost": 750,
+        "resource": "gold",
+        "timeSeconds": 120,
+        "hallRequired": 2,
+        "xp": 10,
+        "icon": "/coc/home/resource-buildings/elixir-storage/normal/level-2.png"
+      },
+      {
+        "level": 3,
+        "cost": 1500,
+        "resource": "gold",
+        "timeSeconds": 300,
+        "hallRequired": 2,
+        "xp": 17,
+        "icon": "/coc/home/resource-buildings/elixir-storage/normal/level-3.png"
+      },
+      {
+        "level": 4,
+        "cost": 3000,
+        "resource": "gold",
+        "timeSeconds": 900,
+        "hallRequired": 3,
+        "xp": 30,
+        "icon": "/coc/home/resource-buildings/elixir-storage/normal/level-4.png"
+      },
+      {
+        "level": 5,
+        "cost": 6000,
+        "resource": "gold",
+        "timeSeconds": 1800,
+        "hallRequired": 3,
+        "xp": 42,
+        "icon": "/coc/home/resource-buildings/elixir-storage/normal/level-5.png"
+      },
+      {
+        "level": 6,
+        "cost": 12000,
+        "resource": "gold",
+        "timeSeconds": 3600,
+        "hallRequired": 3,
+        "xp": 60,
+        "icon": "/coc/home/resource-buildings/elixir-storage/normal/level-6.png"
+      },
+      {
+        "level": 7,
+        "cost": 25000,
+        "resource": "gold",
+        "timeSeconds": 7200,
+        "hallRequired": 4,
+        "xp": 84,
+        "icon": "/coc/home/resource-buildings/elixir-storage/normal/level-7.png"
+      },
+      {
+        "level": 8,
+        "cost": 50000,
+        "resource": "gold",
+        "timeSeconds": 10800,
+        "hallRequired": 4,
+        "xp": 103,
+        "icon": "/coc/home/resource-buildings/elixir-storage/normal/level-8.png"
+      },
+      {
+        "level": 9,
+        "cost": 100000,
+        "resource": "gold",
+        "timeSeconds": 14400,
+        "hallRequired": 5,
+        "xp": 120,
+        "icon": "/coc/home/resource-buildings/elixir-storage/normal/level-9.png"
+      },
+      {
+        "level": 10,
+        "cost": 250000,
+        "resource": "gold",
+        "timeSeconds": 18000,
+        "hallRequired": 6,
+        "xp": 134,
+        "icon": "/coc/home/resource-buildings/elixir-storage/normal/level-10.png"
+      },
+      {
+        "level": 11,
+        "cost": 500000,
+        "resource": "gold",
+        "timeSeconds": 21600,
+        "hallRequired": 7,
+        "xp": 146,
+        "icon": "/coc/home/resource-buildings/elixir-storage/normal/level-11.png"
+      },
+      {
+        "level": 12,
+        "cost": 1000000,
+        "resource": "gold",
+        "timeSeconds": 43200,
+        "hallRequired": 11,
+        "xp": 207,
+        "icon": "/coc/home/resource-buildings/elixir-storage/normal/level-12.png"
+      },
+      {
+        "level": 13,
+        "cost": 1800000,
+        "resource": "gold",
+        "timeSeconds": 86400,
+        "hallRequired": 12,
+        "xp": 293,
+        "icon": "/coc/home/resource-buildings/elixir-storage/normal/level-13.png"
+      },
+      {
+        "level": 14,
+        "cost": 2800000,
+        "resource": "gold",
+        "timeSeconds": 172800,
+        "hallRequired": 13,
+        "xp": 415,
+        "icon": "/coc/home/resource-buildings/elixir-storage/normal/level-14.png"
+      },
+      {
+        "level": 15,
+        "cost": 3000000,
+        "resource": "gold",
+        "timeSeconds": 259200,
+        "hallRequired": 14,
+        "xp": 509,
+        "icon": "/coc/home/resource-buildings/elixir-storage/normal/level-15.png"
+      },
+      {
+        "level": 16,
+        "cost": 4000000,
+        "resource": "gold",
+        "timeSeconds": 345600,
+        "hallRequired": 15,
+        "xp": 587,
+        "icon": "/coc/home/resource-buildings/elixir-storage/normal/level-16.png"
+      },
+      {
+        "level": 17,
+        "cost": 5500000,
+        "resource": "gold",
+        "timeSeconds": 432000,
+        "hallRequired": 16,
+        "xp": 657,
+        "icon": "/coc/home/resource-buildings/elixir-storage/normal/level-17.png"
+      },
+      {
+        "level": 18,
+        "cost": 10000000,
+        "resource": "gold",
+        "timeSeconds": 604800,
+        "hallRequired": 17,
+        "xp": 777,
+        "icon": "/coc/home/resource-buildings/elixir-storage/normal/level-18.png"
+      },
+      {
+        "level": 19,
+        "cost": 18000000,
+        "resource": "gold",
+        "timeSeconds": 1080000,
+        "hallRequired": 18,
+        "xp": 1039,
+        "icon": "/coc/home/resource-buildings/elixir-storage/normal/level-19.png"
+      }
+    ]
+  },
+  {
+    "key": "gold-mine",
+    "name": "Gold Mine",
+    "base": "home",
+    "category": "resource",
+    "size": "3x3",
+    "maxLevel": 17,
+    "icon": "/coc/home/resource-buildings/gold-mine/normal/level-17.png",
+    "availablePerHall": [
+      {
+        "hall": 1,
+        "count": 1
+      },
+      {
+        "hall": 2,
+        "count": 2
+      },
+      {
+        "hall": 3,
+        "count": 3
+      },
+      {
+        "hall": 4,
+        "count": 4
+      },
+      {
+        "hall": 5,
+        "count": 5
+      },
+      {
+        "hall": 6,
+        "count": 6
+      },
+      {
+        "hall": 7,
+        "count": 6
+      },
+      {
+        "hall": 8,
+        "count": 6
+      },
+      {
+        "hall": 9,
+        "count": 7
+      },
+      {
+        "hall": 10,
+        "count": 7
+      },
+      {
+        "hall": 11,
+        "count": 7
+      },
+      {
+        "hall": 12,
+        "count": 7
+      },
+      {
+        "hall": 13,
+        "count": 7
+      },
+      {
+        "hall": 14,
+        "count": 7
+      },
+      {
+        "hall": 15,
+        "count": 7
+      },
+      {
+        "hall": 16,
+        "count": 7
+      },
+      {
+        "hall": 17,
+        "count": 7
+      },
+      {
+        "hall": 18,
+        "count": 7
+      }
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": 150,
+        "resource": "elixir",
+        "timeSeconds": 5,
+        "hallRequired": 1,
+        "xp": 2,
+        "icon": "/coc/home/resource-buildings/gold-mine/normal/level-1.png"
+      },
+      {
+        "level": 2,
+        "cost": 300,
+        "resource": "elixir",
+        "timeSeconds": 15,
+        "hallRequired": 1,
+        "xp": 3,
+        "icon": "/coc/home/resource-buildings/gold-mine/normal/level-2.png"
+      },
+      {
+        "level": 3,
+        "cost": 700,
+        "resource": "elixir",
+        "timeSeconds": 60,
+        "hallRequired": 2,
+        "xp": 7,
+        "icon": "/coc/home/resource-buildings/gold-mine/normal/level-3.png"
+      },
+      {
+        "level": 4,
+        "cost": 1400,
+        "resource": "elixir",
+        "timeSeconds": 120,
+        "hallRequired": 2,
+        "xp": 10,
+        "icon": "/coc/home/resource-buildings/gold-mine/normal/level-4.png"
+      },
+      {
+        "level": 5,
+        "cost": 3000,
+        "resource": "elixir",
+        "timeSeconds": 300,
+        "hallRequired": 3,
+        "xp": 17,
+        "icon": "/coc/home/resource-buildings/gold-mine/normal/level-5.png"
+      },
+      {
+        "level": 6,
+        "cost": 7000,
+        "resource": "elixir",
+        "timeSeconds": 900,
+        "hallRequired": 3,
+        "xp": 30,
+        "icon": "/coc/home/resource-buildings/gold-mine/normal/level-6.png"
+      },
+      {
+        "level": 7,
+        "cost": 14000,
+        "resource": "elixir",
+        "timeSeconds": 1800,
+        "hallRequired": 4,
+        "xp": 42,
+        "icon": "/coc/home/resource-buildings/gold-mine/normal/level-7.png"
+      },
+      {
+        "level": 8,
+        "cost": 28000,
+        "resource": "elixir",
+        "timeSeconds": 3600,
+        "hallRequired": 4,
+        "xp": 60,
+        "icon": "/coc/home/resource-buildings/gold-mine/normal/level-8.png"
+      },
+      {
+        "level": 9,
+        "cost": 56000,
+        "resource": "elixir",
+        "timeSeconds": 7200,
+        "hallRequired": 5,
+        "xp": 84,
+        "icon": "/coc/home/resource-buildings/gold-mine/normal/level-9.png"
+      },
+      {
+        "level": 10,
+        "cost": 75000,
+        "resource": "elixir",
+        "timeSeconds": 10800,
+        "hallRequired": 5,
+        "xp": 103,
+        "icon": "/coc/home/resource-buildings/gold-mine/normal/level-10.png"
+      },
+      {
+        "level": 11,
+        "cost": 85000,
+        "resource": "elixir",
+        "timeSeconds": 14400,
+        "hallRequired": 7,
+        "xp": 120,
+        "icon": "/coc/home/resource-buildings/gold-mine/normal/level-11.png"
+      },
+      {
+        "level": 12,
+        "cost": 170000,
+        "resource": "elixir",
+        "timeSeconds": 21600,
+        "hallRequired": 8,
+        "xp": 146,
+        "icon": "/coc/home/resource-buildings/gold-mine/normal/level-12.png"
+      },
+      {
+        "level": 13,
+        "cost": 400000,
+        "resource": "elixir",
+        "timeSeconds": 28800,
+        "hallRequired": 10,
+        "xp": 169,
+        "icon": "/coc/home/resource-buildings/gold-mine/normal/level-13.png"
+      },
+      {
+        "level": 14,
+        "cost": 800000,
+        "resource": "elixir",
+        "timeSeconds": 36000,
+        "hallRequired": 11,
+        "xp": 189,
+        "icon": "/coc/home/resource-buildings/gold-mine/normal/level-14.png"
+      },
+      {
+        "level": 15,
+        "cost": 1200000,
+        "resource": "elixir",
+        "timeSeconds": 64800,
+        "hallRequired": 12,
+        "xp": 254,
+        "icon": "/coc/home/resource-buildings/gold-mine/normal/level-15.png"
+      },
+      {
+        "level": 16,
+        "cost": 2000000,
+        "resource": "elixir",
+        "timeSeconds": 172800,
+        "hallRequired": 14,
+        "xp": 415,
+        "icon": "/coc/home/resource-buildings/gold-mine/normal/level-16.png"
+      },
+      {
+        "level": 17,
+        "cost": 8000000,
+        "resource": "elixir",
+        "timeSeconds": 345600,
+        "hallRequired": 16,
+        "xp": 587,
+        "icon": "/coc/home/resource-buildings/gold-mine/normal/level-17.png"
+      }
+    ]
+  },
+  {
+    "key": "gold-storage",
+    "name": "Gold Storage",
+    "base": "home",
+    "category": "resource",
+    "size": "3x3",
+    "maxLevel": 19,
+    "icon": "/coc/home/resource-buildings/gold-storage/normal/level-19.png",
+    "availablePerHall": [
+      {
+        "hall": 1,
+        "count": 1
+      },
+      {
+        "hall": 2,
+        "count": 1
+      },
+      {
+        "hall": 3,
+        "count": 2
+      },
+      {
+        "hall": 4,
+        "count": 2
+      },
+      {
+        "hall": 5,
+        "count": 2
+      },
+      {
+        "hall": 6,
+        "count": 2
+      },
+      {
+        "hall": 7,
+        "count": 2
+      },
+      {
+        "hall": 8,
+        "count": 3
+      },
+      {
+        "hall": 9,
+        "count": 4
+      },
+      {
+        "hall": 10,
+        "count": 4
+      },
+      {
+        "hall": 11,
+        "count": 4
+      },
+      {
+        "hall": 12,
+        "count": 4
+      },
+      {
+        "hall": 13,
+        "count": 4
+      },
+      {
+        "hall": 14,
+        "count": 4
+      },
+      {
+        "hall": 15,
+        "count": 4
+      },
+      {
+        "hall": 16,
+        "count": 4
+      },
+      {
+        "hall": 17,
+        "count": 4
+      },
+      {
+        "hall": 18,
+        "count": 4
+      }
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": 300,
+        "resource": "elixir",
+        "timeSeconds": 10,
+        "hallRequired": 1,
+        "xp": 3,
+        "icon": "/coc/home/resource-buildings/gold-storage/normal/level-1.png"
+      },
+      {
+        "level": 2,
+        "cost": 750,
+        "resource": "elixir",
+        "timeSeconds": 120,
+        "hallRequired": 2,
+        "xp": 10,
+        "icon": "/coc/home/resource-buildings/gold-storage/normal/level-2.png"
+      },
+      {
+        "level": 3,
+        "cost": 1500,
+        "resource": "elixir",
+        "timeSeconds": 300,
+        "hallRequired": 2,
+        "xp": 17,
+        "icon": "/coc/home/resource-buildings/gold-storage/normal/level-3.png"
+      },
+      {
+        "level": 4,
+        "cost": 3000,
+        "resource": "elixir",
+        "timeSeconds": 900,
+        "hallRequired": 3,
+        "xp": 30,
+        "icon": "/coc/home/resource-buildings/gold-storage/normal/level-4.png"
+      },
+      {
+        "level": 5,
+        "cost": 6000,
+        "resource": "elixir",
+        "timeSeconds": 1800,
+        "hallRequired": 3,
+        "xp": 42,
+        "icon": "/coc/home/resource-buildings/gold-storage/normal/level-5.png"
+      },
+      {
+        "level": 6,
+        "cost": 12000,
+        "resource": "elixir",
+        "timeSeconds": 3600,
+        "hallRequired": 3,
+        "xp": 60,
+        "icon": "/coc/home/resource-buildings/gold-storage/normal/level-6.png"
+      },
+      {
+        "level": 7,
+        "cost": 25000,
+        "resource": "elixir",
+        "timeSeconds": 7200,
+        "hallRequired": 4,
+        "xp": 84,
+        "icon": "/coc/home/resource-buildings/gold-storage/normal/level-7.png"
+      },
+      {
+        "level": 8,
+        "cost": 50000,
+        "resource": "elixir",
+        "timeSeconds": 10800,
+        "hallRequired": 4,
+        "xp": 103,
+        "icon": "/coc/home/resource-buildings/gold-storage/normal/level-8.png"
+      },
+      {
+        "level": 9,
+        "cost": 100000,
+        "resource": "elixir",
+        "timeSeconds": 14400,
+        "hallRequired": 5,
+        "xp": 120,
+        "icon": "/coc/home/resource-buildings/gold-storage/normal/level-9.png"
+      },
+      {
+        "level": 10,
+        "cost": 250000,
+        "resource": "elixir",
+        "timeSeconds": 18000,
+        "hallRequired": 6,
+        "xp": 134,
+        "icon": "/coc/home/resource-buildings/gold-storage/normal/level-10.png"
+      },
+      {
+        "level": 11,
+        "cost": 500000,
+        "resource": "elixir",
+        "timeSeconds": 21600,
+        "hallRequired": 7,
+        "xp": 146,
+        "icon": "/coc/home/resource-buildings/gold-storage/normal/level-11.png"
+      },
+      {
+        "level": 12,
+        "cost": 1000000,
+        "resource": "elixir",
+        "timeSeconds": 43200,
+        "hallRequired": 11,
+        "xp": 207,
+        "icon": "/coc/home/resource-buildings/gold-storage/normal/level-12.png"
+      },
+      {
+        "level": 13,
+        "cost": 1800000,
+        "resource": "elixir",
+        "timeSeconds": 86400,
+        "hallRequired": 12,
+        "xp": 293,
+        "icon": "/coc/home/resource-buildings/gold-storage/normal/level-13.png"
+      },
+      {
+        "level": 14,
+        "cost": 2800000,
+        "resource": "elixir",
+        "timeSeconds": 172800,
+        "hallRequired": 13,
+        "xp": 415,
+        "icon": "/coc/home/resource-buildings/gold-storage/normal/level-14.png"
+      },
+      {
+        "level": 15,
+        "cost": 3000000,
+        "resource": "elixir",
+        "timeSeconds": 259200,
+        "hallRequired": 14,
+        "xp": 509,
+        "icon": "/coc/home/resource-buildings/gold-storage/normal/level-15.png"
+      },
+      {
+        "level": 16,
+        "cost": 4000000,
+        "resource": "elixir",
+        "timeSeconds": 345600,
+        "hallRequired": 15,
+        "xp": 587,
+        "icon": "/coc/home/resource-buildings/gold-storage/normal/level-16.png"
+      },
+      {
+        "level": 17,
+        "cost": 5500000,
+        "resource": "elixir",
+        "timeSeconds": 432000,
+        "hallRequired": 16,
+        "xp": 657,
+        "icon": "/coc/home/resource-buildings/gold-storage/normal/level-17.png"
+      },
+      {
+        "level": 18,
+        "cost": 10000000,
+        "resource": "elixir",
+        "timeSeconds": 604800,
+        "hallRequired": 17,
+        "xp": 777,
+        "icon": "/coc/home/resource-buildings/gold-storage/normal/level-18.png"
+      },
+      {
+        "level": 19,
+        "cost": 18000000,
+        "resource": "elixir",
+        "timeSeconds": 1080000,
+        "hallRequired": 18,
+        "xp": 1039,
+        "icon": "/coc/home/resource-buildings/gold-storage/normal/level-19.png"
+      }
+    ]
+  },
+  {
+    "key": "air-bomb",
+    "name": "Air Bomb",
+    "base": "home",
+    "category": "trap",
+    "size": "1x1",
+    "maxLevel": 13,
+    "icon": "/coc/home/traps/air-bomb/normal/level-13.png",
+    "availablePerHall": [
+      {
+        "hall": 1,
+        "count": 0
+      },
+      {
+        "hall": 2,
+        "count": 0
+      },
+      {
+        "hall": 3,
+        "count": 0
+      },
+      {
+        "hall": 4,
+        "count": 0
+      },
+      {
+        "hall": 5,
+        "count": 2
+      },
+      {
+        "hall": 6,
+        "count": 2
+      },
+      {
+        "hall": 7,
+        "count": 2
+      },
+      {
+        "hall": 8,
+        "count": 4
+      },
+      {
+        "hall": 9,
+        "count": 4
+      },
+      {
+        "hall": 10,
+        "count": 5
+      },
+      {
+        "hall": 11,
+        "count": 5
+      },
+      {
+        "hall": 12,
+        "count": 6
+      },
+      {
+        "hall": 13,
+        "count": 6
+      },
+      {
+        "hall": 14,
+        "count": 7
+      },
+      {
+        "hall": 15,
+        "count": 7
+      },
+      {
+        "hall": 16,
+        "count": 7
+      },
+      {
+        "hall": 17,
+        "count": 7
+      },
+      {
+        "hall": 18,
+        "count": 7
+      }
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": 4000,
+        "resource": "gold",
+        "timeSeconds": 0,
+        "hallRequired": 5,
+        "xp": 0,
+        "icon": "/coc/home/traps/air-bomb/normal/level-1.png"
+      },
+      {
+        "level": 2,
+        "cost": 20000,
+        "resource": "gold",
+        "timeSeconds": 1800,
+        "hallRequired": 5,
+        "xp": 42,
+        "icon": "/coc/home/traps/air-bomb/normal/level-2.png"
+      },
+      {
+        "level": 3,
+        "cost": 75000,
+        "resource": "gold",
+        "timeSeconds": 3600,
+        "hallRequired": 7,
+        "xp": 60,
+        "icon": "/coc/home/traps/air-bomb/normal/level-3.png"
+      },
+      {
+        "level": 4,
+        "cost": 300000,
+        "resource": "gold",
+        "timeSeconds": 14400,
+        "hallRequired": 9,
+        "xp": 120,
+        "icon": "/coc/home/traps/air-bomb/normal/level-4.png"
+      },
+      {
+        "level": 5,
+        "cost": 550000,
+        "resource": "gold",
+        "timeSeconds": 28800,
+        "hallRequired": 11,
+        "xp": 169,
+        "icon": "/coc/home/traps/air-bomb/normal/level-5.png"
+      },
+      {
+        "level": 6,
+        "cost": 800000,
+        "resource": "gold",
+        "timeSeconds": 43200,
+        "hallRequired": 12,
+        "xp": 207,
+        "icon": "/coc/home/traps/air-bomb/normal/level-6.png"
+      },
+      {
+        "level": 7,
+        "cost": 1000000,
+        "resource": "gold",
+        "timeSeconds": 57600,
+        "hallRequired": 13,
+        "xp": 240,
+        "icon": "/coc/home/traps/air-bomb/normal/level-7.png"
+      },
+      {
+        "level": 8,
+        "cost": 1200000,
+        "resource": "gold",
+        "timeSeconds": 64800,
+        "hallRequired": 13,
+        "xp": 254,
+        "icon": "/coc/home/traps/air-bomb/normal/level-8.png"
+      },
+      {
+        "level": 9,
+        "cost": 2000000,
+        "resource": "gold",
+        "timeSeconds": 86400,
+        "hallRequired": 14,
+        "xp": 293,
+        "icon": "/coc/home/traps/air-bomb/normal/level-9.png"
+      },
+      {
+        "level": 10,
+        "cost": 3000000,
+        "resource": "gold",
+        "timeSeconds": 172800,
+        "hallRequired": 15,
+        "xp": 415,
+        "icon": "/coc/home/traps/air-bomb/normal/level-10.png"
+      },
+      {
+        "level": 11,
+        "cost": 5000000,
+        "resource": "gold",
+        "timeSeconds": 259200,
+        "hallRequired": 16,
+        "xp": 509,
+        "icon": "/coc/home/traps/air-bomb/normal/level-11.png"
+      },
+      {
+        "level": 12,
+        "cost": 9500000,
+        "resource": "gold",
+        "timeSeconds": 475200,
+        "hallRequired": 17,
+        "xp": 689,
+        "icon": "/coc/home/traps/air-bomb/normal/level-12.png"
+      },
+      {
+        "level": 13,
+        "cost": 15000000,
+        "resource": "gold",
+        "timeSeconds": 777600,
+        "hallRequired": 18,
+        "xp": 881,
+        "icon": "/coc/home/traps/air-bomb/normal/level-13.png"
+      }
+    ]
+  },
+  {
+    "key": "bomb",
+    "name": "Bomb",
+    "base": "home",
+    "category": "trap",
+    "size": "1x1",
+    "maxLevel": 14,
+    "icon": "/coc/home/traps/bomb/normal/level-14.png",
+    "availablePerHall": [
+      {
+        "hall": 1,
+        "count": 0
+      },
+      {
+        "hall": 2,
+        "count": 0
+      },
+      {
+        "hall": 3,
+        "count": 2
+      },
+      {
+        "hall": 4,
+        "count": 2
+      },
+      {
+        "hall": 5,
+        "count": 4
+      },
+      {
+        "hall": 6,
+        "count": 4
+      },
+      {
+        "hall": 7,
+        "count": 6
+      },
+      {
+        "hall": 8,
+        "count": 6
+      },
+      {
+        "hall": 9,
+        "count": 6
+      },
+      {
+        "hall": 10,
+        "count": 6
+      },
+      {
+        "hall": 11,
+        "count": 6
+      },
+      {
+        "hall": 12,
+        "count": 6
+      },
+      {
+        "hall": 13,
+        "count": 7
+      },
+      {
+        "hall": 14,
+        "count": 8
+      },
+      {
+        "hall": 15,
+        "count": 8
+      },
+      {
+        "hall": 16,
+        "count": 8
+      },
+      {
+        "hall": 17,
+        "count": 8
+      },
+      {
+        "hall": 18,
+        "count": 8
+      }
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": 400,
+        "resource": "gold",
+        "timeSeconds": 0,
+        "hallRequired": 3,
+        "xp": 0,
+        "icon": "/coc/home/traps/bomb/normal/level-1.png"
+      },
+      {
+        "level": 2,
+        "cost": 1000,
+        "resource": "gold",
+        "timeSeconds": 21600,
+        "hallRequired": 3,
+        "xp": 18,
+        "icon": "/coc/home/traps/bomb/normal/level-2.png"
+      },
+      {
+        "level": 3,
+        "cost": 10000,
+        "resource": "gold",
+        "timeSeconds": 1200,
+        "hallRequired": 5,
+        "xp": 34,
+        "icon": "/coc/home/traps/bomb/normal/level-3.png"
+      },
+      {
+        "level": 4,
+        "cost": 40000,
+        "resource": "gold",
+        "timeSeconds": 2400,
+        "hallRequired": 7,
+        "xp": 48,
+        "icon": "/coc/home/traps/bomb/normal/level-4.png"
+      },
+      {
+        "level": 5,
+        "cost": 100000,
+        "resource": "gold",
+        "timeSeconds": 3600,
+        "hallRequired": 8,
+        "xp": 60,
+        "icon": "/coc/home/traps/bomb/normal/level-5.png"
+      },
+      {
+        "level": 6,
+        "cost": 230000,
+        "resource": "gold",
+        "timeSeconds": 10800,
+        "hallRequired": 9,
+        "xp": 103,
+        "icon": "/coc/home/traps/bomb/normal/level-6.png"
+      },
+      {
+        "level": 7,
+        "cost": 330000,
+        "resource": "gold",
+        "timeSeconds": 18000,
+        "hallRequired": 10,
+        "xp": 134,
+        "icon": "/coc/home/traps/bomb/normal/level-7.png"
+      },
+      {
+        "level": 8,
+        "cost": 500000,
+        "resource": "gold",
+        "timeSeconds": 21600,
+        "hallRequired": 11,
+        "xp": 146,
+        "icon": "/coc/home/traps/bomb/normal/level-8.png"
+      },
+      {
+        "level": 9,
+        "cost": 750000,
+        "resource": "gold",
+        "timeSeconds": 43200,
+        "hallRequired": 13,
+        "xp": 207,
+        "icon": "/coc/home/traps/bomb/normal/level-9.png"
+      },
+      {
+        "level": 10,
+        "cost": 1300000,
+        "resource": "gold",
+        "timeSeconds": 86400,
+        "hallRequired": 14,
+        "xp": 293,
+        "icon": "/coc/home/traps/bomb/normal/level-10.png"
+      },
+      {
+        "level": 11,
+        "cost": 2500000,
+        "resource": "gold",
+        "timeSeconds": 172800,
+        "hallRequired": 15,
+        "xp": 415,
+        "icon": "/coc/home/traps/bomb/normal/level-11.png"
+      },
+      {
+        "level": 12,
+        "cost": 4000000,
+        "resource": "gold",
+        "timeSeconds": 259200,
+        "hallRequired": 16,
+        "xp": 509,
+        "icon": "/coc/home/traps/bomb/normal/level-12.png"
+      },
+      {
+        "level": 13,
+        "cost": 8500000,
+        "resource": "gold",
+        "timeSeconds": 388800,
+        "hallRequired": 17,
+        "xp": 623,
+        "icon": "/coc/home/traps/bomb/normal/level-13.png"
+      },
+      {
+        "level": 14,
+        "cost": 14000000,
+        "resource": "gold",
+        "timeSeconds": 691200,
+        "hallRequired": 18,
+        "xp": 831,
+        "icon": "/coc/home/traps/bomb/normal/level-14.png"
+      }
+    ]
+  },
+  {
+    "key": "giant-bomb",
+    "name": "Giant Bomb",
+    "base": "home",
+    "category": "trap",
+    "size": "2x2",
+    "maxLevel": 11,
+    "icon": "/coc/home/traps/giant-bomb/normal/level-11.png",
+    "availablePerHall": [
+      {
+        "hall": 1,
+        "count": 0
+      },
+      {
+        "hall": 2,
+        "count": 0
+      },
+      {
+        "hall": 3,
+        "count": 0
+      },
+      {
+        "hall": 4,
+        "count": 0
+      },
+      {
+        "hall": 5,
+        "count": 0
+      },
+      {
+        "hall": 6,
+        "count": 1
+      },
+      {
+        "hall": 7,
+        "count": 2
+      },
+      {
+        "hall": 8,
+        "count": 3
+      },
+      {
+        "hall": 9,
+        "count": 4
+      },
+      {
+        "hall": 10,
+        "count": 5
+      },
+      {
+        "hall": 11,
+        "count": 5
+      },
+      {
+        "hall": 12,
+        "count": 6
+      },
+      {
+        "hall": 13,
+        "count": 6
+      },
+      {
+        "hall": 14,
+        "count": 7
+      },
+      {
+        "hall": 15,
+        "count": 7
+      },
+      {
+        "hall": 16,
+        "count": 7
+      },
+      {
+        "hall": 17,
+        "count": 8
+      },
+      {
+        "hall": 18,
+        "count": 8
+      }
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": 12500,
+        "resource": "gold",
+        "timeSeconds": 0,
+        "hallRequired": 6,
+        "xp": 0,
+        "icon": "/coc/home/traps/giant-bomb/normal/level-1.png"
+      },
+      {
+        "level": 2,
+        "cost": 75000,
+        "resource": "gold",
+        "timeSeconds": 3600,
+        "hallRequired": 6,
+        "xp": 60,
+        "icon": "/coc/home/traps/giant-bomb/normal/level-2.png"
+      },
+      {
+        "level": 3,
+        "cost": 220000,
+        "resource": "gold",
+        "timeSeconds": 10800,
+        "hallRequired": 8,
+        "xp": 103,
+        "icon": "/coc/home/traps/giant-bomb/normal/level-3.png"
+      },
+      {
+        "level": 4,
+        "cost": 750000,
+        "resource": "gold",
+        "timeSeconds": 28800,
+        "hallRequired": 10,
+        "xp": 169,
+        "icon": "/coc/home/traps/giant-bomb/normal/level-4.png"
+      },
+      {
+        "level": 5,
+        "cost": 900000,
+        "resource": "gold",
+        "timeSeconds": 36000,
+        "hallRequired": 11,
+        "xp": 189,
+        "icon": "/coc/home/traps/giant-bomb/normal/level-5.png"
+      },
+      {
+        "level": 6,
+        "cost": 1300000,
+        "resource": "gold",
+        "timeSeconds": 39600,
+        "hallRequired": 13,
+        "xp": 198,
+        "icon": "/coc/home/traps/giant-bomb/normal/level-6.png"
+      },
+      {
+        "level": 7,
+        "cost": 1500000,
+        "resource": "gold",
+        "timeSeconds": 43200,
+        "hallRequired": 13,
+        "xp": 207,
+        "icon": "/coc/home/traps/giant-bomb/normal/level-7.png"
+      },
+      {
+        "level": 8,
+        "cost": 2000000,
+        "resource": "gold",
+        "timeSeconds": 86400,
+        "hallRequired": 14,
+        "xp": 293,
+        "icon": "/coc/home/traps/giant-bomb/normal/level-8.png"
+      },
+      {
+        "level": 9,
+        "cost": 3200000,
+        "resource": "gold",
+        "timeSeconds": 172800,
+        "hallRequired": 15,
+        "xp": 415,
+        "icon": "/coc/home/traps/giant-bomb/normal/level-9.png"
+      },
+      {
+        "level": 10,
+        "cost": 5500000,
+        "resource": "gold",
+        "timeSeconds": 345600,
+        "hallRequired": 16,
+        "xp": 587,
+        "icon": "/coc/home/traps/giant-bomb/normal/level-10.png"
+      },
+      {
+        "level": 11,
+        "cost": 10000000,
+        "resource": "gold",
+        "timeSeconds": 432000,
+        "hallRequired": 17,
+        "xp": 657,
+        "icon": "/coc/home/traps/giant-bomb/normal/level-11.png"
+      }
+    ]
+  },
+  {
+    "key": "giga-bomb",
+    "name": "Giga Bomb",
+    "base": "home",
+    "category": "trap",
+    "size": "2x2",
+    "maxLevel": 4,
+    "icon": "/coc/home/traps/giga-bomb/normal/level-4.png",
+    "availablePerHall": [
+      {
+        "hall": 1,
+        "count": 0
+      },
+      {
+        "hall": 2,
+        "count": 0
+      },
+      {
+        "hall": 3,
+        "count": 0
+      },
+      {
+        "hall": 4,
+        "count": 0
+      },
+      {
+        "hall": 5,
+        "count": 0
+      },
+      {
+        "hall": 6,
+        "count": 0
+      },
+      {
+        "hall": 7,
+        "count": 0
+      },
+      {
+        "hall": 8,
+        "count": 0
+      },
+      {
+        "hall": 9,
+        "count": 0
+      },
+      {
+        "hall": 10,
+        "count": 0
+      },
+      {
+        "hall": 11,
+        "count": 0
+      },
+      {
+        "hall": 12,
+        "count": 0
+      },
+      {
+        "hall": 13,
+        "count": 0
+      },
+      {
+        "hall": 14,
+        "count": 0
+      },
+      {
+        "hall": 15,
+        "count": 0
+      },
+      {
+        "hall": 16,
+        "count": 0
+      },
+      {
+        "hall": 17,
+        "count": 1
+      },
+      {
+        "hall": 18,
+        "count": 1
+      }
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": 4500000,
+        "resource": "gold",
+        "timeSeconds": 0,
+        "hallRequired": 17,
+        "xp": 0,
+        "icon": "/coc/home/traps/giga-bomb/normal/level-1.png"
+      },
+      {
+        "level": 2,
+        "cost": 8500000,
+        "resource": "gold",
+        "timeSeconds": 432000,
+        "hallRequired": 17,
+        "xp": 657,
+        "icon": "/coc/home/traps/giga-bomb/normal/level-2.png"
+      },
+      {
+        "level": 3,
+        "cost": 12500000,
+        "resource": "gold",
+        "timeSeconds": 518400,
+        "hallRequired": 17,
+        "xp": 720,
+        "icon": "/coc/home/traps/giga-bomb/normal/level-3.png"
+      },
+      {
+        "level": 4,
+        "cost": 20000000,
+        "resource": "gold",
+        "timeSeconds": 1123200,
+        "hallRequired": 18,
+        "xp": 1059,
+        "icon": "/coc/home/traps/giga-bomb/normal/level-4.png"
+      }
+    ]
+  },
+  {
+    "key": "seeking-air-mine",
+    "name": "Seeking Air Mine",
+    "base": "home",
+    "category": "trap",
+    "size": "1x1",
+    "maxLevel": 8,
+    "icon": "/coc/home/traps/seeking-air-mine/normal/level-8.png",
+    "availablePerHall": [
+      {
+        "hall": 1,
+        "count": 0
+      },
+      {
+        "hall": 2,
+        "count": 0
+      },
+      {
+        "hall": 3,
+        "count": 0
+      },
+      {
+        "hall": 4,
+        "count": 0
+      },
+      {
+        "hall": 5,
+        "count": 0
+      },
+      {
+        "hall": 6,
+        "count": 0
+      },
+      {
+        "hall": 7,
+        "count": 1
+      },
+      {
+        "hall": 8,
+        "count": 2
+      },
+      {
+        "hall": 9,
+        "count": 4
+      },
+      {
+        "hall": 10,
+        "count": 5
+      },
+      {
+        "hall": 11,
+        "count": 5
+      },
+      {
+        "hall": 12,
+        "count": 6
+      },
+      {
+        "hall": 13,
+        "count": 7
+      },
+      {
+        "hall": 14,
+        "count": 8
+      },
+      {
+        "hall": 15,
+        "count": 8
+      },
+      {
+        "hall": 16,
+        "count": 8
+      },
+      {
+        "hall": 17,
+        "count": 9
+      },
+      {
+        "hall": 18,
+        "count": 9
+      }
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": 12000,
+        "resource": "gold",
+        "timeSeconds": 0,
+        "hallRequired": 7,
+        "xp": 0,
+        "icon": "/coc/home/traps/seeking-air-mine/normal/level-1.png"
+      },
+      {
+        "level": 2,
+        "cost": 600000,
+        "resource": "gold",
+        "timeSeconds": 43200,
+        "hallRequired": 9,
+        "xp": 207,
+        "icon": "/coc/home/traps/seeking-air-mine/normal/level-2.png"
+      },
+      {
+        "level": 3,
+        "cost": 1200000,
+        "resource": "gold",
+        "timeSeconds": 86400,
+        "hallRequired": 10,
+        "xp": 293,
+        "icon": "/coc/home/traps/seeking-air-mine/normal/level-3.png"
+      },
+      {
+        "level": 4,
+        "cost": 2500000,
+        "resource": "gold",
+        "timeSeconds": 129600,
+        "hallRequired": 13,
+        "xp": 360,
+        "icon": "/coc/home/traps/seeking-air-mine/normal/level-4.png"
+      },
+      {
+        "level": 5,
+        "cost": 5000000,
+        "resource": "gold",
+        "timeSeconds": 259200,
+        "hallRequired": 15,
+        "xp": 509,
+        "icon": "/coc/home/traps/seeking-air-mine/normal/level-5.png"
+      },
+      {
+        "level": 6,
+        "cost": 6500000,
+        "resource": "gold",
+        "timeSeconds": 388800,
+        "hallRequired": 16,
+        "xp": 623,
+        "icon": "/coc/home/traps/seeking-air-mine/normal/level-6.png"
+      },
+      {
+        "level": 7,
+        "cost": 12000000,
+        "resource": "gold",
+        "timeSeconds": 475200,
+        "hallRequired": 17,
+        "xp": 689,
+        "icon": "/coc/home/traps/seeking-air-mine/normal/level-7.png"
+      },
+      {
+        "level": 8,
+        "cost": 19000000,
+        "resource": "gold",
+        "timeSeconds": 993600,
+        "hallRequired": 18,
+        "xp": 996,
+        "icon": "/coc/home/traps/seeking-air-mine/normal/level-8.png"
+      }
+    ]
+  },
+  {
+    "key": "skeleton-trap",
+    "name": "Skeleton Trap",
+    "base": "home",
+    "category": "trap",
+    "size": "1x1",
+    "maxLevel": 5,
+    "icon": "/coc/home/traps/skeleton-trap/normal/level-5.png",
+    "availablePerHall": [
+      {
+        "hall": 1,
+        "count": 0
+      },
+      {
+        "hall": 2,
+        "count": 0
+      },
+      {
+        "hall": 3,
+        "count": 0
+      },
+      {
+        "hall": 4,
+        "count": 0
+      },
+      {
+        "hall": 5,
+        "count": 0
+      },
+      {
+        "hall": 6,
+        "count": 0
+      },
+      {
+        "hall": 7,
+        "count": 0
+      },
+      {
+        "hall": 8,
+        "count": 2
+      },
+      {
+        "hall": 9,
+        "count": 2
+      },
+      {
+        "hall": 10,
+        "count": 3
+      },
+      {
+        "hall": 11,
+        "count": 3
+      },
+      {
+        "hall": 12,
+        "count": 3
+      },
+      {
+        "hall": 13,
+        "count": 3
+      },
+      {
+        "hall": 14,
+        "count": 4
+      },
+      {
+        "hall": 15,
+        "count": 4
+      },
+      {
+        "hall": 16,
+        "count": 4
+      },
+      {
+        "hall": 17,
+        "count": 4
+      },
+      {
+        "hall": 18,
+        "count": 4
+      }
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": 6000,
+        "resource": "gold",
+        "timeSeconds": 0,
+        "hallRequired": 8,
+        "xp": 0,
+        "icon": "/coc/home/traps/skeleton-trap/normal/level-1.png"
+      },
+      {
+        "level": 2,
+        "cost": 250000,
+        "resource": "gold",
+        "timeSeconds": 18000,
+        "hallRequired": 8,
+        "xp": 134,
+        "icon": "/coc/home/traps/skeleton-trap/normal/level-2.png"
+      },
+      {
+        "level": 3,
+        "cost": 400000,
+        "resource": "gold",
+        "timeSeconds": 28800,
+        "hallRequired": 9,
+        "xp": 169,
+        "icon": "/coc/home/traps/skeleton-trap/normal/level-3.png"
+      },
+      {
+        "level": 4,
+        "cost": 1000000,
+        "resource": "gold",
+        "timeSeconds": 43200,
+        "hallRequired": 10,
+        "xp": 207,
+        "icon": "/coc/home/traps/skeleton-trap/normal/level-4.png"
+      },
+      {
+        "level": 5,
+        "cost": 18000000,
+        "resource": "gold",
+        "timeSeconds": 604800,
+        "hallRequired": 18,
+        "xp": 777,
+        "icon": "/coc/home/traps/skeleton-trap/normal/level-5.png"
+      }
+    ]
+  },
+  {
+    "key": "spring-trap",
+    "name": "Spring Trap",
+    "base": "home",
+    "category": "trap",
+    "size": "1x1",
+    "maxLevel": 13,
+    "icon": "/coc/home/traps/spring-trap/normal/level-13.png",
+    "availablePerHall": [
+      {
+        "hall": 1,
+        "count": 0
+      },
+      {
+        "hall": 2,
+        "count": 0
+      },
+      {
+        "hall": 3,
+        "count": 0
+      },
+      {
+        "hall": 4,
+        "count": 2
+      },
+      {
+        "hall": 5,
+        "count": 2
+      },
+      {
+        "hall": 6,
+        "count": 4
+      },
+      {
+        "hall": 7,
+        "count": 4
+      },
+      {
+        "hall": 8,
+        "count": 6
+      },
+      {
+        "hall": 9,
+        "count": 6
+      },
+      {
+        "hall": 10,
+        "count": 6
+      },
+      {
+        "hall": 11,
+        "count": 6
+      },
+      {
+        "hall": 12,
+        "count": 8
+      },
+      {
+        "hall": 13,
+        "count": 9
+      },
+      {
+        "hall": 14,
+        "count": 9
+      },
+      {
+        "hall": 15,
+        "count": 9
+      },
+      {
+        "hall": 16,
+        "count": 9
+      },
+      {
+        "hall": 17,
+        "count": 9
+      },
+      {
+        "hall": 18,
+        "count": 9
+      }
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": 2000,
+        "resource": "gold",
+        "timeSeconds": 0,
+        "hallRequired": 4,
+        "xp": 0,
+        "icon": "/coc/home/traps/spring-trap/normal/level-1.png"
+      },
+      {
+        "level": 2,
+        "cost": 130000,
+        "resource": "gold",
+        "timeSeconds": 7200,
+        "hallRequired": 7,
+        "xp": 84,
+        "icon": "/coc/home/traps/spring-trap/normal/level-2.png"
+      },
+      {
+        "level": 3,
+        "cost": 240000,
+        "resource": "gold",
+        "timeSeconds": 14400,
+        "hallRequired": 8,
+        "xp": 120,
+        "icon": "/coc/home/traps/spring-trap/normal/level-3.png"
+      },
+      {
+        "level": 4,
+        "cost": 350000,
+        "resource": "gold",
+        "timeSeconds": 21600,
+        "hallRequired": 9,
+        "xp": 146,
+        "icon": "/coc/home/traps/spring-trap/normal/level-4.png"
+      },
+      {
+        "level": 5,
+        "cost": 800000,
+        "resource": "gold",
+        "timeSeconds": 28800,
+        "hallRequired": 10,
+        "xp": 169,
+        "icon": "/coc/home/traps/spring-trap/normal/level-5.png"
+      },
+      {
+        "level": 6,
+        "cost": 1000000,
+        "resource": "gold",
+        "timeSeconds": 43200,
+        "hallRequired": 11,
+        "xp": 207,
+        "icon": "/coc/home/traps/spring-trap/normal/level-6.png"
+      },
+      {
+        "level": 7,
+        "cost": 1700000,
+        "resource": "gold",
+        "timeSeconds": 86400,
+        "hallRequired": 12,
+        "xp": 293,
+        "icon": "/coc/home/traps/spring-trap/normal/level-7.png"
+      },
+      {
+        "level": 8,
+        "cost": 2000000,
+        "resource": "gold",
+        "timeSeconds": 129600,
+        "hallRequired": 13,
+        "xp": 360,
+        "icon": "/coc/home/traps/spring-trap/normal/level-8.png"
+      },
+      {
+        "level": 9,
+        "cost": 3000000,
+        "resource": "gold",
+        "timeSeconds": 172800,
+        "hallRequired": 14,
+        "xp": 415,
+        "icon": "/coc/home/traps/spring-trap/normal/level-9.png"
+      },
+      {
+        "level": 10,
+        "cost": 4000000,
+        "resource": "gold",
+        "timeSeconds": 216000,
+        "hallRequired": 15,
+        "xp": 464,
+        "icon": "/coc/home/traps/spring-trap/normal/level-10.png"
+      },
+      {
+        "level": 11,
+        "cost": 6000000,
+        "resource": "gold",
+        "timeSeconds": 388800,
+        "hallRequired": 16,
+        "xp": 623,
+        "icon": "/coc/home/traps/spring-trap/normal/level-11.png"
+      },
+      {
+        "level": 12,
+        "cost": 13000000,
+        "resource": "gold",
+        "timeSeconds": 820800,
+        "hallRequired": 17,
+        "xp": 903,
+        "icon": "/coc/home/traps/spring-trap/normal/level-12.png"
+      },
+      {
+        "level": 13,
+        "cost": 16000000,
+        "resource": "gold",
+        "timeSeconds": 950400,
+        "hallRequired": 18,
+        "xp": 974,
+        "icon": "/coc/home/traps/spring-trap/normal/level-13.png"
+      }
+    ]
+  },
+  {
+    "key": "tornado-trap",
+    "name": "Tornado Trap",
+    "base": "home",
+    "category": "trap",
+    "size": "1x1",
+    "maxLevel": 3,
+    "icon": "/coc/home/traps/tornado-trap/normal/level-3.png",
+    "availablePerHall": [
+      {
+        "hall": 1,
+        "count": 0
+      },
+      {
+        "hall": 2,
+        "count": 0
+      },
+      {
+        "hall": 3,
+        "count": 0
+      },
+      {
+        "hall": 4,
+        "count": 0
+      },
+      {
+        "hall": 5,
+        "count": 0
+      },
+      {
+        "hall": 6,
+        "count": 0
+      },
+      {
+        "hall": 7,
+        "count": 0
+      },
+      {
+        "hall": 8,
+        "count": 0
+      },
+      {
+        "hall": 9,
+        "count": 0
+      },
+      {
+        "hall": 10,
+        "count": 0
+      },
+      {
+        "hall": 11,
+        "count": 1
+      },
+      {
+        "hall": 12,
+        "count": 1
+      },
+      {
+        "hall": 13,
+        "count": 1
+      },
+      {
+        "hall": 14,
+        "count": 1
+      },
+      {
+        "hall": 15,
+        "count": 1
+      },
+      {
+        "hall": 16,
+        "count": 1
+      },
+      {
+        "hall": 17,
+        "count": 1
+      },
+      {
+        "hall": 18,
+        "count": 1
+      }
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": 1800000,
+        "resource": "gold",
+        "timeSeconds": 0,
+        "hallRequired": 11,
+        "xp": 0,
+        "icon": "/coc/home/traps/tornado-trap/normal/level-1.png"
+      },
+      {
+        "level": 2,
+        "cost": 2000000,
+        "resource": "gold",
+        "timeSeconds": 86400,
+        "hallRequired": 11,
+        "xp": 293,
+        "icon": "/coc/home/traps/tornado-trap/normal/level-2.png"
+      },
+      {
+        "level": 3,
+        "cost": 2500000,
+        "resource": "gold",
+        "timeSeconds": 172800,
+        "hallRequired": 12,
+        "xp": 415,
+        "icon": "/coc/home/traps/tornado-trap/normal/level-3.png"
+      }
+    ]
+  },
+  {
+    "key": "wall",
+    "name": "Wall",
+    "base": "home",
+    "category": "wall",
+    "size": "1x1",
+    "maxLevel": 19,
+    "icon": "/coc/home/defenses/wall/normal/level-19.png",
+    "availablePerHall": [
+      {
+        "hall": 1,
+        "count": 0
+      },
+      {
+        "hall": 2,
+        "count": 25
+      },
+      {
+        "hall": 3,
+        "count": 50
+      },
+      {
+        "hall": 4,
+        "count": 75
+      },
+      {
+        "hall": 5,
+        "count": 100
+      },
+      {
+        "hall": 6,
+        "count": 125
+      },
+      {
+        "hall": 7,
+        "count": 175
+      },
+      {
+        "hall": 8,
+        "count": 225
+      },
+      {
+        "hall": 9,
+        "count": 250
+      },
+      {
+        "hall": 10,
+        "count": 275
+      },
+      {
+        "hall": 11,
+        "count": 300
+      },
+      {
+        "hall": 12,
+        "count": 300
+      },
+      {
+        "hall": 13,
+        "count": 300
+      },
+      {
+        "hall": 14,
+        "count": 325
+      },
+      {
+        "hall": 15,
+        "count": 325
+      },
+      {
+        "hall": 16,
+        "count": 325
+      },
+      {
+        "hall": 17,
+        "count": 325
+      },
+      {
+        "hall": 18,
+        "count": 325
+      }
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": 0,
+        "resource": "gold",
+        "timeSeconds": 0,
+        "hallRequired": 2,
+        "xp": 0,
+        "icon": "/coc/home/defenses/wall/normal/level-1.png"
+      },
+      {
+        "level": 2,
+        "cost": 1000,
+        "resource": "gold",
+        "timeSeconds": 0,
+        "hallRequired": 2,
+        "xp": 0,
+        "icon": "/coc/home/defenses/wall/normal/level-2.png"
+      },
+      {
+        "level": 3,
+        "cost": 5000,
+        "resource": "gold",
+        "timeSeconds": 0,
+        "hallRequired": 3,
+        "xp": 0,
+        "icon": "/coc/home/defenses/wall/normal/level-3.png"
+      },
+      {
+        "level": 4,
+        "cost": 10000,
+        "resource": "gold",
+        "timeSeconds": 0,
+        "hallRequired": 4,
+        "xp": 0,
+        "icon": "/coc/home/defenses/wall/normal/level-4.png"
+      },
+      {
+        "level": 5,
+        "cost": 20000,
+        "resource": "goldOrElixir",
+        "timeSeconds": 0,
+        "hallRequired": 5,
+        "xp": 0,
+        "icon": "/coc/home/defenses/wall/normal/level-5.png"
+      },
+      {
+        "level": 6,
+        "cost": 30000,
+        "resource": "goldOrElixir",
+        "timeSeconds": 0,
+        "hallRequired": 6,
+        "xp": 0,
+        "icon": "/coc/home/defenses/wall/normal/level-6.png"
+      },
+      {
+        "level": 7,
+        "cost": 50000,
+        "resource": "goldOrElixir",
+        "timeSeconds": 0,
+        "hallRequired": 7,
+        "xp": 0,
+        "icon": "/coc/home/defenses/wall/normal/level-7.png"
+      },
+      {
+        "level": 8,
+        "cost": 75000,
+        "resource": "goldOrElixir",
+        "timeSeconds": 0,
+        "hallRequired": 8,
+        "xp": 0,
+        "icon": "/coc/home/defenses/wall/normal/level-8.png"
+      },
+      {
+        "level": 9,
+        "cost": 100000,
+        "resource": "goldOrElixir",
+        "timeSeconds": 0,
+        "hallRequired": 9,
+        "xp": 0,
+        "icon": "/coc/home/defenses/wall/normal/level-9.png"
+      },
+      {
+        "level": 10,
+        "cost": 200000,
+        "resource": "goldOrElixir",
+        "timeSeconds": 0,
+        "hallRequired": 9,
+        "xp": 0,
+        "icon": "/coc/home/defenses/wall/normal/level-10.png"
+      },
+      {
+        "level": 11,
+        "cost": 500000,
+        "resource": "goldOrElixir",
+        "timeSeconds": 0,
+        "hallRequired": 10,
+        "xp": 0,
+        "icon": "/coc/home/defenses/wall/normal/level-11.png"
+      },
+      {
+        "level": 12,
+        "cost": 1000000,
+        "resource": "goldOrElixir",
+        "timeSeconds": 0,
+        "hallRequired": 11,
+        "xp": 0,
+        "icon": "/coc/home/defenses/wall/normal/level-12.png"
+      },
+      {
+        "level": 13,
+        "cost": 1500000,
+        "resource": "goldOrElixir",
+        "timeSeconds": 0,
+        "hallRequired": 12,
+        "xp": 0,
+        "icon": "/coc/home/defenses/wall/normal/level-13.png"
+      },
+      {
+        "level": 14,
+        "cost": 2000000,
+        "resource": "goldOrElixir",
+        "timeSeconds": 0,
+        "hallRequired": 13,
+        "xp": 0,
+        "icon": "/coc/home/defenses/wall/normal/level-14.png"
+      },
+      {
+        "level": 15,
+        "cost": 3000000,
+        "resource": "goldOrElixir",
+        "timeSeconds": 0,
+        "hallRequired": 14,
+        "xp": 0,
+        "icon": "/coc/home/defenses/wall/normal/level-15.png"
+      },
+      {
+        "level": 16,
+        "cost": 4000000,
+        "resource": "goldOrElixir",
+        "timeSeconds": 0,
+        "hallRequired": 15,
+        "xp": 0,
+        "icon": "/coc/home/defenses/wall/normal/level-16.png"
+      },
+      {
+        "level": 17,
+        "cost": 5000000,
+        "resource": "goldOrElixir",
+        "timeSeconds": 0,
+        "hallRequired": 16,
+        "xp": 0,
+        "icon": "/coc/home/defenses/wall/normal/level-17.png"
+      },
+      {
+        "level": 18,
+        "cost": 7000000,
+        "resource": "goldOrElixir",
+        "timeSeconds": 0,
+        "hallRequired": 17,
+        "xp": 0,
+        "icon": "/coc/home/defenses/wall/normal/level-18.png"
+      },
+      {
+        "level": 19,
+        "cost": 10000000,
+        "resource": "goldOrElixir",
+        "timeSeconds": 0,
+        "hallRequired": 18,
+        "xp": 0,
+        "icon": "/coc/home/defenses/wall/normal/level-19.png"
+      }
+    ]
+  }
+]

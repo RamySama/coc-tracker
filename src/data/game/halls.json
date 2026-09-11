@@ -1,0 +1,330 @@
+{
+  "home": [
+    {
+      "level": 1,
+      "cost": 0,
+      "resource": "gold",
+      "timeSeconds": 0,
+      "maxBuildings": 13,
+      "storageCapacity": {
+        "gold": 1000,
+        "elixir": 1000,
+        "darkElixir": 0
+      },
+      "icon": "/coc/home/town-hall/normal/level-1.png"
+    },
+    {
+      "level": 2,
+      "cost": 1000,
+      "resource": "gold",
+      "timeSeconds": 10,
+      "maxBuildings": 17,
+      "storageCapacity": {
+        "gold": 2500,
+        "elixir": 2500,
+        "darkElixir": 0
+      },
+      "icon": "/coc/home/town-hall/normal/level-2.png"
+    },
+    {
+      "level": 3,
+      "cost": 4000,
+      "resource": "gold",
+      "timeSeconds": 1800,
+      "maxBuildings": 25,
+      "storageCapacity": {
+        "gold": 10000,
+        "elixir": 10000,
+        "darkElixir": 0
+      },
+      "icon": "/coc/home/town-hall/normal/level-3.png"
+    },
+    {
+      "level": 4,
+      "cost": 25000,
+      "resource": "gold",
+      "timeSeconds": 10800,
+      "maxBuildings": 29,
+      "storageCapacity": {
+        "gold": 50000,
+        "elixir": 50000,
+        "darkElixir": 0
+      },
+      "icon": "/coc/home/town-hall/normal/level-4.png"
+    },
+    {
+      "level": 5,
+      "cost": 150000,
+      "resource": "gold",
+      "timeSeconds": 21600,
+      "maxBuildings": 36,
+      "storageCapacity": {
+        "gold": 100000,
+        "elixir": 100000,
+        "darkElixir": 0
+      },
+      "icon": "/coc/home/town-hall/normal/level-5.png"
+    },
+    {
+      "level": 6,
+      "cost": 500000,
+      "resource": "gold",
+      "timeSeconds": 43200,
+      "maxBuildings": 42,
+      "storageCapacity": {
+        "gold": 300000,
+        "elixir": 300000,
+        "darkElixir": 0
+      },
+      "icon": "/coc/home/town-hall/normal/level-6.png"
+    },
+    {
+      "level": 7,
+      "cost": 1000000,
+      "resource": "gold",
+      "timeSeconds": 64800,
+      "maxBuildings": 54,
+      "storageCapacity": {
+        "gold": 500000,
+        "elixir": 500000,
+        "darkElixir": 2500
+      },
+      "icon": "/coc/home/town-hall/normal/level-7.png"
+    },
+    {
+      "level": 8,
+      "cost": 2000000,
+      "resource": "gold",
+      "timeSeconds": 86400,
+      "maxBuildings": 64,
+      "storageCapacity": {
+        "gold": 750000,
+        "elixir": 750000,
+        "darkElixir": 5000
+      },
+      "icon": "/coc/home/town-hall/normal/level-8.png"
+    },
+    {
+      "level": 9,
+      "cost": 2500000,
+      "resource": "gold",
+      "timeSeconds": 172800,
+      "maxBuildings": 77,
+      "storageCapacity": {
+        "gold": 1000000,
+        "elixir": 1000000,
+        "darkElixir": 10000
+      },
+      "icon": "/coc/home/town-hall/normal/level-9.png"
+    },
+    {
+      "level": 10,
+      "cost": 3500000,
+      "resource": "gold",
+      "timeSeconds": 259200,
+      "maxBuildings": 84,
+      "storageCapacity": {
+        "gold": 1500000,
+        "elixir": 1500000,
+        "darkElixir": 20000
+      },
+      "icon": "/coc/home/town-hall/normal/level-10.png"
+    },
+    {
+      "level": 11,
+      "cost": 4000000,
+      "resource": "gold",
+      "timeSeconds": 432000,
+      "maxBuildings": 89,
+      "storageCapacity": {
+        "gold": 2000000,
+        "elixir": 2000000,
+        "darkElixir": 20000
+      },
+      "icon": "/coc/home/town-hall/normal/level-11.png"
+    },
+    {
+      "level": 12,
+      "cost": 6000000,
+      "resource": "gold",
+      "timeSeconds": 518400,
+      "maxBuildings": 92,
+      "storageCapacity": {
+        "gold": 2000000,
+        "elixir": 2000000,
+        "darkElixir": 20000
+      },
+      "icon": "/coc/home/town-hall/normal/level-12.png"
+    },
+    {
+      "level": 13,
+      "cost": 9000000,
+      "resource": "gold",
+      "timeSeconds": 604800,
+      "maxBuildings": 94,
+      "storageCapacity": {
+        "gold": 2000000,
+        "elixir": 2000000,
+        "darkElixir": 20000
+      },
+      "icon": "/coc/home/town-hall/normal/level-13.png"
+    },
+    {
+      "level": 14,
+      "cost": 12000000,
+      "resource": "gold",
+      "timeSeconds": 648000,
+      "maxBuildings": 95,
+      "storageCapacity": {
+        "gold": 3000000,
+        "elixir": 3000000,
+        "darkElixir": 30000
+      },
+      "icon": "/coc/home/town-hall/normal/level-14.png"
+    },
+    {
+      "level": 15,
+      "cost": 13000000,
+      "resource": "gold",
+      "timeSeconds": 691200,
+      "maxBuildings": 98,
+      "storageCapacity": {
+        "gold": 3000000,
+        "elixir": 3000000,
+        "darkElixir": 30000
+      },
+      "icon": "/coc/home/town-hall/normal/level-15.png"
+    },
+    {
+      "level": 16,
+      "cost": 15000000,
+      "resource": "gold",
+      "timeSeconds": 777600,
+      "maxBuildings": 94,
+      "storageCapacity": {
+        "gold": 4000000,
+        "elixir": 4000000,
+        "darkElixir": 40000
+      },
+      "icon": "/coc/home/town-hall/normal/level-16.png"
+    },
+    {
+      "level": 17,
+      "cost": 16000000,
+      "resource": "gold",
+      "timeSeconds": 864000,
+      "maxBuildings": 93,
+      "storageCapacity": {
+        "gold": 4000000,
+        "elixir": 4000000,
+        "darkElixir": 40000
+      },
+      "icon": "/coc/home/town-hall/normal/level-17.png"
+    },
+    {
+      "level": 18,
+      "cost": 25000000,
+      "resource": "gold",
+      "timeSeconds": 1209600,
+      "maxBuildings": 94,
+      "storageCapacity": {
+        "gold": 5000000,
+        "elixir": 5000000,
+        "darkElixir": 50000
+      },
+      "icon": "/coc/home/town-hall/normal/level-18.png"
+    }
+  ],
+  "builder": [
+    {
+      "level": 1,
+      "cost": 0,
+      "resource": "builderGold",
+      "timeSeconds": 0,
+      "maxBuildings": 0,
+      "storageCapacity": null,
+      "icon": "/coc/builder/builder-hall/normal/level-1.png"
+    },
+    {
+      "level": 2,
+      "cost": 3500,
+      "resource": "builderGold",
+      "timeSeconds": 5,
+      "maxBuildings": 10,
+      "storageCapacity": null,
+      "icon": "/coc/builder/builder-hall/normal/level-2.png"
+    },
+    {
+      "level": 3,
+      "cost": 30000,
+      "resource": "builderGold",
+      "timeSeconds": 3600,
+      "maxBuildings": 18,
+      "storageCapacity": null,
+      "icon": "/coc/builder/builder-hall/normal/level-3.png"
+    },
+    {
+      "level": 4,
+      "cost": 200000,
+      "resource": "builderGold",
+      "timeSeconds": 86400,
+      "maxBuildings": 23,
+      "storageCapacity": null,
+      "icon": "/coc/builder/builder-hall/normal/level-4.png"
+    },
+    {
+      "level": 5,
+      "cost": 400000,
+      "resource": "builderGold",
+      "timeSeconds": 172800,
+      "maxBuildings": 27,
+      "storageCapacity": null,
+      "icon": "/coc/builder/builder-hall/normal/level-5.png"
+    },
+    {
+      "level": 6,
+      "cost": 1200000,
+      "resource": "builderGold",
+      "timeSeconds": 259200,
+      "maxBuildings": 39,
+      "storageCapacity": null,
+      "icon": "/coc/builder/builder-hall/normal/level-6.png"
+    },
+    {
+      "level": 7,
+      "cost": 1800000,
+      "resource": "builderGold",
+      "timeSeconds": 345600,
+      "maxBuildings": 44,
+      "storageCapacity": null,
+      "icon": "/coc/builder/builder-hall/normal/level-7.png"
+    },
+    {
+      "level": 8,
+      "cost": 2800000,
+      "resource": "builderGold",
+      "timeSeconds": 432000,
+      "maxBuildings": 50,
+      "storageCapacity": null,
+      "icon": "/coc/builder/builder-hall/normal/level-8.png"
+    },
+    {
+      "level": 9,
+      "cost": 3800000,
+      "resource": "builderGold",
+      "timeSeconds": 518400,
+      "maxBuildings": 54,
+      "storageCapacity": null,
+      "icon": "/coc/builder/builder-hall/normal/level-9.png"
+    },
+    {
+      "level": 10,
+      "cost": 4800000,
+      "resource": "builderGold",
+      "timeSeconds": 604800,
+      "maxBuildings": 55,
+      "storageCapacity": null,
+      "icon": "/coc/builder/builder-hall/normal/level-10.png"
+    }
+  ]
+}

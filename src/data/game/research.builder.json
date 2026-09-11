@@ -1,0 +1,2336 @@
+[
+  {
+    "key": "battle-machine",
+    "name": "Battle Machine",
+    "kind": "hero",
+    "order": 999,
+    "base": "builder",
+    "maxLevel": 35,
+    "icon": "/coc/builder/heroes/battle-machine/icon.png",
+    "levels": [
+      {
+        "level": 1,
+        "cost": 900000,
+        "resource": "builderElixir",
+        "timeSeconds": 43200,
+        "hallRequired": 5,
+        "labRequired": null,
+        "xp": 0,
+        "icon": null
+      },
+      {
+        "level": 2,
+        "cost": 1000000,
+        "resource": "builderElixir",
+        "timeSeconds": 43200,
+        "hallRequired": 5,
+        "labRequired": null,
+        "xp": 0,
+        "icon": null
+      },
+      {
+        "level": 3,
+        "cost": 1100000,
+        "resource": "builderElixir",
+        "timeSeconds": 43200,
+        "hallRequired": 5,
+        "labRequired": null,
+        "xp": 0,
+        "icon": null
+      },
+      {
+        "level": 4,
+        "cost": 1200000,
+        "resource": "builderElixir",
+        "timeSeconds": 86400,
+        "hallRequired": 5,
+        "labRequired": null,
+        "xp": 0,
+        "icon": null
+      },
+      {
+        "level": 5,
+        "cost": 1300000,
+        "resource": "builderElixir",
+        "timeSeconds": 86400,
+        "hallRequired": 5,
+        "labRequired": null,
+        "xp": 0,
+        "icon": null
+      },
+      {
+        "level": 6,
+        "cost": 1500000,
+        "resource": "builderElixir",
+        "timeSeconds": 129600,
+        "hallRequired": 6,
+        "labRequired": null,
+        "xp": 0,
+        "icon": null
+      },
+      {
+        "level": 7,
+        "cost": 1600000,
+        "resource": "builderElixir",
+        "timeSeconds": 129600,
+        "hallRequired": 6,
+        "labRequired": null,
+        "xp": 0,
+        "icon": null
+      },
+      {
+        "level": 8,
+        "cost": 1700000,
+        "resource": "builderElixir",
+        "timeSeconds": 172800,
+        "hallRequired": 6,
+        "labRequired": null,
+        "xp": 0,
+        "icon": null
+      },
+      {
+        "level": 9,
+        "cost": 1800000,
+        "resource": "builderElixir",
+        "timeSeconds": 172800,
+        "hallRequired": 6,
+        "labRequired": null,
+        "xp": 0,
+        "icon": null
+      },
+      {
+        "level": 10,
+        "cost": 1900000,
+        "resource": "builderElixir",
+        "timeSeconds": 216000,
+        "hallRequired": 6,
+        "labRequired": null,
+        "xp": 0,
+        "icon": null
+      },
+      {
+        "level": 11,
+        "cost": 2100000,
+        "resource": "builderElixir",
+        "timeSeconds": 216000,
+        "hallRequired": 7,
+        "labRequired": null,
+        "xp": 0,
+        "icon": null
+      },
+      {
+        "level": 12,
+        "cost": 2200000,
+        "resource": "builderElixir",
+        "timeSeconds": 259200,
+        "hallRequired": 7,
+        "labRequired": null,
+        "xp": 0,
+        "icon": null
+      },
+      {
+        "level": 13,
+        "cost": 2300000,
+        "resource": "builderElixir",
+        "timeSeconds": 259200,
+        "hallRequired": 7,
+        "labRequired": null,
+        "xp": 0,
+        "icon": null
+      },
+      {
+        "level": 14,
+        "cost": 2400000,
+        "resource": "builderElixir",
+        "timeSeconds": 302400,
+        "hallRequired": 7,
+        "labRequired": null,
+        "xp": 0,
+        "icon": null
+      },
+      {
+        "level": 15,
+        "cost": 2500000,
+        "resource": "builderElixir",
+        "timeSeconds": 302400,
+        "hallRequired": 7,
+        "labRequired": null,
+        "xp": 0,
+        "icon": null
+      },
+      {
+        "level": 16,
+        "cost": 2600000,
+        "resource": "builderElixir",
+        "timeSeconds": 345600,
+        "hallRequired": 7,
+        "labRequired": null,
+        "xp": 0,
+        "icon": null
+      },
+      {
+        "level": 17,
+        "cost": 2700000,
+        "resource": "builderElixir",
+        "timeSeconds": 345600,
+        "hallRequired": 7,
+        "labRequired": null,
+        "xp": 0,
+        "icon": null
+      },
+      {
+        "level": 18,
+        "cost": 2800000,
+        "resource": "builderElixir",
+        "timeSeconds": 345600,
+        "hallRequired": 7,
+        "labRequired": null,
+        "xp": 0,
+        "icon": null
+      },
+      {
+        "level": 19,
+        "cost": 2900000,
+        "resource": "builderElixir",
+        "timeSeconds": 345600,
+        "hallRequired": 7,
+        "labRequired": null,
+        "xp": 0,
+        "icon": null
+      },
+      {
+        "level": 20,
+        "cost": 3000000,
+        "resource": "builderElixir",
+        "timeSeconds": 345600,
+        "hallRequired": 7,
+        "labRequired": null,
+        "xp": 0,
+        "icon": null
+      },
+      {
+        "level": 21,
+        "cost": 3100000,
+        "resource": "builderElixir",
+        "timeSeconds": 432000,
+        "hallRequired": 8,
+        "labRequired": null,
+        "xp": 0,
+        "icon": null
+      },
+      {
+        "level": 22,
+        "cost": 3200000,
+        "resource": "builderElixir",
+        "timeSeconds": 432000,
+        "hallRequired": 8,
+        "labRequired": null,
+        "xp": 0,
+        "icon": null
+      },
+      {
+        "level": 23,
+        "cost": 3300000,
+        "resource": "builderElixir",
+        "timeSeconds": 432000,
+        "hallRequired": 8,
+        "labRequired": null,
+        "xp": 0,
+        "icon": null
+      },
+      {
+        "level": 24,
+        "cost": 3400000,
+        "resource": "builderElixir",
+        "timeSeconds": 432000,
+        "hallRequired": 8,
+        "labRequired": null,
+        "xp": 0,
+        "icon": null
+      },
+      {
+        "level": 25,
+        "cost": 3500000,
+        "resource": "builderElixir",
+        "timeSeconds": 432000,
+        "hallRequired": 8,
+        "labRequired": null,
+        "xp": 0,
+        "icon": null
+      },
+      {
+        "level": 26,
+        "cost": 3600000,
+        "resource": "builderElixir",
+        "timeSeconds": 518400,
+        "hallRequired": 9,
+        "labRequired": null,
+        "xp": 0,
+        "icon": null
+      },
+      {
+        "level": 27,
+        "cost": 3700000,
+        "resource": "builderElixir",
+        "timeSeconds": 518400,
+        "hallRequired": 9,
+        "labRequired": null,
+        "xp": 0,
+        "icon": null
+      },
+      {
+        "level": 28,
+        "cost": 3800000,
+        "resource": "builderElixir",
+        "timeSeconds": 518400,
+        "hallRequired": 9,
+        "labRequired": null,
+        "xp": 0,
+        "icon": null
+      },
+      {
+        "level": 29,
+        "cost": 3900000,
+        "resource": "builderElixir",
+        "timeSeconds": 518400,
+        "hallRequired": 9,
+        "labRequired": null,
+        "xp": 0,
+        "icon": null
+      },
+      {
+        "level": 30,
+        "cost": 4000000,
+        "resource": "builderElixir",
+        "timeSeconds": 518400,
+        "hallRequired": 9,
+        "labRequired": null,
+        "xp": 0,
+        "icon": null
+      },
+      {
+        "level": 31,
+        "cost": 4100000,
+        "resource": "builderElixir",
+        "timeSeconds": 604800,
+        "hallRequired": 10,
+        "labRequired": null,
+        "xp": 0,
+        "icon": null
+      },
+      {
+        "level": 32,
+        "cost": 4200000,
+        "resource": "builderElixir",
+        "timeSeconds": 604800,
+        "hallRequired": 10,
+        "labRequired": null,
+        "xp": 0,
+        "icon": null
+      },
+      {
+        "level": 33,
+        "cost": 4300000,
+        "resource": "builderElixir",
+        "timeSeconds": 604800,
+        "hallRequired": 10,
+        "labRequired": null,
+        "xp": 0,
+        "icon": null
+      },
+      {
+        "level": 34,
+        "cost": 4400000,
+        "resource": "builderElixir",
+        "timeSeconds": 604800,
+        "hallRequired": 10,
+        "labRequired": null,
+        "xp": 0,
+        "icon": null
+      },
+      {
+        "level": 35,
+        "cost": 4500000,
+        "resource": "builderElixir",
+        "timeSeconds": 604800,
+        "hallRequired": 10,
+        "labRequired": null,
+        "xp": 0,
+        "icon": null
+      }
+    ]
+  },
+  {
+    "key": "battle-copter",
+    "name": "Battle Copter",
+    "kind": "hero",
+    "order": 999,
+    "base": "builder",
+    "maxLevel": 35,
+    "icon": "/coc/builder/heroes/battle-copter/icon.png",
+    "levels": [
+      {
+        "level": 15,
+        "cost": 2500000,
+        "resource": "builderElixir",
+        "timeSeconds": 0,
+        "hallRequired": 8,
+        "labRequired": null,
+        "xp": 0,
+        "icon": null
+      },
+      {
+        "level": 16,
+        "cost": 2600000,
+        "resource": "builderElixir",
+        "timeSeconds": 432000,
+        "hallRequired": 8,
+        "labRequired": null,
+        "xp": 0,
+        "icon": null
+      },
+      {
+        "level": 17,
+        "cost": 2700000,
+        "resource": "builderElixir",
+        "timeSeconds": 432000,
+        "hallRequired": 8,
+        "labRequired": null,
+        "xp": 0,
+        "icon": null
+      },
+      {
+        "level": 18,
+        "cost": 2800000,
+        "resource": "builderElixir",
+        "timeSeconds": 432000,
+        "hallRequired": 8,
+        "labRequired": null,
+        "xp": 0,
+        "icon": null
+      },
+      {
+        "level": 19,
+        "cost": 2900000,
+        "resource": "builderElixir",
+        "timeSeconds": 432000,
+        "hallRequired": 8,
+        "labRequired": null,
+        "xp": 0,
+        "icon": null
+      },
+      {
+        "level": 20,
+        "cost": 3000000,
+        "resource": "builderElixir",
+        "timeSeconds": 432000,
+        "hallRequired": 8,
+        "labRequired": null,
+        "xp": 0,
+        "icon": null
+      },
+      {
+        "level": 21,
+        "cost": 3100000,
+        "resource": "builderElixir",
+        "timeSeconds": 432000,
+        "hallRequired": 8,
+        "labRequired": null,
+        "xp": 0,
+        "icon": null
+      },
+      {
+        "level": 22,
+        "cost": 3200000,
+        "resource": "builderElixir",
+        "timeSeconds": 432000,
+        "hallRequired": 8,
+        "labRequired": null,
+        "xp": 0,
+        "icon": null
+      },
+      {
+        "level": 23,
+        "cost": 3300000,
+        "resource": "builderElixir",
+        "timeSeconds": 432000,
+        "hallRequired": 8,
+        "labRequired": null,
+        "xp": 0,
+        "icon": null
+      },
+      {
+        "level": 24,
+        "cost": 3400000,
+        "resource": "builderElixir",
+        "timeSeconds": 432000,
+        "hallRequired": 8,
+        "labRequired": null,
+        "xp": 0,
+        "icon": null
+      },
+      {
+        "level": 25,
+        "cost": 3500000,
+        "resource": "builderElixir",
+        "timeSeconds": 432000,
+        "hallRequired": 8,
+        "labRequired": null,
+        "xp": 0,
+        "icon": null
+      },
+      {
+        "level": 26,
+        "cost": 3600000,
+        "resource": "builderElixir",
+        "timeSeconds": 518400,
+        "hallRequired": 9,
+        "labRequired": null,
+        "xp": 0,
+        "icon": null
+      },
+      {
+        "level": 27,
+        "cost": 3700000,
+        "resource": "builderElixir",
+        "timeSeconds": 518400,
+        "hallRequired": 9,
+        "labRequired": null,
+        "xp": 0,
+        "icon": null
+      },
+      {
+        "level": 28,
+        "cost": 3800000,
+        "resource": "builderElixir",
+        "timeSeconds": 518400,
+        "hallRequired": 9,
+        "labRequired": null,
+        "xp": 0,
+        "icon": null
+      },
+      {
+        "level": 29,
+        "cost": 3900000,
+        "resource": "builderElixir",
+        "timeSeconds": 518400,
+        "hallRequired": 9,
+        "labRequired": null,
+        "xp": 0,
+        "icon": null
+      },
+      {
+        "level": 30,
+        "cost": 4000000,
+        "resource": "builderElixir",
+        "timeSeconds": 518400,
+        "hallRequired": 9,
+        "labRequired": null,
+        "xp": 0,
+        "icon": null
+      },
+      {
+        "level": 31,
+        "cost": 4100000,
+        "resource": "builderElixir",
+        "timeSeconds": 604800,
+        "hallRequired": 10,
+        "labRequired": null,
+        "xp": 0,
+        "icon": null
+      },
+      {
+        "level": 32,
+        "cost": 4200000,
+        "resource": "builderElixir",
+        "timeSeconds": 604800,
+        "hallRequired": 10,
+        "labRequired": null,
+        "xp": 0,
+        "icon": null
+      },
+      {
+        "level": 33,
+        "cost": 4300000,
+        "resource": "builderElixir",
+        "timeSeconds": 604800,
+        "hallRequired": 10,
+        "labRequired": null,
+        "xp": 0,
+        "icon": null
+      },
+      {
+        "level": 34,
+        "cost": 4400000,
+        "resource": "builderElixir",
+        "timeSeconds": 604800,
+        "hallRequired": 10,
+        "labRequired": null,
+        "xp": 0,
+        "icon": null
+      },
+      {
+        "level": 35,
+        "cost": 4500000,
+        "resource": "builderElixir",
+        "timeSeconds": 604800,
+        "hallRequired": 10,
+        "labRequired": null,
+        "xp": 0,
+        "icon": null
+      }
+    ]
+  },
+  {
+    "key": "baby-dragon",
+    "name": "Baby Dragon",
+    "kind": "troop",
+    "order": 10,
+    "base": "builder",
+    "maxLevel": 20,
+    "icon": "/coc/builder/troops/baby-dragon/normal/level-20.png",
+    "levels": [
+      {
+        "level": 5,
+        "cost": 0,
+        "resource": "builderElixir",
+        "timeSeconds": 0,
+        "hallRequired": null,
+        "labRequired": 0,
+        "xp": 0,
+        "icon": "/coc/builder/troops/baby-dragon/normal/level-5.png"
+      },
+      {
+        "level": 6,
+        "cost": 360000,
+        "resource": "builderElixir",
+        "timeSeconds": 57600,
+        "hallRequired": 4,
+        "labRequired": 4,
+        "xp": 0,
+        "icon": "/coc/builder/troops/baby-dragon/normal/level-5.png"
+      },
+      {
+        "level": 7,
+        "cost": 380000,
+        "resource": "builderElixir",
+        "timeSeconds": 72000,
+        "hallRequired": 4,
+        "labRequired": 4,
+        "xp": 0,
+        "icon": "/coc/builder/troops/baby-dragon/normal/level-5.png"
+      },
+      {
+        "level": 8,
+        "cost": 400000,
+        "resource": "builderElixir",
+        "timeSeconds": 86400,
+        "hallRequired": 4,
+        "labRequired": 4,
+        "xp": 0,
+        "icon": "/coc/builder/troops/baby-dragon/normal/level-8.png"
+      },
+      {
+        "level": 9,
+        "cost": 1000000,
+        "resource": "builderElixir",
+        "timeSeconds": 129600,
+        "hallRequired": 5,
+        "labRequired": 5,
+        "xp": 0,
+        "icon": "/coc/builder/troops/baby-dragon/normal/level-8.png"
+      },
+      {
+        "level": 10,
+        "cost": 1200000,
+        "resource": "builderElixir",
+        "timeSeconds": 172800,
+        "hallRequired": 5,
+        "labRequired": 5,
+        "xp": 0,
+        "icon": "/coc/builder/troops/baby-dragon/normal/level-8.png"
+      },
+      {
+        "level": 11,
+        "cost": 1400000,
+        "resource": "builderElixir",
+        "timeSeconds": 172800,
+        "hallRequired": 6,
+        "labRequired": 6,
+        "xp": 0,
+        "icon": "/coc/builder/troops/baby-dragon/normal/level-8.png"
+      },
+      {
+        "level": 12,
+        "cost": 1600000,
+        "resource": "builderElixir",
+        "timeSeconds": 216000,
+        "hallRequired": 6,
+        "labRequired": 6,
+        "xp": 0,
+        "icon": "/coc/builder/troops/baby-dragon/normal/level-12.png"
+      },
+      {
+        "level": 13,
+        "cost": 2400000,
+        "resource": "builderElixir",
+        "timeSeconds": 302400,
+        "hallRequired": 7,
+        "labRequired": 7,
+        "xp": 0,
+        "icon": "/coc/builder/troops/baby-dragon/normal/level-12.png"
+      },
+      {
+        "level": 14,
+        "cost": 2600000,
+        "resource": "builderElixir",
+        "timeSeconds": 388800,
+        "hallRequired": 7,
+        "labRequired": 7,
+        "xp": 0,
+        "icon": "/coc/builder/troops/baby-dragon/normal/level-12.png"
+      },
+      {
+        "level": 15,
+        "cost": 3400000,
+        "resource": "builderElixir",
+        "timeSeconds": 475200,
+        "hallRequired": 8,
+        "labRequired": 8,
+        "xp": 0,
+        "icon": "/coc/builder/troops/baby-dragon/normal/level-12.png"
+      },
+      {
+        "level": 16,
+        "cost": 3600000,
+        "resource": "builderElixir",
+        "timeSeconds": 475200,
+        "hallRequired": 8,
+        "labRequired": 8,
+        "xp": 0,
+        "icon": "/coc/builder/troops/baby-dragon/normal/level-16.png"
+      },
+      {
+        "level": 17,
+        "cost": 4100000,
+        "resource": "builderElixir",
+        "timeSeconds": 518400,
+        "hallRequired": 9,
+        "labRequired": 9,
+        "xp": 0,
+        "icon": "/coc/builder/troops/baby-dragon/normal/level-16.png"
+      },
+      {
+        "level": 18,
+        "cost": 4300000,
+        "resource": "builderElixir",
+        "timeSeconds": 518400,
+        "hallRequired": 9,
+        "labRequired": 9,
+        "xp": 0,
+        "icon": "/coc/builder/troops/baby-dragon/normal/level-16.png"
+      },
+      {
+        "level": 19,
+        "cost": 5100000,
+        "resource": "builderElixir",
+        "timeSeconds": 561600,
+        "hallRequired": 10,
+        "labRequired": 10,
+        "xp": 0,
+        "icon": "/coc/builder/troops/baby-dragon/normal/level-16.png"
+      },
+      {
+        "level": 20,
+        "cost": 5500000,
+        "resource": "builderElixir",
+        "timeSeconds": 561600,
+        "hallRequired": 10,
+        "labRequired": 10,
+        "xp": 0,
+        "icon": "/coc/builder/troops/baby-dragon/normal/level-20.png"
+      }
+    ]
+  },
+  {
+    "key": "raged-barbarian",
+    "name": "Raged Barbarian",
+    "kind": "troop",
+    "order": 999,
+    "base": "builder",
+    "maxLevel": 20,
+    "icon": "/coc/builder/troops/raged-barbarian/normal/level-17.png",
+    "levels": [
+      {
+        "level": 1,
+        "cost": 0,
+        "resource": "builderElixir",
+        "timeSeconds": 0,
+        "hallRequired": null,
+        "labRequired": 0,
+        "xp": 0,
+        "icon": "/coc/builder/troops/raged-barbarian/normal/level-1.png"
+      },
+      {
+        "level": 2,
+        "cost": 3500,
+        "resource": "builderElixir",
+        "timeSeconds": 30,
+        "hallRequired": 1,
+        "labRequired": 1,
+        "xp": 0,
+        "icon": "/coc/builder/troops/raged-barbarian/normal/level-1.png"
+      },
+      {
+        "level": 3,
+        "cost": 7000,
+        "resource": "builderElixir",
+        "timeSeconds": 300,
+        "hallRequired": 2,
+        "labRequired": 2,
+        "xp": 0,
+        "icon": "/coc/builder/troops/raged-barbarian/normal/level-1.png"
+      },
+      {
+        "level": 4,
+        "cost": 10000,
+        "resource": "builderElixir",
+        "timeSeconds": 900,
+        "hallRequired": 2,
+        "labRequired": 2,
+        "xp": 0,
+        "icon": "/coc/builder/troops/raged-barbarian/normal/level-1.png"
+      },
+      {
+        "level": 5,
+        "cost": 90000,
+        "resource": "builderElixir",
+        "timeSeconds": 18000,
+        "hallRequired": 3,
+        "labRequired": 3,
+        "xp": 0,
+        "icon": "/coc/builder/troops/raged-barbarian/normal/level-5.png"
+      },
+      {
+        "level": 6,
+        "cost": 180000,
+        "resource": "builderElixir",
+        "timeSeconds": 36000,
+        "hallRequired": 3,
+        "labRequired": 3,
+        "xp": 0,
+        "icon": "/coc/builder/troops/raged-barbarian/normal/level-5.png"
+      },
+      {
+        "level": 7,
+        "cost": 300000,
+        "resource": "builderElixir",
+        "timeSeconds": 54000,
+        "hallRequired": 4,
+        "labRequired": 4,
+        "xp": 0,
+        "icon": "/coc/builder/troops/raged-barbarian/normal/level-5.png"
+      },
+      {
+        "level": 8,
+        "cost": 330000,
+        "resource": "builderElixir",
+        "timeSeconds": 72000,
+        "hallRequired": 4,
+        "labRequired": 4,
+        "xp": 0,
+        "icon": "/coc/builder/troops/raged-barbarian/normal/level-5.png"
+      },
+      {
+        "level": 9,
+        "cost": 700000,
+        "resource": "builderElixir",
+        "timeSeconds": 86400,
+        "hallRequired": 5,
+        "labRequired": 5,
+        "xp": 0,
+        "icon": "/coc/builder/troops/raged-barbarian/normal/level-9.png"
+      },
+      {
+        "level": 10,
+        "cost": 900000,
+        "resource": "builderElixir",
+        "timeSeconds": 129600,
+        "hallRequired": 5,
+        "labRequired": 5,
+        "xp": 0,
+        "icon": "/coc/builder/troops/raged-barbarian/normal/level-9.png"
+      },
+      {
+        "level": 11,
+        "cost": 1000000,
+        "resource": "builderElixir",
+        "timeSeconds": 172800,
+        "hallRequired": 6,
+        "labRequired": 6,
+        "xp": 0,
+        "icon": "/coc/builder/troops/raged-barbarian/normal/level-9.png"
+      },
+      {
+        "level": 12,
+        "cost": 1200000,
+        "resource": "builderElixir",
+        "timeSeconds": 216000,
+        "hallRequired": 6,
+        "labRequired": 6,
+        "xp": 0,
+        "icon": "/coc/builder/troops/raged-barbarian/normal/level-9.png"
+      },
+      {
+        "level": 13,
+        "cost": 2000000,
+        "resource": "builderElixir",
+        "timeSeconds": 302400,
+        "hallRequired": 7,
+        "labRequired": 7,
+        "xp": 0,
+        "icon": "/coc/builder/troops/raged-barbarian/normal/level-13.png"
+      },
+      {
+        "level": 14,
+        "cost": 2200000,
+        "resource": "builderElixir",
+        "timeSeconds": 388800,
+        "hallRequired": 7,
+        "labRequired": 7,
+        "xp": 0,
+        "icon": "/coc/builder/troops/raged-barbarian/normal/level-13.png"
+      },
+      {
+        "level": 15,
+        "cost": 3000000,
+        "resource": "builderElixir",
+        "timeSeconds": 475200,
+        "hallRequired": 8,
+        "labRequired": 8,
+        "xp": 0,
+        "icon": "/coc/builder/troops/raged-barbarian/normal/level-13.png"
+      },
+      {
+        "level": 16,
+        "cost": 3200000,
+        "resource": "builderElixir",
+        "timeSeconds": 475200,
+        "hallRequired": 8,
+        "labRequired": 8,
+        "xp": 0,
+        "icon": "/coc/builder/troops/raged-barbarian/normal/level-13.png"
+      },
+      {
+        "level": 17,
+        "cost": 3800000,
+        "resource": "builderElixir",
+        "timeSeconds": 518400,
+        "hallRequired": 9,
+        "labRequired": 9,
+        "xp": 0,
+        "icon": "/coc/builder/troops/raged-barbarian/normal/level-17.png"
+      },
+      {
+        "level": 18,
+        "cost": 4000000,
+        "resource": "builderElixir",
+        "timeSeconds": 518400,
+        "hallRequired": 9,
+        "labRequired": 9,
+        "xp": 0,
+        "icon": "/coc/builder/troops/raged-barbarian/normal/level-17.png"
+      },
+      {
+        "level": 19,
+        "cost": 4600000,
+        "resource": "builderElixir",
+        "timeSeconds": 561600,
+        "hallRequired": 10,
+        "labRequired": 10,
+        "xp": 0,
+        "icon": "/coc/builder/troops/raged-barbarian/normal/level-17.png"
+      },
+      {
+        "level": 20,
+        "cost": 5200000,
+        "resource": "builderElixir",
+        "timeSeconds": 561600,
+        "hallRequired": 10,
+        "labRequired": 10,
+        "xp": 0,
+        "icon": "/coc/builder/troops/raged-barbarian/normal/level-17.png"
+      }
+    ]
+  },
+  {
+    "key": "sneaky-archer",
+    "name": "Sneaky Archer",
+    "kind": "troop",
+    "order": 999,
+    "base": "builder",
+    "maxLevel": 20,
+    "icon": "/coc/builder/troops/sneaky-archer/normal/level-17.png",
+    "levels": [
+      {
+        "level": 1,
+        "cost": 0,
+        "resource": "builderElixir",
+        "timeSeconds": 0,
+        "hallRequired": null,
+        "labRequired": 0,
+        "xp": 0,
+        "icon": "/coc/builder/troops/sneaky-archer/normal/level-1.png"
+      },
+      {
+        "level": 2,
+        "cost": 5000,
+        "resource": "builderElixir",
+        "timeSeconds": 180,
+        "hallRequired": 1,
+        "labRequired": 1,
+        "xp": 0,
+        "icon": "/coc/builder/troops/sneaky-archer/normal/level-1.png"
+      },
+      {
+        "level": 3,
+        "cost": 8000,
+        "resource": "builderElixir",
+        "timeSeconds": 600,
+        "hallRequired": 2,
+        "labRequired": 2,
+        "xp": 0,
+        "icon": "/coc/builder/troops/sneaky-archer/normal/level-1.png"
+      },
+      {
+        "level": 4,
+        "cost": 12000,
+        "resource": "builderElixir",
+        "timeSeconds": 1800,
+        "hallRequired": 2,
+        "labRequired": 2,
+        "xp": 0,
+        "icon": "/coc/builder/troops/sneaky-archer/normal/level-1.png"
+      },
+      {
+        "level": 5,
+        "cost": 100000,
+        "resource": "builderElixir",
+        "timeSeconds": 21600,
+        "hallRequired": 3,
+        "labRequired": 3,
+        "xp": 0,
+        "icon": "/coc/builder/troops/sneaky-archer/normal/level-5.png"
+      },
+      {
+        "level": 6,
+        "cost": 200000,
+        "resource": "builderElixir",
+        "timeSeconds": 39600,
+        "hallRequired": 3,
+        "labRequired": 3,
+        "xp": 0,
+        "icon": "/coc/builder/troops/sneaky-archer/normal/level-5.png"
+      },
+      {
+        "level": 7,
+        "cost": 320000,
+        "resource": "builderElixir",
+        "timeSeconds": 57600,
+        "hallRequired": 4,
+        "labRequired": 4,
+        "xp": 0,
+        "icon": "/coc/builder/troops/sneaky-archer/normal/level-5.png"
+      },
+      {
+        "level": 8,
+        "cost": 350000,
+        "resource": "builderElixir",
+        "timeSeconds": 75600,
+        "hallRequired": 4,
+        "labRequired": 4,
+        "xp": 0,
+        "icon": "/coc/builder/troops/sneaky-archer/normal/level-5.png"
+      },
+      {
+        "level": 9,
+        "cost": 800000,
+        "resource": "builderElixir",
+        "timeSeconds": 86400,
+        "hallRequired": 5,
+        "labRequired": 5,
+        "xp": 0,
+        "icon": "/coc/builder/troops/sneaky-archer/normal/level-9.png"
+      },
+      {
+        "level": 10,
+        "cost": 1000000,
+        "resource": "builderElixir",
+        "timeSeconds": 129600,
+        "hallRequired": 5,
+        "labRequired": 5,
+        "xp": 0,
+        "icon": "/coc/builder/troops/sneaky-archer/normal/level-9.png"
+      },
+      {
+        "level": 11,
+        "cost": 1100000,
+        "resource": "builderElixir",
+        "timeSeconds": 172800,
+        "hallRequired": 6,
+        "labRequired": 6,
+        "xp": 0,
+        "icon": "/coc/builder/troops/sneaky-archer/normal/level-9.png"
+      },
+      {
+        "level": 12,
+        "cost": 1300000,
+        "resource": "builderElixir",
+        "timeSeconds": 216000,
+        "hallRequired": 6,
+        "labRequired": 6,
+        "xp": 0,
+        "icon": "/coc/builder/troops/sneaky-archer/normal/level-9.png"
+      },
+      {
+        "level": 13,
+        "cost": 2100000,
+        "resource": "builderElixir",
+        "timeSeconds": 302400,
+        "hallRequired": 7,
+        "labRequired": 7,
+        "xp": 0,
+        "icon": "/coc/builder/troops/sneaky-archer/normal/level-13.png"
+      },
+      {
+        "level": 14,
+        "cost": 2300000,
+        "resource": "builderElixir",
+        "timeSeconds": 388800,
+        "hallRequired": 7,
+        "labRequired": 7,
+        "xp": 0,
+        "icon": "/coc/builder/troops/sneaky-archer/normal/level-13.png"
+      },
+      {
+        "level": 15,
+        "cost": 3100000,
+        "resource": "builderElixir",
+        "timeSeconds": 475200,
+        "hallRequired": 8,
+        "labRequired": 8,
+        "xp": 0,
+        "icon": "/coc/builder/troops/sneaky-archer/normal/level-13.png"
+      },
+      {
+        "level": 16,
+        "cost": 3300000,
+        "resource": "builderElixir",
+        "timeSeconds": 475200,
+        "hallRequired": 8,
+        "labRequired": 8,
+        "xp": 0,
+        "icon": "/coc/builder/troops/sneaky-archer/normal/level-13.png"
+      },
+      {
+        "level": 17,
+        "cost": 3900000,
+        "resource": "builderElixir",
+        "timeSeconds": 518400,
+        "hallRequired": 9,
+        "labRequired": 9,
+        "xp": 0,
+        "icon": "/coc/builder/troops/sneaky-archer/normal/level-17.png"
+      },
+      {
+        "level": 18,
+        "cost": 4100000,
+        "resource": "builderElixir",
+        "timeSeconds": 518400,
+        "hallRequired": 9,
+        "labRequired": 9,
+        "xp": 0,
+        "icon": "/coc/builder/troops/sneaky-archer/normal/level-17.png"
+      },
+      {
+        "level": 19,
+        "cost": 4700000,
+        "resource": "builderElixir",
+        "timeSeconds": 561600,
+        "hallRequired": 10,
+        "labRequired": 10,
+        "xp": 0,
+        "icon": "/coc/builder/troops/sneaky-archer/normal/level-17.png"
+      },
+      {
+        "level": 20,
+        "cost": 5300000,
+        "resource": "builderElixir",
+        "timeSeconds": 561600,
+        "hallRequired": 10,
+        "labRequired": 10,
+        "xp": 0,
+        "icon": "/coc/builder/troops/sneaky-archer/normal/level-17.png"
+      }
+    ]
+  },
+  {
+    "key": "beta-minion",
+    "name": "Beta Minion",
+    "kind": "troop",
+    "order": 999,
+    "base": "builder",
+    "maxLevel": 20,
+    "icon": "/coc/builder/troops/beta-minion/normal/level-19.png",
+    "levels": [
+      {
+        "level": 3,
+        "cost": 0,
+        "resource": "builderElixir",
+        "timeSeconds": 0,
+        "hallRequired": null,
+        "labRequired": 0,
+        "xp": 0,
+        "icon": "/coc/builder/troops/beta-minion/normal/level-3.png"
+      },
+      {
+        "level": 4,
+        "cost": 50000,
+        "resource": "builderElixir",
+        "timeSeconds": 14400,
+        "hallRequired": 3,
+        "labRequired": 3,
+        "xp": 0,
+        "icon": "/coc/builder/troops/beta-minion/normal/level-3.png"
+      },
+      {
+        "level": 5,
+        "cost": 110000,
+        "resource": "builderElixir",
+        "timeSeconds": 28800,
+        "hallRequired": 3,
+        "labRequired": 3,
+        "xp": 0,
+        "icon": "/coc/builder/troops/beta-minion/normal/level-3.png"
+      },
+      {
+        "level": 6,
+        "cost": 220000,
+        "resource": "builderElixir",
+        "timeSeconds": 43200,
+        "hallRequired": 3,
+        "labRequired": 3,
+        "xp": 0,
+        "icon": "/coc/builder/troops/beta-minion/normal/level-3.png"
+      },
+      {
+        "level": 7,
+        "cost": 330000,
+        "resource": "builderElixir",
+        "timeSeconds": 64800,
+        "hallRequired": 4,
+        "labRequired": 4,
+        "xp": 0,
+        "icon": "/coc/builder/troops/beta-minion/normal/level-7.png"
+      },
+      {
+        "level": 8,
+        "cost": 360000,
+        "resource": "builderElixir",
+        "timeSeconds": 86400,
+        "hallRequired": 4,
+        "labRequired": 4,
+        "xp": 0,
+        "icon": "/coc/builder/troops/beta-minion/normal/level-7.png"
+      },
+      {
+        "level": 9,
+        "cost": 900000,
+        "resource": "builderElixir",
+        "timeSeconds": 129600,
+        "hallRequired": 5,
+        "labRequired": 5,
+        "xp": 0,
+        "icon": "/coc/builder/troops/beta-minion/normal/level-7.png"
+      },
+      {
+        "level": 10,
+        "cost": 1100000,
+        "resource": "builderElixir",
+        "timeSeconds": 172800,
+        "hallRequired": 5,
+        "labRequired": 5,
+        "xp": 0,
+        "icon": "/coc/builder/troops/beta-minion/normal/level-7.png"
+      },
+      {
+        "level": 11,
+        "cost": 1300000,
+        "resource": "builderElixir",
+        "timeSeconds": 172800,
+        "hallRequired": 6,
+        "labRequired": 6,
+        "xp": 0,
+        "icon": "/coc/builder/troops/beta-minion/normal/level-11.png"
+      },
+      {
+        "level": 12,
+        "cost": 1500000,
+        "resource": "builderElixir",
+        "timeSeconds": 216000,
+        "hallRequired": 6,
+        "labRequired": 6,
+        "xp": 0,
+        "icon": "/coc/builder/troops/beta-minion/normal/level-11.png"
+      },
+      {
+        "level": 13,
+        "cost": 2300000,
+        "resource": "builderElixir",
+        "timeSeconds": 302400,
+        "hallRequired": 7,
+        "labRequired": 7,
+        "xp": 0,
+        "icon": "/coc/builder/troops/beta-minion/normal/level-11.png"
+      },
+      {
+        "level": 14,
+        "cost": 2500000,
+        "resource": "builderElixir",
+        "timeSeconds": 388800,
+        "hallRequired": 7,
+        "labRequired": 7,
+        "xp": 0,
+        "icon": "/coc/builder/troops/beta-minion/normal/level-11.png"
+      },
+      {
+        "level": 15,
+        "cost": 3300000,
+        "resource": "builderElixir",
+        "timeSeconds": 475200,
+        "hallRequired": 8,
+        "labRequired": 8,
+        "xp": 0,
+        "icon": "/coc/builder/troops/beta-minion/normal/level-15.png"
+      },
+      {
+        "level": 16,
+        "cost": 3500000,
+        "resource": "builderElixir",
+        "timeSeconds": 475200,
+        "hallRequired": 8,
+        "labRequired": 8,
+        "xp": 0,
+        "icon": "/coc/builder/troops/beta-minion/normal/level-15.png"
+      },
+      {
+        "level": 17,
+        "cost": 4000000,
+        "resource": "builderElixir",
+        "timeSeconds": 518400,
+        "hallRequired": 9,
+        "labRequired": 9,
+        "xp": 0,
+        "icon": "/coc/builder/troops/beta-minion/normal/level-15.png"
+      },
+      {
+        "level": 18,
+        "cost": 4200000,
+        "resource": "builderElixir",
+        "timeSeconds": 518400,
+        "hallRequired": 9,
+        "labRequired": 9,
+        "xp": 0,
+        "icon": "/coc/builder/troops/beta-minion/normal/level-15.png"
+      },
+      {
+        "level": 19,
+        "cost": 4800000,
+        "resource": "builderElixir",
+        "timeSeconds": 561600,
+        "hallRequired": 10,
+        "labRequired": 10,
+        "xp": 0,
+        "icon": "/coc/builder/troops/beta-minion/normal/level-19.png"
+      },
+      {
+        "level": 20,
+        "cost": 5400000,
+        "resource": "builderElixir",
+        "timeSeconds": 561600,
+        "hallRequired": 10,
+        "labRequired": 10,
+        "xp": 0,
+        "icon": "/coc/builder/troops/beta-minion/normal/level-19.png"
+      }
+    ]
+  },
+  {
+    "key": "boxer-giant",
+    "name": "Boxer Giant",
+    "kind": "troop",
+    "order": 999,
+    "base": "builder",
+    "maxLevel": 20,
+    "icon": "/coc/builder/troops/boxer-giant/normal/level-20.png",
+    "levels": [
+      {
+        "level": 3,
+        "cost": 0,
+        "resource": "builderElixir",
+        "timeSeconds": 0,
+        "hallRequired": null,
+        "labRequired": 0,
+        "xp": 0,
+        "icon": "/coc/builder/troops/boxer-giant/normal/level-3.png"
+      },
+      {
+        "level": 4,
+        "cost": 60000,
+        "resource": "builderElixir",
+        "timeSeconds": 18000,
+        "hallRequired": 3,
+        "labRequired": 3,
+        "xp": 0,
+        "icon": "/coc/builder/troops/boxer-giant/normal/level-3.png"
+      },
+      {
+        "level": 5,
+        "cost": 120000,
+        "resource": "builderElixir",
+        "timeSeconds": 36000,
+        "hallRequired": 3,
+        "labRequired": 3,
+        "xp": 0,
+        "icon": "/coc/builder/troops/boxer-giant/normal/level-3.png"
+      },
+      {
+        "level": 6,
+        "cost": 240000,
+        "resource": "builderElixir",
+        "timeSeconds": 57600,
+        "hallRequired": 3,
+        "labRequired": 3,
+        "xp": 0,
+        "icon": "/coc/builder/troops/boxer-giant/normal/level-3.png"
+      },
+      {
+        "level": 7,
+        "cost": 350000,
+        "resource": "builderElixir",
+        "timeSeconds": 72000,
+        "hallRequired": 4,
+        "labRequired": 4,
+        "xp": 0,
+        "icon": "/coc/builder/troops/boxer-giant/normal/level-3.png"
+      },
+      {
+        "level": 8,
+        "cost": 380000,
+        "resource": "builderElixir",
+        "timeSeconds": 86400,
+        "hallRequired": 4,
+        "labRequired": 4,
+        "xp": 0,
+        "icon": "/coc/builder/troops/boxer-giant/normal/level-8.png"
+      },
+      {
+        "level": 9,
+        "cost": 1000000,
+        "resource": "builderElixir",
+        "timeSeconds": 129600,
+        "hallRequired": 5,
+        "labRequired": 5,
+        "xp": 0,
+        "icon": "/coc/builder/troops/boxer-giant/normal/level-8.png"
+      },
+      {
+        "level": 10,
+        "cost": 1200000,
+        "resource": "builderElixir",
+        "timeSeconds": 172800,
+        "hallRequired": 5,
+        "labRequired": 5,
+        "xp": 0,
+        "icon": "/coc/builder/troops/boxer-giant/normal/level-8.png"
+      },
+      {
+        "level": 11,
+        "cost": 1300000,
+        "resource": "builderElixir",
+        "timeSeconds": 172800,
+        "hallRequired": 6,
+        "labRequired": 6,
+        "xp": 0,
+        "icon": "/coc/builder/troops/boxer-giant/normal/level-8.png"
+      },
+      {
+        "level": 12,
+        "cost": 1500000,
+        "resource": "builderElixir",
+        "timeSeconds": 216000,
+        "hallRequired": 6,
+        "labRequired": 6,
+        "xp": 0,
+        "icon": "/coc/builder/troops/boxer-giant/normal/level-12.png"
+      },
+      {
+        "level": 13,
+        "cost": 2300000,
+        "resource": "builderElixir",
+        "timeSeconds": 302400,
+        "hallRequired": 7,
+        "labRequired": 7,
+        "xp": 0,
+        "icon": "/coc/builder/troops/boxer-giant/normal/level-12.png"
+      },
+      {
+        "level": 14,
+        "cost": 2500000,
+        "resource": "builderElixir",
+        "timeSeconds": 388800,
+        "hallRequired": 7,
+        "labRequired": 7,
+        "xp": 0,
+        "icon": "/coc/builder/troops/boxer-giant/normal/level-12.png"
+      },
+      {
+        "level": 15,
+        "cost": 3300000,
+        "resource": "builderElixir",
+        "timeSeconds": 475200,
+        "hallRequired": 8,
+        "labRequired": 8,
+        "xp": 0,
+        "icon": "/coc/builder/troops/boxer-giant/normal/level-12.png"
+      },
+      {
+        "level": 16,
+        "cost": 3500000,
+        "resource": "builderElixir",
+        "timeSeconds": 475200,
+        "hallRequired": 8,
+        "labRequired": 8,
+        "xp": 0,
+        "icon": "/coc/builder/troops/boxer-giant/normal/level-16.png"
+      },
+      {
+        "level": 17,
+        "cost": 4000000,
+        "resource": "builderElixir",
+        "timeSeconds": 518400,
+        "hallRequired": 9,
+        "labRequired": 9,
+        "xp": 0,
+        "icon": "/coc/builder/troops/boxer-giant/normal/level-16.png"
+      },
+      {
+        "level": 18,
+        "cost": 4200000,
+        "resource": "builderElixir",
+        "timeSeconds": 518400,
+        "hallRequired": 9,
+        "labRequired": 9,
+        "xp": 0,
+        "icon": "/coc/builder/troops/boxer-giant/normal/level-16.png"
+      },
+      {
+        "level": 19,
+        "cost": 4800000,
+        "resource": "builderElixir",
+        "timeSeconds": 561600,
+        "hallRequired": 10,
+        "labRequired": 10,
+        "xp": 0,
+        "icon": "/coc/builder/troops/boxer-giant/normal/level-16.png"
+      },
+      {
+        "level": 20,
+        "cost": 5400000,
+        "resource": "builderElixir",
+        "timeSeconds": 561600,
+        "hallRequired": 10,
+        "labRequired": 10,
+        "xp": 0,
+        "icon": "/coc/builder/troops/boxer-giant/normal/level-20.png"
+      }
+    ]
+  },
+  {
+    "key": "bomber",
+    "name": "Bomber",
+    "kind": "troop",
+    "order": 999,
+    "base": "builder",
+    "maxLevel": 20,
+    "icon": "/coc/builder/troops/bomber/normal/level-20.png",
+    "levels": [
+      {
+        "level": 5,
+        "cost": 0,
+        "resource": "builderElixir",
+        "timeSeconds": 0,
+        "hallRequired": null,
+        "labRequired": 0,
+        "xp": 0,
+        "icon": "/coc/builder/troops/bomber/normal/level-5.png"
+      },
+      {
+        "level": 6,
+        "cost": 320000,
+        "resource": "builderElixir",
+        "timeSeconds": 57600,
+        "hallRequired": 4,
+        "labRequired": 4,
+        "xp": 0,
+        "icon": "/coc/builder/troops/bomber/normal/level-5.png"
+      },
+      {
+        "level": 7,
+        "cost": 340000,
+        "resource": "builderElixir",
+        "timeSeconds": 72000,
+        "hallRequired": 4,
+        "labRequired": 4,
+        "xp": 0,
+        "icon": "/coc/builder/troops/bomber/normal/level-5.png"
+      },
+      {
+        "level": 8,
+        "cost": 360000,
+        "resource": "builderElixir",
+        "timeSeconds": 86400,
+        "hallRequired": 4,
+        "labRequired": 4,
+        "xp": 0,
+        "icon": "/coc/builder/troops/bomber/normal/level-8.png"
+      },
+      {
+        "level": 9,
+        "cost": 900000,
+        "resource": "builderElixir",
+        "timeSeconds": 129600,
+        "hallRequired": 5,
+        "labRequired": 5,
+        "xp": 0,
+        "icon": "/coc/builder/troops/bomber/normal/level-8.png"
+      },
+      {
+        "level": 10,
+        "cost": 1000000,
+        "resource": "builderElixir",
+        "timeSeconds": 172800,
+        "hallRequired": 5,
+        "labRequired": 5,
+        "xp": 0,
+        "icon": "/coc/builder/troops/bomber/normal/level-10.png"
+      },
+      {
+        "level": 11,
+        "cost": 1200000,
+        "resource": "builderElixir",
+        "timeSeconds": 172800,
+        "hallRequired": 6,
+        "labRequired": 6,
+        "xp": 0,
+        "icon": "/coc/builder/troops/bomber/normal/level-10.png"
+      },
+      {
+        "level": 12,
+        "cost": 1400000,
+        "resource": "builderElixir",
+        "timeSeconds": 216000,
+        "hallRequired": 6,
+        "labRequired": 6,
+        "xp": 0,
+        "icon": "/coc/builder/troops/bomber/normal/level-12.png"
+      },
+      {
+        "level": 13,
+        "cost": 2200000,
+        "resource": "builderElixir",
+        "timeSeconds": 302400,
+        "hallRequired": 7,
+        "labRequired": 7,
+        "xp": 0,
+        "icon": "/coc/builder/troops/bomber/normal/level-12.png"
+      },
+      {
+        "level": 14,
+        "cost": 2400000,
+        "resource": "builderElixir",
+        "timeSeconds": 388800,
+        "hallRequired": 7,
+        "labRequired": 7,
+        "xp": 0,
+        "icon": "/coc/builder/troops/bomber/normal/level-14.png"
+      },
+      {
+        "level": 15,
+        "cost": 3200000,
+        "resource": "builderElixir",
+        "timeSeconds": 475200,
+        "hallRequired": 8,
+        "labRequired": 8,
+        "xp": 0,
+        "icon": "/coc/builder/troops/bomber/normal/level-14.png"
+      },
+      {
+        "level": 16,
+        "cost": 3400000,
+        "resource": "builderElixir",
+        "timeSeconds": 475200,
+        "hallRequired": 8,
+        "labRequired": 8,
+        "xp": 0,
+        "icon": "/coc/builder/troops/bomber/normal/level-14.png"
+      },
+      {
+        "level": 17,
+        "cost": 3900000,
+        "resource": "builderElixir",
+        "timeSeconds": 518400,
+        "hallRequired": 9,
+        "labRequired": 9,
+        "xp": 0,
+        "icon": "/coc/builder/troops/bomber/normal/level-14.png"
+      },
+      {
+        "level": 18,
+        "cost": 4100000,
+        "resource": "builderElixir",
+        "timeSeconds": 518400,
+        "hallRequired": 9,
+        "labRequired": 9,
+        "xp": 0,
+        "icon": "/coc/builder/troops/bomber/normal/level-18.png"
+      },
+      {
+        "level": 19,
+        "cost": 4700000,
+        "resource": "builderElixir",
+        "timeSeconds": 561600,
+        "hallRequired": 10,
+        "labRequired": 10,
+        "xp": 0,
+        "icon": "/coc/builder/troops/bomber/normal/level-18.png"
+      },
+      {
+        "level": 20,
+        "cost": 5300000,
+        "resource": "builderElixir",
+        "timeSeconds": 561600,
+        "hallRequired": 10,
+        "labRequired": 10,
+        "xp": 0,
+        "icon": "/coc/builder/troops/bomber/normal/level-20.png"
+      }
+    ]
+  },
+  {
+    "key": "cannon-cart",
+    "name": "Cannon Cart",
+    "kind": "troop",
+    "order": 999,
+    "base": "builder",
+    "maxLevel": 20,
+    "icon": "/coc/builder/troops/cannon-cart/cannon/level-18.png",
+    "levels": [
+      {
+        "level": 7,
+        "cost": 0,
+        "resource": "builderElixir",
+        "timeSeconds": 0,
+        "hallRequired": null,
+        "labRequired": 0,
+        "xp": 0,
+        "icon": "/coc/builder/troops/cannon-cart/cannon/level-7.png"
+      },
+      {
+        "level": 8,
+        "cost": 1000000,
+        "resource": "builderElixir",
+        "timeSeconds": 86400,
+        "hallRequired": 5,
+        "labRequired": 5,
+        "xp": 0,
+        "icon": "/coc/builder/troops/cannon-cart/cannon/level-7.png"
+      },
+      {
+        "level": 9,
+        "cost": 1100000,
+        "resource": "builderElixir",
+        "timeSeconds": 129600,
+        "hallRequired": 5,
+        "labRequired": 5,
+        "xp": 0,
+        "icon": "/coc/builder/troops/cannon-cart/cannon/level-7.png"
+      },
+      {
+        "level": 10,
+        "cost": 1200000,
+        "resource": "builderElixir",
+        "timeSeconds": 172800,
+        "hallRequired": 5,
+        "labRequired": 5,
+        "xp": 0,
+        "icon": "/coc/builder/troops/cannon-cart/cannon/level-7.png"
+      },
+      {
+        "level": 11,
+        "cost": 1400000,
+        "resource": "builderElixir",
+        "timeSeconds": 172800,
+        "hallRequired": 6,
+        "labRequired": 6,
+        "xp": 0,
+        "icon": "/coc/builder/troops/cannon-cart/cannon/level-7.png"
+      },
+      {
+        "level": 12,
+        "cost": 1600000,
+        "resource": "builderElixir",
+        "timeSeconds": 216000,
+        "hallRequired": 6,
+        "labRequired": 6,
+        "xp": 0,
+        "icon": "/coc/builder/troops/cannon-cart/cannon/level-12.png"
+      },
+      {
+        "level": 13,
+        "cost": 2400000,
+        "resource": "builderElixir",
+        "timeSeconds": 302400,
+        "hallRequired": 7,
+        "labRequired": 7,
+        "xp": 0,
+        "icon": "/coc/builder/troops/cannon-cart/cannon/level-12.png"
+      },
+      {
+        "level": 14,
+        "cost": 2600000,
+        "resource": "builderElixir",
+        "timeSeconds": 388800,
+        "hallRequired": 7,
+        "labRequired": 7,
+        "xp": 0,
+        "icon": "/coc/builder/troops/cannon-cart/cannon/level-12.png"
+      },
+      {
+        "level": 15,
+        "cost": 3400000,
+        "resource": "builderElixir",
+        "timeSeconds": 475200,
+        "hallRequired": 8,
+        "labRequired": 8,
+        "xp": 0,
+        "icon": "/coc/builder/troops/cannon-cart/cannon/level-12.png"
+      },
+      {
+        "level": 16,
+        "cost": 3600000,
+        "resource": "builderElixir",
+        "timeSeconds": 475200,
+        "hallRequired": 8,
+        "labRequired": 8,
+        "xp": 0,
+        "icon": "/coc/builder/troops/cannon-cart/cannon/level-16.png"
+      },
+      {
+        "level": 17,
+        "cost": 4100000,
+        "resource": "builderElixir",
+        "timeSeconds": 518400,
+        "hallRequired": 9,
+        "labRequired": 9,
+        "xp": 0,
+        "icon": "/coc/builder/troops/cannon-cart/cannon/level-16.png"
+      },
+      {
+        "level": 18,
+        "cost": 4300000,
+        "resource": "builderElixir",
+        "timeSeconds": 518400,
+        "hallRequired": 9,
+        "labRequired": 9,
+        "xp": 0,
+        "icon": "/coc/builder/troops/cannon-cart/cannon/level-18.png"
+      },
+      {
+        "level": 19,
+        "cost": 5300000,
+        "resource": "builderElixir",
+        "timeSeconds": 561600,
+        "hallRequired": 10,
+        "labRequired": 10,
+        "xp": 0,
+        "icon": "/coc/builder/troops/cannon-cart/cannon/level-18.png"
+      },
+      {
+        "level": 20,
+        "cost": 5700000,
+        "resource": "builderElixir",
+        "timeSeconds": 561600,
+        "hallRequired": 10,
+        "labRequired": 10,
+        "xp": 0,
+        "icon": "/coc/builder/troops/cannon-cart/cannon/level-18.png"
+      }
+    ]
+  },
+  {
+    "key": "night-witch",
+    "name": "Night Witch",
+    "kind": "troop",
+    "order": 999,
+    "base": "builder",
+    "maxLevel": 20,
+    "icon": "/coc/builder/troops/night-witch/normal/level-20.png",
+    "levels": [
+      {
+        "level": 9,
+        "cost": 0,
+        "resource": "builderElixir",
+        "timeSeconds": 0,
+        "hallRequired": null,
+        "labRequired": 0,
+        "xp": 0,
+        "icon": "/coc/builder/troops/night-witch/normal/level-9.png"
+      },
+      {
+        "level": 10,
+        "cost": 1400000,
+        "resource": "builderElixir",
+        "timeSeconds": 172800,
+        "hallRequired": 6,
+        "labRequired": 6,
+        "xp": 0,
+        "icon": "/coc/builder/troops/night-witch/normal/level-9.png"
+      },
+      {
+        "level": 11,
+        "cost": 1600000,
+        "resource": "builderElixir",
+        "timeSeconds": 172800,
+        "hallRequired": 6,
+        "labRequired": 6,
+        "xp": 0,
+        "icon": "/coc/builder/troops/night-witch/normal/level-9.png"
+      },
+      {
+        "level": 12,
+        "cost": 1800000,
+        "resource": "builderElixir",
+        "timeSeconds": 216000,
+        "hallRequired": 6,
+        "labRequired": 6,
+        "xp": 0,
+        "icon": "/coc/builder/troops/night-witch/normal/level-12.png"
+      },
+      {
+        "level": 13,
+        "cost": 2500000,
+        "resource": "builderElixir",
+        "timeSeconds": 302400,
+        "hallRequired": 7,
+        "labRequired": 7,
+        "xp": 0,
+        "icon": "/coc/builder/troops/night-witch/normal/level-12.png"
+      },
+      {
+        "level": 14,
+        "cost": 2700000,
+        "resource": "builderElixir",
+        "timeSeconds": 388800,
+        "hallRequired": 7,
+        "labRequired": 7,
+        "xp": 0,
+        "icon": "/coc/builder/troops/night-witch/normal/level-12.png"
+      },
+      {
+        "level": 15,
+        "cost": 3500000,
+        "resource": "builderElixir",
+        "timeSeconds": 475200,
+        "hallRequired": 8,
+        "labRequired": 8,
+        "xp": 0,
+        "icon": "/coc/builder/troops/night-witch/normal/level-12.png"
+      },
+      {
+        "level": 16,
+        "cost": 3700000,
+        "resource": "builderElixir",
+        "timeSeconds": 475200,
+        "hallRequired": 8,
+        "labRequired": 8,
+        "xp": 0,
+        "icon": "/coc/builder/troops/night-witch/normal/level-16.png"
+      },
+      {
+        "level": 17,
+        "cost": 4200000,
+        "resource": "builderElixir",
+        "timeSeconds": 518400,
+        "hallRequired": 9,
+        "labRequired": 9,
+        "xp": 0,
+        "icon": "/coc/builder/troops/night-witch/normal/level-16.png"
+      },
+      {
+        "level": 18,
+        "cost": 4400000,
+        "resource": "builderElixir",
+        "timeSeconds": 518400,
+        "hallRequired": 9,
+        "labRequired": 9,
+        "xp": 0,
+        "icon": "/coc/builder/troops/night-witch/normal/level-18.png"
+      },
+      {
+        "level": 19,
+        "cost": 5200000,
+        "resource": "builderElixir",
+        "timeSeconds": 561600,
+        "hallRequired": 10,
+        "labRequired": 10,
+        "xp": 0,
+        "icon": "/coc/builder/troops/night-witch/normal/level-18.png"
+      },
+      {
+        "level": 20,
+        "cost": 5600000,
+        "resource": "builderElixir",
+        "timeSeconds": 561600,
+        "hallRequired": 10,
+        "labRequired": 10,
+        "xp": 0,
+        "icon": "/coc/builder/troops/night-witch/normal/level-20.png"
+      }
+    ]
+  },
+  {
+    "key": "drop-ship",
+    "name": "Drop Ship",
+    "kind": "troop",
+    "order": 999,
+    "base": "builder",
+    "maxLevel": 20,
+    "icon": "/coc/builder/troops/drop-ship/normal/level-19.png",
+    "levels": [
+      {
+        "level": 11,
+        "cost": 0,
+        "resource": "builderElixir",
+        "timeSeconds": 0,
+        "hallRequired": null,
+        "labRequired": 0,
+        "xp": 0,
+        "icon": "/coc/builder/troops/drop-ship/normal/level-11.png"
+      },
+      {
+        "level": 12,
+        "cost": 2400000,
+        "resource": "builderElixir",
+        "timeSeconds": 216000,
+        "hallRequired": 7,
+        "labRequired": 7,
+        "xp": 0,
+        "icon": "/coc/builder/troops/drop-ship/normal/level-11.png"
+      },
+      {
+        "level": 13,
+        "cost": 2600000,
+        "resource": "builderElixir",
+        "timeSeconds": 302400,
+        "hallRequired": 7,
+        "labRequired": 7,
+        "xp": 0,
+        "icon": "/coc/builder/troops/drop-ship/normal/level-13.png"
+      },
+      {
+        "level": 14,
+        "cost": 2800000,
+        "resource": "builderElixir",
+        "timeSeconds": 388800,
+        "hallRequired": 7,
+        "labRequired": 7,
+        "xp": 0,
+        "icon": "/coc/builder/troops/drop-ship/normal/level-13.png"
+      },
+      {
+        "level": 15,
+        "cost": 3600000,
+        "resource": "builderElixir",
+        "timeSeconds": 475200,
+        "hallRequired": 8,
+        "labRequired": 8,
+        "xp": 0,
+        "icon": "/coc/builder/troops/drop-ship/normal/level-15.png"
+      },
+      {
+        "level": 16,
+        "cost": 3800000,
+        "resource": "builderElixir",
+        "timeSeconds": 475200,
+        "hallRequired": 8,
+        "labRequired": 8,
+        "xp": 0,
+        "icon": "/coc/builder/troops/drop-ship/normal/level-15.png"
+      },
+      {
+        "level": 17,
+        "cost": 4300000,
+        "resource": "builderElixir",
+        "timeSeconds": 518400,
+        "hallRequired": 9,
+        "labRequired": 9,
+        "xp": 0,
+        "icon": "/coc/builder/troops/drop-ship/normal/level-17.png"
+      },
+      {
+        "level": 18,
+        "cost": 4500000,
+        "resource": "builderElixir",
+        "timeSeconds": 518400,
+        "hallRequired": 9,
+        "labRequired": 9,
+        "xp": 0,
+        "icon": "/coc/builder/troops/drop-ship/normal/level-17.png"
+      },
+      {
+        "level": 19,
+        "cost": 5500000,
+        "resource": "builderElixir",
+        "timeSeconds": 561600,
+        "hallRequired": 10,
+        "labRequired": 10,
+        "xp": 0,
+        "icon": "/coc/builder/troops/drop-ship/normal/level-19.png"
+      },
+      {
+        "level": 20,
+        "cost": 5700000,
+        "resource": "builderElixir",
+        "timeSeconds": 561600,
+        "hallRequired": 10,
+        "labRequired": 10,
+        "xp": 0,
+        "icon": "/coc/builder/troops/drop-ship/normal/level-19.png"
+      }
+    ]
+  },
+  {
+    "key": "power-pekka",
+    "name": "Power P.E.K.K.A",
+    "kind": "troop",
+    "order": 999,
+    "base": "builder",
+    "maxLevel": 20,
+    "icon": "/coc/builder/troops/power-pekka/normal/level-20.png",
+    "levels": [
+      {
+        "level": 13,
+        "cost": 0,
+        "resource": "builderElixir",
+        "timeSeconds": 0,
+        "hallRequired": null,
+        "labRequired": 0,
+        "xp": 0,
+        "icon": "/coc/builder/troops/power-pekka/normal/level-13.png"
+      },
+      {
+        "level": 14,
+        "cost": 3600000,
+        "resource": "builderElixir",
+        "timeSeconds": 388800,
+        "hallRequired": 8,
+        "labRequired": 8,
+        "xp": 0,
+        "icon": "/coc/builder/troops/power-pekka/normal/level-14.png"
+      },
+      {
+        "level": 15,
+        "cost": 3800000,
+        "resource": "builderElixir",
+        "timeSeconds": 475200,
+        "hallRequired": 8,
+        "labRequired": 8,
+        "xp": 0,
+        "icon": "/coc/builder/troops/power-pekka/normal/level-14.png"
+      },
+      {
+        "level": 16,
+        "cost": 4000000,
+        "resource": "builderElixir",
+        "timeSeconds": 475200,
+        "hallRequired": 8,
+        "labRequired": 8,
+        "xp": 0,
+        "icon": "/coc/builder/troops/power-pekka/normal/level-16.png"
+      },
+      {
+        "level": 17,
+        "cost": 4600000,
+        "resource": "builderElixir",
+        "timeSeconds": 518400,
+        "hallRequired": 9,
+        "labRequired": 9,
+        "xp": 0,
+        "icon": "/coc/builder/troops/power-pekka/normal/level-16.png"
+      },
+      {
+        "level": 18,
+        "cost": 4800000,
+        "resource": "builderElixir",
+        "timeSeconds": 518400,
+        "hallRequired": 9,
+        "labRequired": 9,
+        "xp": 0,
+        "icon": "/coc/builder/troops/power-pekka/normal/level-18.png"
+      },
+      {
+        "level": 19,
+        "cost": 5600000,
+        "resource": "builderElixir",
+        "timeSeconds": 561600,
+        "hallRequired": 10,
+        "labRequired": 10,
+        "xp": 0,
+        "icon": "/coc/builder/troops/power-pekka/normal/level-18.png"
+      },
+      {
+        "level": 20,
+        "cost": 5800000,
+        "resource": "builderElixir",
+        "timeSeconds": 561600,
+        "hallRequired": 10,
+        "labRequired": 10,
+        "xp": 0,
+        "icon": "/coc/builder/troops/power-pekka/normal/level-20.png"
+      }
+    ]
+  },
+  {
+    "key": "hog-glider",
+    "name": "Hog Glider",
+    "kind": "troop",
+    "order": 999,
+    "base": "builder",
+    "maxLevel": 20,
+    "icon": "/coc/builder/troops/hog-glider/normal/level-20.png",
+    "levels": [
+      {
+        "level": 15,
+        "cost": 0,
+        "resource": "builderElixir",
+        "timeSeconds": 0,
+        "hallRequired": null,
+        "labRequired": 0,
+        "xp": 0,
+        "icon": "/coc/builder/troops/hog-glider/normal/level-15.png"
+      },
+      {
+        "level": 16,
+        "cost": 4000000,
+        "resource": "builderElixir",
+        "timeSeconds": 475200,
+        "hallRequired": 9,
+        "labRequired": 9,
+        "xp": 0,
+        "icon": "/coc/builder/troops/hog-glider/normal/level-15.png"
+      },
+      {
+        "level": 17,
+        "cost": 4200000,
+        "resource": "builderElixir",
+        "timeSeconds": 518400,
+        "hallRequired": 9,
+        "labRequired": 9,
+        "xp": 0,
+        "icon": "/coc/builder/troops/hog-glider/normal/level-17.png"
+      },
+      {
+        "level": 18,
+        "cost": 4400000,
+        "resource": "builderElixir",
+        "timeSeconds": 518400,
+        "hallRequired": 9,
+        "labRequired": 9,
+        "xp": 0,
+        "icon": "/coc/builder/troops/hog-glider/normal/level-18.png"
+      },
+      {
+        "level": 19,
+        "cost": 5400000,
+        "resource": "builderElixir",
+        "timeSeconds": 561600,
+        "hallRequired": 10,
+        "labRequired": 10,
+        "xp": 0,
+        "icon": "/coc/builder/troops/hog-glider/normal/level-19.png"
+      },
+      {
+        "level": 20,
+        "cost": 5800000,
+        "resource": "builderElixir",
+        "timeSeconds": 561600,
+        "hallRequired": 10,
+        "labRequired": 10,
+        "xp": 0,
+        "icon": "/coc/builder/troops/hog-glider/normal/level-20.png"
+      }
+    ]
+  },
+  {
+    "key": "electrofire-wizard",
+    "name": "Electrofire Wizard",
+    "kind": "troop",
+    "order": 999,
+    "base": "builder",
+    "maxLevel": 20,
+    "icon": "/coc/builder/troops/electrofire-wizard/normal/level-19.png",
+    "levels": [
+      {
+        "level": 17,
+        "cost": 0,
+        "resource": "builderElixir",
+        "timeSeconds": 0,
+        "hallRequired": null,
+        "labRequired": 0,
+        "xp": 0,
+        "icon": "/coc/builder/troops/electrofire-wizard/normal/level-17.png"
+      },
+      {
+        "level": 18,
+        "cost": 4400000,
+        "resource": "builderElixir",
+        "timeSeconds": 518400,
+        "hallRequired": 10,
+        "labRequired": 10,
+        "xp": 0,
+        "icon": "/coc/builder/troops/electrofire-wizard/normal/level-17.png"
+      },
+      {
+        "level": 19,
+        "cost": 5400000,
+        "resource": "builderElixir",
+        "timeSeconds": 561600,
+        "hallRequired": 10,
+        "labRequired": 10,
+        "xp": 0,
+        "icon": "/coc/builder/troops/electrofire-wizard/normal/level-19.png"
+      },
+      {
+        "level": 20,
+        "cost": 5800000,
+        "resource": "builderElixir",
+        "timeSeconds": 561600,
+        "hallRequired": 10,
+        "labRequired": 10,
+        "xp": 0,
+        "icon": "/coc/builder/troops/electrofire-wizard/normal/level-19.png"
+      }
+    ]
+  }
+]

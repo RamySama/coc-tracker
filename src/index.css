@@ -1,0 +1,276 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-bg: #0a0a12;
+  --color-surface: #10101d;
+  --color-surface-2: #191a2b;
+  --color-surface-3: #262841;
+  --color-border: #33344f;
+  --color-ink: #e7e7f2;
+  --color-ink-dim: #9a9ab8;
+  --color-gold: #f5c542;
+  --color-elixir: #d946a8;
+  --color-dark: #a78bfa;
+  --color-success: #34d399;
+  --color-warn: #fbbf24;
+  --color-danger: #f87171;
+
+  /* dégradé signature : violet élixir noir → magenta élixir → or */
+  --color-brand-1: #a78bfa;
+  --color-brand-2: #d946a8;
+  --color-brand-3: #f5c542;
+
+  --font-sans: system-ui, 'Segoe UI', Roboto, sans-serif;
+
+  --radius-md: 0.625rem;
+  --radius-lg: 0.875rem;
+  --radius-xl: 1.1rem;
+
+  --shadow-card: 0 1px 2px rgb(0 0 0 / 0.3), 0 8px 24px -12px rgb(0 0 0 / 0.5);
+  --shadow-pop: 0 10px 44px -8px rgb(0 0 0 / 0.7);
+}
+
+:root {
+  --gradient-brand: linear-gradient(120deg, var(--color-brand-1), var(--color-brand-2), var(--color-brand-3));
+}
+
+@property --angle {
+  syntax: '<angle>';
+  inherits: false;
+  initial-value: 0deg;
+}
+@keyframes spin-angle {
+  to {
+    --angle: 360deg;
+  }
+}
+
+html {
+  color-scheme: dark;
+}
+
+body {
+  margin: 0;
+  background: var(--color-bg);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* lueur ambiante derrière toute l'app */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background:
+    radial-gradient(60% 40% at 15% 0%, color-mix(in srgb, var(--color-brand-1) 12%, transparent), transparent 70%),
+    radial-gradient(50% 45% at 100% 100%, color-mix(in srgb, var(--color-brand-2) 10%, transparent), transparent 70%);
+}
+
+#root {
+  height: 100svh;
+  overflow: hidden;
+}
+
+/* focus visible cohérent partout */
+:focus-visible {
+  outline: 2px solid var(--color-brand-2);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+::selection {
+  background: color-mix(in srgb, var(--color-brand-2) 35%, transparent);
+}
+
+/* ---------- utilitaires marque ---------- */
+
+.text-brand {
+  background: var(--gradient-brand);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.glow-brand {
+  box-shadow:
+    0 0 0 1px color-mix(in srgb, var(--color-brand-2) 40%, transparent),
+    0 4px 20px -4px color-mix(in srgb, var(--color-brand-2) 55%, transparent),
+    0 0 32px -6px color-mix(in srgb, var(--color-brand-1) 45%, transparent);
+}
+.glow-brand-sm {
+  box-shadow: 0 0 16px -4px color-mix(in srgb, var(--color-brand-2) 55%, transparent);
+}
+
+/* hairline dégradé (bordure fine) */
+.border-brand {
+  position: relative;
+}
+.border-brand::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  padding: 1px;
+  background: var(--gradient-brand);
+  -webkit-mask:
+    linear-gradient(#000 0 0) content-box,
+    linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+}
+
+/* bordure conic qui tourne — réservée au bouton .glow */
+.ring-anim {
+  position: relative;
+  border: 1.5px solid transparent;
+  background:
+    linear-gradient(var(--color-surface), var(--color-surface)) padding-box,
+    conic-gradient(from var(--angle), var(--color-brand-1), var(--color-brand-2), var(--color-brand-3), var(--color-brand-1)) border-box;
+  animation: spin-angle 4s linear infinite;
+}
+.ring-anim::before {
+  content: '';
+  position: absolute;
+  inset: -3px;
+  z-index: -1;
+  border-radius: inherit;
+  background: conic-gradient(from var(--angle), var(--color-brand-1), var(--color-brand-2), var(--color-brand-3), var(--color-brand-1));
+  filter: blur(11px);
+  opacity: 0.55;
+  animation: spin-angle 4s linear infinite;
+}
+
+/* spotlight qui suit le curseur (bouton primary) */
+.spotlight {
+  position: relative;
+  overflow: hidden;
+}
+.spotlight::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: radial-gradient(
+    150px circle at var(--mx, 50%) var(--my, 50%),
+    rgb(255 255 255 / 0.28),
+    transparent 45%
+  );
+  opacity: 0;
+  transition: opacity 0.2s;
+  pointer-events: none;
+}
+.spotlight:hover::after {
+  opacity: 1;
+}
+
+/* ---------- inputs ---------- */
+
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+  appearance: none;
+  margin: 0;
+}
+
+/* curseurs (RangeSlider) */
+.coc-range {
+  --pct: 50%;
+  appearance: none;
+  width: 100%;
+  height: 22px;
+  background: transparent;
+  cursor: pointer;
+}
+.coc-range::-webkit-slider-runnable-track {
+  height: 6px;
+  border-radius: 999px;
+  background:
+    linear-gradient(#0000 0 0) padding-box,
+    linear-gradient(90deg, var(--color-brand-1), var(--color-brand-2), var(--color-brand-3)) 0 / var(--pct) 100% no-repeat,
+    var(--color-surface-3);
+}
+.coc-range::-moz-range-track {
+  height: 6px;
+  border-radius: 999px;
+  background: var(--color-surface-3);
+}
+.coc-range::-moz-range-progress {
+  height: 6px;
+  border-radius: 999px;
+  background: var(--color-brand-2);
+}
+.coc-range::-webkit-slider-thumb {
+  appearance: none;
+  margin-top: -6px;
+  height: 18px;
+  width: 18px;
+  border-radius: 999px;
+  background: var(--color-brand-3);
+  border: 3px solid var(--color-bg);
+  box-shadow: 0 0 12px -1px color-mix(in srgb, var(--color-brand-2) 70%, transparent);
+  transition: transform 0.1s;
+}
+.coc-range::-moz-range-thumb {
+  height: 16px;
+  width: 16px;
+  border-radius: 999px;
+  background: var(--color-brand-3);
+  border: 3px solid var(--color-bg);
+}
+.coc-range:hover::-webkit-slider-thumb,
+.coc-range:active::-webkit-slider-thumb {
+  transform: scale(1.15);
+}
+.coc-range:focus-visible {
+  outline: none;
+}
+.coc-range:focus-visible::-webkit-slider-thumb {
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--color-brand-2) 45%, transparent);
+}
+
+/* interrupteur ON */
+.switch-on {
+  background: var(--gradient-brand) !important;
+  box-shadow: 0 0 14px -3px color-mix(in srgb, var(--color-brand-2) 65%, transparent);
+}
+
+/* halo vert « au max » (signal d'état, pas la marque) */
+.glow-maxed {
+  border-color: color-mix(in srgb, var(--color-success) 55%, transparent);
+  box-shadow:
+    0 0 0 1px color-mix(in srgb, var(--color-success) 35%, transparent),
+    0 0 18px -4px color-mix(in srgb, var(--color-success) 70%, transparent);
+  animation: glow-pulse 2.6s ease-in-out infinite;
+}
+@keyframes glow-pulse {
+  0%,
+  100% {
+    box-shadow:
+      0 0 0 1px color-mix(in srgb, var(--color-success) 30%, transparent),
+      0 0 14px -5px color-mix(in srgb, var(--color-success) 55%, transparent);
+  }
+  50% {
+    box-shadow:
+      0 0 0 1px color-mix(in srgb, var(--color-success) 45%, transparent),
+      0 0 22px -3px color-mix(in srgb, var(--color-success) 85%, transparent);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    transition-duration: 0.001ms !important;
+  }
+  .ring-anim,
+  .ring-anim::before {
+    --angle: 210deg;
+  }
+  .spotlight::after {
+    display: none;
+  }
+}

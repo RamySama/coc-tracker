@@ -1,0 +1,210 @@
+{
+  "app": {
+    "name": "CoC Upgrade Tracker",
+    "tagline": "Suis tes améliorations, planifie ton prochain HDV"
+  },
+  "nav": {
+    "dashboard": "Accueil",
+    "village": "Village",
+    "buildings": "Bâtiments",
+    "research": "Recherche",
+    "upgrades": "Améliorations",
+    "planner": "Planif",
+    "settings": "Réglages"
+  },
+  "search": {
+    "open": "Rechercher",
+    "placeholder": "Rechercher un bâtiment, une troupe, un sort…",
+    "noResults": "Aucun résultat"
+  },
+  "toast": {
+    "saved": "{{name}} · modifié"
+  },
+  "common": {
+    "loading": "Chargement…",
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "undo": "Annuler",
+    "next": "Suivant",
+    "back": "Retour",
+    "hideMaxed": "Masquer ce qui est au max",
+    "delete": "Supprimer",
+    "create": "Créer",
+    "rename": "Renommer",
+    "level": "Niveau",
+    "levelShort": "Niv.",
+    "max": "Max",
+    "maxed": "Au max",
+    "locked": "Verrouillé",
+    "total": "Total",
+    "all": "Tous",
+    "none": "Aucun",
+    "time": "Temps",
+    "xp": "XP",
+    "builders": "Ouvriers",
+    "of": "sur"
+  },
+  "base": {
+    "home": "Village principal",
+    "builder": "Base des Ouvriers",
+    "hallHome": "Hôtel de Ville",
+    "hallBuilder": "Maison de l'Ouvrier",
+    "hallHomeShort": "HDV",
+    "hallBuilderShort": "MDO"
+  },
+  "resource": {
+    "gold": "Or",
+    "elixir": "Élixir",
+    "darkElixir": "Élixir noir",
+    "builderGold": "Or (BO)",
+    "builderElixir": "Élixir (BO)",
+    "goldOrElixir": "Or / Élixir"
+  },
+  "category": {
+    "defense": "Défenses",
+    "crafted-defense": "Défenses fusionnées",
+    "guardian": "Gardiens",
+    "trap": "Pièges",
+    "wall": "Murs",
+    "hero": "Héros",
+    "pet": "Familiers",
+    "troop": "Caserne",
+    "dark-troop": "Caserne noire",
+    "siege": "Engins de siège",
+    "spell": "Sorts",
+    "dark-spell": "Sorts noirs",
+    "army": "Armée",
+    "resource": "Ressources",
+    "research": "Laboratoire",
+    "other": "Autres",
+    "townhall": "Hôtel de Ville"
+  },
+  "research": {
+    "title": "Recherche",
+    "subtitle": "Tape un élément pour régler son niveau",
+    "search": "Rechercher (troupe, sort, héros…)",
+    "recap": "Recherches restantes",
+    "bulkMaxPrev": "Tout au max {{hall}}",
+    "bulkConfirm": "Mettre tous les éléments non renseignés au max {{hall}} ?",
+    "labRequired": "Labo niv. {{n}}",
+    "empty": "Rien à rechercher — tout est au max pour ton {{hall}} !"
+  },
+  "login": {
+    "title": "Connexion",
+    "google": "Continuer avec Google",
+    "anon": "Continuer sans compte",
+    "localOnly": "Firebase n'est pas configuré : les données restent sur cet appareil.",
+    "continueLocal": "Utiliser en local"
+  },
+  "onboarding": {
+    "title": "Nouveau village",
+    "name": "Nom du village",
+    "namePlaceholder": "Mon village",
+    "chooseBase": "Type de base",
+    "hallLevel": "Niveau {{hall}}",
+    "buildersHelp": "Nombre d'ouvriers disponibles (2 à 6)",
+    "start": "Commencer le suivi",
+    "presetQuestion": "Où en est ton village ?",
+    "presetAdvanced": "Déjà avancé — tout au max {{hall}}",
+    "presetAdvancedHelp": "Préremplit chaque bâtiment au max du HDV précédent. Tu ajustes ensuite.",
+    "presetManual": "Je saisis mes niveaux",
+    "presetManualHelp": "Va directement à l'écran Bâtiments pour tout renseigner.",
+    "presetFresh": "Village tout neuf",
+    "presetFreshHelp": "Tout à zéro.",
+    "createFirst": "Créer mon village"
+  },
+  "dashboard": {
+    "noVillage": "Aucun village pour l'instant.",
+    "addVillage": "Ajouter un village",
+    "progress": "Progression vers le max {{hall}}",
+    "remaining": "Ressources restantes",
+    "nextUp": "À faire ensuite",
+    "wallClock": "Durée estimée ({{n}} ouvriers)",
+    "everythingMaxed": "Tout est au max pour ce niveau ! Passe au palier suivant.",
+    "openPlanner": "Voir ce que débloque le prochain {{hall}}",
+    "myResources": "Mes ressources actuelles",
+    "objective": "Objectif {{hall}}"
+  },
+  "buildings": {
+    "title": "Mes bâtiments",
+    "setLevel": "Tape un bâtiment pour régler son niveau",
+    "instance": "Exemplaire {{n}}",
+    "notBuilt": "Non construit",
+    "search": "Rechercher un bâtiment",
+    "wallsAllSame": "on suppose tous les murs au même niveau",
+    "bulkMaxPrev": "Tout au max {{hall}}",
+    "bulkConfirm": "Mettre tous les bâtiments non renseignés au max {{hall}} ?"
+  },
+  "buildingEditor": {
+    "notFound": "Bâtiment introuvable.",
+    "atMaxHall": "au HDV max",
+    "allAtLevel": "Tous les exemplaires au niveau",
+    "mixedLevels": "Tes exemplaires sont à des niveaux différents — règle-les un par un ci-dessous.",
+    "perCopy": "Détailler par exemplaire"
+  },
+  "upgrades": {
+    "title": "Améliorations restantes",
+    "empty": "Rien à améliorer — tout est au max pour ton {{hall}} !",
+    "filters": "Filtres",
+    "sortBy": "Trier par",
+    "sort": {
+      "cost": "Coût",
+      "time": "Temps",
+      "hall": "{{hall}} requis",
+      "category": "Catégorie"
+    },
+    "sortNextCost": "Prochaine amélio",
+    "sortTotalCost": "Coût total restant",
+    "showLocked": "Afficher les niveaux verrouillés",
+    "step": "Niv. {{from}} → {{to}}",
+    "markDone": "Marquer comme fait",
+    "next": "Prochaine",
+    "totalRemaining": "Total restant",
+    "affordable": "abordable",
+    "unlocksAt": "Débloqué au {{hall}} {{level}}",
+    "count": "{{count}} amélioration",
+    "count_other": "{{count}} améliorations",
+    "groupCount": "{{count}} élément",
+    "groupCount_other": "{{count}} éléments",
+    "filterWished": "Objectifs"
+  },
+  "planner": {
+    "title": "Planificateur d'Hôtel de Ville",
+    "titleBuilder": "Planificateur de Maison de l'Ouvrier",
+    "from": "De",
+    "to": "À",
+    "hallCost": "Coût de l'amélioration {{hall}}",
+    "newBuildings": "Nouveaux bâtiments",
+    "extraCopies": "Exemplaires supplémentaires",
+    "higherLevels": "Nouveaux niveaux max (bâtiments)",
+    "newResearch": "Nouveaux éléments d'armée",
+    "researchLevels": "Nouveaux niveaux max (armée / labo)",
+    "cNewBuildings": "bâtiments",
+    "cNewUnits": "unités",
+    "cLevels": "niveaux max",
+    "storage": "Capacité de stockage",
+    "costToMax": "Coût pour tout maxer sur ce palier",
+    "fromMaxed": "En supposant un village déjà maxé au niveau {{level}}.",
+    "copies": "{{before}} → {{after}} exemplaires",
+    "levels": "niv. {{before}} → {{after}}",
+    "nothingNew": "Aucun changement entre ces deux niveaux.",
+    "objective": "Objectif",
+    "addWish": "Ajouter aux objectifs",
+    "removeWish": "Retirer des objectifs"
+  },
+  "settings": {
+    "title": "Réglages",
+    "language": "Langue",
+    "account": "Compte",
+    "signedInAs": "Connecté : {{name}}",
+    "anonAccount": "Compte anonyme",
+    "signOut": "Se déconnecter",
+    "signIn": "Se connecter",
+    "villages": "Villages",
+    "dataSource": "Données du jeu : {{package}} v{{version}}",
+    "deleteConfirm": "Supprimer ce village et tout son suivi ?"
+  },
+  "footer": {
+    "disclaimer": "Contenu de fan non officiel. Non affilié à Supercell. Supercell n'est pas responsable de ce contenu. Voir la Supercell Fan Content Policy."
+  }
+}

@@ -1,0 +1,35 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    function signedIn() {
+      return request.auth != null;
+    }
+
+    // Données strictement privées : chaque utilisateur ne voit que les siennes.
+    match /users/{uid} {
+      allow read, write: if signedIn() && request.auth.uid == uid;
+
+      match /villages/{villageId} {
+        allow read, delete: if signedIn() && request.auth.uid == uid;
+
+        allow create, update: if signedIn()
+          && request.auth.uid == uid
+          && request.resource.data.name is string
+          && request.resource.data.base in ['home', 'builder']
+          && request.resource.data.hall is int
+          && request.resource.data.builders is int
+          && request.resource.data.buildings is map
+          && (!('resources' in request.resource.data) || request.resource.data.resources is map)
+          && (!('research' in request.resource.data) || request.resource.data.research is map)
+          && (!('plan' in request.resource.data) || request.resource.data.plan is map);
+      }
+    }
+
+    // tout le reste est fermé
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}
