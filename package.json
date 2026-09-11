@@ -19,6 +19,7 @@
     "tauri:build": "tauri build"
   },
   "dependencies": {
+    "@choochmeque/tauri-plugin-google-auth-api": "^0.6.0-rc.4",
     "firebase": "^12.18.0",
     "i18next": "^26.4.2",
     "motion": "^13.2.0",
