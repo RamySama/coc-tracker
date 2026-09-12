@@ -42,7 +42,8 @@
     "time": "Temps",
     "xp": "XP",
     "builders": "Ouvriers",
-    "of": "sur"
+    "of": "sur",
+    "quit": "Quitter"
   },
   "base": {
     "home": "Village principal",
@@ -123,7 +124,9 @@
     "everythingMaxed": "Tout est au max pour ce niveau ! Passe au palier suivant.",
     "openPlanner": "Voir ce que débloque le prochain {{hall}}",
     "myResources": "Mes ressources actuelles",
-    "objective": "Objectif {{hall}}"
+    "objective": "Objectif {{hall}}",
+    "levelUp": "Level up",
+    "levelUpHint": "Passer au {{hall}}"
   },
   "buildings": {
     "title": "Mes bâtiments",

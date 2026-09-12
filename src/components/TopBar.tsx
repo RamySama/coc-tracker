@@ -25,7 +25,8 @@ export function TopBar() {
         </svg>
       </button>
 
-      <Link to="/settings" aria-label={t('nav.settings')} className={iconBtn}>
+      {/* Sur desktop, la barre latérale a déjà un accès Réglages en bas ; on ne le duplique qu'en mobile. */}
+      <Link to="/settings" aria-label={t('nav.settings')} className={`${iconBtn} md:hidden`}>
         <svg width="17" height="17" viewBox="0 0 16 16" fill="currentColor" aria-hidden>
           <path d="M8 5a3 3 0 1 0 0 6 3 3 0 0 0 0-6ZM6.5 8a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0Z" />
           <path d="M8.93 1.03a1.2 1.2 0 0 0-1.86 0l-.62.77a.42.42 0 0 1-.44.14l-.93-.28a1.2 1.2 0 0 0-1.5 1.1l-.05.97a.42.42 0 0 1-.27.37l-.9.36a1.2 1.2 0 0 0-.57 1.76l.54.8a.42.42 0 0 1 0 .47l-.54.8a1.2 1.2 0 0 0 .57 1.76l.9.36c.16.06.26.2.27.37l.05.97a1.2 1.2 0 0 0 1.5 1.1l.93-.28c.16-.05.34 0 .44.14l.62.77a1.2 1.2 0 0 0 1.86 0l.62-.77a.42.42 0 0 1 .44-.14l.93.28a1.2 1.2 0 0 0 1.5-1.1l.05-.97a.42.42 0 0 1 .27-.37l.9-.36a1.2 1.2 0 0 0 .57-1.76l-.54-.8a.42.42 0 0 1 0-.47l.54-.8a1.2 1.2 0 0 0-.57-1.76l-.9-.36a.42.42 0 0 1-.27-.37l-.05-.97a1.2 1.2 0 0 0-1.5-1.1l-.93.28a.42.42 0 0 1-.44-.14l-.62-.77ZM8 3.2a4.8 4.8 0 1 1 0 9.6 4.8 4.8 0 0 1 0-9.6Z" />

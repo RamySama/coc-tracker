@@ -18,7 +18,7 @@ export function Login() {
   };
 
   return (
-    <div className="grid min-h-svh place-items-center p-6">
+    <div className="grid flex-1 place-items-center p-6">
       <div className="flex w-full max-w-sm flex-col gap-4 text-center">
         <div>
           <div className="text-brand text-2xl font-bold">⚔︎ CoC Tracker</div>

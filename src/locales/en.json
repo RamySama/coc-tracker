@@ -42,7 +42,8 @@
     "time": "Time",
     "xp": "XP",
     "builders": "Builders",
-    "of": "of"
+    "of": "of",
+    "quit": "Quit"
   },
   "base": {
     "home": "Home Village",
@@ -123,7 +124,9 @@
     "everythingMaxed": "Everything is maxed for this level! Move to the next tier.",
     "openPlanner": "See what the next {{hall}} unlocks",
     "myResources": "My current resources",
-    "objective": "Target {{hall}}"
+    "objective": "Target {{hall}}",
+    "levelUp": "Level up",
+    "levelUpHint": "Move to {{hall}}"
   },
   "buildings": {
     "title": "My buildings",

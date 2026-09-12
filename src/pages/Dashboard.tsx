@@ -9,8 +9,9 @@ import { ResourceInput } from '../components/ResourceInput';
 import { BuildingIcon } from '../components/BuildingIcon';
 import { EmptyState } from '../components/ui/EmptyState';
 import { Button } from '../components/ui/Button';
+import { useSaveToast } from '../hooks/useSaveToast';
 import { formatDuration } from '../lib/engine/totals';
-import { getHall } from '../lib/engine/catalog';
+import { getHall, maxHall } from '../lib/engine/catalog';
 import { buildingName, hallLongKey } from '../lib/labels';
 import type { Resource } from '../lib/engine/types';
 import type { VillageResources } from '../lib/appTypes';
@@ -24,6 +25,7 @@ export function Dashboard() {
   const updateVillage = useVillages((s) => s.updateVillage);
   const village = useCurrentVillage();
   const engine = useVillageEngine(village);
+  const saveToast = useSaveToast();
 
   if (loading) return <p className="text-ink-dim">{t('common.loading')}</p>;
   if (!village || !engine) return <Onboarding />;
@@ -60,13 +62,23 @@ export function Dashboard() {
 
   const objective = village.plan?.targetHall;
   const hasObjective = objective != null && objective > village.hall;
+  const canLevelUp = village.hall < maxHall(village.base);
+  const levelUp = () => {
+    updateVillage(village.id, { hall: village.hall + 1 });
+    saveToast(`${hallName} ${village.hall + 1}`);
+  };
 
   return (
     <div className="flex flex-col gap-6">
       <header className="flex flex-wrap items-baseline justify-between gap-x-3 gap-y-1">
         <h1 className="text-brand text-xl font-bold">{village.name}</h1>
-        <span className="text-sm text-ink-dim">
+        <span className="flex items-center gap-2 text-sm text-ink-dim">
           {hallName} {village.hall} · {village.builders} {t('common.builders')}
+          {canLevelUp && (
+            <Button variant="glow" size="sm" onClick={levelUp} title={t('dashboard.levelUpHint', { hall: `${shortHall} ${village.hall + 1}` })}>
+              ⬆️ {t('dashboard.levelUp')}
+            </Button>
+          )}
         </span>
         {hasObjective && (
           <Link

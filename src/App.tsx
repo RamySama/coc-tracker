@@ -7,6 +7,7 @@ import { useVillages } from './store/villages';
 import { createLocalRepo } from './lib/repo/localRepo';
 import { createFirestoreRepo } from './lib/repo/firestoreRepo';
 import { AppShell } from './components/AppShell';
+import { TitleBar } from './components/TitleBar';
 import { Login } from './pages/Login';
 import { Dashboard } from './pages/Dashboard';
 import { VillagePage } from './pages/VillagePage';
@@ -29,29 +30,38 @@ export default function App() {
     else bind(null, 'none');
   }, [firebaseEnabled, user, loading, bind]);
 
+  // La barre de titre custom (app Windows uniquement) doit rester visible sur
+  // TOUS les écrans, y compris avant connexion : c'est le seul moyen de
+  // réduire/fermer la fenêtre puisque les décorations natives sont désactivées.
+  let content;
   if (firebaseEnabled && loading) {
-    return <div className="grid min-h-svh place-items-center text-ink-dim">{t('common.loading')}</div>;
-  }
-
-  if (firebaseEnabled && !user) {
-    return <Login />;
+    content = <div className="grid flex-1 place-items-center text-ink-dim">{t('common.loading')}</div>;
+  } else if (firebaseEnabled && !user) {
+    content = <Login />;
+  } else {
+    content = (
+      <BrowserRouter>
+        <AppShell>
+          <Routes>
+            <Route path="/" element={<Dashboard />} />
+            <Route path="/village" element={<Navigate to="/village/buildings" replace />} />
+            <Route path="/village/:tab" element={<VillagePage />} />
+            <Route path="/buildings" element={<Navigate to="/village/buildings" replace />} />
+            <Route path="/research" element={<Navigate to="/village/research" replace />} />
+            <Route path="/upgrades" element={<Upgrades />} />
+            <Route path="/planner" element={<Planner />} />
+            <Route path="/settings" element={<Settings />} />
+            <Route path="*" element={<Navigate to="/" replace />} />
+          </Routes>
+        </AppShell>
+      </BrowserRouter>
+    );
   }
 
   return (
-    <BrowserRouter>
-      <AppShell>
-        <Routes>
-          <Route path="/" element={<Dashboard />} />
-          <Route path="/village" element={<Navigate to="/village/buildings" replace />} />
-          <Route path="/village/:tab" element={<VillagePage />} />
-          <Route path="/buildings" element={<Navigate to="/village/buildings" replace />} />
-          <Route path="/research" element={<Navigate to="/village/research" replace />} />
-          <Route path="/upgrades" element={<Upgrades />} />
-          <Route path="/planner" element={<Planner />} />
-          <Route path="/settings" element={<Settings />} />
-          <Route path="*" element={<Navigate to="/" replace />} />
-        </Routes>
-      </AppShell>
-    </BrowserRouter>
+    <div className="flex h-svh w-full flex-col overflow-hidden">
+      <TitleBar />
+      {content}
+    </div>
   );
 }
