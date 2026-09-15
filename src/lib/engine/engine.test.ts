@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import { countAtHall, getBuilding, getCatalog, getHalls, maxHall } from './catalog';
-import { completion, maxLevelForHall, nextStep, pendingUpgrades } from './progress';
+import { completion, maxLevelForHall, nextStep, pendingUpgrades, storageCapacity } from './progress';
 import { sumByResource, sumBuilderSeconds, wallClockSeconds } from './totals';
 import { townHallDiff } from './planner';
 import { presetBuildings } from './presets';
@@ -223,6 +223,54 @@ describe('recherche (armée / labo)', () => {
     const groups = groupResearch(village);
     expect(groups.length).toBeGreaterThan(0);
     for (const g of groups) for (const s of g.steps) expect(s.cost + s.timeSeconds).toBeGreaterThan(0);
+  });
+});
+
+describe('stockage — capacité dynamique', () => {
+  it('somme la capacité réelle des réservoirs construits (pas un chiffre générique par HDV)', () => {
+    const goldStorage = getBuilding('home', 'gold-storage')!;
+    const village: Village = {
+      base: 'home',
+      hall: 11,
+      builders: 5,
+      buildings: { 'gold-storage#1': { level: 5 }, 'gold-storage#2': { level: 3 } },
+    };
+    const expected = goldStorage.levels[4].capacity! + goldStorage.levels[2].capacity!;
+    expect(storageCapacity(village).gold).toBe(expected);
+  });
+
+  it('les réservoirs non construits ne comptent pas', () => {
+    const village: Village = { base: 'home', hall: 11, builders: 5, buildings: {} };
+    expect(storageCapacity(village).gold ?? 0).toBe(0);
+  });
+});
+
+describe('recherche — gatée par le Labo, pas seulement le HDV', () => {
+  it('un niveau de troupe reste verrouillé si le Labo n’a pas encore le niveau requis', () => {
+    const village: Village = {
+      base: 'home',
+      hall: 10,
+      builders: 5,
+      buildings: {},
+      research: { barbarian: { level: 1 } },
+    };
+    const groups = groupResearch(village, { includeLocked: true });
+    const barb = groups.find((g) => g.key === 'barbarian')!;
+    expect(barb.steps.some((s) => s.toLevel > 1)).toBe(false);
+    expect(barb.stepsLocked.some((s) => s.toLevel === 2)).toBe(true);
+  });
+
+  it('se débloque une fois le Labo construit au niveau requis', () => {
+    const village: Village = {
+      base: 'home',
+      hall: 10,
+      builders: 5,
+      buildings: { 'laboratory#1': { level: 1 } },
+      research: { barbarian: { level: 1 } },
+    };
+    const groups = groupResearch(village);
+    const barb = groups.find((g) => g.key === 'barbarian')!;
+    expect(barb.steps.some((s) => s.toLevel === 2)).toBe(true);
   });
 });
 

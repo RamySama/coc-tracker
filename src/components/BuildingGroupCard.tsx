@@ -99,7 +99,9 @@ export function BuildingGroupCard({ group, resources, showLocked, shortHall, onB
               {s.quantity > 1 && <span className="text-ink-dim">×{s.quantity}</span>}
               <ResourceAmount resource={s.resource} amount={s.cost} />
               {s.locked ? (
-                <span className="text-warn/80">{shortHall} {s.unlocksAtHall}</span>
+                <span className="text-warn/80">
+                  {s.unlocksAtHall != null ? `${shortHall} ${s.unlocksAtHall}` : t('research.labRequired', { n: s.unlocksAtGateLevel })}
+                </span>
               ) : (
                 <button
                   onClick={() => onBump(s.instanceId, s.toLevel)}

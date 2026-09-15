@@ -79,19 +79,50 @@ export function researchMaxForHall(item: ResearchItem, hall: number): number {
 
 const isNoise = (s: UpgradeStep) => s.cost === 0 && s.timeSeconds === 0;
 
+/**
+ * Bâtiment "gate" dont le niveau réel conditionne les niveaux de recherche de ce type
+ * (Labo pour troupes/sorts, Maison des familiers pour les familiers, Atelier pour les
+ * engins de siège…). Sans ça, une amélioration d'HDV afficherait aussitôt des niveaux de
+ * recherche que le joueur ne peut pas encore lancer faute d'avoir monté le bon bâtiment.
+ */
+const LAB_GATE_BUILDING: Partial<Record<Base, Partial<Record<ResearchKind, string>>>> = {
+  home: {
+    troop: 'laboratory',
+    'dark-troop': 'laboratory',
+    spell: 'laboratory',
+    'dark-spell': 'laboratory',
+    pet: 'pet-house',
+    siege: 'workshop',
+  },
+  builder: {
+    troop: 'star-laboratory',
+  },
+};
+
+/** Niveau actuel du bâtiment "gate" pour ce type de recherche (0 si non construit). */
+export function gateBuildingLevel(village: Village, kind: ResearchKind): number {
+  const key = LAB_GATE_BUILDING[village.base]?.[kind];
+  if (!key) return Infinity; // héros/gardiens : pas de bâtiment gate, jamais bloqué par ce critère
+  return village.buildings[`${key}#1`]?.level ?? 0;
+}
+
 /** Marches restantes pour un item, de fromLevel+1 au max (plafonné au hall courant par défaut). */
 export function researchSteps(
   item: ResearchItem,
   fromLevel: number,
   hall: number,
-  opts: { includeLocked?: boolean } = {},
+  opts: { includeLocked?: boolean; gateLevel?: number } = {},
 ): UpgradeStep[] {
   const ceiling = opts.includeLocked ? item.maxLevel : researchMaxForHall(item, hall);
+  const gateLevel = opts.gateLevel ?? Infinity;
   const steps: UpgradeStep[] = [];
   for (let to = Math.max(fromLevel, 0) + 1; to <= ceiling; to++) {
     const def = item.levels[to - 1];
     if (!def) break;
     const reqHall = def.hallRequired ?? 0;
+    const reqGate = def.labRequired ?? 0;
+    const lockedByHall = reqHall > hall;
+    const lockedByGate = reqGate > gateLevel;
     steps.push({
       instanceId: item.key,
       key: item.key,
@@ -106,19 +137,33 @@ export function researchSteps(
       timeSeconds: def.timeSeconds,
       xp: def.xp,
       quantity: 1,
-      locked: reqHall > hall,
-      unlocksAtHall: reqHall > hall ? reqHall : null,
+      locked: lockedByHall || lockedByGate,
+      unlocksAtHall: lockedByHall ? reqHall : null,
+      unlocksAtGateLevel: lockedByGate ? reqGate : null,
     });
   }
   return steps;
 }
 
-export function nextResearchStep(base: Base, key: string, fromLevel: number, hall: number): NextStep {
+export function nextResearchStep(
+  base: Base,
+  key: string,
+  fromLevel: number,
+  hall: number,
+  gateLevel = Infinity,
+): NextStep {
   const item = getResearchItem(base, key);
   if (!item || fromLevel >= item.maxLevel) return { state: 'maxed' };
-  const [step] = researchSteps(item, fromLevel, hall, { includeLocked: true });
+  const [step] = researchSteps(item, fromLevel, hall, { includeLocked: true, gateLevel });
   if (!step) return { state: 'maxed' };
-  if (step.locked) return { state: 'locked', step, unlocksAtHall: step.unlocksAtHall! };
+  if (step.locked) {
+    return {
+      state: 'locked',
+      step,
+      unlocksAtHall: step.unlocksAtHall,
+      requiresGateLevel: step.unlocksAtGateLevel ?? undefined,
+    };
+  }
   return { state: 'available', step };
 }
 
@@ -151,7 +196,8 @@ export function groupResearch(village: Village, opts: { includeLocked?: boolean 
   const wishlist = new Set(village.wishlist ?? []);
   for (const item of getResearch(village.base)) {
     const level = village.research?.[item.key]?.level ?? 0;
-    const all = researchSteps(item, level, village.hall, { includeLocked: true });
+    const gateLevel = gateBuildingLevel(village, item.kind);
+    const all = researchSteps(item, level, village.hall, { includeLocked: true, gateLevel });
     const steps = all.filter((s) => !s.locked && !isNoise(s));
     const stepsLocked = all.filter((s) => s.locked && !isNoise(s));
     const visibleLocked = opts.includeLocked ? stepsLocked : [];

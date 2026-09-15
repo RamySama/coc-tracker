@@ -89,7 +89,8 @@
         "timeSeconds": 60,
         "hallRequired": 1,
         "xp": 7,
-        "icon": "/coc/home/army-buildings/army-camp/normal/level-1.png"
+        "icon": "/coc/home/army-buildings/army-camp/normal/level-1.png",
+        "capacity": null
       },
       {
         "level": 2,
@@ -98,7 +99,8 @@
         "timeSeconds": 300,
         "hallRequired": 2,
         "xp": 17,
-        "icon": "/coc/home/army-buildings/army-camp/normal/level-2.png"
+        "icon": "/coc/home/army-buildings/army-camp/normal/level-2.png",
+        "capacity": null
       },
       {
         "level": 3,
@@ -107,7 +109,8 @@
         "timeSeconds": 1800,
         "hallRequired": 3,
         "xp": 42,
-        "icon": "/coc/home/army-buildings/army-camp/normal/level-3.png"
+        "icon": "/coc/home/army-buildings/army-camp/normal/level-3.png",
+        "capacity": null
       },
       {
         "level": 4,
@@ -116,7 +119,8 @@
         "timeSeconds": 7200,
         "hallRequired": 4,
         "xp": 84,
-        "icon": "/coc/home/army-buildings/army-camp/normal/level-4.png"
+        "icon": "/coc/home/army-buildings/army-camp/normal/level-4.png",
+        "capacity": null
       },
       {
         "level": 5,
@@ -125,7 +129,8 @@
         "timeSeconds": 21600,
         "hallRequired": 5,
         "xp": 146,
-        "icon": "/coc/home/army-buildings/army-camp/normal/level-5.png"
+        "icon": "/coc/home/army-buildings/army-camp/normal/level-5.png",
+        "capacity": null
       },
       {
         "level": 6,
@@ -134,7 +139,8 @@
         "timeSeconds": 43200,
         "hallRequired": 6,
         "xp": 207,
-        "icon": "/coc/home/army-buildings/army-camp/normal/level-6.png"
+        "icon": "/coc/home/army-buildings/army-camp/normal/level-6.png",
+        "capacity": null
       },
       {
         "level": 7,
@@ -143,7 +149,8 @@
         "timeSeconds": 172800,
         "hallRequired": 9,
         "xp": 415,
-        "icon": "/coc/home/army-buildings/army-camp/normal/level-7.png"
+        "icon": "/coc/home/army-buildings/army-camp/normal/level-7.png",
+        "capacity": null
       },
       {
         "level": 8,
@@ -152,7 +159,8 @@
         "timeSeconds": 259200,
         "hallRequired": 10,
         "xp": 509,
-        "icon": "/coc/home/army-buildings/army-camp/normal/level-8.png"
+        "icon": "/coc/home/army-buildings/army-camp/normal/level-8.png",
+        "capacity": null
       },
       {
         "level": 9,
@@ -161,7 +169,8 @@
         "timeSeconds": 302400,
         "hallRequired": 11,
         "xp": 549,
-        "icon": "/coc/home/army-buildings/army-camp/normal/level-9.png"
+        "icon": "/coc/home/army-buildings/army-camp/normal/level-9.png",
+        "capacity": null
       },
       {
         "level": 10,
@@ -170,7 +179,8 @@
         "timeSeconds": 345600,
         "hallRequired": 12,
         "xp": 587,
-        "icon": "/coc/home/army-buildings/army-camp/normal/level-10.png"
+        "icon": "/coc/home/army-buildings/army-camp/normal/level-10.png",
+        "capacity": null
       },
       {
         "level": 11,
@@ -179,7 +189,8 @@
         "timeSeconds": 432000,
         "hallRequired": 13,
         "xp": 657,
-        "icon": "/coc/home/army-buildings/army-camp/normal/level-11.png"
+        "icon": "/coc/home/army-buildings/army-camp/normal/level-11.png",
+        "capacity": null
       },
       {
         "level": 12,
@@ -188,7 +199,8 @@
         "timeSeconds": 518400,
         "hallRequired": 15,
         "xp": 720,
-        "icon": "/coc/home/army-buildings/army-camp/normal/level-12.png"
+        "icon": "/coc/home/army-buildings/army-camp/normal/level-12.png",
+        "capacity": null
       },
       {
         "level": 13,
@@ -197,7 +209,8 @@
         "timeSeconds": 864000,
         "hallRequired": 17,
         "xp": 929,
-        "icon": "/coc/home/army-buildings/army-camp/normal/level-13.png"
+        "icon": "/coc/home/army-buildings/army-camp/normal/level-13.png",
+        "capacity": null
       }
     ]
   },
@@ -291,7 +304,8 @@
         "timeSeconds": 10,
         "hallRequired": 1,
         "xp": 3,
-        "icon": "/coc/home/army-buildings/barracks/normal/level-1.png"
+        "icon": "/coc/home/army-buildings/barracks/normal/level-1.png",
+        "capacity": null
       },
       {
         "level": 2,
@@ -300,7 +314,8 @@
         "timeSeconds": 15,
         "hallRequired": 1,
         "xp": 3,
-        "icon": "/coc/home/army-buildings/barracks/normal/level-2.png"
+        "icon": "/coc/home/army-buildings/barracks/normal/level-2.png",
+        "capacity": null
       },
       {
         "level": 3,
@@ -309,7 +324,8 @@
         "timeSeconds": 120,
         "hallRequired": 1,
         "xp": 10,
-        "icon": "/coc/home/army-buildings/barracks/normal/level-3.png"
+        "icon": "/coc/home/army-buildings/barracks/normal/level-3.png",
+        "capacity": null
       },
       {
         "level": 4,
@@ -318,7 +334,8 @@
         "timeSeconds": 1800,
         "hallRequired": 2,
         "xp": 42,
-        "icon": "/coc/home/army-buildings/barracks/normal/level-4.png"
+        "icon": "/coc/home/army-buildings/barracks/normal/level-4.png",
+        "capacity": null
       },
       {
         "level": 5,
@@ -327,7 +344,8 @@
         "timeSeconds": 7200,
         "hallRequired": 3,
         "xp": 84,
-        "icon": "/coc/home/army-buildings/barracks/normal/level-5.png"
+        "icon": "/coc/home/army-buildings/barracks/normal/level-5.png",
+        "capacity": null
       },
       {
         "level": 6,
@@ -336,7 +354,8 @@
         "timeSeconds": 14400,
         "hallRequired": 4,
         "xp": 120,
-        "icon": "/coc/home/army-buildings/barracks/normal/level-6.png"
+        "icon": "/coc/home/army-buildings/barracks/normal/level-6.png",
+        "capacity": null
       },
       {
         "level": 7,
@@ -345,7 +364,8 @@
         "timeSeconds": 21600,
         "hallRequired": 5,
         "xp": 146,
-        "icon": "/coc/home/army-buildings/barracks/normal/level-7.png"
+        "icon": "/coc/home/army-buildings/barracks/normal/level-7.png",
+        "capacity": null
       },
       {
         "level": 8,
@@ -354,7 +374,8 @@
         "timeSeconds": 43200,
         "hallRequired": 6,
         "xp": 207,
-        "icon": "/coc/home/army-buildings/barracks/normal/level-8.png"
+        "icon": "/coc/home/army-buildings/barracks/normal/level-8.png",
+        "capacity": null
       },
       {
         "level": 9,
@@ -363,7 +384,8 @@
         "timeSeconds": 86400,
         "hallRequired": 7,
         "xp": 293,
-        "icon": "/coc/home/army-buildings/barracks/normal/level-9.png"
+        "icon": "/coc/home/army-buildings/barracks/normal/level-9.png",
+        "capacity": null
       },
       {
         "level": 10,
@@ -372,7 +394,8 @@
         "timeSeconds": 129600,
         "hallRequired": 8,
         "xp": 360,
-        "icon": "/coc/home/army-buildings/barracks/normal/level-10.png"
+        "icon": "/coc/home/army-buildings/barracks/normal/level-10.png",
+        "capacity": null
       },
       {
         "level": 11,
@@ -381,7 +404,8 @@
         "timeSeconds": 172800,
         "hallRequired": 9,
         "xp": 415,
-        "icon": "/coc/home/army-buildings/barracks/normal/level-11.png"
+        "icon": "/coc/home/army-buildings/barracks/normal/level-11.png",
+        "capacity": null
       },
       {
         "level": 12,
@@ -390,7 +414,8 @@
         "timeSeconds": 345600,
         "hallRequired": 10,
         "xp": 587,
-        "icon": "/coc/home/army-buildings/barracks/normal/level-12.png"
+        "icon": "/coc/home/army-buildings/barracks/normal/level-12.png",
+        "capacity": null
       },
       {
         "level": 13,
@@ -399,7 +424,8 @@
         "timeSeconds": 432000,
         "hallRequired": 11,
         "xp": 657,
-        "icon": "/coc/home/army-buildings/barracks/normal/level-13.png"
+        "icon": "/coc/home/army-buildings/barracks/normal/level-13.png",
+        "capacity": null
       },
       {
         "level": 14,
@@ -408,7 +434,8 @@
         "timeSeconds": 518400,
         "hallRequired": 12,
         "xp": 720,
-        "icon": "/coc/home/army-buildings/barracks/normal/level-14.png"
+        "icon": "/coc/home/army-buildings/barracks/normal/level-14.png",
+        "capacity": null
       },
       {
         "level": 15,
@@ -417,7 +444,8 @@
         "timeSeconds": 604800,
         "hallRequired": 13,
         "xp": 777,
-        "icon": "/coc/home/army-buildings/barracks/normal/level-15.png"
+        "icon": "/coc/home/army-buildings/barracks/normal/level-15.png",
+        "capacity": null
       },
       {
         "level": 16,
@@ -426,7 +454,8 @@
         "timeSeconds": 648000,
         "hallRequired": 14,
         "xp": 804,
-        "icon": "/coc/home/army-buildings/barracks/normal/level-16.png"
+        "icon": "/coc/home/army-buildings/barracks/normal/level-16.png",
+        "capacity": null
       },
       {
         "level": 17,
@@ -435,7 +464,8 @@
         "timeSeconds": 691200,
         "hallRequired": 15,
         "xp": 831,
-        "icon": "/coc/home/army-buildings/barracks/normal/level-17.png"
+        "icon": "/coc/home/army-buildings/barracks/normal/level-17.png",
+        "capacity": null
       },
       {
         "level": 18,
@@ -444,7 +474,8 @@
         "timeSeconds": 777600,
         "hallRequired": 16,
         "xp": 881,
-        "icon": "/coc/home/army-buildings/barracks/normal/level-18.png"
+        "icon": "/coc/home/army-buildings/barracks/normal/level-18.png",
+        "capacity": null
       },
       {
         "level": 19,
@@ -453,7 +484,8 @@
         "timeSeconds": 1209600,
         "hallRequired": 17,
         "xp": 1099,
-        "icon": "/coc/home/army-buildings/barracks/normal/level-19.png"
+        "icon": "/coc/home/army-buildings/barracks/normal/level-19.png",
+        "capacity": null
       }
     ]
   },
@@ -547,7 +579,8 @@
         "timeSeconds": 43200,
         "hallRequired": 8,
         "xp": 207,
-        "icon": "/coc/home/army-buildings/blacksmith/normal/level-1.png"
+        "icon": "/coc/home/army-buildings/blacksmith/normal/level-1.png",
+        "capacity": null
       },
       {
         "level": 2,
@@ -556,7 +589,8 @@
         "timeSeconds": 86400,
         "hallRequired": 9,
         "xp": 293,
-        "icon": "/coc/home/army-buildings/blacksmith/normal/level-1.png"
+        "icon": "/coc/home/army-buildings/blacksmith/normal/level-1.png",
+        "capacity": null
       },
       {
         "level": 3,
@@ -565,7 +599,8 @@
         "timeSeconds": 172800,
         "hallRequired": 10,
         "xp": 415,
-        "icon": "/coc/home/army-buildings/blacksmith/normal/level-3.png"
+        "icon": "/coc/home/army-buildings/blacksmith/normal/level-3.png",
+        "capacity": null
       },
       {
         "level": 4,
@@ -574,7 +609,8 @@
         "timeSeconds": 259200,
         "hallRequired": 11,
         "xp": 509,
-        "icon": "/coc/home/army-buildings/blacksmith/normal/level-3.png"
+        "icon": "/coc/home/army-buildings/blacksmith/normal/level-3.png",
+        "capacity": null
       },
       {
         "level": 5,
@@ -583,7 +619,8 @@
         "timeSeconds": 345600,
         "hallRequired": 12,
         "xp": 587,
-        "icon": "/coc/home/army-buildings/blacksmith/normal/level-5.png"
+        "icon": "/coc/home/army-buildings/blacksmith/normal/level-5.png",
+        "capacity": null
       },
       {
         "level": 6,
@@ -592,7 +629,8 @@
         "timeSeconds": 388800,
         "hallRequired": 13,
         "xp": 623,
-        "icon": "/coc/home/army-buildings/blacksmith/normal/level-5.png"
+        "icon": "/coc/home/army-buildings/blacksmith/normal/level-5.png",
+        "capacity": null
       },
       {
         "level": 7,
@@ -601,7 +639,8 @@
         "timeSeconds": 432000,
         "hallRequired": 14,
         "xp": 657,
-        "icon": "/coc/home/army-buildings/blacksmith/normal/level-7.png"
+        "icon": "/coc/home/army-buildings/blacksmith/normal/level-7.png",
+        "capacity": null
       },
       {
         "level": 8,
@@ -610,7 +649,8 @@
         "timeSeconds": 518400,
         "hallRequired": 15,
         "xp": 720,
-        "icon": "/coc/home/army-buildings/blacksmith/normal/level-7.png"
+        "icon": "/coc/home/army-buildings/blacksmith/normal/level-7.png",
+        "capacity": null
       },
       {
         "level": 9,
@@ -619,7 +659,8 @@
         "timeSeconds": 604800,
         "hallRequired": 16,
         "xp": 777,
-        "icon": "/coc/home/army-buildings/blacksmith/normal/level-9.png"
+        "icon": "/coc/home/army-buildings/blacksmith/normal/level-9.png",
+        "capacity": null
       }
     ]
   },
@@ -713,7 +754,8 @@
         "timeSeconds": 28800,
         "hallRequired": 7,
         "xp": 169,
-        "icon": "/coc/home/army-buildings/dark-barracks/normal/level-1.png"
+        "icon": "/coc/home/army-buildings/dark-barracks/normal/level-1.png",
+        "capacity": null
       },
       {
         "level": 2,
@@ -722,7 +764,8 @@
         "timeSeconds": 86400,
         "hallRequired": 7,
         "xp": 293,
-        "icon": "/coc/home/army-buildings/dark-barracks/normal/level-2.png"
+        "icon": "/coc/home/army-buildings/dark-barracks/normal/level-2.png",
+        "capacity": null
       },
       {
         "level": 3,
@@ -731,7 +774,8 @@
         "timeSeconds": 129600,
         "hallRequired": 8,
         "xp": 360,
-        "icon": "/coc/home/army-buildings/dark-barracks/normal/level-3.png"
+        "icon": "/coc/home/army-buildings/dark-barracks/normal/level-3.png",
+        "capacity": null
       },
       {
         "level": 4,
@@ -740,7 +784,8 @@
         "timeSeconds": 172800,
         "hallRequired": 8,
         "xp": 415,
-        "icon": "/coc/home/army-buildings/dark-barracks/normal/level-4.png"
+        "icon": "/coc/home/army-buildings/dark-barracks/normal/level-4.png",
+        "capacity": null
       },
       {
         "level": 5,
@@ -749,7 +794,8 @@
         "timeSeconds": 216000,
         "hallRequired": 9,
         "xp": 464,
-        "icon": "/coc/home/army-buildings/dark-barracks/normal/level-5.png"
+        "icon": "/coc/home/army-buildings/dark-barracks/normal/level-5.png",
+        "capacity": null
       },
       {
         "level": 6,
@@ -758,7 +804,8 @@
         "timeSeconds": 259200,
         "hallRequired": 9,
         "xp": 509,
-        "icon": "/coc/home/army-buildings/dark-barracks/normal/level-6.png"
+        "icon": "/coc/home/army-buildings/dark-barracks/normal/level-6.png",
+        "capacity": null
       },
       {
         "level": 7,
@@ -767,7 +814,8 @@
         "timeSeconds": 432000,
         "hallRequired": 10,
         "xp": 657,
-        "icon": "/coc/home/army-buildings/dark-barracks/normal/level-7.png"
+        "icon": "/coc/home/army-buildings/dark-barracks/normal/level-7.png",
+        "capacity": null
       },
       {
         "level": 8,
@@ -776,7 +824,8 @@
         "timeSeconds": 518400,
         "hallRequired": 11,
         "xp": 720,
-        "icon": "/coc/home/army-buildings/dark-barracks/normal/level-8.png"
+        "icon": "/coc/home/army-buildings/dark-barracks/normal/level-8.png",
+        "capacity": null
       },
       {
         "level": 9,
@@ -785,7 +834,8 @@
         "timeSeconds": 604800,
         "hallRequired": 12,
         "xp": 777,
-        "icon": "/coc/home/army-buildings/dark-barracks/normal/level-9.png"
+        "icon": "/coc/home/army-buildings/dark-barracks/normal/level-9.png",
+        "capacity": null
       },
       {
         "level": 10,
@@ -794,7 +844,8 @@
         "timeSeconds": 648000,
         "hallRequired": 13,
         "xp": 804,
-        "icon": "/coc/home/army-buildings/dark-barracks/normal/level-10.png"
+        "icon": "/coc/home/army-buildings/dark-barracks/normal/level-10.png",
+        "capacity": null
       },
       {
         "level": 11,
@@ -803,7 +854,8 @@
         "timeSeconds": 691200,
         "hallRequired": 14,
         "xp": 831,
-        "icon": "/coc/home/army-buildings/dark-barracks/normal/level-11.png"
+        "icon": "/coc/home/army-buildings/dark-barracks/normal/level-11.png",
+        "capacity": null
       },
       {
         "level": 12,
@@ -812,7 +864,8 @@
         "timeSeconds": 1036800,
         "hallRequired": 15,
         "xp": 1018,
-        "icon": "/coc/home/army-buildings/dark-barracks/normal/level-12.png"
+        "icon": "/coc/home/army-buildings/dark-barracks/normal/level-12.png",
+        "capacity": null
       }
     ]
   },
@@ -906,7 +959,8 @@
         "timeSeconds": 21600,
         "hallRequired": 8,
         "xp": 146,
-        "icon": "/coc/home/army-buildings/dark-spell-factory/normal/level-1.png"
+        "icon": "/coc/home/army-buildings/dark-spell-factory/normal/level-1.png",
+        "capacity": null
       },
       {
         "level": 2,
@@ -915,7 +969,8 @@
         "timeSeconds": 43200,
         "hallRequired": 8,
         "xp": 207,
-        "icon": "/coc/home/army-buildings/dark-spell-factory/normal/level-2.png"
+        "icon": "/coc/home/army-buildings/dark-spell-factory/normal/level-2.png",
+        "capacity": null
       },
       {
         "level": 3,
@@ -924,7 +979,8 @@
         "timeSeconds": 172800,
         "hallRequired": 9,
         "xp": 415,
-        "icon": "/coc/home/army-buildings/dark-spell-factory/normal/level-3.png"
+        "icon": "/coc/home/army-buildings/dark-spell-factory/normal/level-3.png",
+        "capacity": null
       },
       {
         "level": 4,
@@ -933,7 +989,8 @@
         "timeSeconds": 259200,
         "hallRequired": 9,
         "xp": 587,
-        "icon": "/coc/home/army-buildings/dark-spell-factory/normal/level-4.png"
+        "icon": "/coc/home/army-buildings/dark-spell-factory/normal/level-4.png",
+        "capacity": null
       },
       {
         "level": 5,
@@ -942,7 +999,8 @@
         "timeSeconds": 432000,
         "hallRequired": 10,
         "xp": 657,
-        "icon": "/coc/home/army-buildings/dark-spell-factory/normal/level-5.png"
+        "icon": "/coc/home/army-buildings/dark-spell-factory/normal/level-5.png",
+        "capacity": null
       },
       {
         "level": 6,
@@ -951,7 +1009,8 @@
         "timeSeconds": 518400,
         "hallRequired": 12,
         "xp": 720,
-        "icon": "/coc/home/army-buildings/dark-spell-factory/normal/level-6.png"
+        "icon": "/coc/home/army-buildings/dark-spell-factory/normal/level-6.png",
+        "capacity": null
       },
       {
         "level": 7,
@@ -960,7 +1019,8 @@
         "timeSeconds": 604800,
         "hallRequired": 14,
         "xp": 777,
-        "icon": "/coc/home/army-buildings/dark-spell-factory/normal/level-7.png"
+        "icon": "/coc/home/army-buildings/dark-spell-factory/normal/level-7.png",
+        "capacity": null
       }
     ]
   },
@@ -1054,7 +1114,8 @@
         "timeSeconds": 86400,
         "hallRequired": 7,
         "xp": 293,
-        "icon": "/coc/home/army-buildings/hero-hall/normal/level-1.png"
+        "icon": "/coc/home/army-buildings/hero-hall/normal/level-1.png",
+        "capacity": null
       },
       {
         "level": 2,
@@ -1063,7 +1124,8 @@
         "timeSeconds": 172800,
         "hallRequired": 8,
         "xp": 415,
-        "icon": "/coc/home/army-buildings/hero-hall/normal/level-2.png"
+        "icon": "/coc/home/army-buildings/hero-hall/normal/level-2.png",
+        "capacity": null
       },
       {
         "level": 3,
@@ -1072,7 +1134,8 @@
         "timeSeconds": 259200,
         "hallRequired": 9,
         "xp": 509,
-        "icon": "/coc/home/army-buildings/hero-hall/normal/level-3.png"
+        "icon": "/coc/home/army-buildings/hero-hall/normal/level-3.png",
+        "capacity": null
       },
       {
         "level": 4,
@@ -1081,7 +1144,8 @@
         "timeSeconds": 345600,
         "hallRequired": 10,
         "xp": 587,
-        "icon": "/coc/home/army-buildings/hero-hall/normal/level-4.png"
+        "icon": "/coc/home/army-buildings/hero-hall/normal/level-4.png",
+        "capacity": null
       },
       {
         "level": 5,
@@ -1090,7 +1154,8 @@
         "timeSeconds": 388800,
         "hallRequired": 11,
         "xp": 623,
-        "icon": "/coc/home/army-buildings/hero-hall/normal/level-5.png"
+        "icon": "/coc/home/army-buildings/hero-hall/normal/level-5.png",
+        "capacity": null
       },
       {
         "level": 6,
@@ -1099,7 +1164,8 @@
         "timeSeconds": 432000,
         "hallRequired": 12,
         "xp": 720,
-        "icon": "/coc/home/army-buildings/hero-hall/normal/level-6.png"
+        "icon": "/coc/home/army-buildings/hero-hall/normal/level-6.png",
+        "capacity": null
       },
       {
         "level": 7,
@@ -1108,7 +1174,8 @@
         "timeSeconds": 518400,
         "hallRequired": 13,
         "xp": 777,
-        "icon": "/coc/home/army-buildings/hero-hall/normal/level-7.png"
+        "icon": "/coc/home/army-buildings/hero-hall/normal/level-7.png",
+        "capacity": null
       },
       {
         "level": 8,
@@ -1117,7 +1184,8 @@
         "timeSeconds": 561600,
         "hallRequired": 14,
         "xp": 749,
-        "icon": "/coc/home/army-buildings/hero-hall/normal/level-8.png"
+        "icon": "/coc/home/army-buildings/hero-hall/normal/level-8.png",
+        "capacity": null
       },
       {
         "level": 9,
@@ -1126,7 +1194,8 @@
         "timeSeconds": 604800,
         "hallRequired": 15,
         "xp": 777,
-        "icon": "/coc/home/army-buildings/hero-hall/normal/level-9.png"
+        "icon": "/coc/home/army-buildings/hero-hall/normal/level-9.png",
+        "capacity": null
       },
       {
         "level": 10,
@@ -1135,7 +1204,8 @@
         "timeSeconds": 691200,
         "hallRequired": 16,
         "xp": 831,
-        "icon": "/coc/home/army-buildings/hero-hall/normal/level-10.png"
+        "icon": "/coc/home/army-buildings/hero-hall/normal/level-10.png",
+        "capacity": null
       },
       {
         "level": 11,
@@ -1144,7 +1214,8 @@
         "timeSeconds": 820800,
         "hallRequired": 17,
         "xp": 905,
-        "icon": "/coc/home/army-buildings/hero-hall/normal/level-11.png"
+        "icon": "/coc/home/army-buildings/hero-hall/normal/level-11.png",
+        "capacity": null
       },
       {
         "level": 12,
@@ -1153,7 +1224,8 @@
         "timeSeconds": 1166400,
         "hallRequired": 18,
         "xp": 1080,
-        "icon": "/coc/home/army-buildings/hero-hall/normal/level-12.png"
+        "icon": "/coc/home/army-buildings/hero-hall/normal/level-12.png",
+        "capacity": null
       }
     ]
   },
@@ -1247,7 +1319,8 @@
         "timeSeconds": 86400,
         "hallRequired": 14,
         "xp": 293,
-        "icon": "/coc/home/army-buildings/pet-house/normal/level-1.png"
+        "icon": "/coc/home/army-buildings/pet-house/normal/level-1.png",
+        "capacity": null
       },
       {
         "level": 2,
@@ -1256,7 +1329,8 @@
         "timeSeconds": 172800,
         "hallRequired": 14,
         "xp": 415,
-        "icon": "/coc/home/army-buildings/pet-house/normal/level-2.png"
+        "icon": "/coc/home/army-buildings/pet-house/normal/level-2.png",
+        "capacity": null
       },
       {
         "level": 3,
@@ -1265,7 +1339,8 @@
         "timeSeconds": 259200,
         "hallRequired": 14,
         "xp": 509,
-        "icon": "/coc/home/army-buildings/pet-house/normal/level-3.png"
+        "icon": "/coc/home/army-buildings/pet-house/normal/level-3.png",
+        "capacity": null
       },
       {
         "level": 4,
@@ -1274,7 +1349,8 @@
         "timeSeconds": 302400,
         "hallRequired": 14,
         "xp": 549,
-        "icon": "/coc/home/army-buildings/pet-house/normal/level-4.png"
+        "icon": "/coc/home/army-buildings/pet-house/normal/level-4.png",
+        "capacity": null
       },
       {
         "level": 5,
@@ -1283,7 +1359,8 @@
         "timeSeconds": 345600,
         "hallRequired": 15,
         "xp": 587,
-        "icon": "/coc/home/army-buildings/pet-house/normal/level-5.png"
+        "icon": "/coc/home/army-buildings/pet-house/normal/level-5.png",
+        "capacity": null
       },
       {
         "level": 6,
@@ -1292,7 +1369,8 @@
         "timeSeconds": 388800,
         "hallRequired": 15,
         "xp": 623,
-        "icon": "/coc/home/army-buildings/pet-house/normal/level-6.png"
+        "icon": "/coc/home/army-buildings/pet-house/normal/level-6.png",
+        "capacity": null
       },
       {
         "level": 7,
@@ -1301,7 +1379,8 @@
         "timeSeconds": 432000,
         "hallRequired": 15,
         "xp": 657,
-        "icon": "/coc/home/army-buildings/pet-house/normal/level-7.png"
+        "icon": "/coc/home/army-buildings/pet-house/normal/level-7.png",
+        "capacity": null
       },
       {
         "level": 8,
@@ -1310,7 +1389,8 @@
         "timeSeconds": 475200,
         "hallRequired": 15,
         "xp": 689,
-        "icon": "/coc/home/army-buildings/pet-house/normal/level-8.png"
+        "icon": "/coc/home/army-buildings/pet-house/normal/level-8.png",
+        "capacity": null
       },
       {
         "level": 9,
@@ -1319,7 +1399,8 @@
         "timeSeconds": 518400,
         "hallRequired": 16,
         "xp": 720,
-        "icon": "/coc/home/army-buildings/pet-house/normal/level-9.png"
+        "icon": "/coc/home/army-buildings/pet-house/normal/level-9.png",
+        "capacity": null
       },
       {
         "level": 10,
@@ -1328,7 +1409,8 @@
         "timeSeconds": 604800,
         "hallRequired": 16,
         "xp": 777,
-        "icon": "/coc/home/army-buildings/pet-house/normal/level-10.png"
+        "icon": "/coc/home/army-buildings/pet-house/normal/level-10.png",
+        "capacity": null
       },
       {
         "level": 11,
@@ -1337,7 +1419,8 @@
         "timeSeconds": 777600,
         "hallRequired": 17,
         "xp": 881,
-        "icon": "/coc/home/army-buildings/pet-house/normal/level-11.png"
+        "icon": "/coc/home/army-buildings/pet-house/normal/level-11.png",
+        "capacity": null
       },
       {
         "level": 12,
@@ -1346,7 +1429,8 @@
         "timeSeconds": 1166400,
         "hallRequired": 18,
         "xp": 1080,
-        "icon": "/coc/home/army-buildings/pet-house/normal/level-12.png"
+        "icon": "/coc/home/army-buildings/pet-house/normal/level-12.png",
+        "capacity": null
       }
     ]
   },
@@ -1440,7 +1524,8 @@
         "timeSeconds": 21600,
         "hallRequired": 5,
         "xp": 146,
-        "icon": "/coc/home/army-buildings/spell-factory/normal/level-1.png"
+        "icon": "/coc/home/army-buildings/spell-factory/normal/level-1.png",
+        "capacity": null
       },
       {
         "level": 2,
@@ -1449,7 +1534,8 @@
         "timeSeconds": 43200,
         "hallRequired": 6,
         "xp": 207,
-        "icon": "/coc/home/army-buildings/spell-factory/normal/level-2.png"
+        "icon": "/coc/home/army-buildings/spell-factory/normal/level-2.png",
+        "capacity": null
       },
       {
         "level": 3,
@@ -1458,7 +1544,8 @@
         "timeSeconds": 86400,
         "hallRequired": 7,
         "xp": 293,
-        "icon": "/coc/home/army-buildings/spell-factory/normal/level-3.png"
+        "icon": "/coc/home/army-buildings/spell-factory/normal/level-3.png",
+        "capacity": null
       },
       {
         "level": 4,
@@ -1467,7 +1554,8 @@
         "timeSeconds": 172800,
         "hallRequired": 9,
         "xp": 415,
-        "icon": "/coc/home/army-buildings/spell-factory/normal/level-4.png"
+        "icon": "/coc/home/army-buildings/spell-factory/normal/level-4.png",
+        "capacity": null
       },
       {
         "level": 5,
@@ -1476,7 +1564,8 @@
         "timeSeconds": 259200,
         "hallRequired": 10,
         "xp": 509,
-        "icon": "/coc/home/army-buildings/spell-factory/normal/level-5.png"
+        "icon": "/coc/home/army-buildings/spell-factory/normal/level-5.png",
+        "capacity": null
       },
       {
         "level": 6,
@@ -1485,7 +1574,8 @@
         "timeSeconds": 432000,
         "hallRequired": 11,
         "xp": 657,
-        "icon": "/coc/home/army-buildings/spell-factory/normal/level-6.png"
+        "icon": "/coc/home/army-buildings/spell-factory/normal/level-6.png",
+        "capacity": null
       },
       {
         "level": 7,
@@ -1494,7 +1584,8 @@
         "timeSeconds": 604800,
         "hallRequired": 13,
         "xp": 777,
-        "icon": "/coc/home/army-buildings/spell-factory/normal/level-7.png"
+        "icon": "/coc/home/army-buildings/spell-factory/normal/level-7.png",
+        "capacity": null
       },
       {
         "level": 8,
@@ -1503,7 +1594,8 @@
         "timeSeconds": 691200,
         "hallRequired": 15,
         "xp": 831,
-        "icon": "/coc/home/army-buildings/spell-factory/normal/level-8.png"
+        "icon": "/coc/home/army-buildings/spell-factory/normal/level-8.png",
+        "capacity": null
       },
       {
         "level": 9,
@@ -1512,7 +1604,8 @@
         "timeSeconds": 1123200,
         "hallRequired": 16,
         "xp": 1059,
-        "icon": "/coc/home/army-buildings/spell-factory/normal/level-9.png"
+        "icon": "/coc/home/army-buildings/spell-factory/normal/level-9.png",
+        "capacity": null
       }
     ]
   },
@@ -1606,7 +1699,8 @@
         "timeSeconds": 172800,
         "hallRequired": 12,
         "xp": 415,
-        "icon": "/coc/home/army-buildings/workshop/normal/level-1.png"
+        "icon": "/coc/home/army-buildings/workshop/normal/level-1.png",
+        "capacity": null
       },
       {
         "level": 2,
@@ -1615,7 +1709,8 @@
         "timeSeconds": 259200,
         "hallRequired": 12,
         "xp": 509,
-        "icon": "/coc/home/army-buildings/workshop/normal/level-2.png"
+        "icon": "/coc/home/army-buildings/workshop/normal/level-2.png",
+        "capacity": null
       },
       {
         "level": 3,
@@ -1624,7 +1719,8 @@
         "timeSeconds": 302400,
         "hallRequired": 12,
         "xp": 549,
-        "icon": "/coc/home/army-buildings/workshop/normal/level-3.png"
+        "icon": "/coc/home/army-buildings/workshop/normal/level-3.png",
+        "capacity": null
       },
       {
         "level": 4,
@@ -1633,7 +1729,8 @@
         "timeSeconds": 345600,
         "hallRequired": 13,
         "xp": 587,
-        "icon": "/coc/home/army-buildings/workshop/normal/level-4.png"
+        "icon": "/coc/home/army-buildings/workshop/normal/level-4.png",
+        "capacity": null
       },
       {
         "level": 5,
@@ -1642,7 +1739,8 @@
         "timeSeconds": 432000,
         "hallRequired": 13,
         "xp": 657,
-        "icon": "/coc/home/army-buildings/workshop/normal/level-5.png"
+        "icon": "/coc/home/army-buildings/workshop/normal/level-5.png",
+        "capacity": null
       },
       {
         "level": 6,
@@ -1651,7 +1749,8 @@
         "timeSeconds": 475200,
         "hallRequired": 14,
         "xp": 689,
-        "icon": "/coc/home/army-buildings/workshop/normal/level-6.png"
+        "icon": "/coc/home/army-buildings/workshop/normal/level-6.png",
+        "capacity": null
       },
       {
         "level": 7,
@@ -1660,7 +1759,8 @@
         "timeSeconds": 518400,
         "hallRequired": 15,
         "xp": 720,
-        "icon": "/coc/home/army-buildings/workshop/normal/level-7.png"
+        "icon": "/coc/home/army-buildings/workshop/normal/level-7.png",
+        "capacity": null
       },
       {
         "level": 8,
@@ -1669,7 +1769,8 @@
         "timeSeconds": 604800,
         "hallRequired": 16,
         "xp": 777,
-        "icon": "/coc/home/army-buildings/workshop/normal/level-8.png"
+        "icon": "/coc/home/army-buildings/workshop/normal/level-8.png",
+        "capacity": null
       }
     ]
   },
@@ -1751,7 +1852,8 @@
         "timeSeconds": 3600,
         "hallRequired": 4,
         "xp": 60,
-        "icon": "/coc/home/defenses/air-defense/normal/level-1.png"
+        "icon": "/coc/home/defenses/air-defense/normal/level-1.png",
+        "capacity": null
       },
       {
         "level": 2,
@@ -1760,7 +1862,8 @@
         "timeSeconds": 7200,
         "hallRequired": 4,
         "xp": 84,
-        "icon": "/coc/home/defenses/air-defense/normal/level-2.png"
+        "icon": "/coc/home/defenses/air-defense/normal/level-2.png",
+        "capacity": null
       },
       {
         "level": 3,
@@ -1769,7 +1872,8 @@
         "timeSeconds": 21600,
         "hallRequired": 5,
         "xp": 146,
-        "icon": "/coc/home/defenses/air-defense/normal/level-3.png"
+        "icon": "/coc/home/defenses/air-defense/normal/level-3.png",
+        "capacity": null
       },
       {
         "level": 4,
@@ -1778,7 +1882,8 @@
         "timeSeconds": 43200,
         "hallRequired": 6,
         "xp": 207,
-        "icon": "/coc/home/defenses/air-defense/normal/level-4.png"
+        "icon": "/coc/home/defenses/air-defense/normal/level-4.png",
+        "capacity": null
       },
       {
         "level": 5,
@@ -1787,7 +1892,8 @@
         "timeSeconds": 64800,
         "hallRequired": 7,
         "xp": 254,
-        "icon": "/coc/home/defenses/air-defense/normal/level-5.png"
+        "icon": "/coc/home/defenses/air-defense/normal/level-5.png",
+        "capacity": null
       },
       {
         "level": 6,
@@ -1796,7 +1902,8 @@
         "timeSeconds": 86400,
         "hallRequired": 8,
         "xp": 293,
-        "icon": "/coc/home/defenses/air-defense/normal/level-6.png"
+        "icon": "/coc/home/defenses/air-defense/normal/level-6.png",
+        "capacity": null
       },
       {
         "level": 7,
@@ -1805,7 +1912,8 @@
         "timeSeconds": 172800,
         "hallRequired": 9,
         "xp": 415,
-        "icon": "/coc/home/defenses/air-defense/normal/level-7.png"
+        "icon": "/coc/home/defenses/air-defense/normal/level-7.png",
+        "capacity": null
       },
       {
         "level": 8,
@@ -1814,7 +1922,8 @@
         "timeSeconds": 216000,
         "hallRequired": 10,
         "xp": 464,
-        "icon": "/coc/home/defenses/air-defense/normal/level-8.png"
+        "icon": "/coc/home/defenses/air-defense/normal/level-8.png",
+        "capacity": null
       },
       {
         "level": 9,
@@ -1823,7 +1932,8 @@
         "timeSeconds": 259200,
         "hallRequired": 11,
         "xp": 509,
-        "icon": "/coc/home/defenses/air-defense/normal/level-9.png"
+        "icon": "/coc/home/defenses/air-defense/normal/level-9.png",
+        "capacity": null
       },
       {
         "level": 10,
@@ -1832,7 +1942,8 @@
         "timeSeconds": 345600,
         "hallRequired": 12,
         "xp": 587,
-        "icon": "/coc/home/defenses/air-defense/normal/level-10.png"
+        "icon": "/coc/home/defenses/air-defense/normal/level-10.png",
+        "capacity": null
       },
       {
         "level": 11,
@@ -1841,7 +1952,8 @@
         "timeSeconds": 388800,
         "hallRequired": 13,
         "xp": 623,
-        "icon": "/coc/home/defenses/air-defense/normal/level-11.png"
+        "icon": "/coc/home/defenses/air-defense/normal/level-11.png",
+        "capacity": null
       },
       {
         "level": 12,
@@ -1850,7 +1962,8 @@
         "timeSeconds": 432000,
         "hallRequired": 14,
         "xp": 657,
-        "icon": "/coc/home/defenses/air-defense/normal/level-12.png"
+        "icon": "/coc/home/defenses/air-defense/normal/level-12.png",
+        "capacity": null
       },
       {
         "level": 13,
@@ -1859,7 +1972,8 @@
         "timeSeconds": 518400,
         "hallRequired": 15,
         "xp": 720,
-        "icon": "/coc/home/defenses/air-defense/normal/level-13.png"
+        "icon": "/coc/home/defenses/air-defense/normal/level-13.png",
+        "capacity": null
       },
       {
         "level": 14,
@@ -1868,7 +1982,8 @@
         "timeSeconds": 561600,
         "hallRequired": 16,
         "xp": 749,
-        "icon": "/coc/home/defenses/air-defense/normal/level-14.png"
+        "icon": "/coc/home/defenses/air-defense/normal/level-14.png",
+        "capacity": null
       },
       {
         "level": 15,
@@ -1877,7 +1992,8 @@
         "timeSeconds": 820800,
         "hallRequired": 17,
         "xp": 905,
-        "icon": "/coc/home/defenses/air-defense/normal/level-15.png"
+        "icon": "/coc/home/defenses/air-defense/normal/level-15.png",
+        "capacity": null
       },
       {
         "level": 16,
@@ -1886,7 +2002,8 @@
         "timeSeconds": 1144800,
         "hallRequired": 18,
         "xp": 1069,
-        "icon": "/coc/home/defenses/air-defense/normal/level-16.png"
+        "icon": "/coc/home/defenses/air-defense/normal/level-16.png",
+        "capacity": null
       }
     ]
   },
@@ -1960,7 +2077,8 @@
         "timeSeconds": 14400,
         "hallRequired": 6,
         "xp": 120,
-        "icon": "/coc/home/defenses/air-sweeper/normal/level-1.png"
+        "icon": "/coc/home/defenses/air-sweeper/normal/level-1.png",
+        "capacity": null
       },
       {
         "level": 2,
@@ -1969,7 +2087,8 @@
         "timeSeconds": 21600,
         "hallRequired": 6,
         "xp": 146,
-        "icon": "/coc/home/defenses/air-sweeper/normal/level-2.png"
+        "icon": "/coc/home/defenses/air-sweeper/normal/level-2.png",
+        "capacity": null
       },
       {
         "level": 3,
@@ -1978,7 +2097,8 @@
         "timeSeconds": 28800,
         "hallRequired": 7,
         "xp": 169,
-        "icon": "/coc/home/defenses/air-sweeper/normal/level-3.png"
+        "icon": "/coc/home/defenses/air-sweeper/normal/level-3.png",
+        "capacity": null
       },
       {
         "level": 4,
@@ -1987,7 +2107,8 @@
         "timeSeconds": 43200,
         "hallRequired": 8,
         "xp": 207,
-        "icon": "/coc/home/defenses/air-sweeper/normal/level-4.png"
+        "icon": "/coc/home/defenses/air-sweeper/normal/level-4.png",
+        "capacity": null
       },
       {
         "level": 5,
@@ -1996,7 +2117,8 @@
         "timeSeconds": 86400,
         "hallRequired": 9,
         "xp": 293,
-        "icon": "/coc/home/defenses/air-sweeper/normal/level-5.png"
+        "icon": "/coc/home/defenses/air-sweeper/normal/level-5.png",
+        "capacity": null
       },
       {
         "level": 6,
@@ -2005,7 +2127,8 @@
         "timeSeconds": 172800,
         "hallRequired": 10,
         "xp": 415,
-        "icon": "/coc/home/defenses/air-sweeper/normal/level-6.png"
+        "icon": "/coc/home/defenses/air-sweeper/normal/level-6.png",
+        "capacity": null
       },
       {
         "level": 7,
@@ -2014,7 +2137,8 @@
         "timeSeconds": 259200,
         "hallRequired": 11,
         "xp": 509,
-        "icon": "/coc/home/defenses/air-sweeper/normal/level-7.png"
+        "icon": "/coc/home/defenses/air-sweeper/normal/level-7.png",
+        "capacity": null
       }
     ]
   },
@@ -2107,7 +2231,8 @@
         "timeSeconds": 15,
         "hallRequired": 2,
         "xp": 3,
-        "icon": "/coc/home/defenses/archer-tower/normal/level-1.png"
+        "icon": "/coc/home/defenses/archer-tower/normal/level-1.png",
+        "capacity": null
       },
       {
         "level": 2,
@@ -2116,7 +2241,8 @@
         "timeSeconds": 120,
         "hallRequired": 2,
         "xp": 10,
-        "icon": "/coc/home/defenses/archer-tower/normal/level-2.png"
+        "icon": "/coc/home/defenses/archer-tower/normal/level-2.png",
+        "capacity": null
       },
       {
         "level": 3,
@@ -2125,7 +2251,8 @@
         "timeSeconds": 1200,
         "hallRequired": 3,
         "xp": 34,
-        "icon": "/coc/home/defenses/archer-tower/normal/level-3.png"
+        "icon": "/coc/home/defenses/archer-tower/normal/level-3.png",
+        "capacity": null
       },
       {
         "level": 4,
@@ -2134,7 +2261,8 @@
         "timeSeconds": 3600,
         "hallRequired": 4,
         "xp": 60,
-        "icon": "/coc/home/defenses/archer-tower/normal/level-4.png"
+        "icon": "/coc/home/defenses/archer-tower/normal/level-4.png",
+        "capacity": null
       },
       {
         "level": 5,
@@ -2143,7 +2271,8 @@
         "timeSeconds": 5400,
         "hallRequired": 5,
         "xp": 73,
-        "icon": "/coc/home/defenses/archer-tower/normal/level-5.png"
+        "icon": "/coc/home/defenses/archer-tower/normal/level-5.png",
+        "capacity": null
       },
       {
         "level": 6,
@@ -2152,7 +2281,8 @@
         "timeSeconds": 7200,
         "hallRequired": 5,
         "xp": 84,
-        "icon": "/coc/home/defenses/archer-tower/normal/level-6.png"
+        "icon": "/coc/home/defenses/archer-tower/normal/level-6.png",
+        "capacity": null
       },
       {
         "level": 7,
@@ -2161,7 +2291,8 @@
         "timeSeconds": 10800,
         "hallRequired": 6,
         "xp": 103,
-        "icon": "/coc/home/defenses/archer-tower/normal/level-7.png"
+        "icon": "/coc/home/defenses/archer-tower/normal/level-7.png",
+        "capacity": null
       },
       {
         "level": 8,
@@ -2170,7 +2301,8 @@
         "timeSeconds": 14400,
         "hallRequired": 7,
         "xp": 120,
-        "icon": "/coc/home/defenses/archer-tower/normal/level-8.png"
+        "icon": "/coc/home/defenses/archer-tower/normal/level-8.png",
+        "capacity": null
       },
       {
         "level": 9,
@@ -2179,7 +2311,8 @@
         "timeSeconds": 18000,
         "hallRequired": 8,
         "xp": 134,
-        "icon": "/coc/home/defenses/archer-tower/normal/level-9.png"
+        "icon": "/coc/home/defenses/archer-tower/normal/level-9.png",
+        "capacity": null
       },
       {
         "level": 10,
@@ -2188,7 +2321,8 @@
         "timeSeconds": 21600,
         "hallRequired": 8,
         "xp": 146,
-        "icon": "/coc/home/defenses/archer-tower/normal/level-10.png"
+        "icon": "/coc/home/defenses/archer-tower/normal/level-10.png",
+        "capacity": null
       },
       {
         "level": 11,
@@ -2197,7 +2331,8 @@
         "timeSeconds": 25200,
         "hallRequired": 9,
         "xp": 158,
-        "icon": "/coc/home/defenses/archer-tower/normal/level-11.png"
+        "icon": "/coc/home/defenses/archer-tower/normal/level-11.png",
+        "capacity": null
       },
       {
         "level": 12,
@@ -2206,7 +2341,8 @@
         "timeSeconds": 28800,
         "hallRequired": 10,
         "xp": 169,
-        "icon": "/coc/home/defenses/archer-tower/normal/level-12.png"
+        "icon": "/coc/home/defenses/archer-tower/normal/level-12.png",
+        "capacity": null
       },
       {
         "level": 13,
@@ -2215,7 +2351,8 @@
         "timeSeconds": 36000,
         "hallRequired": 10,
         "xp": 189,
-        "icon": "/coc/home/defenses/archer-tower/normal/level-13.png"
+        "icon": "/coc/home/defenses/archer-tower/normal/level-13.png",
+        "capacity": null
       },
       {
         "level": 14,
@@ -2224,7 +2361,8 @@
         "timeSeconds": 39600,
         "hallRequired": 11,
         "xp": 198,
-        "icon": "/coc/home/defenses/archer-tower/normal/level-14.png"
+        "icon": "/coc/home/defenses/archer-tower/normal/level-14.png",
+        "capacity": null
       },
       {
         "level": 15,
@@ -2233,7 +2371,8 @@
         "timeSeconds": 43200,
         "hallRequired": 11,
         "xp": 207,
-        "icon": "/coc/home/defenses/archer-tower/normal/level-15.png"
+        "icon": "/coc/home/defenses/archer-tower/normal/level-15.png",
+        "capacity": null
       },
       {
         "level": 16,
@@ -2242,7 +2381,8 @@
         "timeSeconds": 57600,
         "hallRequired": 12,
         "xp": 240,
-        "icon": "/coc/home/defenses/archer-tower/normal/level-16.png"
+        "icon": "/coc/home/defenses/archer-tower/normal/level-16.png",
+        "capacity": null
       },
       {
         "level": 17,
@@ -2251,7 +2391,8 @@
         "timeSeconds": 72000,
         "hallRequired": 12,
         "xp": 268,
-        "icon": "/coc/home/defenses/archer-tower/normal/level-17.png"
+        "icon": "/coc/home/defenses/archer-tower/normal/level-17.png",
+        "capacity": null
       },
       {
         "level": 18,
@@ -2260,7 +2401,8 @@
         "timeSeconds": 86400,
         "hallRequired": 13,
         "xp": 293,
-        "icon": "/coc/home/defenses/archer-tower/normal/level-18.png"
+        "icon": "/coc/home/defenses/archer-tower/normal/level-18.png",
+        "capacity": null
       },
       {
         "level": 19,
@@ -2269,7 +2411,8 @@
         "timeSeconds": 108000,
         "hallRequired": 13,
         "xp": 328,
-        "icon": "/coc/home/defenses/archer-tower/normal/level-19.png"
+        "icon": "/coc/home/defenses/archer-tower/normal/level-19.png",
+        "capacity": null
       },
       {
         "level": 20,
@@ -2278,7 +2421,8 @@
         "timeSeconds": 129600,
         "hallRequired": 14,
         "xp": 360,
-        "icon": "/coc/home/defenses/archer-tower/normal/level-20.png"
+        "icon": "/coc/home/defenses/archer-tower/normal/level-20.png",
+        "capacity": null
       },
       {
         "level": 21,
@@ -2287,7 +2431,8 @@
         "timeSeconds": 172800,
         "hallRequired": 15,
         "xp": 415,
-        "icon": "/coc/home/defenses/archer-tower/normal/level-21.png"
+        "icon": "/coc/home/defenses/archer-tower/normal/level-21.png",
+        "capacity": null
       }
     ]
   },
@@ -2353,7 +2498,8 @@
         "timeSeconds": 43200,
         "hallRequired": 8,
         "xp": 207,
-        "icon": "/coc/home/defenses/bomb-tower/normal/level-1.png"
+        "icon": "/coc/home/defenses/bomb-tower/normal/level-1.png",
+        "capacity": null
       },
       {
         "level": 2,
@@ -2362,7 +2508,8 @@
         "timeSeconds": 64800,
         "hallRequired": 8,
         "xp": 254,
-        "icon": "/coc/home/defenses/bomb-tower/normal/level-2.png"
+        "icon": "/coc/home/defenses/bomb-tower/normal/level-2.png",
+        "capacity": null
       },
       {
         "level": 3,
@@ -2371,7 +2518,8 @@
         "timeSeconds": 86400,
         "hallRequired": 9,
         "xp": 293,
-        "icon": "/coc/home/defenses/bomb-tower/normal/level-3.png"
+        "icon": "/coc/home/defenses/bomb-tower/normal/level-3.png",
+        "capacity": null
       },
       {
         "level": 4,
@@ -2380,7 +2528,8 @@
         "timeSeconds": 129600,
         "hallRequired": 10,
         "xp": 360,
-        "icon": "/coc/home/defenses/bomb-tower/normal/level-4.png"
+        "icon": "/coc/home/defenses/bomb-tower/normal/level-4.png",
+        "capacity": null
       },
       {
         "level": 5,
@@ -2389,7 +2538,8 @@
         "timeSeconds": 151200,
         "hallRequired": 11,
         "xp": 388,
-        "icon": "/coc/home/defenses/bomb-tower/normal/level-5.png"
+        "icon": "/coc/home/defenses/bomb-tower/normal/level-5.png",
+        "capacity": null
       },
       {
         "level": 6,
@@ -2398,7 +2548,8 @@
         "timeSeconds": 172800,
         "hallRequired": 11,
         "xp": 415,
-        "icon": "/coc/home/defenses/bomb-tower/normal/level-6.png"
+        "icon": "/coc/home/defenses/bomb-tower/normal/level-6.png",
+        "capacity": null
       },
       {
         "level": 7,
@@ -2407,7 +2558,8 @@
         "timeSeconds": 259200,
         "hallRequired": 12,
         "xp": 509,
-        "icon": "/coc/home/defenses/bomb-tower/normal/level-7.png"
+        "icon": "/coc/home/defenses/bomb-tower/normal/level-7.png",
+        "capacity": null
       },
       {
         "level": 8,
@@ -2416,7 +2568,8 @@
         "timeSeconds": 345600,
         "hallRequired": 13,
         "xp": 587,
-        "icon": "/coc/home/defenses/bomb-tower/normal/level-8.png"
+        "icon": "/coc/home/defenses/bomb-tower/normal/level-8.png",
+        "capacity": null
       },
       {
         "level": 9,
@@ -2425,7 +2578,8 @@
         "timeSeconds": 388800,
         "hallRequired": 14,
         "xp": 623,
-        "icon": "/coc/home/defenses/bomb-tower/normal/level-9.png"
+        "icon": "/coc/home/defenses/bomb-tower/normal/level-9.png",
+        "capacity": null
       },
       {
         "level": 10,
@@ -2434,7 +2588,8 @@
         "timeSeconds": 410400,
         "hallRequired": 15,
         "xp": 640,
-        "icon": "/coc/home/defenses/bomb-tower/normal/level-10.png"
+        "icon": "/coc/home/defenses/bomb-tower/normal/level-10.png",
+        "capacity": null
       },
       {
         "level": 11,
@@ -2443,7 +2598,8 @@
         "timeSeconds": 432000,
         "hallRequired": 16,
         "xp": 657,
-        "icon": "/coc/home/defenses/bomb-tower/normal/level-11.png"
+        "icon": "/coc/home/defenses/bomb-tower/normal/level-11.png",
+        "capacity": null
       },
       {
         "level": 12,
@@ -2452,7 +2608,8 @@
         "timeSeconds": 777600,
         "hallRequired": 17,
         "xp": 881,
-        "icon": "/coc/home/defenses/bomb-tower/normal/level-12.png"
+        "icon": "/coc/home/defenses/bomb-tower/normal/level-12.png",
+        "capacity": null
       },
       {
         "level": 13,
@@ -2461,7 +2618,8 @@
         "timeSeconds": 1123200,
         "hallRequired": 18,
         "xp": 1059,
-        "icon": "/coc/home/defenses/bomb-tower/normal/level-13.png"
+        "icon": "/coc/home/defenses/bomb-tower/normal/level-13.png",
+        "capacity": null
       }
     ]
   },
@@ -2555,7 +2713,8 @@
         "timeSeconds": 0,
         "hallRequired": 1,
         "xp": 0,
-        "icon": "/coc/home/defenses/builders-hut/normal/level-1.png"
+        "icon": "/coc/home/defenses/builders-hut/normal/level-1.png",
+        "capacity": null
       },
       {
         "level": 2,
@@ -2564,7 +2723,8 @@
         "timeSeconds": 172800,
         "hallRequired": 14,
         "xp": 415,
-        "icon": "/coc/home/defenses/builders-hut/normal/level-2.png"
+        "icon": "/coc/home/defenses/builders-hut/normal/level-2.png",
+        "capacity": null
       },
       {
         "level": 3,
@@ -2573,7 +2733,8 @@
         "timeSeconds": 259200,
         "hallRequired": 14,
         "xp": 509,
-        "icon": "/coc/home/defenses/builders-hut/normal/level-3.png"
+        "icon": "/coc/home/defenses/builders-hut/normal/level-3.png",
+        "capacity": null
       },
       {
         "level": 4,
@@ -2582,7 +2743,8 @@
         "timeSeconds": 345600,
         "hallRequired": 14,
         "xp": 587,
-        "icon": "/coc/home/defenses/builders-hut/normal/level-4.png"
+        "icon": "/coc/home/defenses/builders-hut/normal/level-4.png",
+        "capacity": null
       },
       {
         "level": 5,
@@ -2591,7 +2753,8 @@
         "timeSeconds": 432000,
         "hallRequired": 15,
         "xp": 657,
-        "icon": "/coc/home/defenses/builders-hut/normal/level-5.png"
+        "icon": "/coc/home/defenses/builders-hut/normal/level-5.png",
+        "capacity": null
       },
       {
         "level": 6,
@@ -2600,7 +2763,8 @@
         "timeSeconds": 475200,
         "hallRequired": 16,
         "xp": 689,
-        "icon": "/coc/home/defenses/builders-hut/normal/level-6.png"
+        "icon": "/coc/home/defenses/builders-hut/normal/level-6.png",
+        "capacity": null
       },
       {
         "level": 7,
@@ -2609,7 +2773,8 @@
         "timeSeconds": 820800,
         "hallRequired": 17,
         "xp": 905,
-        "icon": "/coc/home/defenses/builders-hut/normal/level-7.png"
+        "icon": "/coc/home/defenses/builders-hut/normal/level-7.png",
+        "capacity": null
       }
     ]
   },
@@ -2706,7 +2871,8 @@
         "timeSeconds": 5,
         "hallRequired": 1,
         "xp": 2,
-        "icon": "/coc/home/defenses/cannon/normal/level-1.png"
+        "icon": "/coc/home/defenses/cannon/normal/level-1.png",
+        "capacity": null
       },
       {
         "level": 2,
@@ -2715,7 +2881,8 @@
         "timeSeconds": 30,
         "hallRequired": 1,
         "xp": 5,
-        "icon": "/coc/home/defenses/cannon/normal/level-2.png"
+        "icon": "/coc/home/defenses/cannon/normal/level-2.png",
+        "capacity": null
       },
       {
         "level": 3,
@@ -2724,7 +2891,8 @@
         "timeSeconds": 120,
         "hallRequired": 2,
         "xp": 10,
-        "icon": "/coc/home/defenses/cannon/normal/level-3.png"
+        "icon": "/coc/home/defenses/cannon/normal/level-3.png",
+        "capacity": null
       },
       {
         "level": 4,
@@ -2733,7 +2901,8 @@
         "timeSeconds": 1200,
         "hallRequired": 3,
         "xp": 34,
-        "icon": "/coc/home/defenses/cannon/normal/level-4.png"
+        "icon": "/coc/home/defenses/cannon/normal/level-4.png",
+        "capacity": null
       },
       {
         "level": 5,
@@ -2742,7 +2911,8 @@
         "timeSeconds": 1800,
         "hallRequired": 4,
         "xp": 42,
-        "icon": "/coc/home/defenses/cannon/normal/level-5.png"
+        "icon": "/coc/home/defenses/cannon/normal/level-5.png",
+        "capacity": null
       },
       {
         "level": 6,
@@ -2751,7 +2921,8 @@
         "timeSeconds": 3600,
         "hallRequired": 5,
         "xp": 60,
-        "icon": "/coc/home/defenses/cannon/normal/level-6.png"
+        "icon": "/coc/home/defenses/cannon/normal/level-6.png",
+        "capacity": null
       },
       {
         "level": 7,
@@ -2760,7 +2931,8 @@
         "timeSeconds": 7200,
         "hallRequired": 6,
         "xp": 84,
-        "icon": "/coc/home/defenses/cannon/normal/level-7.png"
+        "icon": "/coc/home/defenses/cannon/normal/level-7.png",
+        "capacity": null
       },
       {
         "level": 8,
@@ -2769,7 +2941,8 @@
         "timeSeconds": 10800,
         "hallRequired": 7,
         "xp": 103,
-        "icon": "/coc/home/defenses/cannon/normal/level-8.png"
+        "icon": "/coc/home/defenses/cannon/normal/level-8.png",
+        "capacity": null
       },
       {
         "level": 9,
@@ -2778,7 +2951,8 @@
         "timeSeconds": 12600,
         "hallRequired": 8,
         "xp": 112,
-        "icon": "/coc/home/defenses/cannon/normal/level-9.png"
+        "icon": "/coc/home/defenses/cannon/normal/level-9.png",
+        "capacity": null
       },
       {
         "level": 10,
@@ -2787,7 +2961,8 @@
         "timeSeconds": 14400,
         "hallRequired": 8,
         "xp": 120,
-        "icon": "/coc/home/defenses/cannon/normal/level-10.png"
+        "icon": "/coc/home/defenses/cannon/normal/level-10.png",
+        "capacity": null
       },
       {
         "level": 11,
@@ -2796,7 +2971,8 @@
         "timeSeconds": 16200,
         "hallRequired": 9,
         "xp": 127,
-        "icon": "/coc/home/defenses/cannon/normal/level-11.png"
+        "icon": "/coc/home/defenses/cannon/normal/level-11.png",
+        "capacity": null
       },
       {
         "level": 12,
@@ -2805,7 +2981,8 @@
         "timeSeconds": 18000,
         "hallRequired": 10,
         "xp": 134,
-        "icon": "/coc/home/defenses/cannon/normal/level-12.png"
+        "icon": "/coc/home/defenses/cannon/normal/level-12.png",
+        "capacity": null
       },
       {
         "level": 13,
@@ -2814,7 +2991,8 @@
         "timeSeconds": 21600,
         "hallRequired": 10,
         "xp": 146,
-        "icon": "/coc/home/defenses/cannon/normal/level-13.png"
+        "icon": "/coc/home/defenses/cannon/normal/level-13.png",
+        "capacity": null
       },
       {
         "level": 14,
@@ -2823,7 +3001,8 @@
         "timeSeconds": 28800,
         "hallRequired": 11,
         "xp": 169,
-        "icon": "/coc/home/defenses/cannon/normal/level-14.png"
+        "icon": "/coc/home/defenses/cannon/normal/level-14.png",
+        "capacity": null
       },
       {
         "level": 15,
@@ -2832,7 +3011,8 @@
         "timeSeconds": 36000,
         "hallRequired": 11,
         "xp": 189,
-        "icon": "/coc/home/defenses/cannon/normal/level-15.png"
+        "icon": "/coc/home/defenses/cannon/normal/level-15.png",
+        "capacity": null
       },
       {
         "level": 16,
@@ -2841,7 +3021,8 @@
         "timeSeconds": 39600,
         "hallRequired": 12,
         "xp": 198,
-        "icon": "/coc/home/defenses/cannon/normal/level-16.png"
+        "icon": "/coc/home/defenses/cannon/normal/level-16.png",
+        "capacity": null
       },
       {
         "level": 17,
@@ -2850,7 +3031,8 @@
         "timeSeconds": 43200,
         "hallRequired": 12,
         "xp": 207,
-        "icon": "/coc/home/defenses/cannon/normal/level-17.png"
+        "icon": "/coc/home/defenses/cannon/normal/level-17.png",
+        "capacity": null
       },
       {
         "level": 18,
@@ -2859,7 +3041,8 @@
         "timeSeconds": 57600,
         "hallRequired": 13,
         "xp": 240,
-        "icon": "/coc/home/defenses/cannon/normal/level-18.png"
+        "icon": "/coc/home/defenses/cannon/normal/level-18.png",
+        "capacity": null
       },
       {
         "level": 19,
@@ -2868,7 +3051,8 @@
         "timeSeconds": 72000,
         "hallRequired": 13,
         "xp": 268,
-        "icon": "/coc/home/defenses/cannon/normal/level-19.png"
+        "icon": "/coc/home/defenses/cannon/normal/level-19.png",
+        "capacity": null
       },
       {
         "level": 20,
@@ -2877,7 +3061,8 @@
         "timeSeconds": 86400,
         "hallRequired": 14,
         "xp": 293,
-        "icon": "/coc/home/defenses/cannon/normal/level-20.png"
+        "icon": "/coc/home/defenses/cannon/normal/level-20.png",
+        "capacity": null
       },
       {
         "level": 21,
@@ -2886,7 +3071,8 @@
         "timeSeconds": 129600,
         "hallRequired": 15,
         "xp": 360,
-        "icon": "/coc/home/defenses/cannon/normal/level-21.png"
+        "icon": "/coc/home/defenses/cannon/normal/level-21.png",
+        "capacity": null
       }
     ]
   },
@@ -2912,7 +3098,8 @@
         "timeSeconds": 0,
         "hallRequired": 18,
         "xp": 0,
-        "icon": "/coc/home/defenses/crafting-station/normal/level-1.png"
+        "icon": "/coc/home/defenses/crafting-station/normal/level-1.png",
+        "capacity": null
       }
     ]
   },
@@ -2966,7 +3153,8 @@
         "timeSeconds": 345600,
         "hallRequired": 11,
         "xp": 587,
-        "icon": "/coc/home/defenses/eagle-artillery/normal/level-1.png"
+        "icon": "/coc/home/defenses/eagle-artillery/normal/level-1.png",
+        "capacity": null
       },
       {
         "level": 2,
@@ -2975,7 +3163,8 @@
         "timeSeconds": 432000,
         "hallRequired": 11,
         "xp": 657,
-        "icon": "/coc/home/defenses/eagle-artillery/normal/level-2.png"
+        "icon": "/coc/home/defenses/eagle-artillery/normal/level-2.png",
+        "capacity": null
       },
       {
         "level": 3,
@@ -2984,7 +3173,8 @@
         "timeSeconds": 604800,
         "hallRequired": 12,
         "xp": 777,
-        "icon": "/coc/home/defenses/eagle-artillery/normal/level-3.png"
+        "icon": "/coc/home/defenses/eagle-artillery/normal/level-3.png",
+        "capacity": null
       },
       {
         "level": 4,
@@ -2993,7 +3183,8 @@
         "timeSeconds": 648000,
         "hallRequired": 13,
         "xp": 804,
-        "icon": "/coc/home/defenses/eagle-artillery/normal/level-4.png"
+        "icon": "/coc/home/defenses/eagle-artillery/normal/level-4.png",
+        "capacity": null
       },
       {
         "level": 5,
@@ -3002,7 +3193,8 @@
         "timeSeconds": 691200,
         "hallRequired": 14,
         "xp": 831,
-        "icon": "/coc/home/defenses/eagle-artillery/normal/level-5.png"
+        "icon": "/coc/home/defenses/eagle-artillery/normal/level-5.png",
+        "capacity": null
       },
       {
         "level": 6,
@@ -3011,7 +3203,8 @@
         "timeSeconds": 777600,
         "hallRequired": 15,
         "xp": 881,
-        "icon": "/coc/home/defenses/eagle-artillery/normal/level-6.png"
+        "icon": "/coc/home/defenses/eagle-artillery/normal/level-6.png",
+        "capacity": null
       },
       {
         "level": 7,
@@ -3020,7 +3213,8 @@
         "timeSeconds": 820800,
         "hallRequired": 16,
         "xp": 905,
-        "icon": "/coc/home/defenses/eagle-artillery/normal/level-7.png"
+        "icon": "/coc/home/defenses/eagle-artillery/normal/level-7.png",
+        "capacity": null
       }
     ]
   },
@@ -3050,7 +3244,8 @@
         "timeSeconds": 950400,
         "hallRequired": 17,
         "xp": 974,
-        "icon": "/coc/home/defenses/firespitter/normal/level-1.png"
+        "icon": "/coc/home/defenses/firespitter/normal/level-1.png",
+        "capacity": null
       },
       {
         "level": 2,
@@ -3059,7 +3254,8 @@
         "timeSeconds": 993600,
         "hallRequired": 17,
         "xp": 996,
-        "icon": "/coc/home/defenses/firespitter/normal/level-2.png"
+        "icon": "/coc/home/defenses/firespitter/normal/level-2.png",
+        "capacity": null
       },
       {
         "level": 3,
@@ -3068,7 +3264,8 @@
         "timeSeconds": 1296000,
         "hallRequired": 18,
         "xp": 1138,
-        "icon": "/coc/home/defenses/firespitter/normal/level-3.png"
+        "icon": "/coc/home/defenses/firespitter/normal/level-3.png",
+        "capacity": null
       }
     ]
   },
@@ -3138,7 +3335,8 @@
         "timeSeconds": 7200,
         "hallRequired": 7,
         "xp": 84,
-        "icon": "/coc/home/defenses/hidden-tesla/normal/level-1.png"
+        "icon": "/coc/home/defenses/hidden-tesla/normal/level-1.png",
+        "capacity": null
       },
       {
         "level": 2,
@@ -3147,7 +3345,8 @@
         "timeSeconds": 10800,
         "hallRequired": 7,
         "xp": 103,
-        "icon": "/coc/home/defenses/hidden-tesla/normal/level-2.png"
+        "icon": "/coc/home/defenses/hidden-tesla/normal/level-2.png",
+        "capacity": null
       },
       {
         "level": 3,
@@ -3156,7 +3355,8 @@
         "timeSeconds": 14400,
         "hallRequired": 7,
         "xp": 120,
-        "icon": "/coc/home/defenses/hidden-tesla/normal/level-3.png"
+        "icon": "/coc/home/defenses/hidden-tesla/normal/level-3.png",
+        "capacity": null
       },
       {
         "level": 4,
@@ -3165,7 +3365,8 @@
         "timeSeconds": 21600,
         "hallRequired": 8,
         "xp": 146,
-        "icon": "/coc/home/defenses/hidden-tesla/normal/level-4.png"
+        "icon": "/coc/home/defenses/hidden-tesla/normal/level-4.png",
+        "capacity": null
       },
       {
         "level": 5,
@@ -3174,7 +3375,8 @@
         "timeSeconds": 43200,
         "hallRequired": 8,
         "xp": 207,
-        "icon": "/coc/home/defenses/hidden-tesla/normal/level-5.png"
+        "icon": "/coc/home/defenses/hidden-tesla/normal/level-5.png",
+        "capacity": null
       },
       {
         "level": 6,
@@ -3183,7 +3385,8 @@
         "timeSeconds": 86400,
         "hallRequired": 8,
         "xp": 293,
-        "icon": "/coc/home/defenses/hidden-tesla/normal/level-6.png"
+        "icon": "/coc/home/defenses/hidden-tesla/normal/level-6.png",
+        "capacity": null
       },
       {
         "level": 7,
@@ -3192,7 +3395,8 @@
         "timeSeconds": 108000,
         "hallRequired": 9,
         "xp": 328,
-        "icon": "/coc/home/defenses/hidden-tesla/normal/level-7.png"
+        "icon": "/coc/home/defenses/hidden-tesla/normal/level-7.png",
+        "capacity": null
       },
       {
         "level": 8,
@@ -3201,7 +3405,8 @@
         "timeSeconds": 129600,
         "hallRequired": 10,
         "xp": 360,
-        "icon": "/coc/home/defenses/hidden-tesla/normal/level-8.png"
+        "icon": "/coc/home/defenses/hidden-tesla/normal/level-8.png",
+        "capacity": null
       },
       {
         "level": 9,
@@ -3210,7 +3415,8 @@
         "timeSeconds": 151200,
         "hallRequired": 11,
         "xp": 388,
-        "icon": "/coc/home/defenses/hidden-tesla/normal/level-9.png"
+        "icon": "/coc/home/defenses/hidden-tesla/normal/level-9.png",
+        "capacity": null
       },
       {
         "level": 10,
@@ -3219,7 +3425,8 @@
         "timeSeconds": 172800,
         "hallRequired": 12,
         "xp": 415,
-        "icon": "/coc/home/defenses/hidden-tesla/normal/level-10.png"
+        "icon": "/coc/home/defenses/hidden-tesla/normal/level-10.png",
+        "capacity": null
       },
       {
         "level": 11,
@@ -3228,7 +3435,8 @@
         "timeSeconds": 216000,
         "hallRequired": 13,
         "xp": 464,
-        "icon": "/coc/home/defenses/hidden-tesla/normal/level-11.png"
+        "icon": "/coc/home/defenses/hidden-tesla/normal/level-11.png",
+        "capacity": null
       },
       {
         "level": 12,
@@ -3237,7 +3445,8 @@
         "timeSeconds": 259200,
         "hallRequired": 13,
         "xp": 509,
-        "icon": "/coc/home/defenses/hidden-tesla/normal/level-12.png"
+        "icon": "/coc/home/defenses/hidden-tesla/normal/level-12.png",
+        "capacity": null
       },
       {
         "level": 13,
@@ -3246,7 +3455,8 @@
         "timeSeconds": 302400,
         "hallRequired": 14,
         "xp": 549,
-        "icon": "/coc/home/defenses/hidden-tesla/normal/level-13.png"
+        "icon": "/coc/home/defenses/hidden-tesla/normal/level-13.png",
+        "capacity": null
       },
       {
         "level": 14,
@@ -3255,7 +3465,8 @@
         "timeSeconds": 345600,
         "hallRequired": 15,
         "xp": 587,
-        "icon": "/coc/home/defenses/hidden-tesla/normal/level-14.png"
+        "icon": "/coc/home/defenses/hidden-tesla/normal/level-14.png",
+        "capacity": null
       },
       {
         "level": 15,
@@ -3264,7 +3475,8 @@
         "timeSeconds": 432000,
         "hallRequired": 16,
         "xp": 657,
-        "icon": "/coc/home/defenses/hidden-tesla/normal/level-15.png"
+        "icon": "/coc/home/defenses/hidden-tesla/normal/level-15.png",
+        "capacity": null
       },
       {
         "level": 16,
@@ -3273,7 +3485,8 @@
         "timeSeconds": 777600,
         "hallRequired": 17,
         "xp": 881,
-        "icon": "/coc/home/defenses/hidden-tesla/normal/level-16.png"
+        "icon": "/coc/home/defenses/hidden-tesla/normal/level-16.png",
+        "capacity": null
       },
       {
         "level": 17,
@@ -3282,7 +3495,8 @@
         "timeSeconds": 1123200,
         "hallRequired": 18,
         "xp": 1059,
-        "icon": "/coc/home/defenses/hidden-tesla/normal/level-17.png"
+        "icon": "/coc/home/defenses/hidden-tesla/normal/level-17.png",
+        "capacity": null
       }
     ]
   },
@@ -3340,7 +3554,8 @@
         "timeSeconds": 43200,
         "hallRequired": 10,
         "xp": 207,
-        "icon": "/coc/home/defenses/inferno-tower/normal/level-1.png"
+        "icon": "/coc/home/defenses/inferno-tower/normal/level-1.png",
+        "capacity": null
       },
       {
         "level": 2,
@@ -3349,7 +3564,8 @@
         "timeSeconds": 86400,
         "hallRequired": 10,
         "xp": 293,
-        "icon": "/coc/home/defenses/inferno-tower/normal/level-2.png"
+        "icon": "/coc/home/defenses/inferno-tower/normal/level-2.png",
+        "capacity": null
       },
       {
         "level": 3,
@@ -3358,7 +3574,8 @@
         "timeSeconds": 172800,
         "hallRequired": 10,
         "xp": 415,
-        "icon": "/coc/home/defenses/inferno-tower/normal/level-3.png"
+        "icon": "/coc/home/defenses/inferno-tower/normal/level-3.png",
+        "capacity": null
       },
       {
         "level": 4,
@@ -3367,7 +3584,8 @@
         "timeSeconds": 216000,
         "hallRequired": 11,
         "xp": 464,
-        "icon": "/coc/home/defenses/inferno-tower/normal/level-4.png"
+        "icon": "/coc/home/defenses/inferno-tower/normal/level-4.png",
+        "capacity": null
       },
       {
         "level": 5,
@@ -3376,7 +3594,8 @@
         "timeSeconds": 259200,
         "hallRequired": 11,
         "xp": 509,
-        "icon": "/coc/home/defenses/inferno-tower/normal/level-5.png"
+        "icon": "/coc/home/defenses/inferno-tower/normal/level-5.png",
+        "capacity": null
       },
       {
         "level": 6,
@@ -3385,7 +3604,8 @@
         "timeSeconds": 345600,
         "hallRequired": 12,
         "xp": 587,
-        "icon": "/coc/home/defenses/inferno-tower/normal/level-6.png"
+        "icon": "/coc/home/defenses/inferno-tower/normal/level-6.png",
+        "capacity": null
       },
       {
         "level": 7,
@@ -3394,7 +3614,8 @@
         "timeSeconds": 432000,
         "hallRequired": 13,
         "xp": 657,
-        "icon": "/coc/home/defenses/inferno-tower/normal/level-7.png"
+        "icon": "/coc/home/defenses/inferno-tower/normal/level-7.png",
+        "capacity": null
       },
       {
         "level": 8,
@@ -3403,7 +3624,8 @@
         "timeSeconds": 518400,
         "hallRequired": 14,
         "xp": 720,
-        "icon": "/coc/home/defenses/inferno-tower/normal/level-8.png"
+        "icon": "/coc/home/defenses/inferno-tower/normal/level-8.png",
+        "capacity": null
       },
       {
         "level": 9,
@@ -3412,7 +3634,8 @@
         "timeSeconds": 561600,
         "hallRequired": 15,
         "xp": 749,
-        "icon": "/coc/home/defenses/inferno-tower/normal/level-9.png"
+        "icon": "/coc/home/defenses/inferno-tower/normal/level-9.png",
+        "capacity": null
       },
       {
         "level": 10,
@@ -3421,7 +3644,8 @@
         "timeSeconds": 604800,
         "hallRequired": 16,
         "xp": 777,
-        "icon": "/coc/home/defenses/inferno-tower/normal/level-10.png"
+        "icon": "/coc/home/defenses/inferno-tower/normal/level-10.png",
+        "capacity": null
       },
       {
         "level": 11,
@@ -3430,7 +3654,8 @@
         "timeSeconds": 1036800,
         "hallRequired": 17,
         "xp": 1018,
-        "icon": "/coc/home/defenses/inferno-tower/normal/level-11.png"
+        "icon": "/coc/home/defenses/inferno-tower/normal/level-11.png",
+        "capacity": null
       },
       {
         "level": 12,
@@ -3439,7 +3664,8 @@
         "timeSeconds": 1166400,
         "hallRequired": 18,
         "xp": 1080,
-        "icon": "/coc/home/defenses/inferno-tower/normal/level-12.png"
+        "icon": "/coc/home/defenses/inferno-tower/normal/level-12.png",
+        "capacity": null
       }
     ]
   },
@@ -3481,7 +3707,8 @@
         "timeSeconds": 604800,
         "hallRequired": 15,
         "xp": 777,
-        "icon": "/coc/home/defenses/monolith/normal/level-1.png"
+        "icon": "/coc/home/defenses/monolith/normal/level-1.png",
+        "capacity": null
       },
       {
         "level": 2,
@@ -3490,7 +3717,8 @@
         "timeSeconds": 691200,
         "hallRequired": 15,
         "xp": 831,
-        "icon": "/coc/home/defenses/monolith/normal/level-2.png"
+        "icon": "/coc/home/defenses/monolith/normal/level-2.png",
+        "capacity": null
       },
       {
         "level": 3,
@@ -3499,7 +3727,8 @@
         "timeSeconds": 777600,
         "hallRequired": 16,
         "xp": 881,
-        "icon": "/coc/home/defenses/monolith/normal/level-3.png"
+        "icon": "/coc/home/defenses/monolith/normal/level-3.png",
+        "capacity": null
       },
       {
         "level": 4,
@@ -3508,7 +3737,8 @@
         "timeSeconds": 1036800,
         "hallRequired": 17,
         "xp": 1018,
-        "icon": "/coc/home/defenses/monolith/normal/level-4.png"
+        "icon": "/coc/home/defenses/monolith/normal/level-4.png",
+        "capacity": null
       }
     ]
   },
@@ -3594,7 +3824,8 @@
         "timeSeconds": 1800,
         "hallRequired": 3,
         "xp": 42,
-        "icon": "/coc/home/defenses/mortar/normal/level-1.png"
+        "icon": "/coc/home/defenses/mortar/normal/level-1.png",
+        "capacity": null
       },
       {
         "level": 2,
@@ -3603,7 +3834,8 @@
         "timeSeconds": 3600,
         "hallRequired": 4,
         "xp": 60,
-        "icon": "/coc/home/defenses/mortar/normal/level-2.png"
+        "icon": "/coc/home/defenses/mortar/normal/level-2.png",
+        "capacity": null
       },
       {
         "level": 3,
@@ -3612,7 +3844,8 @@
         "timeSeconds": 7200,
         "hallRequired": 5,
         "xp": 84,
-        "icon": "/coc/home/defenses/mortar/normal/level-3.png"
+        "icon": "/coc/home/defenses/mortar/normal/level-3.png",
+        "capacity": null
       },
       {
         "level": 4,
@@ -3621,7 +3854,8 @@
         "timeSeconds": 10800,
         "hallRequired": 6,
         "xp": 103,
-        "icon": "/coc/home/defenses/mortar/normal/level-4.png"
+        "icon": "/coc/home/defenses/mortar/normal/level-4.png",
+        "capacity": null
       },
       {
         "level": 5,
@@ -3630,7 +3864,8 @@
         "timeSeconds": 21600,
         "hallRequired": 7,
         "xp": 146,
-        "icon": "/coc/home/defenses/mortar/normal/level-5.png"
+        "icon": "/coc/home/defenses/mortar/normal/level-5.png",
+        "capacity": null
       },
       {
         "level": 6,
@@ -3639,7 +3874,8 @@
         "timeSeconds": 28800,
         "hallRequired": 8,
         "xp": 169,
-        "icon": "/coc/home/defenses/mortar/normal/level-6.png"
+        "icon": "/coc/home/defenses/mortar/normal/level-6.png",
+        "capacity": null
       },
       {
         "level": 7,
@@ -3648,7 +3884,8 @@
         "timeSeconds": 43200,
         "hallRequired": 9,
         "xp": 207,
-        "icon": "/coc/home/defenses/mortar/normal/level-7.png"
+        "icon": "/coc/home/defenses/mortar/normal/level-7.png",
+        "capacity": null
       },
       {
         "level": 8,
@@ -3657,7 +3894,8 @@
         "timeSeconds": 64800,
         "hallRequired": 10,
         "xp": 254,
-        "icon": "/coc/home/defenses/mortar/normal/level-8.png"
+        "icon": "/coc/home/defenses/mortar/normal/level-8.png",
+        "capacity": null
       },
       {
         "level": 9,
@@ -3666,7 +3904,8 @@
         "timeSeconds": 72000,
         "hallRequired": 11,
         "xp": 268,
-        "icon": "/coc/home/defenses/mortar/normal/level-9.png"
+        "icon": "/coc/home/defenses/mortar/normal/level-9.png",
+        "capacity": null
       },
       {
         "level": 10,
@@ -3675,7 +3914,8 @@
         "timeSeconds": 86400,
         "hallRequired": 11,
         "xp": 293,
-        "icon": "/coc/home/defenses/mortar/normal/level-10.png"
+        "icon": "/coc/home/defenses/mortar/normal/level-10.png",
+        "capacity": null
       },
       {
         "level": 11,
@@ -3684,7 +3924,8 @@
         "timeSeconds": 108000,
         "hallRequired": 12,
         "xp": 328,
-        "icon": "/coc/home/defenses/mortar/normal/level-11.png"
+        "icon": "/coc/home/defenses/mortar/normal/level-11.png",
+        "capacity": null
       },
       {
         "level": 12,
@@ -3693,7 +3934,8 @@
         "timeSeconds": 129600,
         "hallRequired": 12,
         "xp": 360,
-        "icon": "/coc/home/defenses/mortar/normal/level-12.png"
+        "icon": "/coc/home/defenses/mortar/normal/level-12.png",
+        "capacity": null
       },
       {
         "level": 13,
@@ -3702,7 +3944,8 @@
         "timeSeconds": 172800,
         "hallRequired": 13,
         "xp": 415,
-        "icon": "/coc/home/defenses/mortar/normal/level-13.png"
+        "icon": "/coc/home/defenses/mortar/normal/level-13.png",
+        "capacity": null
       },
       {
         "level": 14,
@@ -3711,7 +3954,8 @@
         "timeSeconds": 216000,
         "hallRequired": 14,
         "xp": 464,
-        "icon": "/coc/home/defenses/mortar/normal/level-14.png"
+        "icon": "/coc/home/defenses/mortar/normal/level-14.png",
+        "capacity": null
       },
       {
         "level": 15,
@@ -3720,7 +3964,8 @@
         "timeSeconds": 259200,
         "hallRequired": 15,
         "xp": 509,
-        "icon": "/coc/home/defenses/mortar/normal/level-15.png"
+        "icon": "/coc/home/defenses/mortar/normal/level-15.png",
+        "capacity": null
       },
       {
         "level": 16,
@@ -3729,7 +3974,8 @@
         "timeSeconds": 345600,
         "hallRequired": 16,
         "xp": 587,
-        "icon": "/coc/home/defenses/mortar/normal/level-16.png"
+        "icon": "/coc/home/defenses/mortar/normal/level-16.png",
+        "capacity": null
       },
       {
         "level": 17,
@@ -3738,7 +3984,8 @@
         "timeSeconds": 691200,
         "hallRequired": 17,
         "xp": 831,
-        "icon": "/coc/home/defenses/mortar/normal/level-17.png"
+        "icon": "/coc/home/defenses/mortar/normal/level-17.png",
+        "capacity": null
       },
       {
         "level": 18,
@@ -3747,7 +3994,8 @@
         "timeSeconds": 1080000,
         "hallRequired": 18,
         "xp": 1039,
-        "icon": "/coc/home/defenses/mortar/normal/level-18.png"
+        "icon": "/coc/home/defenses/mortar/normal/level-18.png",
+        "capacity": null
       }
     ]
   },
@@ -3781,7 +4029,8 @@
         "timeSeconds": 604800,
         "hallRequired": 16,
         "xp": 777,
-        "icon": "/coc/home/defenses/multi-archer-tower/normal/level-1.png"
+        "icon": "/coc/home/defenses/multi-archer-tower/normal/level-1.png",
+        "capacity": null
       },
       {
         "level": 2,
@@ -3790,7 +4039,8 @@
         "timeSeconds": 691200,
         "hallRequired": 16,
         "xp": 831,
-        "icon": "/coc/home/defenses/multi-archer-tower/normal/level-2.png"
+        "icon": "/coc/home/defenses/multi-archer-tower/normal/level-2.png",
+        "capacity": null
       },
       {
         "level": 3,
@@ -3799,7 +4049,8 @@
         "timeSeconds": 928800,
         "hallRequired": 17,
         "xp": 963,
-        "icon": "/coc/home/defenses/multi-archer-tower/normal/level-3.png"
+        "icon": "/coc/home/defenses/multi-archer-tower/normal/level-3.png",
+        "capacity": null
       },
       {
         "level": 4,
@@ -3808,7 +4059,8 @@
         "timeSeconds": 1209600,
         "hallRequired": 18,
         "xp": 1099,
-        "icon": "/coc/home/defenses/multi-archer-tower/normal/level-4.png"
+        "icon": "/coc/home/defenses/multi-archer-tower/normal/level-4.png",
+        "capacity": null
       }
     ]
   },
@@ -3838,7 +4090,8 @@
         "timeSeconds": 864000,
         "hallRequired": 17,
         "xp": 929,
-        "icon": "/coc/home/defenses/multi-gear-tower/normal/level-1.png"
+        "icon": "/coc/home/defenses/multi-gear-tower/normal/level-1.png",
+        "capacity": null
       },
       {
         "level": 2,
@@ -3847,7 +4100,8 @@
         "timeSeconds": 928800,
         "hallRequired": 17,
         "xp": 963,
-        "icon": "/coc/home/defenses/multi-gear-tower/normal/level-2.png"
+        "icon": "/coc/home/defenses/multi-gear-tower/normal/level-2.png",
+        "capacity": null
       },
       {
         "level": 3,
@@ -3856,7 +4110,8 @@
         "timeSeconds": 1209600,
         "hallRequired": 18,
         "xp": 1099,
-        "icon": "/coc/home/defenses/multi-gear-tower/normal/level-3.png"
+        "icon": "/coc/home/defenses/multi-gear-tower/normal/level-3.png",
+        "capacity": null
       }
     ]
   },
@@ -3882,7 +4137,8 @@
         "timeSeconds": 1123205,
         "hallRequired": 18,
         "xp": 1059,
-        "icon": "/coc/home/defenses/revenge-tower/normal/level-1.png"
+        "icon": "/coc/home/defenses/revenge-tower/normal/level-1.png",
+        "capacity": null
       },
       {
         "level": 2,
@@ -3891,7 +4147,8 @@
         "timeSeconds": 1209600,
         "hallRequired": 18,
         "xp": 1099,
-        "icon": "/coc/home/defenses/revenge-tower/normal/level-2.png"
+        "icon": "/coc/home/defenses/revenge-tower/normal/level-2.png",
+        "capacity": null
       }
     ]
   },
@@ -3925,7 +4182,8 @@
         "timeSeconds": 604800,
         "hallRequired": 16,
         "xp": 777,
-        "icon": "/coc/home/defenses/ricochet-cannon/normal/level-1.png"
+        "icon": "/coc/home/defenses/ricochet-cannon/normal/level-1.png",
+        "capacity": null
       },
       {
         "level": 2,
@@ -3934,7 +4192,8 @@
         "timeSeconds": 691200,
         "hallRequired": 16,
         "xp": 831,
-        "icon": "/coc/home/defenses/ricochet-cannon/normal/level-2.png"
+        "icon": "/coc/home/defenses/ricochet-cannon/normal/level-2.png",
+        "capacity": null
       },
       {
         "level": 3,
@@ -3943,7 +4202,8 @@
         "timeSeconds": 928800,
         "hallRequired": 17,
         "xp": 963,
-        "icon": "/coc/home/defenses/ricochet-cannon/normal/level-3.png"
+        "icon": "/coc/home/defenses/ricochet-cannon/normal/level-3.png",
+        "capacity": null
       },
       {
         "level": 4,
@@ -3952,7 +4212,8 @@
         "timeSeconds": 1166400,
         "hallRequired": 18,
         "xp": 1080,
-        "icon": "/coc/home/defenses/ricochet-cannon/normal/level-4.png"
+        "icon": "/coc/home/defenses/ricochet-cannon/normal/level-4.png",
+        "capacity": null
       }
     ]
   },
@@ -3998,7 +4259,8 @@
         "timeSeconds": 518400,
         "hallRequired": 13,
         "xp": 720,
-        "icon": "/coc/home/defenses/scattershot/normal/level-1.png"
+        "icon": "/coc/home/defenses/scattershot/normal/level-1.png",
+        "capacity": null
       },
       {
         "level": 2,
@@ -4007,7 +4269,8 @@
         "timeSeconds": 604800,
         "hallRequired": 13,
         "xp": 777,
-        "icon": "/coc/home/defenses/scattershot/normal/level-2.png"
+        "icon": "/coc/home/defenses/scattershot/normal/level-2.png",
+        "capacity": null
       },
       {
         "level": 3,
@@ -4016,7 +4279,8 @@
         "timeSeconds": 648000,
         "hallRequired": 14,
         "xp": 804,
-        "icon": "/coc/home/defenses/scattershot/normal/level-3.png"
+        "icon": "/coc/home/defenses/scattershot/normal/level-3.png",
+        "capacity": null
       },
       {
         "level": 4,
@@ -4025,7 +4289,8 @@
         "timeSeconds": 691200,
         "hallRequired": 15,
         "xp": 831,
-        "icon": "/coc/home/defenses/scattershot/normal/level-4.png"
+        "icon": "/coc/home/defenses/scattershot/normal/level-4.png",
+        "capacity": null
       },
       {
         "level": 5,
@@ -4034,7 +4299,8 @@
         "timeSeconds": 734400,
         "hallRequired": 16,
         "xp": 856,
-        "icon": "/coc/home/defenses/scattershot/normal/level-5.png"
+        "icon": "/coc/home/defenses/scattershot/normal/level-5.png",
+        "capacity": null
       },
       {
         "level": 6,
@@ -4043,7 +4309,8 @@
         "timeSeconds": 907200,
         "hallRequired": 17,
         "xp": 952,
-        "icon": "/coc/home/defenses/scattershot/normal/level-6.png"
+        "icon": "/coc/home/defenses/scattershot/normal/level-6.png",
+        "capacity": null
       }
     ]
   },
@@ -4081,7 +4348,8 @@
         "timeSeconds": 604800,
         "hallRequired": 15,
         "xp": 777,
-        "icon": "/coc/home/defenses/spell-tower/normal/level-1.png"
+        "icon": "/coc/home/defenses/spell-tower/normal/level-1.png",
+        "capacity": null
       },
       {
         "level": 2,
@@ -4090,7 +4358,8 @@
         "timeSeconds": 691200,
         "hallRequired": 15,
         "xp": 831,
-        "icon": "/coc/home/defenses/spell-tower/normal/level-2.png"
+        "icon": "/coc/home/defenses/spell-tower/normal/level-2.png",
+        "capacity": null
       },
       {
         "level": 3,
@@ -4099,7 +4368,8 @@
         "timeSeconds": 734400,
         "hallRequired": 15,
         "xp": 856,
-        "icon": "/coc/home/defenses/spell-tower/normal/level-3.png"
+        "icon": "/coc/home/defenses/spell-tower/normal/level-3.png",
+        "capacity": null
       },
       {
         "level": 4,
@@ -4108,7 +4378,8 @@
         "timeSeconds": 1209600,
         "hallRequired": 17,
         "xp": 1099,
-        "icon": "/coc/home/defenses/spell-tower/normal/level-4.png"
+        "icon": "/coc/home/defenses/spell-tower/normal/level-4.png",
+        "capacity": null
       }
     ]
   },
@@ -4134,7 +4405,8 @@
         "timeSeconds": 1123200,
         "hallRequired": 18,
         "xp": 1059,
-        "icon": "/coc/home/defenses/super-wizard-tower/normal/level-1.png"
+        "icon": "/coc/home/defenses/super-wizard-tower/normal/level-1.png",
+        "capacity": null
       },
       {
         "level": 2,
@@ -4143,7 +4415,8 @@
         "timeSeconds": 1209600,
         "hallRequired": 18,
         "xp": 1099,
-        "icon": "/coc/home/defenses/super-wizard-tower/normal/level-2.png"
+        "icon": "/coc/home/defenses/super-wizard-tower/normal/level-2.png",
+        "capacity": null
       }
     ]
   },
@@ -4222,7 +4495,8 @@
         "timeSeconds": 3600,
         "hallRequired": 5,
         "xp": 60,
-        "icon": "/coc/home/defenses/wizard-tower/normal/level-1.png"
+        "icon": "/coc/home/defenses/wizard-tower/normal/level-1.png",
+        "capacity": null
       },
       {
         "level": 2,
@@ -4231,7 +4505,8 @@
         "timeSeconds": 5400,
         "hallRequired": 5,
         "xp": 73,
-        "icon": "/coc/home/defenses/wizard-tower/normal/level-2.png"
+        "icon": "/coc/home/defenses/wizard-tower/normal/level-2.png",
+        "capacity": null
       },
       {
         "level": 3,
@@ -4240,7 +4515,8 @@
         "timeSeconds": 14400,
         "hallRequired": 6,
         "xp": 120,
-        "icon": "/coc/home/defenses/wizard-tower/normal/level-3.png"
+        "icon": "/coc/home/defenses/wizard-tower/normal/level-3.png",
+        "capacity": null
       },
       {
         "level": 4,
@@ -4249,7 +4525,8 @@
         "timeSeconds": 28800,
         "hallRequired": 7,
         "xp": 169,
-        "icon": "/coc/home/defenses/wizard-tower/normal/level-4.png"
+        "icon": "/coc/home/defenses/wizard-tower/normal/level-4.png",
+        "capacity": null
       },
       {
         "level": 5,
@@ -4258,7 +4535,8 @@
         "timeSeconds": 36000,
         "hallRequired": 8,
         "xp": 189,
-        "icon": "/coc/home/defenses/wizard-tower/normal/level-5.png"
+        "icon": "/coc/home/defenses/wizard-tower/normal/level-5.png",
+        "capacity": null
       },
       {
         "level": 6,
@@ -4267,7 +4545,8 @@
         "timeSeconds": 43200,
         "hallRequired": 8,
         "xp": 207,
-        "icon": "/coc/home/defenses/wizard-tower/normal/level-6.png"
+        "icon": "/coc/home/defenses/wizard-tower/normal/level-6.png",
+        "capacity": null
       },
       {
         "level": 7,
@@ -4276,7 +4555,8 @@
         "timeSeconds": 64800,
         "hallRequired": 9,
         "xp": 254,
-        "icon": "/coc/home/defenses/wizard-tower/normal/level-7.png"
+        "icon": "/coc/home/defenses/wizard-tower/normal/level-7.png",
+        "capacity": null
       },
       {
         "level": 8,
@@ -4285,7 +4565,8 @@
         "timeSeconds": 72000,
         "hallRequired": 10,
         "xp": 268,
-        "icon": "/coc/home/defenses/wizard-tower/normal/level-8.png"
+        "icon": "/coc/home/defenses/wizard-tower/normal/level-8.png",
+        "capacity": null
       },
       {
         "level": 9,
@@ -4294,7 +4575,8 @@
         "timeSeconds": 86400,
         "hallRequired": 10,
         "xp": 293,
-        "icon": "/coc/home/defenses/wizard-tower/normal/level-9.png"
+        "icon": "/coc/home/defenses/wizard-tower/normal/level-9.png",
+        "capacity": null
       },
       {
         "level": 10,
@@ -4303,7 +4585,8 @@
         "timeSeconds": 108000,
         "hallRequired": 11,
         "xp": 328,
-        "icon": "/coc/home/defenses/wizard-tower/normal/level-10.png"
+        "icon": "/coc/home/defenses/wizard-tower/normal/level-10.png",
+        "capacity": null
       },
       {
         "level": 11,
@@ -4312,7 +4595,8 @@
         "timeSeconds": 129600,
         "hallRequired": 12,
         "xp": 360,
-        "icon": "/coc/home/defenses/wizard-tower/normal/level-11.png"
+        "icon": "/coc/home/defenses/wizard-tower/normal/level-11.png",
+        "capacity": null
       },
       {
         "level": 12,
@@ -4321,7 +4605,8 @@
         "timeSeconds": 151200,
         "hallRequired": 13,
         "xp": 388,
-        "icon": "/coc/home/defenses/wizard-tower/normal/level-12.png"
+        "icon": "/coc/home/defenses/wizard-tower/normal/level-12.png",
+        "capacity": null
       },
       {
         "level": 13,
@@ -4330,7 +4615,8 @@
         "timeSeconds": 172800,
         "hallRequired": 13,
         "xp": 415,
-        "icon": "/coc/home/defenses/wizard-tower/normal/level-13.png"
+        "icon": "/coc/home/defenses/wizard-tower/normal/level-13.png",
+        "capacity": null
       },
       {
         "level": 14,
@@ -4339,7 +4625,8 @@
         "timeSeconds": 259200,
         "hallRequired": 14,
         "xp": 509,
-        "icon": "/coc/home/defenses/wizard-tower/normal/level-14.png"
+        "icon": "/coc/home/defenses/wizard-tower/normal/level-14.png",
+        "capacity": null
       },
       {
         "level": 15,
@@ -4348,7 +4635,8 @@
         "timeSeconds": 345600,
         "hallRequired": 15,
         "xp": 587,
-        "icon": "/coc/home/defenses/wizard-tower/normal/level-15.png"
+        "icon": "/coc/home/defenses/wizard-tower/normal/level-15.png",
+        "capacity": null
       },
       {
         "level": 16,
@@ -4357,7 +4645,8 @@
         "timeSeconds": 388800,
         "hallRequired": 16,
         "xp": 623,
-        "icon": "/coc/home/defenses/wizard-tower/normal/level-16.png"
+        "icon": "/coc/home/defenses/wizard-tower/normal/level-16.png",
+        "capacity": null
       },
       {
         "level": 17,
@@ -4366,7 +4655,8 @@
         "timeSeconds": 734400,
         "hallRequired": 17,
         "xp": 856,
-        "icon": "/coc/home/defenses/wizard-tower/normal/level-17.png"
+        "icon": "/coc/home/defenses/wizard-tower/normal/level-17.png",
+        "capacity": null
       }
     ]
   },
@@ -4428,7 +4718,8 @@
         "timeSeconds": 43200,
         "hallRequired": 9,
         "xp": 207,
-        "icon": "/coc/home/defenses/x-bow/normal/level-1.png"
+        "icon": "/coc/home/defenses/x-bow/normal/level-1.png",
+        "capacity": null
       },
       {
         "level": 2,
@@ -4437,7 +4728,8 @@
         "timeSeconds": 86400,
         "hallRequired": 9,
         "xp": 293,
-        "icon": "/coc/home/defenses/x-bow/normal/level-2.png"
+        "icon": "/coc/home/defenses/x-bow/normal/level-2.png",
+        "capacity": null
       },
       {
         "level": 3,
@@ -4446,7 +4738,8 @@
         "timeSeconds": 172800,
         "hallRequired": 9,
         "xp": 415,
-        "icon": "/coc/home/defenses/x-bow/normal/level-3.png"
+        "icon": "/coc/home/defenses/x-bow/normal/level-3.png",
+        "capacity": null
       },
       {
         "level": 4,
@@ -4455,7 +4748,8 @@
         "timeSeconds": 259200,
         "hallRequired": 10,
         "xp": 509,
-        "icon": "/coc/home/defenses/x-bow/normal/level-4.png"
+        "icon": "/coc/home/defenses/x-bow/normal/level-4.png",
+        "capacity": null
       },
       {
         "level": 5,
@@ -4464,7 +4758,8 @@
         "timeSeconds": 302400,
         "hallRequired": 11,
         "xp": 549,
-        "icon": "/coc/home/defenses/x-bow/normal/level-5.png"
+        "icon": "/coc/home/defenses/x-bow/normal/level-5.png",
+        "capacity": null
       },
       {
         "level": 6,
@@ -4473,7 +4768,8 @@
         "timeSeconds": 345600,
         "hallRequired": 12,
         "xp": 587,
-        "icon": "/coc/home/defenses/x-bow/normal/level-6.png"
+        "icon": "/coc/home/defenses/x-bow/normal/level-6.png",
+        "capacity": null
       },
       {
         "level": 7,
@@ -4482,7 +4778,8 @@
         "timeSeconds": 367200,
         "hallRequired": 13,
         "xp": 605,
-        "icon": "/coc/home/defenses/x-bow/normal/level-7.png"
+        "icon": "/coc/home/defenses/x-bow/normal/level-7.png",
+        "capacity": null
       },
       {
         "level": 8,
@@ -4491,7 +4788,8 @@
         "timeSeconds": 388800,
         "hallRequired": 13,
         "xp": 623,
-        "icon": "/coc/home/defenses/x-bow/normal/level-8.png"
+        "icon": "/coc/home/defenses/x-bow/normal/level-8.png",
+        "capacity": null
       },
       {
         "level": 9,
@@ -4500,7 +4798,8 @@
         "timeSeconds": 432000,
         "hallRequired": 14,
         "xp": 657,
-        "icon": "/coc/home/defenses/x-bow/normal/level-9.png"
+        "icon": "/coc/home/defenses/x-bow/normal/level-9.png",
+        "capacity": null
       },
       {
         "level": 10,
@@ -4509,7 +4808,8 @@
         "timeSeconds": 475200,
         "hallRequired": 15,
         "xp": 689,
-        "icon": "/coc/home/defenses/x-bow/normal/level-10.png"
+        "icon": "/coc/home/defenses/x-bow/normal/level-10.png",
+        "capacity": null
       },
       {
         "level": 11,
@@ -4518,7 +4818,8 @@
         "timeSeconds": 518400,
         "hallRequired": 16,
         "xp": 720,
-        "icon": "/coc/home/defenses/x-bow/normal/level-11.png"
+        "icon": "/coc/home/defenses/x-bow/normal/level-11.png",
+        "capacity": null
       },
       {
         "level": 12,
@@ -4527,7 +4828,8 @@
         "timeSeconds": 907200,
         "hallRequired": 17,
         "xp": 952,
-        "icon": "/coc/home/defenses/x-bow/normal/level-12.png"
+        "icon": "/coc/home/defenses/x-bow/normal/level-12.png",
+        "capacity": null
       }
     ]
   },
@@ -4548,7 +4850,8 @@
         "timeSeconds": 0,
         "hallRequired": 11,
         "xp": 0,
-        "icon": null
+        "icon": null,
+        "capacity": null
       },
       {
         "level": 2,
@@ -4557,7 +4860,8 @@
         "timeSeconds": 0,
         "hallRequired": 12,
         "xp": 0,
-        "icon": null
+        "icon": null,
+        "capacity": null
       },
       {
         "level": 3,
@@ -4566,7 +4870,8 @@
         "timeSeconds": 0,
         "hallRequired": 13,
         "xp": 0,
-        "icon": null
+        "icon": null,
+        "capacity": null
       },
       {
         "level": 4,
@@ -4575,7 +4880,8 @@
         "timeSeconds": 0,
         "hallRequired": 14,
         "xp": 0,
-        "icon": null
+        "icon": null,
+        "capacity": null
       },
       {
         "level": 5,
@@ -4584,7 +4890,8 @@
         "timeSeconds": 0,
         "hallRequired": 15,
         "xp": 0,
-        "icon": null
+        "icon": null,
+        "capacity": null
       },
       {
         "level": 6,
@@ -4593,7 +4900,8 @@
         "timeSeconds": 0,
         "hallRequired": 16,
         "xp": 0,
-        "icon": null
+        "icon": null,
+        "capacity": null
       },
       {
         "level": 7,
@@ -4602,7 +4910,8 @@
         "timeSeconds": 0,
         "hallRequired": 17,
         "xp": 0,
-        "icon": null
+        "icon": null,
+        "capacity": null
       }
     ]
   },
@@ -4696,7 +5005,8 @@
         "timeSeconds": 0,
         "hallRequired": 10,
         "xp": 0,
-        "icon": "/coc/home/other/bobs-hut/normal/level-1.png"
+        "icon": "/coc/home/other/bobs-hut/normal/level-1.png",
+        "capacity": null
       }
     ]
   },
@@ -4717,7 +5027,8 @@
         "timeSeconds": 0,
         "hallRequired": 10,
         "xp": 0,
-        "icon": null
+        "icon": null,
+        "capacity": null
       },
       {
         "level": 2,
@@ -4726,7 +5037,8 @@
         "timeSeconds": 0,
         "hallRequired": 10,
         "xp": 0,
-        "icon": null
+        "icon": null,
+        "capacity": null
       },
       {
         "level": 3,
@@ -4735,7 +5047,8 @@
         "timeSeconds": 0,
         "hallRequired": 11,
         "xp": 0,
-        "icon": null
+        "icon": null,
+        "capacity": null
       },
       {
         "level": 4,
@@ -4744,7 +5057,8 @@
         "timeSeconds": 0,
         "hallRequired": 11,
         "xp": 0,
-        "icon": null
+        "icon": null,
+        "capacity": null
       },
       {
         "level": 5,
@@ -4753,7 +5067,8 @@
         "timeSeconds": 0,
         "hallRequired": 12,
         "xp": 0,
-        "icon": null
+        "icon": null,
+        "capacity": null
       },
       {
         "level": 6,
@@ -4762,7 +5077,8 @@
         "timeSeconds": 0,
         "hallRequired": 12,
         "xp": 0,
-        "icon": null
+        "icon": null,
+        "capacity": null
       },
       {
         "level": 7,
@@ -4771,7 +5087,8 @@
         "timeSeconds": 0,
         "hallRequired": 13,
         "xp": 0,
-        "icon": null
+        "icon": null,
+        "capacity": null
       },
       {
         "level": 8,
@@ -4780,7 +5097,8 @@
         "timeSeconds": 0,
         "hallRequired": 14,
         "xp": 0,
-        "icon": null
+        "icon": null,
+        "capacity": null
       }
     ]
   },
@@ -4874,7 +5192,8 @@
         "timeSeconds": 0,
         "hallRequired": 9,
         "xp": 0,
-        "icon": "/coc/home/other/helper-hut/normal/level-1.png"
+        "icon": "/coc/home/other/helper-hut/normal/level-1.png",
+        "capacity": null
       }
     ]
   },
@@ -4895,7 +5214,8 @@
         "timeSeconds": 0,
         "hallRequired": 9,
         "xp": 0,
-        "icon": null
+        "icon": null,
+        "capacity": null
       },
       {
         "level": 2,
@@ -4904,7 +5224,8 @@
         "timeSeconds": 0,
         "hallRequired": 10,
         "xp": 0,
-        "icon": null
+        "icon": null,
+        "capacity": null
       },
       {
         "level": 3,
@@ -4913,7 +5234,8 @@
         "timeSeconds": 0,
         "hallRequired": 10,
         "xp": 0,
-        "icon": null
+        "icon": null,
+        "capacity": null
       },
       {
         "level": 4,
@@ -4922,7 +5244,8 @@
         "timeSeconds": 0,
         "hallRequired": 11,
         "xp": 0,
-        "icon": null
+        "icon": null,
+        "capacity": null
       },
       {
         "level": 5,
@@ -4931,7 +5254,8 @@
         "timeSeconds": 0,
         "hallRequired": 12,
         "xp": 0,
-        "icon": null
+        "icon": null,
+        "capacity": null
       },
       {
         "level": 6,
@@ -4940,7 +5264,8 @@
         "timeSeconds": 0,
         "hallRequired": 12,
         "xp": 0,
-        "icon": null
+        "icon": null,
+        "capacity": null
       },
       {
         "level": 7,
@@ -4949,7 +5274,8 @@
         "timeSeconds": 0,
         "hallRequired": 13,
         "xp": 0,
-        "icon": null
+        "icon": null,
+        "capacity": null
       },
       {
         "level": 8,
@@ -4958,7 +5284,8 @@
         "timeSeconds": 0,
         "hallRequired": 13,
         "xp": 0,
-        "icon": null
+        "icon": null,
+        "capacity": null
       },
       {
         "level": 9,
@@ -4967,7 +5294,8 @@
         "timeSeconds": 0,
         "hallRequired": 14,
         "xp": 0,
-        "icon": null
+        "icon": null,
+        "capacity": null
       },
       {
         "level": 10,
@@ -4976,7 +5304,8 @@
         "timeSeconds": 0,
         "hallRequired": 14,
         "xp": 0,
-        "icon": null
+        "icon": null,
+        "capacity": null
       },
       {
         "level": 11,
@@ -4985,7 +5314,8 @@
         "timeSeconds": 0,
         "hallRequired": 15,
         "xp": 0,
-        "icon": null
+        "icon": null,
+        "capacity": null
       },
       {
         "level": 12,
@@ -4994,7 +5324,8 @@
         "timeSeconds": 0,
         "hallRequired": 16,
         "xp": 0,
-        "icon": null
+        "icon": null,
+        "capacity": null
       }
     ]
   },
@@ -5015,7 +5346,8 @@
         "timeSeconds": 0,
         "hallRequired": 10,
         "xp": 0,
-        "icon": null
+        "icon": null,
+        "capacity": null
       }
     ]
   },
@@ -5109,7 +5441,8 @@
         "timeSeconds": 60,
         "hallRequired": 3,
         "xp": 7,
-        "icon": "/coc/home/army-buildings/laboratory/normal/level-1.png"
+        "icon": "/coc/home/army-buildings/laboratory/normal/level-1.png",
+        "capacity": null
       },
       {
         "level": 2,
@@ -5118,7 +5451,8 @@
         "timeSeconds": 1800,
         "hallRequired": 4,
         "xp": 42,
-        "icon": "/coc/home/army-buildings/laboratory/normal/level-2.png"
+        "icon": "/coc/home/army-buildings/laboratory/normal/level-2.png",
+        "capacity": null
       },
       {
         "level": 3,
@@ -5127,7 +5461,8 @@
         "timeSeconds": 7200,
         "hallRequired": 5,
         "xp": 84,
-        "icon": "/coc/home/army-buildings/laboratory/normal/level-3.png"
+        "icon": "/coc/home/army-buildings/laboratory/normal/level-3.png",
+        "capacity": null
       },
       {
         "level": 4,
@@ -5136,7 +5471,8 @@
         "timeSeconds": 14400,
         "hallRequired": 6,
         "xp": 120,
-        "icon": "/coc/home/army-buildings/laboratory/normal/level-4.png"
+        "icon": "/coc/home/army-buildings/laboratory/normal/level-4.png",
+        "capacity": null
       },
       {
         "level": 5,
@@ -5145,7 +5481,8 @@
         "timeSeconds": 28800,
         "hallRequired": 7,
         "xp": 169,
-        "icon": "/coc/home/army-buildings/laboratory/normal/level-5.png"
+        "icon": "/coc/home/army-buildings/laboratory/normal/level-5.png",
+        "capacity": null
       },
       {
         "level": 6,
@@ -5154,7 +5491,8 @@
         "timeSeconds": 57600,
         "hallRequired": 8,
         "xp": 240,
-        "icon": "/coc/home/army-buildings/laboratory/normal/level-6.png"
+        "icon": "/coc/home/army-buildings/laboratory/normal/level-6.png",
+        "capacity": null
       },
       {
         "level": 7,
@@ -5163,7 +5501,8 @@
         "timeSeconds": 86400,
         "hallRequired": 9,
         "xp": 293,
-        "icon": "/coc/home/army-buildings/laboratory/normal/level-7.png"
+        "icon": "/coc/home/army-buildings/laboratory/normal/level-7.png",
+        "capacity": null
       },
       {
         "level": 8,
@@ -5172,7 +5511,8 @@
         "timeSeconds": 151200,
         "hallRequired": 10,
         "xp": 388,
-        "icon": "/coc/home/army-buildings/laboratory/normal/level-8.png"
+        "icon": "/coc/home/army-buildings/laboratory/normal/level-8.png",
+        "capacity": null
       },
       {
         "level": 9,
@@ -5181,7 +5521,8 @@
         "timeSeconds": 237600,
         "hallRequired": 11,
         "xp": 487,
-        "icon": "/coc/home/army-buildings/laboratory/normal/level-9.png"
+        "icon": "/coc/home/army-buildings/laboratory/normal/level-9.png",
+        "capacity": null
       },
       {
         "level": 10,
@@ -5190,7 +5531,8 @@
         "timeSeconds": 345600,
         "hallRequired": 12,
         "xp": 587,
-        "icon": "/coc/home/army-buildings/laboratory/normal/level-10.png"
+        "icon": "/coc/home/army-buildings/laboratory/normal/level-10.png",
+        "capacity": null
       },
       {
         "level": 11,
@@ -5199,7 +5541,8 @@
         "timeSeconds": 518400,
         "hallRequired": 13,
         "xp": 720,
-        "icon": "/coc/home/army-buildings/laboratory/normal/level-11.png"
+        "icon": "/coc/home/army-buildings/laboratory/normal/level-11.png",
+        "capacity": null
       },
       {
         "level": 12,
@@ -5208,7 +5551,8 @@
         "timeSeconds": 604800,
         "hallRequired": 14,
         "xp": 777,
-        "icon": "/coc/home/army-buildings/laboratory/normal/level-12.png"
+        "icon": "/coc/home/army-buildings/laboratory/normal/level-12.png",
+        "capacity": null
       },
       {
         "level": 13,
@@ -5217,7 +5561,8 @@
         "timeSeconds": 691200,
         "hallRequired": 15,
         "xp": 831,
-        "icon": "/coc/home/army-buildings/laboratory/normal/level-13.png"
+        "icon": "/coc/home/army-buildings/laboratory/normal/level-13.png",
+        "capacity": null
       },
       {
         "level": 14,
@@ -5226,7 +5571,8 @@
         "timeSeconds": 777600,
         "hallRequired": 16,
         "xp": 881,
-        "icon": "/coc/home/army-buildings/laboratory/normal/level-14.png"
+        "icon": "/coc/home/army-buildings/laboratory/normal/level-14.png",
+        "capacity": null
       },
       {
         "level": 15,
@@ -5235,7 +5581,8 @@
         "timeSeconds": 864000,
         "hallRequired": 17,
         "xp": 929,
-        "icon": "/coc/home/army-buildings/laboratory/normal/level-15.png"
+        "icon": "/coc/home/army-buildings/laboratory/normal/level-15.png",
+        "capacity": null
       },
       {
         "level": 16,
@@ -5244,7 +5591,8 @@
         "timeSeconds": 1382400,
         "hallRequired": 18,
         "xp": 1175,
-        "icon": "/coc/home/army-buildings/laboratory/normal/level-16.png"
+        "icon": "/coc/home/army-buildings/laboratory/normal/level-16.png",
+        "capacity": null
       }
     ]
   },
@@ -5338,7 +5686,8 @@
         "timeSeconds": 0,
         "hallRequired": 3,
         "xp": 0,
-        "icon": "/coc/home/resource-buildings/clan-castle/normal/level-1.png"
+        "icon": "/coc/home/resource-buildings/clan-castle/normal/level-1.png",
+        "capacity": null
       },
       {
         "level": 2,
@@ -5347,7 +5696,8 @@
         "timeSeconds": 7200,
         "hallRequired": 4,
         "xp": 84,
-        "icon": "/coc/home/resource-buildings/clan-castle/normal/level-2.png"
+        "icon": "/coc/home/resource-buildings/clan-castle/normal/level-2.png",
+        "capacity": null
       },
       {
         "level": 3,
@@ -5356,7 +5706,8 @@
         "timeSeconds": 43200,
         "hallRequired": 6,
         "xp": 207,
-        "icon": "/coc/home/resource-buildings/clan-castle/normal/level-3.png"
+        "icon": "/coc/home/resource-buildings/clan-castle/normal/level-3.png",
+        "capacity": null
       },
       {
         "level": 4,
@@ -5365,7 +5716,8 @@
         "timeSeconds": 86400,
         "hallRequired": 8,
         "xp": 293,
-        "icon": "/coc/home/resource-buildings/clan-castle/normal/level-4.png"
+        "icon": "/coc/home/resource-buildings/clan-castle/normal/level-4.png",
+        "capacity": null
       },
       {
         "level": 5,
@@ -5374,7 +5726,8 @@
         "timeSeconds": 129600,
         "hallRequired": 9,
         "xp": 360,
-        "icon": "/coc/home/resource-buildings/clan-castle/normal/level-5.png"
+        "icon": "/coc/home/resource-buildings/clan-castle/normal/level-5.png",
+        "capacity": null
       },
       {
         "level": 6,
@@ -5383,7 +5736,8 @@
         "timeSeconds": 172800,
         "hallRequired": 10,
         "xp": 415,
-        "icon": "/coc/home/resource-buildings/clan-castle/normal/level-6.png"
+        "icon": "/coc/home/resource-buildings/clan-castle/normal/level-6.png",
+        "capacity": null
       },
       {
         "level": 7,
@@ -5392,7 +5746,8 @@
         "timeSeconds": 259200,
         "hallRequired": 11,
         "xp": 509,
-        "icon": "/coc/home/resource-buildings/clan-castle/normal/level-7.png"
+        "icon": "/coc/home/resource-buildings/clan-castle/normal/level-7.png",
+        "capacity": null
       },
       {
         "level": 8,
@@ -5401,7 +5756,8 @@
         "timeSeconds": 345600,
         "hallRequired": 12,
         "xp": 587,
-        "icon": "/coc/home/resource-buildings/clan-castle/normal/level-8.png"
+        "icon": "/coc/home/resource-buildings/clan-castle/normal/level-8.png",
+        "capacity": null
       },
       {
         "level": 9,
@@ -5410,7 +5766,8 @@
         "timeSeconds": 518400,
         "hallRequired": 13,
         "xp": 720,
-        "icon": "/coc/home/resource-buildings/clan-castle/normal/level-9.png"
+        "icon": "/coc/home/resource-buildings/clan-castle/normal/level-9.png",
+        "capacity": null
       },
       {
         "level": 10,
@@ -5419,7 +5776,8 @@
         "timeSeconds": 604800,
         "hallRequired": 14,
         "xp": 777,
-        "icon": "/coc/home/resource-buildings/clan-castle/normal/level-10.png"
+        "icon": "/coc/home/resource-buildings/clan-castle/normal/level-10.png",
+        "capacity": null
       },
       {
         "level": 11,
@@ -5428,7 +5786,8 @@
         "timeSeconds": 691200,
         "hallRequired": 15,
         "xp": 831,
-        "icon": "/coc/home/resource-buildings/clan-castle/normal/level-11.png"
+        "icon": "/coc/home/resource-buildings/clan-castle/normal/level-11.png",
+        "capacity": null
       },
       {
         "level": 12,
@@ -5437,7 +5796,8 @@
         "timeSeconds": 777600,
         "hallRequired": 16,
         "xp": 881,
-        "icon": "/coc/home/resource-buildings/clan-castle/normal/level-12.png"
+        "icon": "/coc/home/resource-buildings/clan-castle/normal/level-12.png",
+        "capacity": null
       },
       {
         "level": 13,
@@ -5446,7 +5806,8 @@
         "timeSeconds": 950400,
         "hallRequired": 17,
         "xp": 974,
-        "icon": "/coc/home/resource-buildings/clan-castle/normal/level-13.png"
+        "icon": "/coc/home/resource-buildings/clan-castle/normal/level-13.png",
+        "capacity": null
       },
       {
         "level": 14,
@@ -5455,7 +5816,8 @@
         "timeSeconds": 1209600,
         "hallRequired": 18,
         "xp": 1099,
-        "icon": "/coc/home/resource-buildings/clan-castle/normal/level-14.png"
+        "icon": "/coc/home/resource-buildings/clan-castle/normal/level-14.png",
+        "capacity": null
       }
     ]
   },
@@ -5549,7 +5911,8 @@
         "timeSeconds": 14400,
         "hallRequired": 7,
         "xp": 120,
-        "icon": "/coc/home/resource-buildings/dark-elixir-drill/normal/level-1.png"
+        "icon": "/coc/home/resource-buildings/dark-elixir-drill/normal/level-1.png",
+        "capacity": 160
       },
       {
         "level": 2,
@@ -5558,7 +5921,8 @@
         "timeSeconds": 21600,
         "hallRequired": 7,
         "xp": 146,
-        "icon": "/coc/home/resource-buildings/dark-elixir-drill/normal/level-2.png"
+        "icon": "/coc/home/resource-buildings/dark-elixir-drill/normal/level-2.png",
+        "capacity": 300
       },
       {
         "level": 3,
@@ -5567,7 +5931,8 @@
         "timeSeconds": 43200,
         "hallRequired": 7,
         "xp": 207,
-        "icon": "/coc/home/resource-buildings/dark-elixir-drill/normal/level-3.png"
+        "icon": "/coc/home/resource-buildings/dark-elixir-drill/normal/level-3.png",
+        "capacity": 540
       },
       {
         "level": 4,
@@ -5576,7 +5941,8 @@
         "timeSeconds": 64800,
         "hallRequired": 9,
         "xp": 254,
-        "icon": "/coc/home/resource-buildings/dark-elixir-drill/normal/level-4.png"
+        "icon": "/coc/home/resource-buildings/dark-elixir-drill/normal/level-4.png",
+        "capacity": 840
       },
       {
         "level": 5,
@@ -5585,7 +5951,8 @@
         "timeSeconds": 86400,
         "hallRequired": 9,
         "xp": 293,
-        "icon": "/coc/home/resource-buildings/dark-elixir-drill/normal/level-5.png"
+        "icon": "/coc/home/resource-buildings/dark-elixir-drill/normal/level-5.png",
+        "capacity": 1280
       },
       {
         "level": 6,
@@ -5594,7 +5961,8 @@
         "timeSeconds": 129600,
         "hallRequired": 9,
         "xp": 360,
-        "icon": "/coc/home/resource-buildings/dark-elixir-drill/normal/level-6.png"
+        "icon": "/coc/home/resource-buildings/dark-elixir-drill/normal/level-6.png",
+        "capacity": 1800
       },
       {
         "level": 7,
@@ -5603,7 +5971,8 @@
         "timeSeconds": 151200,
         "hallRequired": 10,
         "xp": 388,
-        "icon": "/coc/home/resource-buildings/dark-elixir-drill/normal/level-7.png"
+        "icon": "/coc/home/resource-buildings/dark-elixir-drill/normal/level-7.png",
+        "capacity": 2400
       },
       {
         "level": 8,
@@ -5612,7 +5981,8 @@
         "timeSeconds": 172800,
         "hallRequired": 11,
         "xp": 415,
-        "icon": "/coc/home/resource-buildings/dark-elixir-drill/normal/level-8.png"
+        "icon": "/coc/home/resource-buildings/dark-elixir-drill/normal/level-8.png",
+        "capacity": 3000
       },
       {
         "level": 9,
@@ -5621,7 +5991,8 @@
         "timeSeconds": 216000,
         "hallRequired": 12,
         "xp": 464,
-        "icon": "/coc/home/resource-buildings/dark-elixir-drill/normal/level-9.png"
+        "icon": "/coc/home/resource-buildings/dark-elixir-drill/normal/level-9.png",
+        "capacity": 3600
       },
       {
         "level": 10,
@@ -5630,7 +6001,8 @@
         "timeSeconds": 259200,
         "hallRequired": 14,
         "xp": 509,
-        "icon": "/coc/home/resource-buildings/dark-elixir-drill/normal/level-10.png"
+        "icon": "/coc/home/resource-buildings/dark-elixir-drill/normal/level-10.png",
+        "capacity": 4200
       },
       {
         "level": 11,
@@ -5639,7 +6011,8 @@
         "timeSeconds": 518400,
         "hallRequired": 16,
         "xp": 720,
-        "icon": "/coc/home/resource-buildings/dark-elixir-drill/normal/level-11.png"
+        "icon": "/coc/home/resource-buildings/dark-elixir-drill/normal/level-11.png",
+        "capacity": 4600
       }
     ]
   },
@@ -5733,7 +6106,8 @@
         "timeSeconds": 28800,
         "hallRequired": 7,
         "xp": 169,
-        "icon": "/coc/home/resource-buildings/dark-elixir-storage/normal/level-1.png"
+        "icon": "/coc/home/resource-buildings/dark-elixir-storage/normal/level-1.png",
+        "capacity": 10000
       },
       {
         "level": 2,
@@ -5742,7 +6116,8 @@
         "timeSeconds": 57600,
         "hallRequired": 7,
         "xp": 240,
-        "icon": "/coc/home/resource-buildings/dark-elixir-storage/normal/level-2.png"
+        "icon": "/coc/home/resource-buildings/dark-elixir-storage/normal/level-2.png",
+        "capacity": 17500
       },
       {
         "level": 3,
@@ -5751,7 +6126,8 @@
         "timeSeconds": 86400,
         "hallRequired": 8,
         "xp": 293,
-        "icon": "/coc/home/resource-buildings/dark-elixir-storage/normal/level-3.png"
+        "icon": "/coc/home/resource-buildings/dark-elixir-storage/normal/level-3.png",
+        "capacity": 40000
       },
       {
         "level": 4,
@@ -5760,7 +6136,8 @@
         "timeSeconds": 129600,
         "hallRequired": 8,
         "xp": 360,
-        "icon": "/coc/home/resource-buildings/dark-elixir-storage/normal/level-4.png"
+        "icon": "/coc/home/resource-buildings/dark-elixir-storage/normal/level-4.png",
+        "capacity": 75000
       },
       {
         "level": 5,
@@ -5769,7 +6146,8 @@
         "timeSeconds": 144000,
         "hallRequired": 9,
         "xp": 379,
-        "icon": "/coc/home/resource-buildings/dark-elixir-storage/normal/level-5.png"
+        "icon": "/coc/home/resource-buildings/dark-elixir-storage/normal/level-5.png",
+        "capacity": 140000
       },
       {
         "level": 6,
@@ -5778,7 +6156,8 @@
         "timeSeconds": 172800,
         "hallRequired": 9,
         "xp": 415,
-        "icon": "/coc/home/resource-buildings/dark-elixir-storage/normal/level-6.png"
+        "icon": "/coc/home/resource-buildings/dark-elixir-storage/normal/level-6.png",
+        "capacity": 180000
       },
       {
         "level": 7,
@@ -5787,7 +6166,8 @@
         "timeSeconds": 259200,
         "hallRequired": 12,
         "xp": 509,
-        "icon": "/coc/home/resource-buildings/dark-elixir-storage/normal/level-7.png"
+        "icon": "/coc/home/resource-buildings/dark-elixir-storage/normal/level-7.png",
+        "capacity": 220000
       },
       {
         "level": 8,
@@ -5796,7 +6176,8 @@
         "timeSeconds": 302400,
         "hallRequired": 13,
         "xp": 549,
-        "icon": "/coc/home/resource-buildings/dark-elixir-storage/normal/level-8.png"
+        "icon": "/coc/home/resource-buildings/dark-elixir-storage/normal/level-8.png",
+        "capacity": 280000
       },
       {
         "level": 9,
@@ -5805,7 +6186,8 @@
         "timeSeconds": 345600,
         "hallRequired": 14,
         "xp": 587,
-        "icon": "/coc/home/resource-buildings/dark-elixir-storage/normal/level-9.png"
+        "icon": "/coc/home/resource-buildings/dark-elixir-storage/normal/level-9.png",
+        "capacity": 330000
       },
       {
         "level": 10,
@@ -5814,7 +6196,8 @@
         "timeSeconds": 388800,
         "hallRequired": 15,
         "xp": 623,
-        "icon": "/coc/home/resource-buildings/dark-elixir-storage/normal/level-10.png"
+        "icon": "/coc/home/resource-buildings/dark-elixir-storage/normal/level-10.png",
+        "capacity": 360000
       },
       {
         "level": 11,
@@ -5823,7 +6206,8 @@
         "timeSeconds": 432000,
         "hallRequired": 16,
         "xp": 657,
-        "icon": "/coc/home/resource-buildings/dark-elixir-storage/normal/level-11.png"
+        "icon": "/coc/home/resource-buildings/dark-elixir-storage/normal/level-11.png",
+        "capacity": 390000
       },
       {
         "level": 12,
@@ -5832,7 +6216,8 @@
         "timeSeconds": 777600,
         "hallRequired": 17,
         "xp": 881,
-        "icon": "/coc/home/resource-buildings/dark-elixir-storage/normal/level-12.png"
+        "icon": "/coc/home/resource-buildings/dark-elixir-storage/normal/level-12.png",
+        "capacity": 420000
       },
       {
         "level": 13,
@@ -5841,7 +6226,8 @@
         "timeSeconds": 1123200,
         "hallRequired": 18,
         "xp": 1059,
-        "icon": "/coc/home/resource-buildings/dark-elixir-storage/normal/level-13.png"
+        "icon": "/coc/home/resource-buildings/dark-elixir-storage/normal/level-13.png",
+        "capacity": 450000
       }
     ]
   },
@@ -5935,7 +6321,8 @@
         "timeSeconds": 5,
         "hallRequired": 1,
         "xp": 2,
-        "icon": "/coc/home/resource-buildings/elixir-collector/normal/level-1.png"
+        "icon": "/coc/home/resource-buildings/elixir-collector/normal/level-1.png",
+        "capacity": 1000
       },
       {
         "level": 2,
@@ -5944,7 +6331,8 @@
         "timeSeconds": 15,
         "hallRequired": 1,
         "xp": 3,
-        "icon": "/coc/home/resource-buildings/elixir-collector/normal/level-2.png"
+        "icon": "/coc/home/resource-buildings/elixir-collector/normal/level-2.png",
+        "capacity": 2000
       },
       {
         "level": 3,
@@ -5953,7 +6341,8 @@
         "timeSeconds": 60,
         "hallRequired": 2,
         "xp": 7,
-        "icon": "/coc/home/resource-buildings/elixir-collector/normal/level-3.png"
+        "icon": "/coc/home/resource-buildings/elixir-collector/normal/level-3.png",
+        "capacity": 3000
       },
       {
         "level": 4,
@@ -5962,7 +6351,8 @@
         "timeSeconds": 120,
         "hallRequired": 2,
         "xp": 10,
-        "icon": "/coc/home/resource-buildings/elixir-collector/normal/level-4.png"
+        "icon": "/coc/home/resource-buildings/elixir-collector/normal/level-4.png",
+        "capacity": 5000
       },
       {
         "level": 5,
@@ -5971,7 +6361,8 @@
         "timeSeconds": 300,
         "hallRequired": 3,
         "xp": 17,
-        "icon": "/coc/home/resource-buildings/elixir-collector/normal/level-5.png"
+        "icon": "/coc/home/resource-buildings/elixir-collector/normal/level-5.png",
+        "capacity": 10000
       },
       {
         "level": 6,
@@ -5980,7 +6371,8 @@
         "timeSeconds": 900,
         "hallRequired": 3,
         "xp": 30,
-        "icon": "/coc/home/resource-buildings/elixir-collector/normal/level-6.png"
+        "icon": "/coc/home/resource-buildings/elixir-collector/normal/level-6.png",
+        "capacity": 20000
       },
       {
         "level": 7,
@@ -5989,7 +6381,8 @@
         "timeSeconds": 1800,
         "hallRequired": 4,
         "xp": 42,
-        "icon": "/coc/home/resource-buildings/elixir-collector/normal/level-7.png"
+        "icon": "/coc/home/resource-buildings/elixir-collector/normal/level-7.png",
+        "capacity": 30000
       },
       {
         "level": 8,
@@ -5998,7 +6391,8 @@
         "timeSeconds": 3600,
         "hallRequired": 4,
         "xp": 60,
-        "icon": "/coc/home/resource-buildings/elixir-collector/normal/level-8.png"
+        "icon": "/coc/home/resource-buildings/elixir-collector/normal/level-8.png",
+        "capacity": 50000
       },
       {
         "level": 9,
@@ -6007,7 +6401,8 @@
         "timeSeconds": 7200,
         "hallRequired": 5,
         "xp": 84,
-        "icon": "/coc/home/resource-buildings/elixir-collector/normal/level-9.png"
+        "icon": "/coc/home/resource-buildings/elixir-collector/normal/level-9.png",
+        "capacity": 75000
       },
       {
         "level": 10,
@@ -6016,7 +6411,8 @@
         "timeSeconds": 10800,
         "hallRequired": 5,
         "xp": 103,
-        "icon": "/coc/home/resource-buildings/elixir-collector/normal/level-10.png"
+        "icon": "/coc/home/resource-buildings/elixir-collector/normal/level-10.png",
+        "capacity": 100000
       },
       {
         "level": 11,
@@ -6025,7 +6421,8 @@
         "timeSeconds": 14400,
         "hallRequired": 7,
         "xp": 120,
-        "icon": "/coc/home/resource-buildings/elixir-collector/normal/level-11.png"
+        "icon": "/coc/home/resource-buildings/elixir-collector/normal/level-11.png",
+        "capacity": 150000
       },
       {
         "level": 12,
@@ -6034,7 +6431,8 @@
         "timeSeconds": 21600,
         "hallRequired": 8,
         "xp": 146,
-        "icon": "/coc/home/resource-buildings/elixir-collector/normal/level-12.png"
+        "icon": "/coc/home/resource-buildings/elixir-collector/normal/level-12.png",
+        "capacity": 200000
       },
       {
         "level": 13,
@@ -6043,7 +6441,8 @@
         "timeSeconds": 28800,
         "hallRequired": 10,
         "xp": 169,
-        "icon": "/coc/home/resource-buildings/elixir-collector/normal/level-13.png"
+        "icon": "/coc/home/resource-buildings/elixir-collector/normal/level-13.png",
+        "capacity": 250000
       },
       {
         "level": 14,
@@ -6052,7 +6451,8 @@
         "timeSeconds": 36000,
         "hallRequired": 11,
         "xp": 189,
-        "icon": "/coc/home/resource-buildings/elixir-collector/normal/level-14.png"
+        "icon": "/coc/home/resource-buildings/elixir-collector/normal/level-14.png",
+        "capacity": 300000
       },
       {
         "level": 15,
@@ -6061,7 +6461,8 @@
         "timeSeconds": 64800,
         "hallRequired": 12,
         "xp": 254,
-        "icon": "/coc/home/resource-buildings/elixir-collector/normal/level-15.png"
+        "icon": "/coc/home/resource-buildings/elixir-collector/normal/level-15.png",
+        "capacity": 350000
       },
       {
         "level": 16,
@@ -6070,7 +6471,8 @@
         "timeSeconds": 172800,
         "hallRequired": 14,
         "xp": 415,
-        "icon": "/coc/home/resource-buildings/elixir-collector/normal/level-16.png"
+        "icon": "/coc/home/resource-buildings/elixir-collector/normal/level-16.png",
+        "capacity": 385000
       },
       {
         "level": 17,
@@ -6079,7 +6481,8 @@
         "timeSeconds": 345600,
         "hallRequired": 16,
         "xp": 587,
-        "icon": "/coc/home/resource-buildings/elixir-collector/normal/level-17.png"
+        "icon": "/coc/home/resource-buildings/elixir-collector/normal/level-17.png",
+        "capacity": 420000
       }
     ]
   },
@@ -6173,7 +6576,8 @@
         "timeSeconds": 10,
         "hallRequired": 1,
         "xp": 3,
-        "icon": "/coc/home/resource-buildings/elixir-storage/normal/level-1.png"
+        "icon": "/coc/home/resource-buildings/elixir-storage/normal/level-1.png",
+        "capacity": 1500
       },
       {
         "level": 2,
@@ -6182,7 +6586,8 @@
         "timeSeconds": 120,
         "hallRequired": 2,
         "xp": 10,
-        "icon": "/coc/home/resource-buildings/elixir-storage/normal/level-2.png"
+        "icon": "/coc/home/resource-buildings/elixir-storage/normal/level-2.png",
+        "capacity": 3000
       },
       {
         "level": 3,
@@ -6191,7 +6596,8 @@
         "timeSeconds": 300,
         "hallRequired": 2,
         "xp": 17,
-        "icon": "/coc/home/resource-buildings/elixir-storage/normal/level-3.png"
+        "icon": "/coc/home/resource-buildings/elixir-storage/normal/level-3.png",
+        "capacity": 6000
       },
       {
         "level": 4,
@@ -6200,7 +6606,8 @@
         "timeSeconds": 900,
         "hallRequired": 3,
         "xp": 30,
-        "icon": "/coc/home/resource-buildings/elixir-storage/normal/level-4.png"
+        "icon": "/coc/home/resource-buildings/elixir-storage/normal/level-4.png",
+        "capacity": 12000
       },
       {
         "level": 5,
@@ -6209,7 +6616,8 @@
         "timeSeconds": 1800,
         "hallRequired": 3,
         "xp": 42,
-        "icon": "/coc/home/resource-buildings/elixir-storage/normal/level-5.png"
+        "icon": "/coc/home/resource-buildings/elixir-storage/normal/level-5.png",
+        "capacity": 25000
       },
       {
         "level": 6,
@@ -6218,7 +6626,8 @@
         "timeSeconds": 3600,
         "hallRequired": 3,
         "xp": 60,
-        "icon": "/coc/home/resource-buildings/elixir-storage/normal/level-6.png"
+        "icon": "/coc/home/resource-buildings/elixir-storage/normal/level-6.png",
+        "capacity": 45000
       },
       {
         "level": 7,
@@ -6227,7 +6636,8 @@
         "timeSeconds": 7200,
         "hallRequired": 4,
         "xp": 84,
-        "icon": "/coc/home/resource-buildings/elixir-storage/normal/level-7.png"
+        "icon": "/coc/home/resource-buildings/elixir-storage/normal/level-7.png",
+        "capacity": 100000
       },
       {
         "level": 8,
@@ -6236,7 +6646,8 @@
         "timeSeconds": 10800,
         "hallRequired": 4,
         "xp": 103,
-        "icon": "/coc/home/resource-buildings/elixir-storage/normal/level-8.png"
+        "icon": "/coc/home/resource-buildings/elixir-storage/normal/level-8.png",
+        "capacity": 225000
       },
       {
         "level": 9,
@@ -6245,7 +6656,8 @@
         "timeSeconds": 14400,
         "hallRequired": 5,
         "xp": 120,
-        "icon": "/coc/home/resource-buildings/elixir-storage/normal/level-9.png"
+        "icon": "/coc/home/resource-buildings/elixir-storage/normal/level-9.png",
+        "capacity": 450000
       },
       {
         "level": 10,
@@ -6254,7 +6666,8 @@
         "timeSeconds": 18000,
         "hallRequired": 6,
         "xp": 134,
-        "icon": "/coc/home/resource-buildings/elixir-storage/normal/level-10.png"
+        "icon": "/coc/home/resource-buildings/elixir-storage/normal/level-10.png",
+        "capacity": 850000
       },
       {
         "level": 11,
@@ -6263,7 +6676,8 @@
         "timeSeconds": 21600,
         "hallRequired": 7,
         "xp": 146,
-        "icon": "/coc/home/resource-buildings/elixir-storage/normal/level-11.png"
+        "icon": "/coc/home/resource-buildings/elixir-storage/normal/level-11.png",
+        "capacity": 1750000
       },
       {
         "level": 12,
@@ -6272,7 +6686,8 @@
         "timeSeconds": 43200,
         "hallRequired": 11,
         "xp": 207,
-        "icon": "/coc/home/resource-buildings/elixir-storage/normal/level-12.png"
+        "icon": "/coc/home/resource-buildings/elixir-storage/normal/level-12.png",
+        "capacity": 2000000
       },
       {
         "level": 13,
@@ -6281,7 +6696,8 @@
         "timeSeconds": 86400,
         "hallRequired": 12,
         "xp": 293,
-        "icon": "/coc/home/resource-buildings/elixir-storage/normal/level-13.png"
+        "icon": "/coc/home/resource-buildings/elixir-storage/normal/level-13.png",
+        "capacity": 3000000
       },
       {
         "level": 14,
@@ -6290,7 +6706,8 @@
         "timeSeconds": 172800,
         "hallRequired": 13,
         "xp": 415,
-        "icon": "/coc/home/resource-buildings/elixir-storage/normal/level-14.png"
+        "icon": "/coc/home/resource-buildings/elixir-storage/normal/level-14.png",
+        "capacity": 4000000
       },
       {
         "level": 15,
@@ -6299,7 +6716,8 @@
         "timeSeconds": 259200,
         "hallRequired": 14,
         "xp": 509,
-        "icon": "/coc/home/resource-buildings/elixir-storage/normal/level-15.png"
+        "icon": "/coc/home/resource-buildings/elixir-storage/normal/level-15.png",
+        "capacity": 4500000
       },
       {
         "level": 16,
@@ -6308,7 +6726,8 @@
         "timeSeconds": 345600,
         "hallRequired": 15,
         "xp": 587,
-        "icon": "/coc/home/resource-buildings/elixir-storage/normal/level-16.png"
+        "icon": "/coc/home/resource-buildings/elixir-storage/normal/level-16.png",
+        "capacity": 5000000
       },
       {
         "level": 17,
@@ -6317,7 +6736,8 @@
         "timeSeconds": 432000,
         "hallRequired": 16,
         "xp": 657,
-        "icon": "/coc/home/resource-buildings/elixir-storage/normal/level-17.png"
+        "icon": "/coc/home/resource-buildings/elixir-storage/normal/level-17.png",
+        "capacity": 5500000
       },
       {
         "level": 18,
@@ -6326,7 +6746,8 @@
         "timeSeconds": 604800,
         "hallRequired": 17,
         "xp": 777,
-        "icon": "/coc/home/resource-buildings/elixir-storage/normal/level-18.png"
+        "icon": "/coc/home/resource-buildings/elixir-storage/normal/level-18.png",
+        "capacity": 6000000
       },
       {
         "level": 19,
@@ -6335,7 +6756,8 @@
         "timeSeconds": 1080000,
         "hallRequired": 18,
         "xp": 1039,
-        "icon": "/coc/home/resource-buildings/elixir-storage/normal/level-19.png"
+        "icon": "/coc/home/resource-buildings/elixir-storage/normal/level-19.png",
+        "capacity": 6500000
       }
     ]
   },
@@ -6429,7 +6851,8 @@
         "timeSeconds": 5,
         "hallRequired": 1,
         "xp": 2,
-        "icon": "/coc/home/resource-buildings/gold-mine/normal/level-1.png"
+        "icon": "/coc/home/resource-buildings/gold-mine/normal/level-1.png",
+        "capacity": 1000
       },
       {
         "level": 2,
@@ -6438,7 +6861,8 @@
         "timeSeconds": 15,
         "hallRequired": 1,
         "xp": 3,
-        "icon": "/coc/home/resource-buildings/gold-mine/normal/level-2.png"
+        "icon": "/coc/home/resource-buildings/gold-mine/normal/level-2.png",
+        "capacity": 2000
       },
       {
         "level": 3,
@@ -6447,7 +6871,8 @@
         "timeSeconds": 60,
         "hallRequired": 2,
         "xp": 7,
-        "icon": "/coc/home/resource-buildings/gold-mine/normal/level-3.png"
+        "icon": "/coc/home/resource-buildings/gold-mine/normal/level-3.png",
+        "capacity": 3000
       },
       {
         "level": 4,
@@ -6456,7 +6881,8 @@
         "timeSeconds": 120,
         "hallRequired": 2,
         "xp": 10,
-        "icon": "/coc/home/resource-buildings/gold-mine/normal/level-4.png"
+        "icon": "/coc/home/resource-buildings/gold-mine/normal/level-4.png",
+        "capacity": 5000
       },
       {
         "level": 5,
@@ -6465,7 +6891,8 @@
         "timeSeconds": 300,
         "hallRequired": 3,
         "xp": 17,
-        "icon": "/coc/home/resource-buildings/gold-mine/normal/level-5.png"
+        "icon": "/coc/home/resource-buildings/gold-mine/normal/level-5.png",
+        "capacity": 10000
       },
       {
         "level": 6,
@@ -6474,7 +6901,8 @@
         "timeSeconds": 900,
         "hallRequired": 3,
         "xp": 30,
-        "icon": "/coc/home/resource-buildings/gold-mine/normal/level-6.png"
+        "icon": "/coc/home/resource-buildings/gold-mine/normal/level-6.png",
+        "capacity": 20000
       },
       {
         "level": 7,
@@ -6483,7 +6911,8 @@
         "timeSeconds": 1800,
         "hallRequired": 4,
         "xp": 42,
-        "icon": "/coc/home/resource-buildings/gold-mine/normal/level-7.png"
+        "icon": "/coc/home/resource-buildings/gold-mine/normal/level-7.png",
+        "capacity": 30000
       },
       {
         "level": 8,
@@ -6492,7 +6921,8 @@
         "timeSeconds": 3600,
         "hallRequired": 4,
         "xp": 60,
-        "icon": "/coc/home/resource-buildings/gold-mine/normal/level-8.png"
+        "icon": "/coc/home/resource-buildings/gold-mine/normal/level-8.png",
+        "capacity": 50000
       },
       {
         "level": 9,
@@ -6501,7 +6931,8 @@
         "timeSeconds": 7200,
         "hallRequired": 5,
         "xp": 84,
-        "icon": "/coc/home/resource-buildings/gold-mine/normal/level-9.png"
+        "icon": "/coc/home/resource-buildings/gold-mine/normal/level-9.png",
+        "capacity": 75000
       },
       {
         "level": 10,
@@ -6510,7 +6941,8 @@
         "timeSeconds": 10800,
         "hallRequired": 5,
         "xp": 103,
-        "icon": "/coc/home/resource-buildings/gold-mine/normal/level-10.png"
+        "icon": "/coc/home/resource-buildings/gold-mine/normal/level-10.png",
+        "capacity": 100000
       },
       {
         "level": 11,
@@ -6519,7 +6951,8 @@
         "timeSeconds": 14400,
         "hallRequired": 7,
         "xp": 120,
-        "icon": "/coc/home/resource-buildings/gold-mine/normal/level-11.png"
+        "icon": "/coc/home/resource-buildings/gold-mine/normal/level-11.png",
+        "capacity": 150000
       },
       {
         "level": 12,
@@ -6528,7 +6961,8 @@
         "timeSeconds": 21600,
         "hallRequired": 8,
         "xp": 146,
-        "icon": "/coc/home/resource-buildings/gold-mine/normal/level-12.png"
+        "icon": "/coc/home/resource-buildings/gold-mine/normal/level-12.png",
+        "capacity": 200000
       },
       {
         "level": 13,
@@ -6537,7 +6971,8 @@
         "timeSeconds": 28800,
         "hallRequired": 10,
         "xp": 169,
-        "icon": "/coc/home/resource-buildings/gold-mine/normal/level-13.png"
+        "icon": "/coc/home/resource-buildings/gold-mine/normal/level-13.png",
+        "capacity": 250000
       },
       {
         "level": 14,
@@ -6546,7 +6981,8 @@
         "timeSeconds": 36000,
         "hallRequired": 11,
         "xp": 189,
-        "icon": "/coc/home/resource-buildings/gold-mine/normal/level-14.png"
+        "icon": "/coc/home/resource-buildings/gold-mine/normal/level-14.png",
+        "capacity": 300000
       },
       {
         "level": 15,
@@ -6555,7 +6991,8 @@
         "timeSeconds": 64800,
         "hallRequired": 12,
         "xp": 254,
-        "icon": "/coc/home/resource-buildings/gold-mine/normal/level-15.png"
+        "icon": "/coc/home/resource-buildings/gold-mine/normal/level-15.png",
+        "capacity": 350000
       },
       {
         "level": 16,
@@ -6564,7 +7001,8 @@
         "timeSeconds": 172800,
         "hallRequired": 14,
         "xp": 415,
-        "icon": "/coc/home/resource-buildings/gold-mine/normal/level-16.png"
+        "icon": "/coc/home/resource-buildings/gold-mine/normal/level-16.png",
+        "capacity": 385000
       },
       {
         "level": 17,
@@ -6573,7 +7011,8 @@
         "timeSeconds": 345600,
         "hallRequired": 16,
         "xp": 587,
-        "icon": "/coc/home/resource-buildings/gold-mine/normal/level-17.png"
+        "icon": "/coc/home/resource-buildings/gold-mine/normal/level-17.png",
+        "capacity": 420000
       }
     ]
   },
@@ -6667,7 +7106,8 @@
         "timeSeconds": 10,
         "hallRequired": 1,
         "xp": 3,
-        "icon": "/coc/home/resource-buildings/gold-storage/normal/level-1.png"
+        "icon": "/coc/home/resource-buildings/gold-storage/normal/level-1.png",
+        "capacity": 1500
       },
       {
         "level": 2,
@@ -6676,7 +7116,8 @@
         "timeSeconds": 120,
         "hallRequired": 2,
         "xp": 10,
-        "icon": "/coc/home/resource-buildings/gold-storage/normal/level-2.png"
+        "icon": "/coc/home/resource-buildings/gold-storage/normal/level-2.png",
+        "capacity": 3000
       },
       {
         "level": 3,
@@ -6685,7 +7126,8 @@
         "timeSeconds": 300,
         "hallRequired": 2,
         "xp": 17,
-        "icon": "/coc/home/resource-buildings/gold-storage/normal/level-3.png"
+        "icon": "/coc/home/resource-buildings/gold-storage/normal/level-3.png",
+        "capacity": 6000
       },
       {
         "level": 4,
@@ -6694,7 +7136,8 @@
         "timeSeconds": 900,
         "hallRequired": 3,
         "xp": 30,
-        "icon": "/coc/home/resource-buildings/gold-storage/normal/level-4.png"
+        "icon": "/coc/home/resource-buildings/gold-storage/normal/level-4.png",
+        "capacity": 12000
       },
       {
         "level": 5,
@@ -6703,7 +7146,8 @@
         "timeSeconds": 1800,
         "hallRequired": 3,
         "xp": 42,
-        "icon": "/coc/home/resource-buildings/gold-storage/normal/level-5.png"
+        "icon": "/coc/home/resource-buildings/gold-storage/normal/level-5.png",
+        "capacity": 25000
       },
       {
         "level": 6,
@@ -6712,7 +7156,8 @@
         "timeSeconds": 3600,
         "hallRequired": 3,
         "xp": 60,
-        "icon": "/coc/home/resource-buildings/gold-storage/normal/level-6.png"
+        "icon": "/coc/home/resource-buildings/gold-storage/normal/level-6.png",
+        "capacity": 45000
       },
       {
         "level": 7,
@@ -6721,7 +7166,8 @@
         "timeSeconds": 7200,
         "hallRequired": 4,
         "xp": 84,
-        "icon": "/coc/home/resource-buildings/gold-storage/normal/level-7.png"
+        "icon": "/coc/home/resource-buildings/gold-storage/normal/level-7.png",
+        "capacity": 100000
       },
       {
         "level": 8,
@@ -6730,7 +7176,8 @@
         "timeSeconds": 10800,
         "hallRequired": 4,
         "xp": 103,
-        "icon": "/coc/home/resource-buildings/gold-storage/normal/level-8.png"
+        "icon": "/coc/home/resource-buildings/gold-storage/normal/level-8.png",
+        "capacity": 225000
       },
       {
         "level": 9,
@@ -6739,7 +7186,8 @@
         "timeSeconds": 14400,
         "hallRequired": 5,
         "xp": 120,
-        "icon": "/coc/home/resource-buildings/gold-storage/normal/level-9.png"
+        "icon": "/coc/home/resource-buildings/gold-storage/normal/level-9.png",
+        "capacity": 450000
       },
       {
         "level": 10,
@@ -6748,7 +7196,8 @@
         "timeSeconds": 18000,
         "hallRequired": 6,
         "xp": 134,
-        "icon": "/coc/home/resource-buildings/gold-storage/normal/level-10.png"
+        "icon": "/coc/home/resource-buildings/gold-storage/normal/level-10.png",
+        "capacity": 850000
       },
       {
         "level": 11,
@@ -6757,7 +7206,8 @@
         "timeSeconds": 21600,
         "hallRequired": 7,
         "xp": 146,
-        "icon": "/coc/home/resource-buildings/gold-storage/normal/level-11.png"
+        "icon": "/coc/home/resource-buildings/gold-storage/normal/level-11.png",
+        "capacity": 1750000
       },
       {
         "level": 12,
@@ -6766,7 +7216,8 @@
         "timeSeconds": 43200,
         "hallRequired": 11,
         "xp": 207,
-        "icon": "/coc/home/resource-buildings/gold-storage/normal/level-12.png"
+        "icon": "/coc/home/resource-buildings/gold-storage/normal/level-12.png",
+        "capacity": 2000000
       },
       {
         "level": 13,
@@ -6775,7 +7226,8 @@
         "timeSeconds": 86400,
         "hallRequired": 12,
         "xp": 293,
-        "icon": "/coc/home/resource-buildings/gold-storage/normal/level-13.png"
+        "icon": "/coc/home/resource-buildings/gold-storage/normal/level-13.png",
+        "capacity": 3000000
       },
       {
         "level": 14,
@@ -6784,7 +7236,8 @@
         "timeSeconds": 172800,
         "hallRequired": 13,
         "xp": 415,
-        "icon": "/coc/home/resource-buildings/gold-storage/normal/level-14.png"
+        "icon": "/coc/home/resource-buildings/gold-storage/normal/level-14.png",
+        "capacity": 4000000
       },
       {
         "level": 15,
@@ -6793,7 +7246,8 @@
         "timeSeconds": 259200,
         "hallRequired": 14,
         "xp": 509,
-        "icon": "/coc/home/resource-buildings/gold-storage/normal/level-15.png"
+        "icon": "/coc/home/resource-buildings/gold-storage/normal/level-15.png",
+        "capacity": 4500000
       },
       {
         "level": 16,
@@ -6802,7 +7256,8 @@
         "timeSeconds": 345600,
         "hallRequired": 15,
         "xp": 587,
-        "icon": "/coc/home/resource-buildings/gold-storage/normal/level-16.png"
+        "icon": "/coc/home/resource-buildings/gold-storage/normal/level-16.png",
+        "capacity": 5000000
       },
       {
         "level": 17,
@@ -6811,7 +7266,8 @@
         "timeSeconds": 432000,
         "hallRequired": 16,
         "xp": 657,
-        "icon": "/coc/home/resource-buildings/gold-storage/normal/level-17.png"
+        "icon": "/coc/home/resource-buildings/gold-storage/normal/level-17.png",
+        "capacity": 5500000
       },
       {
         "level": 18,
@@ -6820,7 +7276,8 @@
         "timeSeconds": 604800,
         "hallRequired": 17,
         "xp": 777,
-        "icon": "/coc/home/resource-buildings/gold-storage/normal/level-18.png"
+        "icon": "/coc/home/resource-buildings/gold-storage/normal/level-18.png",
+        "capacity": 6000000
       },
       {
         "level": 19,
@@ -6829,7 +7286,8 @@
         "timeSeconds": 1080000,
         "hallRequired": 18,
         "xp": 1039,
-        "icon": "/coc/home/resource-buildings/gold-storage/normal/level-19.png"
+        "icon": "/coc/home/resource-buildings/gold-storage/normal/level-19.png",
+        "capacity": 6500000
       }
     ]
   },
@@ -6923,7 +7381,8 @@
         "timeSeconds": 0,
         "hallRequired": 5,
         "xp": 0,
-        "icon": "/coc/home/traps/air-bomb/normal/level-1.png"
+        "icon": "/coc/home/traps/air-bomb/normal/level-1.png",
+        "capacity": null
       },
       {
         "level": 2,
@@ -6932,7 +7391,8 @@
         "timeSeconds": 1800,
         "hallRequired": 5,
         "xp": 42,
-        "icon": "/coc/home/traps/air-bomb/normal/level-2.png"
+        "icon": "/coc/home/traps/air-bomb/normal/level-2.png",
+        "capacity": null
       },
       {
         "level": 3,
@@ -6941,7 +7401,8 @@
         "timeSeconds": 3600,
         "hallRequired": 7,
         "xp": 60,
-        "icon": "/coc/home/traps/air-bomb/normal/level-3.png"
+        "icon": "/coc/home/traps/air-bomb/normal/level-3.png",
+        "capacity": null
       },
       {
         "level": 4,
@@ -6950,7 +7411,8 @@
         "timeSeconds": 14400,
         "hallRequired": 9,
         "xp": 120,
-        "icon": "/coc/home/traps/air-bomb/normal/level-4.png"
+        "icon": "/coc/home/traps/air-bomb/normal/level-4.png",
+        "capacity": null
       },
       {
         "level": 5,
@@ -6959,7 +7421,8 @@
         "timeSeconds": 28800,
         "hallRequired": 11,
         "xp": 169,
-        "icon": "/coc/home/traps/air-bomb/normal/level-5.png"
+        "icon": "/coc/home/traps/air-bomb/normal/level-5.png",
+        "capacity": null
       },
       {
         "level": 6,
@@ -6968,7 +7431,8 @@
         "timeSeconds": 43200,
         "hallRequired": 12,
         "xp": 207,
-        "icon": "/coc/home/traps/air-bomb/normal/level-6.png"
+        "icon": "/coc/home/traps/air-bomb/normal/level-6.png",
+        "capacity": null
       },
       {
         "level": 7,
@@ -6977,7 +7441,8 @@
         "timeSeconds": 57600,
         "hallRequired": 13,
         "xp": 240,
-        "icon": "/coc/home/traps/air-bomb/normal/level-7.png"
+        "icon": "/coc/home/traps/air-bomb/normal/level-7.png",
+        "capacity": null
       },
       {
         "level": 8,
@@ -6986,7 +7451,8 @@
         "timeSeconds": 64800,
         "hallRequired": 13,
         "xp": 254,
-        "icon": "/coc/home/traps/air-bomb/normal/level-8.png"
+        "icon": "/coc/home/traps/air-bomb/normal/level-8.png",
+        "capacity": null
       },
       {
         "level": 9,
@@ -6995,7 +7461,8 @@
         "timeSeconds": 86400,
         "hallRequired": 14,
         "xp": 293,
-        "icon": "/coc/home/traps/air-bomb/normal/level-9.png"
+        "icon": "/coc/home/traps/air-bomb/normal/level-9.png",
+        "capacity": null
       },
       {
         "level": 10,
@@ -7004,7 +7471,8 @@
         "timeSeconds": 172800,
         "hallRequired": 15,
         "xp": 415,
-        "icon": "/coc/home/traps/air-bomb/normal/level-10.png"
+        "icon": "/coc/home/traps/air-bomb/normal/level-10.png",
+        "capacity": null
       },
       {
         "level": 11,
@@ -7013,7 +7481,8 @@
         "timeSeconds": 259200,
         "hallRequired": 16,
         "xp": 509,
-        "icon": "/coc/home/traps/air-bomb/normal/level-11.png"
+        "icon": "/coc/home/traps/air-bomb/normal/level-11.png",
+        "capacity": null
       },
       {
         "level": 12,
@@ -7022,7 +7491,8 @@
         "timeSeconds": 475200,
         "hallRequired": 17,
         "xp": 689,
-        "icon": "/coc/home/traps/air-bomb/normal/level-12.png"
+        "icon": "/coc/home/traps/air-bomb/normal/level-12.png",
+        "capacity": null
       },
       {
         "level": 13,
@@ -7031,7 +7501,8 @@
         "timeSeconds": 777600,
         "hallRequired": 18,
         "xp": 881,
-        "icon": "/coc/home/traps/air-bomb/normal/level-13.png"
+        "icon": "/coc/home/traps/air-bomb/normal/level-13.png",
+        "capacity": null
       }
     ]
   },
@@ -7125,7 +7596,8 @@
         "timeSeconds": 0,
         "hallRequired": 3,
         "xp": 0,
-        "icon": "/coc/home/traps/bomb/normal/level-1.png"
+        "icon": "/coc/home/traps/bomb/normal/level-1.png",
+        "capacity": null
       },
       {
         "level": 2,
@@ -7134,7 +7606,8 @@
         "timeSeconds": 21600,
         "hallRequired": 3,
         "xp": 18,
-        "icon": "/coc/home/traps/bomb/normal/level-2.png"
+        "icon": "/coc/home/traps/bomb/normal/level-2.png",
+        "capacity": null
       },
       {
         "level": 3,
@@ -7143,7 +7616,8 @@
         "timeSeconds": 1200,
         "hallRequired": 5,
         "xp": 34,
-        "icon": "/coc/home/traps/bomb/normal/level-3.png"
+        "icon": "/coc/home/traps/bomb/normal/level-3.png",
+        "capacity": null
       },
       {
         "level": 4,
@@ -7152,7 +7626,8 @@
         "timeSeconds": 2400,
         "hallRequired": 7,
         "xp": 48,
-        "icon": "/coc/home/traps/bomb/normal/level-4.png"
+        "icon": "/coc/home/traps/bomb/normal/level-4.png",
+        "capacity": null
       },
       {
         "level": 5,
@@ -7161,7 +7636,8 @@
         "timeSeconds": 3600,
         "hallRequired": 8,
         "xp": 60,
-        "icon": "/coc/home/traps/bomb/normal/level-5.png"
+        "icon": "/coc/home/traps/bomb/normal/level-5.png",
+        "capacity": null
       },
       {
         "level": 6,
@@ -7170,7 +7646,8 @@
         "timeSeconds": 10800,
         "hallRequired": 9,
         "xp": 103,
-        "icon": "/coc/home/traps/bomb/normal/level-6.png"
+        "icon": "/coc/home/traps/bomb/normal/level-6.png",
+        "capacity": null
       },
       {
         "level": 7,
@@ -7179,7 +7656,8 @@
         "timeSeconds": 18000,
         "hallRequired": 10,
         "xp": 134,
-        "icon": "/coc/home/traps/bomb/normal/level-7.png"
+        "icon": "/coc/home/traps/bomb/normal/level-7.png",
+        "capacity": null
       },
       {
         "level": 8,
@@ -7188,7 +7666,8 @@
         "timeSeconds": 21600,
         "hallRequired": 11,
         "xp": 146,
-        "icon": "/coc/home/traps/bomb/normal/level-8.png"
+        "icon": "/coc/home/traps/bomb/normal/level-8.png",
+        "capacity": null
       },
       {
         "level": 9,
@@ -7197,7 +7676,8 @@
         "timeSeconds": 43200,
         "hallRequired": 13,
         "xp": 207,
-        "icon": "/coc/home/traps/bomb/normal/level-9.png"
+        "icon": "/coc/home/traps/bomb/normal/level-9.png",
+        "capacity": null
       },
       {
         "level": 10,
@@ -7206,7 +7686,8 @@
         "timeSeconds": 86400,
         "hallRequired": 14,
         "xp": 293,
-        "icon": "/coc/home/traps/bomb/normal/level-10.png"
+        "icon": "/coc/home/traps/bomb/normal/level-10.png",
+        "capacity": null
       },
       {
         "level": 11,
@@ -7215,7 +7696,8 @@
         "timeSeconds": 172800,
         "hallRequired": 15,
         "xp": 415,
-        "icon": "/coc/home/traps/bomb/normal/level-11.png"
+        "icon": "/coc/home/traps/bomb/normal/level-11.png",
+        "capacity": null
       },
       {
         "level": 12,
@@ -7224,7 +7706,8 @@
         "timeSeconds": 259200,
         "hallRequired": 16,
         "xp": 509,
-        "icon": "/coc/home/traps/bomb/normal/level-12.png"
+        "icon": "/coc/home/traps/bomb/normal/level-12.png",
+        "capacity": null
       },
       {
         "level": 13,
@@ -7233,7 +7716,8 @@
         "timeSeconds": 388800,
         "hallRequired": 17,
         "xp": 623,
-        "icon": "/coc/home/traps/bomb/normal/level-13.png"
+        "icon": "/coc/home/traps/bomb/normal/level-13.png",
+        "capacity": null
       },
       {
         "level": 14,
@@ -7242,7 +7726,8 @@
         "timeSeconds": 691200,
         "hallRequired": 18,
         "xp": 831,
-        "icon": "/coc/home/traps/bomb/normal/level-14.png"
+        "icon": "/coc/home/traps/bomb/normal/level-14.png",
+        "capacity": null
       }
     ]
   },
@@ -7336,7 +7821,8 @@
         "timeSeconds": 0,
         "hallRequired": 6,
         "xp": 0,
-        "icon": "/coc/home/traps/giant-bomb/normal/level-1.png"
+        "icon": "/coc/home/traps/giant-bomb/normal/level-1.png",
+        "capacity": null
       },
       {
         "level": 2,
@@ -7345,7 +7831,8 @@
         "timeSeconds": 3600,
         "hallRequired": 6,
         "xp": 60,
-        "icon": "/coc/home/traps/giant-bomb/normal/level-2.png"
+        "icon": "/coc/home/traps/giant-bomb/normal/level-2.png",
+        "capacity": null
       },
       {
         "level": 3,
@@ -7354,7 +7841,8 @@
         "timeSeconds": 10800,
         "hallRequired": 8,
         "xp": 103,
-        "icon": "/coc/home/traps/giant-bomb/normal/level-3.png"
+        "icon": "/coc/home/traps/giant-bomb/normal/level-3.png",
+        "capacity": null
       },
       {
         "level": 4,
@@ -7363,7 +7851,8 @@
         "timeSeconds": 28800,
         "hallRequired": 10,
         "xp": 169,
-        "icon": "/coc/home/traps/giant-bomb/normal/level-4.png"
+        "icon": "/coc/home/traps/giant-bomb/normal/level-4.png",
+        "capacity": null
       },
       {
         "level": 5,
@@ -7372,7 +7861,8 @@
         "timeSeconds": 36000,
         "hallRequired": 11,
         "xp": 189,
-        "icon": "/coc/home/traps/giant-bomb/normal/level-5.png"
+        "icon": "/coc/home/traps/giant-bomb/normal/level-5.png",
+        "capacity": null
       },
       {
         "level": 6,
@@ -7381,7 +7871,8 @@
         "timeSeconds": 39600,
         "hallRequired": 13,
         "xp": 198,
-        "icon": "/coc/home/traps/giant-bomb/normal/level-6.png"
+        "icon": "/coc/home/traps/giant-bomb/normal/level-6.png",
+        "capacity": null
       },
       {
         "level": 7,
@@ -7390,7 +7881,8 @@
         "timeSeconds": 43200,
         "hallRequired": 13,
         "xp": 207,
-        "icon": "/coc/home/traps/giant-bomb/normal/level-7.png"
+        "icon": "/coc/home/traps/giant-bomb/normal/level-7.png",
+        "capacity": null
       },
       {
         "level": 8,
@@ -7399,7 +7891,8 @@
         "timeSeconds": 86400,
         "hallRequired": 14,
         "xp": 293,
-        "icon": "/coc/home/traps/giant-bomb/normal/level-8.png"
+        "icon": "/coc/home/traps/giant-bomb/normal/level-8.png",
+        "capacity": null
       },
       {
         "level": 9,
@@ -7408,7 +7901,8 @@
         "timeSeconds": 172800,
         "hallRequired": 15,
         "xp": 415,
-        "icon": "/coc/home/traps/giant-bomb/normal/level-9.png"
+        "icon": "/coc/home/traps/giant-bomb/normal/level-9.png",
+        "capacity": null
       },
       {
         "level": 10,
@@ -7417,7 +7911,8 @@
         "timeSeconds": 345600,
         "hallRequired": 16,
         "xp": 587,
-        "icon": "/coc/home/traps/giant-bomb/normal/level-10.png"
+        "icon": "/coc/home/traps/giant-bomb/normal/level-10.png",
+        "capacity": null
       },
       {
         "level": 11,
@@ -7426,7 +7921,8 @@
         "timeSeconds": 432000,
         "hallRequired": 17,
         "xp": 657,
-        "icon": "/coc/home/traps/giant-bomb/normal/level-11.png"
+        "icon": "/coc/home/traps/giant-bomb/normal/level-11.png",
+        "capacity": null
       }
     ]
   },
@@ -7520,7 +8016,8 @@
         "timeSeconds": 0,
         "hallRequired": 17,
         "xp": 0,
-        "icon": "/coc/home/traps/giga-bomb/normal/level-1.png"
+        "icon": "/coc/home/traps/giga-bomb/normal/level-1.png",
+        "capacity": null
       },
       {
         "level": 2,
@@ -7529,7 +8026,8 @@
         "timeSeconds": 432000,
         "hallRequired": 17,
         "xp": 657,
-        "icon": "/coc/home/traps/giga-bomb/normal/level-2.png"
+        "icon": "/coc/home/traps/giga-bomb/normal/level-2.png",
+        "capacity": null
       },
       {
         "level": 3,
@@ -7538,7 +8036,8 @@
         "timeSeconds": 518400,
         "hallRequired": 17,
         "xp": 720,
-        "icon": "/coc/home/traps/giga-bomb/normal/level-3.png"
+        "icon": "/coc/home/traps/giga-bomb/normal/level-3.png",
+        "capacity": null
       },
       {
         "level": 4,
@@ -7547,7 +8046,8 @@
         "timeSeconds": 1123200,
         "hallRequired": 18,
         "xp": 1059,
-        "icon": "/coc/home/traps/giga-bomb/normal/level-4.png"
+        "icon": "/coc/home/traps/giga-bomb/normal/level-4.png",
+        "capacity": null
       }
     ]
   },
@@ -7641,7 +8141,8 @@
         "timeSeconds": 0,
         "hallRequired": 7,
         "xp": 0,
-        "icon": "/coc/home/traps/seeking-air-mine/normal/level-1.png"
+        "icon": "/coc/home/traps/seeking-air-mine/normal/level-1.png",
+        "capacity": null
       },
       {
         "level": 2,
@@ -7650,7 +8151,8 @@
         "timeSeconds": 43200,
         "hallRequired": 9,
         "xp": 207,
-        "icon": "/coc/home/traps/seeking-air-mine/normal/level-2.png"
+        "icon": "/coc/home/traps/seeking-air-mine/normal/level-2.png",
+        "capacity": null
       },
       {
         "level": 3,
@@ -7659,7 +8161,8 @@
         "timeSeconds": 86400,
         "hallRequired": 10,
         "xp": 293,
-        "icon": "/coc/home/traps/seeking-air-mine/normal/level-3.png"
+        "icon": "/coc/home/traps/seeking-air-mine/normal/level-3.png",
+        "capacity": null
       },
       {
         "level": 4,
@@ -7668,7 +8171,8 @@
         "timeSeconds": 129600,
         "hallRequired": 13,
         "xp": 360,
-        "icon": "/coc/home/traps/seeking-air-mine/normal/level-4.png"
+        "icon": "/coc/home/traps/seeking-air-mine/normal/level-4.png",
+        "capacity": null
       },
       {
         "level": 5,
@@ -7677,7 +8181,8 @@
         "timeSeconds": 259200,
         "hallRequired": 15,
         "xp": 509,
-        "icon": "/coc/home/traps/seeking-air-mine/normal/level-5.png"
+        "icon": "/coc/home/traps/seeking-air-mine/normal/level-5.png",
+        "capacity": null
       },
       {
         "level": 6,
@@ -7686,7 +8191,8 @@
         "timeSeconds": 388800,
         "hallRequired": 16,
         "xp": 623,
-        "icon": "/coc/home/traps/seeking-air-mine/normal/level-6.png"
+        "icon": "/coc/home/traps/seeking-air-mine/normal/level-6.png",
+        "capacity": null
       },
       {
         "level": 7,
@@ -7695,7 +8201,8 @@
         "timeSeconds": 475200,
         "hallRequired": 17,
         "xp": 689,
-        "icon": "/coc/home/traps/seeking-air-mine/normal/level-7.png"
+        "icon": "/coc/home/traps/seeking-air-mine/normal/level-7.png",
+        "capacity": null
       },
       {
         "level": 8,
@@ -7704,7 +8211,8 @@
         "timeSeconds": 993600,
         "hallRequired": 18,
         "xp": 996,
-        "icon": "/coc/home/traps/seeking-air-mine/normal/level-8.png"
+        "icon": "/coc/home/traps/seeking-air-mine/normal/level-8.png",
+        "capacity": null
       }
     ]
   },
@@ -7798,7 +8306,8 @@
         "timeSeconds": 0,
         "hallRequired": 8,
         "xp": 0,
-        "icon": "/coc/home/traps/skeleton-trap/normal/level-1.png"
+        "icon": "/coc/home/traps/skeleton-trap/normal/level-1.png",
+        "capacity": null
       },
       {
         "level": 2,
@@ -7807,7 +8316,8 @@
         "timeSeconds": 18000,
         "hallRequired": 8,
         "xp": 134,
-        "icon": "/coc/home/traps/skeleton-trap/normal/level-2.png"
+        "icon": "/coc/home/traps/skeleton-trap/normal/level-2.png",
+        "capacity": null
       },
       {
         "level": 3,
@@ -7816,7 +8326,8 @@
         "timeSeconds": 28800,
         "hallRequired": 9,
         "xp": 169,
-        "icon": "/coc/home/traps/skeleton-trap/normal/level-3.png"
+        "icon": "/coc/home/traps/skeleton-trap/normal/level-3.png",
+        "capacity": null
       },
       {
         "level": 4,
@@ -7825,7 +8336,8 @@
         "timeSeconds": 43200,
         "hallRequired": 10,
         "xp": 207,
-        "icon": "/coc/home/traps/skeleton-trap/normal/level-4.png"
+        "icon": "/coc/home/traps/skeleton-trap/normal/level-4.png",
+        "capacity": null
       },
       {
         "level": 5,
@@ -7834,7 +8346,8 @@
         "timeSeconds": 604800,
         "hallRequired": 18,
         "xp": 777,
-        "icon": "/coc/home/traps/skeleton-trap/normal/level-5.png"
+        "icon": "/coc/home/traps/skeleton-trap/normal/level-5.png",
+        "capacity": null
       }
     ]
   },
@@ -7928,7 +8441,8 @@
         "timeSeconds": 0,
         "hallRequired": 4,
         "xp": 0,
-        "icon": "/coc/home/traps/spring-trap/normal/level-1.png"
+        "icon": "/coc/home/traps/spring-trap/normal/level-1.png",
+        "capacity": null
       },
       {
         "level": 2,
@@ -7937,7 +8451,8 @@
         "timeSeconds": 7200,
         "hallRequired": 7,
         "xp": 84,
-        "icon": "/coc/home/traps/spring-trap/normal/level-2.png"
+        "icon": "/coc/home/traps/spring-trap/normal/level-2.png",
+        "capacity": null
       },
       {
         "level": 3,
@@ -7946,7 +8461,8 @@
         "timeSeconds": 14400,
         "hallRequired": 8,
         "xp": 120,
-        "icon": "/coc/home/traps/spring-trap/normal/level-3.png"
+        "icon": "/coc/home/traps/spring-trap/normal/level-3.png",
+        "capacity": null
       },
       {
         "level": 4,
@@ -7955,7 +8471,8 @@
         "timeSeconds": 21600,
         "hallRequired": 9,
         "xp": 146,
-        "icon": "/coc/home/traps/spring-trap/normal/level-4.png"
+        "icon": "/coc/home/traps/spring-trap/normal/level-4.png",
+        "capacity": null
       },
       {
         "level": 5,
@@ -7964,7 +8481,8 @@
         "timeSeconds": 28800,
         "hallRequired": 10,
         "xp": 169,
-        "icon": "/coc/home/traps/spring-trap/normal/level-5.png"
+        "icon": "/coc/home/traps/spring-trap/normal/level-5.png",
+        "capacity": null
       },
       {
         "level": 6,
@@ -7973,7 +8491,8 @@
         "timeSeconds": 43200,
         "hallRequired": 11,
         "xp": 207,
-        "icon": "/coc/home/traps/spring-trap/normal/level-6.png"
+        "icon": "/coc/home/traps/spring-trap/normal/level-6.png",
+        "capacity": null
       },
       {
         "level": 7,
@@ -7982,7 +8501,8 @@
         "timeSeconds": 86400,
         "hallRequired": 12,
         "xp": 293,
-        "icon": "/coc/home/traps/spring-trap/normal/level-7.png"
+        "icon": "/coc/home/traps/spring-trap/normal/level-7.png",
+        "capacity": null
       },
       {
         "level": 8,
@@ -7991,7 +8511,8 @@
         "timeSeconds": 129600,
         "hallRequired": 13,
         "xp": 360,
-        "icon": "/coc/home/traps/spring-trap/normal/level-8.png"
+        "icon": "/coc/home/traps/spring-trap/normal/level-8.png",
+        "capacity": null
       },
       {
         "level": 9,
@@ -8000,7 +8521,8 @@
         "timeSeconds": 172800,
         "hallRequired": 14,
         "xp": 415,
-        "icon": "/coc/home/traps/spring-trap/normal/level-9.png"
+        "icon": "/coc/home/traps/spring-trap/normal/level-9.png",
+        "capacity": null
       },
       {
         "level": 10,
@@ -8009,7 +8531,8 @@
         "timeSeconds": 216000,
         "hallRequired": 15,
         "xp": 464,
-        "icon": "/coc/home/traps/spring-trap/normal/level-10.png"
+        "icon": "/coc/home/traps/spring-trap/normal/level-10.png",
+        "capacity": null
       },
       {
         "level": 11,
@@ -8018,7 +8541,8 @@
         "timeSeconds": 388800,
         "hallRequired": 16,
         "xp": 623,
-        "icon": "/coc/home/traps/spring-trap/normal/level-11.png"
+        "icon": "/coc/home/traps/spring-trap/normal/level-11.png",
+        "capacity": null
       },
       {
         "level": 12,
@@ -8027,7 +8551,8 @@
         "timeSeconds": 820800,
         "hallRequired": 17,
         "xp": 903,
-        "icon": "/coc/home/traps/spring-trap/normal/level-12.png"
+        "icon": "/coc/home/traps/spring-trap/normal/level-12.png",
+        "capacity": null
       },
       {
         "level": 13,
@@ -8036,7 +8561,8 @@
         "timeSeconds": 950400,
         "hallRequired": 18,
         "xp": 974,
-        "icon": "/coc/home/traps/spring-trap/normal/level-13.png"
+        "icon": "/coc/home/traps/spring-trap/normal/level-13.png",
+        "capacity": null
       }
     ]
   },
@@ -8130,7 +8656,8 @@
         "timeSeconds": 0,
         "hallRequired": 11,
         "xp": 0,
-        "icon": "/coc/home/traps/tornado-trap/normal/level-1.png"
+        "icon": "/coc/home/traps/tornado-trap/normal/level-1.png",
+        "capacity": null
       },
       {
         "level": 2,
@@ -8139,7 +8666,8 @@
         "timeSeconds": 86400,
         "hallRequired": 11,
         "xp": 293,
-        "icon": "/coc/home/traps/tornado-trap/normal/level-2.png"
+        "icon": "/coc/home/traps/tornado-trap/normal/level-2.png",
+        "capacity": null
       },
       {
         "level": 3,
@@ -8148,7 +8676,8 @@
         "timeSeconds": 172800,
         "hallRequired": 12,
         "xp": 415,
-        "icon": "/coc/home/traps/tornado-trap/normal/level-3.png"
+        "icon": "/coc/home/traps/tornado-trap/normal/level-3.png",
+        "capacity": null
       }
     ]
   },
@@ -8242,7 +8771,8 @@
         "timeSeconds": 0,
         "hallRequired": 2,
         "xp": 0,
-        "icon": "/coc/home/defenses/wall/normal/level-1.png"
+        "icon": "/coc/home/defenses/wall/normal/level-1.png",
+        "capacity": null
       },
       {
         "level": 2,
@@ -8251,7 +8781,8 @@
         "timeSeconds": 0,
         "hallRequired": 2,
         "xp": 0,
-        "icon": "/coc/home/defenses/wall/normal/level-2.png"
+        "icon": "/coc/home/defenses/wall/normal/level-2.png",
+        "capacity": null
       },
       {
         "level": 3,
@@ -8260,7 +8791,8 @@
         "timeSeconds": 0,
         "hallRequired": 3,
         "xp": 0,
-        "icon": "/coc/home/defenses/wall/normal/level-3.png"
+        "icon": "/coc/home/defenses/wall/normal/level-3.png",
+        "capacity": null
       },
       {
         "level": 4,
@@ -8269,7 +8801,8 @@
         "timeSeconds": 0,
         "hallRequired": 4,
         "xp": 0,
-        "icon": "/coc/home/defenses/wall/normal/level-4.png"
+        "icon": "/coc/home/defenses/wall/normal/level-4.png",
+        "capacity": null
       },
       {
         "level": 5,
@@ -8278,7 +8811,8 @@
         "timeSeconds": 0,
         "hallRequired": 5,
         "xp": 0,
-        "icon": "/coc/home/defenses/wall/normal/level-5.png"
+        "icon": "/coc/home/defenses/wall/normal/level-5.png",
+        "capacity": null
       },
       {
         "level": 6,
@@ -8287,7 +8821,8 @@
         "timeSeconds": 0,
         "hallRequired": 6,
         "xp": 0,
-        "icon": "/coc/home/defenses/wall/normal/level-6.png"
+        "icon": "/coc/home/defenses/wall/normal/level-6.png",
+        "capacity": null
       },
       {
         "level": 7,
@@ -8296,7 +8831,8 @@
         "timeSeconds": 0,
         "hallRequired": 7,
         "xp": 0,
-        "icon": "/coc/home/defenses/wall/normal/level-7.png"
+        "icon": "/coc/home/defenses/wall/normal/level-7.png",
+        "capacity": null
       },
       {
         "level": 8,
@@ -8305,7 +8841,8 @@
         "timeSeconds": 0,
         "hallRequired": 8,
         "xp": 0,
-        "icon": "/coc/home/defenses/wall/normal/level-8.png"
+        "icon": "/coc/home/defenses/wall/normal/level-8.png",
+        "capacity": null
       },
       {
         "level": 9,
@@ -8314,7 +8851,8 @@
         "timeSeconds": 0,
         "hallRequired": 9,
         "xp": 0,
-        "icon": "/coc/home/defenses/wall/normal/level-9.png"
+        "icon": "/coc/home/defenses/wall/normal/level-9.png",
+        "capacity": null
       },
       {
         "level": 10,
@@ -8323,7 +8861,8 @@
         "timeSeconds": 0,
         "hallRequired": 9,
         "xp": 0,
-        "icon": "/coc/home/defenses/wall/normal/level-10.png"
+        "icon": "/coc/home/defenses/wall/normal/level-10.png",
+        "capacity": null
       },
       {
         "level": 11,
@@ -8332,7 +8871,8 @@
         "timeSeconds": 0,
         "hallRequired": 10,
         "xp": 0,
-        "icon": "/coc/home/defenses/wall/normal/level-11.png"
+        "icon": "/coc/home/defenses/wall/normal/level-11.png",
+        "capacity": null
       },
       {
         "level": 12,
@@ -8341,7 +8881,8 @@
         "timeSeconds": 0,
         "hallRequired": 11,
         "xp": 0,
-        "icon": "/coc/home/defenses/wall/normal/level-12.png"
+        "icon": "/coc/home/defenses/wall/normal/level-12.png",
+        "capacity": null
       },
       {
         "level": 13,
@@ -8350,7 +8891,8 @@
         "timeSeconds": 0,
         "hallRequired": 12,
         "xp": 0,
-        "icon": "/coc/home/defenses/wall/normal/level-13.png"
+        "icon": "/coc/home/defenses/wall/normal/level-13.png",
+        "capacity": null
       },
       {
         "level": 14,
@@ -8359,7 +8901,8 @@
         "timeSeconds": 0,
         "hallRequired": 13,
         "xp": 0,
-        "icon": "/coc/home/defenses/wall/normal/level-14.png"
+        "icon": "/coc/home/defenses/wall/normal/level-14.png",
+        "capacity": null
       },
       {
         "level": 15,
@@ -8368,7 +8911,8 @@
         "timeSeconds": 0,
         "hallRequired": 14,
         "xp": 0,
-        "icon": "/coc/home/defenses/wall/normal/level-15.png"
+        "icon": "/coc/home/defenses/wall/normal/level-15.png",
+        "capacity": null
       },
       {
         "level": 16,
@@ -8377,7 +8921,8 @@
         "timeSeconds": 0,
         "hallRequired": 15,
         "xp": 0,
-        "icon": "/coc/home/defenses/wall/normal/level-16.png"
+        "icon": "/coc/home/defenses/wall/normal/level-16.png",
+        "capacity": null
       },
       {
         "level": 17,
@@ -8386,7 +8931,8 @@
         "timeSeconds": 0,
         "hallRequired": 16,
         "xp": 0,
-        "icon": "/coc/home/defenses/wall/normal/level-17.png"
+        "icon": "/coc/home/defenses/wall/normal/level-17.png",
+        "capacity": null
       },
       {
         "level": 18,
@@ -8395,7 +8941,8 @@
         "timeSeconds": 0,
         "hallRequired": 17,
         "xp": 0,
-        "icon": "/coc/home/defenses/wall/normal/level-18.png"
+        "icon": "/coc/home/defenses/wall/normal/level-18.png",
+        "capacity": null
       },
       {
         "level": 19,
@@ -8404,7 +8951,8 @@
         "timeSeconds": 0,
         "hallRequired": 18,
         "xp": 0,
-        "icon": "/coc/home/defenses/wall/normal/level-19.png"
+        "icon": "/coc/home/defenses/wall/normal/level-19.png",
+        "capacity": null
       }
     ]
   }

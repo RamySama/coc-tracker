@@ -1,10 +1,11 @@
 import { useTranslation } from 'react-i18next';
 import type { VillageDoc } from '../lib/appTypes';
 import type { ResearchItem } from '../lib/engine/research';
-import { nextResearchStep, researchMaxForHall } from '../lib/engine/research';
+import { gateBuildingLevel, nextResearchStep, researchMaxForHall } from '../lib/engine/research';
 import { formatDuration } from '../lib/engine/totals';
 import { useVillages } from '../store/villages';
 import { useSaveToast } from '../hooks/useSaveToast';
+import { toEngineVillage } from '../hooks/useVillageEngine';
 import { buildingName } from '../lib/labels';
 import { Stepper } from './Stepper';
 import { Button } from './ui/Button';
@@ -20,7 +21,8 @@ export function ResearchEditPanel({ village, item }: { village: VillageDoc; item
   const shortHall = t(village.base === 'home' ? 'base.hallHomeShort' : 'base.hallBuilderShort');
   const target = researchMaxForHall(item, village.hall);
   const level = village.research?.[item.key]?.level ?? 0;
-  const step = nextResearchStep(village.base, item.key, level, village.hall);
+  const gateLevel = gateBuildingLevel(toEngineVillage(village), item.kind);
+  const step = nextResearchStep(village.base, item.key, level, village.hall, gateLevel);
   const labHint =
     step.state === 'available' ? item.levels[step.step.toLevel - 1]?.labRequired ?? null : null;
 
@@ -36,7 +38,11 @@ export function ResearchEditPanel({ village, item }: { village: VillageDoc; item
         </div>
       )}
       {step.state === 'locked' && (
-        <p className="text-xs text-warn">{t('upgrades.unlocksAt', { hall: shortHall, level: step.unlocksAtHall })}</p>
+        <p className="text-xs text-warn">
+          {step.unlocksAtHall != null
+            ? t('upgrades.unlocksAt', { hall: shortHall, level: step.unlocksAtHall })
+            : t('research.labRequired', { n: step.requiresGateLevel })}
+        </p>
       )}
       {step.state === 'maxed' && <p className="text-xs text-success">{t('common.maxed')}</p>}
 

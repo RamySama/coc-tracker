@@ -151,6 +151,8 @@ function normalizeBuilding(json, base) {
       hallRequired: l.townHallRequired ?? l.builderHallRequired ?? null,
       xp: l.xpGained ?? 0,
       icon: registerIcon(l.images?.normal) || registerIcon(l.images?.icon),
+      // capacité de stockage à ce niveau (bâtiments de stockage type Réservoir d'or…)
+      capacity: l.capacity ?? null,
     }));
 
   return {

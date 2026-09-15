@@ -17,6 +17,8 @@ export interface BuildingLevel {
   xp: number;
   /** image du bâtiment à ce niveau */
   icon?: string | null;
+  /** capacité de stockage à ce niveau (bâtiments de stockage uniquement) */
+  capacity?: number | null;
 }
 
 export interface HallAvailability {
@@ -84,4 +86,6 @@ export interface UpgradeStep {
   /** true si la marche demande un hall plus haut que le hall courant du village */
   locked: boolean;
   unlocksAtHall: number | null;
+  /** recherche uniquement : niveau du bâtiment "gate" (Labo…) requis si c'est lui qui bloque */
+  unlocksAtGateLevel?: number | null;
 }

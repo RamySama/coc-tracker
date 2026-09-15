@@ -1,5 +1,5 @@
 import { countAtHall, getBuilding, getCatalog, instanceId } from './catalog';
-import type { Base, Building, UpgradeStep, Village } from './types';
+import type { Base, Building, Resource, UpgradeStep, Village } from './types';
 
 /** Les murs sont suivis en agrégat : un seul "exemplaire" représentant tout le lot. */
 export const WALL_INSTANCE = 'wall#all';
@@ -64,7 +64,7 @@ export function stepsForInstance(
 export type NextStep =
   | { state: 'maxed' }
   | { state: 'available'; step: UpgradeStep }
-  | { state: 'locked'; step: UpgradeStep; unlocksAtHall: number };
+  | { state: 'locked'; step: UpgradeStep; unlocksAtHall: number | null; requiresGateLevel?: number };
 
 /** Prochaine marche pour un exemplaire (ou maxed). */
 export function nextStep(base: Base, key: string, fromLevel: number, hall: number): NextStep {
@@ -143,4 +143,26 @@ export function completion(village: Village): { done: number; total: number; rat
     done += Math.min(Math.max(inst.level, 0), target) * weight;
   }
   return { done, total, ratio: total === 0 ? 0 : done / total };
+}
+
+/** Bâtiments de stockage -> ressource concernée, par type de village. */
+const STORAGE_BUILDINGS: Record<Base, Partial<Record<string, Resource>>> = {
+  home: { 'gold-storage': 'gold', 'elixir-storage': 'elixir', 'dark-elixir-storage': 'darkElixir' },
+  builder: { 'gold-storage': 'builderGold', 'elixir-storage': 'builderElixir' },
+};
+
+/**
+ * Capacité de stockage réelle du village : somme des réservoirs construits, à leur
+ * niveau actuel (contrairement au chiffre générique par HDV, ignoré ici).
+ */
+export function storageCapacity(village: Village): Partial<Record<Resource, number>> {
+  const map = STORAGE_BUILDINGS[village.base];
+  const out: Partial<Record<Resource, number>> = {};
+  for (const inst of expandInstances(village)) {
+    const resource = map[inst.building.key];
+    if (!resource || inst.level <= 0) continue;
+    const capacity = inst.building.levels[inst.level - 1]?.capacity ?? 0;
+    out[resource] = (out[resource] ?? 0) + capacity * inst.count;
+  }
+  return out;
 }

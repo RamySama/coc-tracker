@@ -11,7 +11,8 @@ import { EmptyState } from '../components/ui/EmptyState';
 import { Button } from '../components/ui/Button';
 import { useSaveToast } from '../hooks/useSaveToast';
 import { formatDuration } from '../lib/engine/totals';
-import { getHall, maxHall } from '../lib/engine/catalog';
+import { maxHall } from '../lib/engine/catalog';
+import { storageCapacity } from '../lib/engine/progress';
 import { buildingName, hallLongKey } from '../lib/labels';
 import type { Resource } from '../lib/engine/types';
 import type { VillageResources } from '../lib/appTypes';
@@ -36,7 +37,7 @@ export function Dashboard() {
   const allGroups = [...groups, ...researchGroups];
 
   const pendingCount = allGroups.reduce((n, g) => n + g.steps.length, 0);
-  const storage = getHall(village.base, village.hall)?.storageCapacity ?? null;
+  const storage = storageCapacity(engine.village);
   const resKeys = village.base === 'home' ? HOME_RES : BUILDER_RES;
   const resources = village.resources;
 
@@ -113,7 +114,7 @@ export function Dashboard() {
               key={r}
               resource={r}
               value={resources?.[r as keyof VillageResources] ?? 0}
-              max={r === 'gold' ? storage?.gold : r === 'elixir' ? storage?.elixir : r === 'darkElixir' ? storage?.darkElixir : null}
+              max={storage[r] ?? null}
               onCommit={(v) => commitResource(r, v)}
             />
           ))}
