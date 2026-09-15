@@ -8,11 +8,12 @@ import { useSaveToast } from '../hooks/useSaveToast';
 import { levelIcon } from '../lib/icons';
 import { HideMaxedToggle } from '../components/HideMaxedToggle';
 import {
+  gateBuildingLevel,
   getResearch,
   groupResearch,
   presetResearch,
   RESEARCH_KIND_ORDER,
-  researchMaxForHall,
+  researchMaxAchievable,
 } from '../lib/engine/research';
 import { toEngineVillage } from '../hooks/useVillageEngine';
 import { sumByResource, sumBuilderSeconds, formatDuration } from '../lib/engine/totals';
@@ -48,6 +49,7 @@ export function ResearchPanel() {
 
   const sections = useMemo(() => {
     if (!village) return [];
+    const ev = toEngineVillage(village);
     const query = q.trim().toLowerCase();
     const items = getResearch(village.base)
       .filter((it) => {
@@ -58,7 +60,9 @@ export function ResearchPanel() {
         );
       })
       .map((it) => {
-        const target = researchMaxForHall(it, village.hall);
+        // Plafond réel : HDV *et* bâtiment gate (Labo…) — un niveau que le HDV
+        // autoriserait mais hors de portée du Labo actuel reste masqué.
+        const target = researchMaxAchievable(it, village.hall, gateBuildingLevel(ev, it.kind));
         const level = village.research?.[it.key]?.level ?? 0;
         return { it, target, level, done: target > 0 && level >= target, locked: target === 0 };
       })

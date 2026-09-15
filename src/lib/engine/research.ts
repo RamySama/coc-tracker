@@ -77,6 +77,21 @@ export function researchMaxForHall(item: ResearchItem, hall: number): number {
   return max;
 }
 
+/**
+ * Niveau max réellement accessible maintenant : HDV *et* bâtiment gate (Labo…).
+ * Contrairement à `researchMaxForHall`, un niveau que le HDV autoriserait mais que le
+ * Labo (ou l'Atelier/la Maison des familiers) actuel ne permet pas encore n'est pas compté.
+ */
+export function researchMaxAchievable(item: ResearchItem, hall: number, gateLevel: number): number {
+  let max = 0;
+  for (const l of item.levels) {
+    const okHall = l.hallRequired == null || l.hallRequired <= hall;
+    const okGate = (l.labRequired ?? 0) <= gateLevel;
+    if (okHall && okGate) max = l.level;
+  }
+  return max;
+}
+
 const isNoise = (s: UpgradeStep) => s.cost === 0 && s.timeSeconds === 0;
 
 /**
@@ -157,12 +172,10 @@ export function nextResearchStep(
   const [step] = researchSteps(item, fromLevel, hall, { includeLocked: true, gateLevel });
   if (!step) return { state: 'maxed' };
   if (step.locked) {
-    return {
-      state: 'locked',
-      step,
-      unlocksAtHall: step.unlocksAtHall,
-      requiresGateLevel: step.unlocksAtGateLevel ?? undefined,
-    };
+    // Bloqué uniquement par le bâtiment gate (Labo…), HDV déjà suffisant : traité comme
+    // "rien à faire pour l'instant" (pas d'avertissement) — se débloquera avec le bâtiment.
+    if (step.unlocksAtHall == null) return { state: 'maxed' };
+    return { state: 'locked', step, unlocksAtHall: step.unlocksAtHall };
   }
   return { state: 'available', step };
 }

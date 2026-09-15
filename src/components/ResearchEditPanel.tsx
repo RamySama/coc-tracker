@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next';
 import type { VillageDoc } from '../lib/appTypes';
 import type { ResearchItem } from '../lib/engine/research';
-import { gateBuildingLevel, nextResearchStep, researchMaxForHall } from '../lib/engine/research';
+import { gateBuildingLevel, nextResearchStep, researchMaxAchievable } from '../lib/engine/research';
 import { formatDuration } from '../lib/engine/totals';
 import { useVillages } from '../store/villages';
 import { useSaveToast } from '../hooks/useSaveToast';
@@ -19,12 +19,12 @@ export function ResearchEditPanel({ village, item }: { village: VillageDoc; item
   const label = buildingName(item.key, item.name, i18n.language);
 
   const shortHall = t(village.base === 'home' ? 'base.hallHomeShort' : 'base.hallBuilderShort');
-  const target = researchMaxForHall(item, village.hall);
-  const level = village.research?.[item.key]?.level ?? 0;
   const gateLevel = gateBuildingLevel(toEngineVillage(village), item.kind);
+  // Plafond réellement accessible maintenant (HDV *et* bâtiment gate) : au-delà, on ne
+  // propose même pas le niveau tant que le bâtiment n'a pas suivi — pas juste un avertissement.
+  const target = researchMaxAchievable(item, village.hall, gateLevel);
+  const level = village.research?.[item.key]?.level ?? 0;
   const step = nextResearchStep(village.base, item.key, level, village.hall, gateLevel);
-  const labHint =
-    step.state === 'available' ? item.levels[step.step.toLevel - 1]?.labRequired ?? null : null;
 
   return (
     <div className="flex flex-col gap-3 border-t border-border/60 bg-surface-2/40 p-3">
@@ -34,15 +34,10 @@ export function ResearchEditPanel({ village, item }: { village: VillageDoc; item
           <span>{t('upgrades.step', { from: step.step.fromLevel, to: step.step.toLevel })}</span>
           <ResourceAmount resource={step.step.resource} amount={step.step.cost} />
           {step.step.timeSeconds > 0 && <span className="text-ink-dim">{formatDuration(step.step.timeSeconds)}</span>}
-          {labHint != null && <span className="text-ink-dim/70">{t('research.labRequired', { n: labHint })}</span>}
         </div>
       )}
       {step.state === 'locked' && (
-        <p className="text-xs text-warn">
-          {step.unlocksAtHall != null
-            ? t('upgrades.unlocksAt', { hall: shortHall, level: step.unlocksAtHall })
-            : t('research.labRequired', { n: step.requiresGateLevel })}
-        </p>
+        <p className="text-xs text-warn">{t('upgrades.unlocksAt', { hall: shortHall, level: step.unlocksAtHall })}</p>
       )}
       {step.state === 'maxed' && <p className="text-xs text-success">{t('common.maxed')}</p>}
 

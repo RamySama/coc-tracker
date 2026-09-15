@@ -5,7 +5,16 @@ import { sumByResource, sumBuilderSeconds, wallClockSeconds } from './totals';
 import { townHallDiff } from './planner';
 import { presetBuildings } from './presets';
 import { groupPendingByBuilding } from './grouping';
-import { getResearch, getResearchItem, groupResearch, presetResearch, researchMaxForHall } from './research';
+import {
+  gateBuildingLevel,
+  getResearch,
+  getResearchItem,
+  groupResearch,
+  nextResearchStep,
+  presetResearch,
+  researchMaxAchievable,
+  researchMaxForHall,
+} from './research';
 import type { Village } from './types';
 
 describe('catalog', () => {
@@ -271,6 +280,31 @@ describe('recherche — gatée par le Labo, pas seulement le HDV', () => {
     const groups = groupResearch(village);
     const barb = groups.find((g) => g.key === 'barbarian')!;
     expect(barb.steps.some((s) => s.toLevel === 2)).toBe(true);
+  });
+
+  it('researchMaxAchievable plafonne au Labo actuel, pas seulement au HDV', () => {
+    const barb = getResearchItem('home', 'barbarian')!;
+    const hallOnly = researchMaxForHall(barb, 9); // HDV9 : plafond "un jour"
+    const achievable = researchMaxAchievable(barb, 9, 0); // Labo niveau 0 (pas construit)
+    expect(achievable).toBeLessThan(hallOnly);
+    expect(achievable).toBeGreaterThanOrEqual(1); // le niveau 1 ne demande jamais de Labo
+  });
+
+  it('bloqué uniquement par le Labo (HDV déjà bon) -> état "maxed", pas "locked"', () => {
+    // barbarian niv. 2 exige Labo niv. 1 (cf. dataset) ; ici le Labo est à 0.
+    const state = nextResearchStep('home', 'barbarian', 1, 10, 0);
+    expect(state.state).toBe('maxed');
+  });
+
+  it('gateBuildingLevel lit le niveau réel du Labo construit', () => {
+    const village: Village = {
+      base: 'home',
+      hall: 10,
+      builders: 5,
+      buildings: { 'laboratory#1': { level: 4 } },
+    };
+    expect(gateBuildingLevel(village, 'troop')).toBe(4);
+    expect(gateBuildingLevel(village, 'hero')).toBe(Infinity);
   });
 });
 

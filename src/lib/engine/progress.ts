@@ -64,7 +64,7 @@ export function stepsForInstance(
 export type NextStep =
   | { state: 'maxed' }
   | { state: 'available'; step: UpgradeStep }
-  | { state: 'locked'; step: UpgradeStep; unlocksAtHall: number | null; requiresGateLevel?: number };
+  | { state: 'locked'; step: UpgradeStep; unlocksAtHall: number };
 
 /** Prochaine marche pour un exemplaire (ou maxed). */
 export function nextStep(base: Base, key: string, fromLevel: number, hall: number): NextStep {
