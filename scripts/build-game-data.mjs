@@ -195,17 +195,30 @@ function normalizeResearch(json, base, kind, maps) {
 
   // HDV auquel l'élément devient disponible (bâtiment de production requis)
   let unlockTh = 0;
+  // bâtiment de production réel qui déclenche le déblocage (indépendant du HDV) :
+  // le joueur peut être au bon HDV sans avoir encore monté ce bâtiment.
+  let unlockBuilding = null;
+  let unlockLevel = 0;
   if (kind === 'spell') {
     const m = isDark ? maps.darkSpellFactory : maps.spellFactory;
     unlockTh = m.get(json.spellFactoryLevelRequired) ?? 0;
+    unlockBuilding = isDark ? 'dark-spell-factory' : 'spell-factory';
+    unlockLevel = json.spellFactoryLevelRequired ?? 0;
   } else if (kind === 'siege') {
     unlockTh = maps.workshop.get(json.workshopLevelRequired) ?? 0;
+    unlockBuilding = 'workshop';
+    unlockLevel = json.workshopLevelRequired ?? 0;
   } else if (kind === 'pet') {
     unlockTh = maps.petHouse.get(json.petHouseLevelRequired) ?? 0;
+    unlockBuilding = 'pet-house';
+    unlockLevel = json.petHouseLevelRequired ?? 0;
   } else if (kind === 'troop') {
     const m = isDark ? maps.darkBarracks : maps.barracks;
     unlockTh = m.get(json.barrackLevelRequired) ?? 0;
+    unlockBuilding = isDark ? 'dark-barracks' : base === 'builder' ? 'builder-barracks' : 'barracks';
+    unlockLevel = json.barrackLevelRequired ?? 0;
   }
+  const unlock = unlockBuilding && unlockLevel > 0 ? { building: unlockBuilding, level: unlockLevel } : null;
 
   const levels = rawLevels.map((l) => {
     const heroTh = l.heroHallLevelRequired != null ? maps.hh.get(l.heroHallLevelRequired) : null;
@@ -243,6 +256,7 @@ function normalizeResearch(json, base, kind, maps) {
     base,
     maxLevel: levels.length ? levels[levels.length - 1].level : 0,
     icon: buildingIcon(json),
+    unlock,
     levels,
   };
 }

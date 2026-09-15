@@ -14,6 +14,7 @@ import {
   presetResearch,
   researchMaxAchievable,
   researchMaxForHall,
+  unlockGateLevel,
 } from './research';
 import type { Village } from './types';
 
@@ -274,7 +275,7 @@ describe('recherche — gatée par le Labo, pas seulement le HDV', () => {
       base: 'home',
       hall: 10,
       builders: 5,
-      buildings: { 'laboratory#1': { level: 1 } },
+      buildings: { 'laboratory#1': { level: 1 }, 'barracks#1': { level: 1 } },
       research: { barbarian: { level: 1 } },
     };
     const groups = groupResearch(village);
@@ -305,6 +306,55 @@ describe('recherche — gatée par le Labo, pas seulement le HDV', () => {
     };
     expect(gateBuildingLevel(village, 'troop')).toBe(4);
     expect(gateBuildingLevel(village, 'hero')).toBe(Infinity);
+  });
+});
+
+describe('recherche — déblocage par le bâtiment de production, pas seulement le HDV', () => {
+  // Molosse de Lave / Sorcière : Caserne noire niv. 6 / 5 requise (indépendant du HDV14/9).
+  it('une troupe hors de portée de la Caserne (noire) reste invisible même si le HDV le permet', () => {
+    const village: Village = {
+      base: 'home',
+      hall: 14,
+      builders: 5,
+      buildings: { 'dark-barracks#1': { level: 3 } }, // < 6 requis pour le Molosse de Lave
+    };
+    // Par défaut (pas de toggle "afficher verrouillé"), le groupe n'apparaît pas du tout.
+    expect(groupResearch(village).find((g) => g.key === 'lava-hound')).toBeUndefined();
+
+    const lavaHound = getResearchItem('home', 'lava-hound')!;
+    const unlockLevel = unlockGateLevel(village, lavaHound);
+    expect(researchMaxAchievable(lavaHound, 14, Infinity, unlockLevel)).toBe(0);
+  });
+
+  it('apparaît dès que la Caserne noire atteint le niveau requis', () => {
+    const lavaHound = getResearchItem('home', 'lava-hound')!;
+    const before = unlockGateLevel({ base: 'home', hall: 14, builders: 5, buildings: {} }, lavaHound);
+    expect(researchMaxAchievable(lavaHound, 14, Infinity, before)).toBe(0);
+
+    const village: Village = {
+      base: 'home',
+      hall: 14,
+      builders: 5,
+      buildings: { 'dark-barracks#1': { level: 6 } },
+    };
+    const after = unlockGateLevel(village, lavaHound);
+    expect(researchMaxAchievable(lavaHound, 14, Infinity, after)).toBeGreaterThan(0);
+  });
+
+  it('Bébé Dragon (Caserne normale niv. 11) suit la même règle', () => {
+    const babyDragon = getResearchItem('home', 'baby-dragon')!;
+    expect(babyDragon.unlock).toEqual({ building: 'barracks', level: 11 });
+
+    const notBuilt: Village = { base: 'home', hall: 14, builders: 5, buildings: {} };
+    expect(researchMaxAchievable(babyDragon, 14, Infinity, unlockGateLevel(notBuilt, babyDragon))).toBe(0);
+
+    const built: Village = { base: 'home', hall: 14, builders: 5, buildings: { 'barracks#1': { level: 11 } } };
+    expect(researchMaxAchievable(babyDragon, 14, Infinity, unlockGateLevel(built, babyDragon))).toBeGreaterThan(0);
+  });
+
+  it('les héros ne dépendent d’aucun bâtiment de déblocage', () => {
+    const king = getResearchItem('home', 'barbarian-king')!;
+    expect(king.unlock).toBeNull();
   });
 });
 

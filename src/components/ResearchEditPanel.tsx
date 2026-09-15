@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next';
 import type { VillageDoc } from '../lib/appTypes';
 import type { ResearchItem } from '../lib/engine/research';
-import { gateBuildingLevel, nextResearchStep, researchMaxAchievable } from '../lib/engine/research';
+import { gateBuildingLevel, nextResearchStep, researchMaxAchievable, unlockGateLevel } from '../lib/engine/research';
 import { formatDuration } from '../lib/engine/totals';
 import { useVillages } from '../store/villages';
 import { useSaveToast } from '../hooks/useSaveToast';
@@ -19,12 +19,15 @@ export function ResearchEditPanel({ village, item }: { village: VillageDoc; item
   const label = buildingName(item.key, item.name, i18n.language);
 
   const shortHall = t(village.base === 'home' ? 'base.hallHomeShort' : 'base.hallBuilderShort');
-  const gateLevel = gateBuildingLevel(toEngineVillage(village), item.kind);
-  // Plafond réellement accessible maintenant (HDV *et* bâtiment gate) : au-delà, on ne
-  // propose même pas le niveau tant que le bâtiment n'a pas suivi — pas juste un avertissement.
-  const target = researchMaxAchievable(item, village.hall, gateLevel);
+  const ev = toEngineVillage(village);
+  const gateLevel = gateBuildingLevel(ev, item.kind);
+  const unlockLevel = unlockGateLevel(ev, item);
+  // Plafond réellement accessible maintenant (HDV, bâtiment de déblocage *et* bâtiment gate) :
+  // au-delà, on ne propose même pas le niveau tant que le bâtiment n'a pas suivi — pas
+  // juste un avertissement.
+  const target = researchMaxAchievable(item, village.hall, gateLevel, unlockLevel);
   const level = village.research?.[item.key]?.level ?? 0;
-  const step = nextResearchStep(village.base, item.key, level, village.hall, gateLevel);
+  const step = nextResearchStep(village.base, item.key, level, village.hall, gateLevel, unlockLevel);
 
   return (
     <div className="flex flex-col gap-3 border-t border-border/60 bg-surface-2/40 p-3">

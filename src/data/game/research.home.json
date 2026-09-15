@@ -7,6 +7,7 @@
     "base": "home",
     "maxLevel": 105,
     "icon": "/coc/home/heroes/barbarian-king/icon.png",
+    "unlock": null,
     "levels": [
       {
         "level": 1,
@@ -1068,6 +1069,7 @@
     "base": "home",
     "maxLevel": 105,
     "icon": "/coc/home/heroes/archer-queen/icon.png",
+    "unlock": null,
     "levels": [
       {
         "level": 1,
@@ -2129,6 +2131,7 @@
     "base": "home",
     "maxLevel": 95,
     "icon": "/coc/home/heroes/minion-prince/icon.png",
+    "unlock": null,
     "levels": [
       {
         "level": 1,
@@ -3090,6 +3093,7 @@
     "base": "home",
     "maxLevel": 80,
     "icon": "/coc/home/heroes/grand-warden/icon.png",
+    "unlock": null,
     "levels": [
       {
         "level": 1,
@@ -3901,6 +3905,7 @@
     "base": "home",
     "maxLevel": 55,
     "icon": "/coc/home/heroes/royal-champion/icon.png",
+    "unlock": null,
     "levels": [
       {
         "level": 1,
@@ -4462,6 +4467,7 @@
     "base": "home",
     "maxLevel": 25,
     "icon": "/coc/home/heroes/dragon-duke/icon.png",
+    "unlock": null,
     "levels": [
       {
         "level": 1,
@@ -4723,6 +4729,7 @@
     "base": "home",
     "maxLevel": 5,
     "icon": "/coc/home/guardians/longshot/normal/level-1.png",
+    "unlock": null,
     "levels": [
       {
         "level": 1,
@@ -4784,6 +4791,7 @@
     "base": "home",
     "maxLevel": 5,
     "icon": "/coc/home/guardians/smasher/normal/level-1.png",
+    "unlock": null,
     "levels": [
       {
         "level": 1,
@@ -4845,6 +4853,10 @@
     "base": "home",
     "maxLevel": 15,
     "icon": "/coc/home/pets/electro-owl/normal.png",
+    "unlock": {
+      "building": "pet-house",
+      "level": 2
+    },
     "levels": [
       {
         "level": 1,
@@ -5006,6 +5018,10 @@
     "base": "home",
     "maxLevel": 15,
     "icon": "/coc/home/pets/lassi/normal.png",
+    "unlock": {
+      "building": "pet-house",
+      "level": 1
+    },
     "levels": [
       {
         "level": 1,
@@ -5167,6 +5183,10 @@
     "base": "home",
     "maxLevel": 15,
     "icon": "/coc/home/pets/mighty-yak/normal.png",
+    "unlock": {
+      "building": "pet-house",
+      "level": 3
+    },
     "levels": [
       {
         "level": 1,
@@ -5328,6 +5348,10 @@
     "base": "home",
     "maxLevel": 15,
     "icon": "/coc/home/pets/unicorn/normal.png",
+    "unlock": {
+      "building": "pet-house",
+      "level": 4
+    },
     "levels": [
       {
         "level": 1,
@@ -5489,6 +5513,10 @@
     "base": "home",
     "maxLevel": 10,
     "icon": "/coc/home/pets/diggy/normal.png",
+    "unlock": {
+      "building": "pet-house",
+      "level": 6
+    },
     "levels": [
       {
         "level": 1,
@@ -5600,6 +5628,10 @@
     "base": "home",
     "maxLevel": 15,
     "icon": "/coc/home/pets/frosty/normal.png",
+    "unlock": {
+      "building": "pet-house",
+      "level": 5
+    },
     "levels": [
       {
         "level": 1,
@@ -5761,6 +5793,10 @@
     "base": "home",
     "maxLevel": 10,
     "icon": "/coc/home/pets/phoenix/normal.png",
+    "unlock": {
+      "building": "pet-house",
+      "level": 8
+    },
     "levels": [
       {
         "level": 1,
@@ -5872,6 +5908,10 @@
     "base": "home",
     "maxLevel": 15,
     "icon": "/coc/home/pets/poison-lizard/normal.png",
+    "unlock": {
+      "building": "pet-house",
+      "level": 7
+    },
     "levels": [
       {
         "level": 1,
@@ -6033,6 +6073,10 @@
     "base": "home",
     "maxLevel": 10,
     "icon": "/coc/home/pets/angry-jelly/normal.png",
+    "unlock": {
+      "building": "pet-house",
+      "level": 10
+    },
     "levels": [
       {
         "level": 1,
@@ -6144,6 +6188,10 @@
     "base": "home",
     "maxLevel": 10,
     "icon": "/coc/home/pets/spirit-fox/normal.png",
+    "unlock": {
+      "building": "pet-house",
+      "level": 9
+    },
     "levels": [
       {
         "level": 1,
@@ -6255,6 +6303,10 @@
     "base": "home",
     "maxLevel": 10,
     "icon": "/coc/home/pets/sneezy/normal.png",
+    "unlock": {
+      "building": "pet-house",
+      "level": 11
+    },
     "levels": [
       {
         "level": 1,
@@ -6366,6 +6418,10 @@
     "base": "home",
     "maxLevel": 10,
     "icon": "/coc/home/pets/greedy-raven/normal.png",
+    "unlock": {
+      "building": "pet-house",
+      "level": 12
+    },
     "levels": [
       {
         "level": 1,
@@ -6477,6 +6533,10 @@
     "base": "home",
     "maxLevel": 12,
     "icon": "/coc/home/troops/barbarian/normal/level-12.png",
+    "unlock": {
+      "building": "barracks",
+      "level": 1
+    },
     "levels": [
       {
         "level": 1,
@@ -6608,6 +6668,10 @@
     "base": "home",
     "maxLevel": 14,
     "icon": "/coc/home/troops/archer/normal/level-14.png",
+    "unlock": {
+      "building": "barracks",
+      "level": 2
+    },
     "levels": [
       {
         "level": 1,
@@ -6759,6 +6823,10 @@
     "base": "home",
     "maxLevel": 14,
     "icon": "/coc/home/troops/giant/normal/level-14.png",
+    "unlock": {
+      "building": "barracks",
+      "level": 3
+    },
     "levels": [
       {
         "level": 1,
@@ -6910,6 +6978,10 @@
     "base": "home",
     "maxLevel": 9,
     "icon": "/coc/home/troops/goblin/normal/level-9.png",
+    "unlock": {
+      "building": "barracks",
+      "level": 4
+    },
     "levels": [
       {
         "level": 1,
@@ -7011,6 +7083,10 @@
     "base": "home",
     "maxLevel": 14,
     "icon": "/coc/home/troops/wall-breaker/normal/level-14.png",
+    "unlock": {
+      "building": "barracks",
+      "level": 5
+    },
     "levels": [
       {
         "level": 1,
@@ -7162,6 +7238,10 @@
     "base": "home",
     "maxLevel": 12,
     "icon": "/coc/home/troops/balloon/normal/level-12.png",
+    "unlock": {
+      "building": "barracks",
+      "level": 6
+    },
     "levels": [
       {
         "level": 1,
@@ -7293,6 +7373,10 @@
     "base": "home",
     "maxLevel": 14,
     "icon": "/coc/home/troops/wizard/normal/level-14.png",
+    "unlock": {
+      "building": "barracks",
+      "level": 7
+    },
     "levels": [
       {
         "level": 1,
@@ -7444,6 +7528,10 @@
     "base": "home",
     "maxLevel": 11,
     "icon": "/coc/home/troops/healer/normal/level-11.png",
+    "unlock": {
+      "building": "barracks",
+      "level": 8
+    },
     "levels": [
       {
         "level": 1,
@@ -7565,6 +7653,10 @@
     "base": "home",
     "maxLevel": 12,
     "icon": "/coc/home/troops/dragon/normal/level-12.png",
+    "unlock": {
+      "building": "barracks",
+      "level": 9
+    },
     "levels": [
       {
         "level": 1,
@@ -7696,6 +7788,10 @@
     "base": "home",
     "maxLevel": 13,
     "icon": "/coc/home/troops/pekka/normal/level-13.png",
+    "unlock": {
+      "building": "barracks",
+      "level": 10
+    },
     "levels": [
       {
         "level": 1,
@@ -7837,6 +7933,10 @@
     "base": "home",
     "maxLevel": 12,
     "icon": "/coc/home/troops/baby-dragon/normal/level-12.png",
+    "unlock": {
+      "building": "barracks",
+      "level": 11
+    },
     "levels": [
       {
         "level": 1,
@@ -7968,6 +8068,10 @@
     "base": "home",
     "maxLevel": 12,
     "icon": "/coc/home/troops/miner/normal/level-12.png",
+    "unlock": {
+      "building": "barracks",
+      "level": 12
+    },
     "levels": [
       {
         "level": 1,
@@ -8099,6 +8203,10 @@
     "base": "home",
     "maxLevel": 9,
     "icon": "/coc/home/troops/electro-dragon/normal/level-9.png",
+    "unlock": {
+      "building": "barracks",
+      "level": 13
+    },
     "levels": [
       {
         "level": 1,
@@ -8200,6 +8308,10 @@
     "base": "home",
     "maxLevel": 7,
     "icon": "/coc/home/troops/yeti/normal/level-7.png",
+    "unlock": {
+      "building": "barracks",
+      "level": 14
+    },
     "levels": [
       {
         "level": 1,
@@ -8281,6 +8393,10 @@
     "base": "home",
     "maxLevel": 6,
     "icon": "/coc/home/troops/dragon-rider/normal/level-6.png",
+    "unlock": {
+      "building": "barracks",
+      "level": 15
+    },
     "levels": [
       {
         "level": 1,
@@ -8352,6 +8468,10 @@
     "base": "home",
     "maxLevel": 5,
     "icon": "/coc/home/troops/electro-titan/normal/level-5.png",
+    "unlock": {
+      "building": "barracks",
+      "level": 16
+    },
     "levels": [
       {
         "level": 1,
@@ -8413,6 +8533,10 @@
     "base": "home",
     "maxLevel": 3,
     "icon": "/coc/home/troops/root-rider/normal/level-3.png",
+    "unlock": {
+      "building": "barracks",
+      "level": 17
+    },
     "levels": [
       {
         "level": 1,
@@ -8454,6 +8578,10 @@
     "base": "home",
     "maxLevel": 4,
     "icon": "/coc/home/troops/thrower/normal/level-4.png",
+    "unlock": {
+      "building": "barracks",
+      "level": 18
+    },
     "levels": [
       {
         "level": 1,
@@ -8505,6 +8633,10 @@
     "base": "home",
     "maxLevel": 3,
     "icon": "/coc/home/troops/meteor-golem/normal/level-3.png",
+    "unlock": {
+      "building": "barracks",
+      "level": 19
+    },
     "levels": [
       {
         "level": 1,
@@ -8546,6 +8678,10 @@
     "base": "home",
     "maxLevel": 14,
     "icon": "/coc/home/troops/minion/normal/level-14.png",
+    "unlock": {
+      "building": "dark-barracks",
+      "level": 1
+    },
     "levels": [
       {
         "level": 1,
@@ -8697,6 +8833,10 @@
     "base": "home",
     "maxLevel": 15,
     "icon": "/coc/home/troops/hog-rider/normal/level-15.png",
+    "unlock": {
+      "building": "dark-barracks",
+      "level": 2
+    },
     "levels": [
       {
         "level": 1,
@@ -8858,6 +8998,10 @@
     "base": "home",
     "maxLevel": 11,
     "icon": "/coc/home/troops/valkyrie/normal/level-11.png",
+    "unlock": {
+      "building": "dark-barracks",
+      "level": 3
+    },
     "levels": [
       {
         "level": 1,
@@ -8979,6 +9123,10 @@
     "base": "home",
     "maxLevel": 14,
     "icon": "/coc/home/troops/golem/normal/level-14.png",
+    "unlock": {
+      "building": "dark-barracks",
+      "level": 4
+    },
     "levels": [
       {
         "level": 1,
@@ -9130,6 +9278,10 @@
     "base": "home",
     "maxLevel": 8,
     "icon": "/coc/home/troops/witch/normal/level-8.png",
+    "unlock": {
+      "building": "dark-barracks",
+      "level": 5
+    },
     "levels": [
       {
         "level": 1,
@@ -9221,6 +9373,10 @@
     "base": "home",
     "maxLevel": 8,
     "icon": "/coc/home/troops/lava-hound/normal/level-8.png",
+    "unlock": {
+      "building": "dark-barracks",
+      "level": 6
+    },
     "levels": [
       {
         "level": 1,
@@ -9312,6 +9468,10 @@
     "base": "home",
     "maxLevel": 10,
     "icon": "/coc/home/troops/bowler/normal/level-10.png",
+    "unlock": {
+      "building": "dark-barracks",
+      "level": 7
+    },
     "levels": [
       {
         "level": 1,
@@ -9423,6 +9583,10 @@
     "base": "home",
     "maxLevel": 9,
     "icon": "/coc/home/troops/ice-golem/normal/level-9.png",
+    "unlock": {
+      "building": "dark-barracks",
+      "level": 8
+    },
     "levels": [
       {
         "level": 1,
@@ -9524,6 +9688,10 @@
     "base": "home",
     "maxLevel": 3,
     "icon": "/coc/home/troops/headhunter/normal/level-3.png",
+    "unlock": {
+      "building": "dark-barracks",
+      "level": 9
+    },
     "levels": [
       {
         "level": 1,
@@ -9565,6 +9733,10 @@
     "base": "home",
     "maxLevel": 4,
     "icon": "/coc/home/troops/apprentice-warden/normal/level-4.png",
+    "unlock": {
+      "building": "dark-barracks",
+      "level": 10
+    },
     "levels": [
       {
         "level": 1,
@@ -9616,6 +9788,10 @@
     "base": "home",
     "maxLevel": 5,
     "icon": "/coc/home/troops/druid/normal/level-5.png",
+    "unlock": {
+      "building": "dark-barracks",
+      "level": 11
+    },
     "levels": [
       {
         "level": 1,
@@ -9677,6 +9853,10 @@
     "base": "home",
     "maxLevel": 4,
     "icon": "/coc/home/troops/furnace/normal/level-4.png",
+    "unlock": {
+      "building": "dark-barracks",
+      "level": 12
+    },
     "levels": [
       {
         "level": 1,
@@ -9728,6 +9908,10 @@
     "base": "home",
     "maxLevel": 5,
     "icon": "/coc/home/siege-machines/battle-blimp/normal/level-5.png",
+    "unlock": {
+      "building": "workshop",
+      "level": 2
+    },
     "levels": [
       {
         "level": 1,
@@ -9789,6 +9973,10 @@
     "base": "home",
     "maxLevel": 6,
     "icon": "/coc/home/siege-machines/wall-wrecker/normal/level-6.png",
+    "unlock": {
+      "building": "workshop",
+      "level": 1
+    },
     "levels": [
       {
         "level": 1,
@@ -9860,6 +10048,10 @@
     "base": "home",
     "maxLevel": 5,
     "icon": "/coc/home/siege-machines/siege-barracks/normal/level-5.png",
+    "unlock": {
+      "building": "workshop",
+      "level": 4
+    },
     "levels": [
       {
         "level": 1,
@@ -9921,6 +10113,10 @@
     "base": "home",
     "maxLevel": 6,
     "icon": "/coc/home/siege-machines/stone-slammer/normal/level-6.png",
+    "unlock": {
+      "building": "workshop",
+      "level": 3
+    },
     "levels": [
       {
         "level": 1,
@@ -9992,6 +10188,10 @@
     "base": "home",
     "maxLevel": 5,
     "icon": "/coc/home/siege-machines/log-launcher/normal/level-5.png",
+    "unlock": {
+      "building": "workshop",
+      "level": 5
+    },
     "levels": [
       {
         "level": 1,
@@ -10053,6 +10253,10 @@
     "base": "home",
     "maxLevel": 5,
     "icon": "/coc/home/siege-machines/flame-flinger/normal/level-5.png",
+    "unlock": {
+      "building": "workshop",
+      "level": 6
+    },
     "levels": [
       {
         "level": 1,
@@ -10114,6 +10318,10 @@
     "base": "home",
     "maxLevel": 5,
     "icon": "/coc/home/siege-machines/battle-drill/normal/level-5.png",
+    "unlock": {
+      "building": "workshop",
+      "level": 7
+    },
     "levels": [
       {
         "level": 1,
@@ -10175,6 +10383,10 @@
     "base": "home",
     "maxLevel": 4,
     "icon": "/coc/home/siege-machines/troop-launcher/normal/level-4.png",
+    "unlock": {
+      "building": "workshop",
+      "level": 8
+    },
     "levels": [
       {
         "level": 1,
@@ -10226,6 +10438,10 @@
     "base": "home",
     "maxLevel": 13,
     "icon": "/coc/home/spells/lightning-spell/icon.png",
+    "unlock": {
+      "building": "spell-factory",
+      "level": 1
+    },
     "levels": [
       {
         "level": 1,
@@ -10367,6 +10583,10 @@
     "base": "home",
     "maxLevel": 12,
     "icon": "/coc/home/spells/healing-spell/icon.png",
+    "unlock": {
+      "building": "spell-factory",
+      "level": 2
+    },
     "levels": [
       {
         "level": 1,
@@ -10498,6 +10718,10 @@
     "base": "home",
     "maxLevel": 6,
     "icon": "/coc/home/spells/rage-spell/icon.png",
+    "unlock": {
+      "building": "spell-factory",
+      "level": 3
+    },
     "levels": [
       {
         "level": 1,
@@ -10569,6 +10793,10 @@
     "base": "home",
     "maxLevel": 5,
     "icon": "/coc/home/spells/jump-spell/icon.png",
+    "unlock": {
+      "building": "spell-factory",
+      "level": 4
+    },
     "levels": [
       {
         "level": 1,
@@ -10630,6 +10858,10 @@
     "base": "home",
     "maxLevel": 7,
     "icon": "/coc/home/spells/freeze-spell/icon.png",
+    "unlock": {
+      "building": "spell-factory",
+      "level": 4
+    },
     "levels": [
       {
         "level": 1,
@@ -10711,6 +10943,10 @@
     "base": "home",
     "maxLevel": 8,
     "icon": "/coc/home/spells/clone-spell/icon.png",
+    "unlock": {
+      "building": "spell-factory",
+      "level": 5
+    },
     "levels": [
       {
         "level": 1,
@@ -10802,6 +11038,10 @@
     "base": "home",
     "maxLevel": 4,
     "icon": "/coc/home/spells/invisibility-spell/icon.png",
+    "unlock": {
+      "building": "spell-factory",
+      "level": 6
+    },
     "levels": [
       {
         "level": 1,
@@ -10853,6 +11093,10 @@
     "base": "home",
     "maxLevel": 6,
     "icon": "/coc/home/spells/recall-spell/icon.png",
+    "unlock": {
+      "building": "spell-factory",
+      "level": 7
+    },
     "levels": [
       {
         "level": 1,
@@ -10924,6 +11168,10 @@
     "base": "home",
     "maxLevel": 5,
     "icon": "/coc/home/spells/revive-spell/icon.png",
+    "unlock": {
+      "building": "spell-factory",
+      "level": 8
+    },
     "levels": [
       {
         "level": 1,
@@ -10985,6 +11233,10 @@
     "base": "home",
     "maxLevel": 4,
     "icon": "/coc/home/spells/totem-spell/icon.png",
+    "unlock": {
+      "building": "spell-factory",
+      "level": 9
+    },
     "levels": [
       {
         "level": 1,
@@ -11036,6 +11288,10 @@
     "base": "home",
     "maxLevel": 12,
     "icon": "/coc/home/spells/poison-spell/icon.png",
+    "unlock": {
+      "building": "dark-spell-factory",
+      "level": 1
+    },
     "levels": [
       {
         "level": 1,
@@ -11167,6 +11423,10 @@
     "base": "home",
     "maxLevel": 8,
     "icon": "/coc/home/spells/earthquake-spell/icon.png",
+    "unlock": {
+      "building": "dark-spell-factory",
+      "level": 2
+    },
     "levels": [
       {
         "level": 1,
@@ -11258,6 +11518,10 @@
     "base": "home",
     "maxLevel": 7,
     "icon": "/coc/home/spells/haste-spell/icon.png",
+    "unlock": {
+      "building": "dark-spell-factory",
+      "level": 3
+    },
     "levels": [
       {
         "level": 1,
@@ -11339,6 +11603,10 @@
     "base": "home",
     "maxLevel": 8,
     "icon": "/coc/home/spells/skeleton-spell/icon.png",
+    "unlock": {
+      "building": "dark-spell-factory",
+      "level": 4
+    },
     "levels": [
       {
         "level": 1,
@@ -11430,6 +11698,10 @@
     "base": "home",
     "maxLevel": 8,
     "icon": "/coc/home/spells/bat-spell/icon.png",
+    "unlock": {
+      "building": "dark-spell-factory",
+      "level": 5
+    },
     "levels": [
       {
         "level": 1,
@@ -11521,6 +11793,10 @@
     "base": "home",
     "maxLevel": 4,
     "icon": "/coc/home/spells/overgrowth-spell/icon.png",
+    "unlock": {
+      "building": "dark-spell-factory",
+      "level": 6
+    },
     "levels": [
       {
         "level": 1,
@@ -11572,6 +11848,10 @@
     "base": "home",
     "maxLevel": 5,
     "icon": "/coc/home/spells/ice-block-spell/icon.png",
+    "unlock": {
+      "building": "dark-spell-factory",
+      "level": 7
+    },
     "levels": [
       {
         "level": 1,

@@ -14,6 +14,7 @@ import {
   presetResearch,
   RESEARCH_KIND_ORDER,
   researchMaxAchievable,
+  unlockGateLevel,
 } from '../lib/engine/research';
 import { toEngineVillage } from '../hooks/useVillageEngine';
 import { sumByResource, sumBuilderSeconds, formatDuration } from '../lib/engine/totals';
@@ -60,9 +61,10 @@ export function ResearchPanel() {
         );
       })
       .map((it) => {
-        // Plafond réel : HDV *et* bâtiment gate (Labo…) — un niveau que le HDV
-        // autoriserait mais hors de portée du Labo actuel reste masqué.
-        const target = researchMaxAchievable(it, village.hall, gateBuildingLevel(ev, it.kind));
+        // Plafond réel : HDV, bâtiment de déblocage (Caserne…) *et* bâtiment gate (Labo…) —
+        // un item que le HDV autoriserait mais dont le bâtiment de production ou le Labo
+        // actuel n'a pas le niveau requis reste masqué.
+        const target = researchMaxAchievable(it, village.hall, gateBuildingLevel(ev, it.kind), unlockGateLevel(ev, it));
         const level = village.research?.[it.key]?.level ?? 0;
         return { it, target, level, done: target > 0 && level >= target, locked: target === 0 };
       })

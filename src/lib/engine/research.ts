@@ -36,6 +36,8 @@ export interface ResearchItem {
   base: Base;
   maxLevel: number;
   icon: string | null;
+  /** bâtiment de production (Caserne, Usine de sorts…) et niveau requis pour débloquer l'item */
+  unlock: { building: string; level: number } | null;
   levels: ResearchLevel[];
 }
 
@@ -78,11 +80,18 @@ export function researchMaxForHall(item: ResearchItem, hall: number): number {
 }
 
 /**
- * Niveau max réellement accessible maintenant : HDV *et* bâtiment gate (Labo…).
- * Contrairement à `researchMaxForHall`, un niveau que le HDV autoriserait mais que le
- * Labo (ou l'Atelier/la Maison des familiers) actuel ne permet pas encore n'est pas compté.
+ * Niveau max réellement accessible maintenant : HDV, bâtiment de déblocage (Caserne…) *et*
+ * bâtiment gate (Labo…). Contrairement à `researchMaxForHall`, un item que le HDV autoriserait
+ * mais dont le bâtiment de production n'a pas encore le niveau requis reste à 0 (pas débloqué
+ * du tout) ; un niveau que le Labo actuel ne permet pas encore n'est pas compté non plus.
  */
-export function researchMaxAchievable(item: ResearchItem, hall: number, gateLevel: number): number {
+export function researchMaxAchievable(
+  item: ResearchItem,
+  hall: number,
+  gateLevel: number,
+  unlockLevel = Infinity,
+): number {
+  if (item.unlock && item.unlock.level > unlockLevel) return 0;
   let max = 0;
   for (const l of item.levels) {
     const okHall = l.hallRequired == null || l.hallRequired <= hall;
@@ -121,15 +130,25 @@ export function gateBuildingLevel(village: Village, kind: ResearchKind): number 
   return village.buildings[`${key}#1`]?.level ?? 0;
 }
 
+/** Niveau actuel du bâtiment de production qui déclenche le déblocage de cet item. */
+export function unlockGateLevel(village: Village, item: ResearchItem): number {
+  if (!item.unlock) return Infinity; // héros/gardiens : pas de bâtiment de déblocage
+  return village.buildings[`${item.unlock.building}#1`]?.level ?? 0;
+}
+
 /** Marches restantes pour un item, de fromLevel+1 au max (plafonné au hall courant par défaut). */
 export function researchSteps(
   item: ResearchItem,
   fromLevel: number,
   hall: number,
-  opts: { includeLocked?: boolean; gateLevel?: number } = {},
+  opts: { includeLocked?: boolean; gateLevel?: number; unlockLevel?: number } = {},
 ): UpgradeStep[] {
   const ceiling = opts.includeLocked ? item.maxLevel : researchMaxForHall(item, hall);
   const gateLevel = opts.gateLevel ?? Infinity;
+  const unlockLevel = opts.unlockLevel ?? Infinity;
+  // Pas encore débloqué (bâtiment de production trop bas) : aucun niveau n'est accessible,
+  // même le niveau 1 — indépendant du HDV, qui peut déjà autoriser l'item.
+  const notUnlocked = item.unlock != null && item.unlock.level > unlockLevel;
   const steps: UpgradeStep[] = [];
   for (let to = Math.max(fromLevel, 0) + 1; to <= ceiling; to++) {
     const def = item.levels[to - 1];
@@ -137,7 +156,7 @@ export function researchSteps(
     const reqHall = def.hallRequired ?? 0;
     const reqGate = def.labRequired ?? 0;
     const lockedByHall = reqHall > hall;
-    const lockedByGate = reqGate > gateLevel;
+    const lockedByGate = notUnlocked || reqGate > gateLevel;
     steps.push({
       instanceId: item.key,
       key: item.key,
@@ -154,7 +173,7 @@ export function researchSteps(
       quantity: 1,
       locked: lockedByHall || lockedByGate,
       unlocksAtHall: lockedByHall ? reqHall : null,
-      unlocksAtGateLevel: lockedByGate ? reqGate : null,
+      unlocksAtGateLevel: lockedByGate ? (notUnlocked ? item.unlock!.level : reqGate) : null,
     });
   }
   return steps;
@@ -166,14 +185,15 @@ export function nextResearchStep(
   fromLevel: number,
   hall: number,
   gateLevel = Infinity,
+  unlockLevel = Infinity,
 ): NextStep {
   const item = getResearchItem(base, key);
   if (!item || fromLevel >= item.maxLevel) return { state: 'maxed' };
-  const [step] = researchSteps(item, fromLevel, hall, { includeLocked: true, gateLevel });
+  const [step] = researchSteps(item, fromLevel, hall, { includeLocked: true, gateLevel, unlockLevel });
   if (!step) return { state: 'maxed' };
   if (step.locked) {
-    // Bloqué uniquement par le bâtiment gate (Labo…), HDV déjà suffisant : traité comme
-    // "rien à faire pour l'instant" (pas d'avertissement) — se débloquera avec le bâtiment.
+    // Bloqué uniquement par un bâtiment gate (Labo, Caserne…), HDV déjà suffisant : traité
+    // comme "rien à faire pour l'instant" (pas d'avertissement) — se débloquera avec le bâtiment.
     if (step.unlocksAtHall == null) return { state: 'maxed' };
     return { state: 'locked', step, unlocksAtHall: step.unlocksAtHall };
   }
@@ -210,7 +230,8 @@ export function groupResearch(village: Village, opts: { includeLocked?: boolean 
   for (const item of getResearch(village.base)) {
     const level = village.research?.[item.key]?.level ?? 0;
     const gateLevel = gateBuildingLevel(village, item.kind);
-    const all = researchSteps(item, level, village.hall, { includeLocked: true, gateLevel });
+    const unlockLevel = unlockGateLevel(village, item);
+    const all = researchSteps(item, level, village.hall, { includeLocked: true, gateLevel, unlockLevel });
     const steps = all.filter((s) => !s.locked && !isNoise(s));
     const stepsLocked = all.filter((s) => s.locked && !isNoise(s));
     const visibleLocked = opts.includeLocked ? stepsLocked : [];

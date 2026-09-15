@@ -7,6 +7,7 @@
     "base": "builder",
     "maxLevel": 35,
     "icon": "/coc/builder/heroes/battle-machine/icon.png",
+    "unlock": null,
     "levels": [
       {
         "level": 1,
@@ -368,6 +369,7 @@
     "base": "builder",
     "maxLevel": 35,
     "icon": "/coc/builder/heroes/battle-copter/icon.png",
+    "unlock": null,
     "levels": [
       {
         "level": 15,
@@ -589,6 +591,7 @@
     "base": "builder",
     "maxLevel": 20,
     "icon": "/coc/builder/troops/baby-dragon/normal/level-20.png",
+    "unlock": null,
     "levels": [
       {
         "level": 5,
@@ -760,6 +763,7 @@
     "base": "builder",
     "maxLevel": 20,
     "icon": "/coc/builder/troops/raged-barbarian/normal/level-17.png",
+    "unlock": null,
     "levels": [
       {
         "level": 1,
@@ -971,6 +975,7 @@
     "base": "builder",
     "maxLevel": 20,
     "icon": "/coc/builder/troops/sneaky-archer/normal/level-17.png",
+    "unlock": null,
     "levels": [
       {
         "level": 1,
@@ -1182,6 +1187,7 @@
     "base": "builder",
     "maxLevel": 20,
     "icon": "/coc/builder/troops/beta-minion/normal/level-19.png",
+    "unlock": null,
     "levels": [
       {
         "level": 3,
@@ -1373,6 +1379,7 @@
     "base": "builder",
     "maxLevel": 20,
     "icon": "/coc/builder/troops/boxer-giant/normal/level-20.png",
+    "unlock": null,
     "levels": [
       {
         "level": 3,
@@ -1564,6 +1571,7 @@
     "base": "builder",
     "maxLevel": 20,
     "icon": "/coc/builder/troops/bomber/normal/level-20.png",
+    "unlock": null,
     "levels": [
       {
         "level": 5,
@@ -1735,6 +1743,7 @@
     "base": "builder",
     "maxLevel": 20,
     "icon": "/coc/builder/troops/cannon-cart/cannon/level-18.png",
+    "unlock": null,
     "levels": [
       {
         "level": 7,
@@ -1886,6 +1895,7 @@
     "base": "builder",
     "maxLevel": 20,
     "icon": "/coc/builder/troops/night-witch/normal/level-20.png",
+    "unlock": null,
     "levels": [
       {
         "level": 9,
@@ -2017,6 +2027,7 @@
     "base": "builder",
     "maxLevel": 20,
     "icon": "/coc/builder/troops/drop-ship/normal/level-19.png",
+    "unlock": null,
     "levels": [
       {
         "level": 11,
@@ -2128,6 +2139,7 @@
     "base": "builder",
     "maxLevel": 20,
     "icon": "/coc/builder/troops/power-pekka/normal/level-20.png",
+    "unlock": null,
     "levels": [
       {
         "level": 13,
@@ -2219,6 +2231,7 @@
     "base": "builder",
     "maxLevel": 20,
     "icon": "/coc/builder/troops/hog-glider/normal/level-20.png",
+    "unlock": null,
     "levels": [
       {
         "level": 15,
@@ -2290,6 +2303,7 @@
     "base": "builder",
     "maxLevel": 20,
     "icon": "/coc/builder/troops/electrofire-wizard/normal/level-19.png",
+    "unlock": null,
     "levels": [
       {
         "level": 17,
